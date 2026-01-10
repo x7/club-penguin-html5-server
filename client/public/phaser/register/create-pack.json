@@ -1,0 +1,24 @@
+{
+    "section1": {
+        "files": [
+            {
+                "type": "multiatlas",
+                "url": "public/phaser/register/create.json",
+                "path": "public/phaser/register/",
+                "key": "create"
+            },
+            {
+                "url": "public/phaser/register/create-animations.json",
+                "type": "animation",
+                "key": "create-animations"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

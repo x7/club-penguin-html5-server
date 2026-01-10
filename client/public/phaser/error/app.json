@@ -1,0 +1,120 @@
+{
+	"textures": [
+		{
+			"image": "app-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 805,
+				"h": 621
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "app/error",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 797,
+						"h": 365
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 797,
+						"h": 365
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 797,
+						"h": 365
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "app/button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 118
+					},
+					"frame": {
+						"x": 4,
+						"y": 375,
+						"w": 357,
+						"h": 118
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "app/buttonDown",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 118
+					},
+					"frame": {
+						"x": 367,
+						"y": 375,
+						"w": 357,
+						"h": 118
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "app/buttonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 118
+					},
+					"frame": {
+						"x": 4,
+						"y": 499,
+						"w": 357,
+						"h": 118
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d74e942b814b0999e3bb64853e0ba678:7f813d475c82116e68e0239d32a5e8a9:3132206c3bb4cd59c2133ba060fcf68d$"
+	}
+}

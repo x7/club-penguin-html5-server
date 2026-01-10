@@ -1,0 +1,2428 @@
+{
+	"textures": [
+		{
+			"image": "login-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2038
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "login-screen/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1710,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1710,
+						"h": 1080
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1710,
+						"h": 1080
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/more0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 359,
+						"h": 287
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 322,
+						"h": 257
+					},
+					"frame": {
+						"x": 1720,
+						"y": 4,
+						"w": 322,
+						"h": 257
+					},
+					"anchor": {
+						"x": 0.00657382,
+						"y": 0.0129268
+					}
+				},
+				{
+					"filename": "login-screen/more0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 359,
+						"h": 287
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 31,
+						"w": 322,
+						"h": 256
+					},
+					"frame": {
+						"x": 1720,
+						"y": 267,
+						"w": 322,
+						"h": 256
+					},
+					"anchor": {
+						"x": 0.0657939,
+						"y": 0.108571
+					}
+				},
+				{
+					"filename": "login-screen/more0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 359,
+						"h": 287
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 31,
+						"w": 322,
+						"h": 256
+					},
+					"frame": {
+						"x": 1720,
+						"y": 529,
+						"w": 322,
+						"h": 256
+					},
+					"anchor": {
+						"x": 0.0657939,
+						"y": 0.108571
+					}
+				},
+				{
+					"filename": "login-screen/more0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 359,
+						"h": 287
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 31,
+						"w": 322,
+						"h": 256
+					},
+					"frame": {
+						"x": 1720,
+						"y": 791,
+						"w": 322,
+						"h": 256
+					},
+					"anchor": {
+						"x": 0.0657939,
+						"y": 0.108571
+					}
+				},
+				{
+					"filename": "login-screen/saveButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 121
+					},
+					"frame": {
+						"x": 1720,
+						"y": 1053,
+						"w": 321,
+						"h": 121
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/warn",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1197,
+						"h": 851
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1197,
+						"h": 851
+					},
+					"frame": {
+						"x": 4,
+						"y": 1180,
+						"w": 1197,
+						"h": 851
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreGallery0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 736,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 726,
+						"h": 84
+					},
+					"frame": {
+						"x": 4,
+						"y": 1090,
+						"w": 726,
+						"h": 84
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/back0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 710,
+						"h": 84
+					},
+					"frame": {
+						"x": 736,
+						"y": 1090,
+						"w": 710,
+						"h": 84
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgot0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 710,
+						"h": 84
+					},
+					"frame": {
+						"x": 736,
+						"y": 1090,
+						"w": 710,
+						"h": 84
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgotExisting0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 710,
+						"h": 84
+					},
+					"frame": {
+						"x": 736,
+						"y": 1090,
+						"w": 710,
+						"h": 84
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/publicpromptbutton0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 262,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 262,
+						"h": 105
+					},
+					"frame": {
+						"x": 1452,
+						"y": 1090,
+						"w": 262,
+						"h": 105
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/saveButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 321,
+						"h": 121
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 121
+					},
+					"frame": {
+						"x": 1720,
+						"y": 1180,
+						"w": 321,
+						"h": 121
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgotExistingHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 486,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 486,
+						"h": 81
+					},
+					"frame": {
+						"x": 1207,
+						"y": 1201,
+						"w": 486,
+						"h": 81
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversscroll",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 746
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 59,
+						"h": 746
+					},
+					"frame": {
+						"x": 1207,
+						"y": 1288,
+						"w": 59,
+						"h": 746
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreGallery0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 736,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 736,
+						"h": 90
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1307,
+						"w": 736,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/population",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 36
+					},
+					"frame": {
+						"x": 2014,
+						"y": 1307,
+						"w": 23,
+						"h": 36
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/back0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 720,
+						"h": 90
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1403,
+						"w": 720,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgot0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 720,
+						"h": 90
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1403,
+						"w": 720,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgotExisting0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 720,
+						"h": 90
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1403,
+						"w": 720,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/populationOn",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 67
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1403,
+						"w": 42,
+						"h": 67
+					},
+					"anchor": {
+						"x": -0.0588095,
+						"y": -0.0335821
+					}
+				},
+				{
+					"filename": "login-screen/chat",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 35
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1476,
+						"w": 36,
+						"h": 35
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreGallery0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 736,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 8,
+						"w": 712,
+						"h": 74
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1499,
+						"w": 712,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/checkbox",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 60,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 1990,
+						"y": 1517,
+						"w": 51,
+						"h": 51
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/publicpromptbg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 450,
+						"h": 450
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 450,
+						"h": 450
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1579,
+						"w": 450,
+						"h": 450
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/full0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 402,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 29,
+						"w": 315,
+						"h": 107
+					},
+					"frame": {
+						"x": 1728,
+						"y": 1579,
+						"w": 315,
+						"h": 107
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0.00698864
+					}
+				},
+				{
+					"filename": "login-screen/item4mask",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 293,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 293,
+						"h": 221
+					},
+					"frame": {
+						"x": 1728,
+						"y": 1692,
+						"w": 293,
+						"h": 221
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/publicpromptbutton0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 262,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 262,
+						"h": 105
+					},
+					"frame": {
+						"x": 1728,
+						"y": 1919,
+						"w": 262,
+						"h": 105
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/populationOff",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 57
+					},
+					"frame": {
+						"x": 1996,
+						"y": 1919,
+						"w": 35,
+						"h": 57
+					},
+					"anchor": {
+						"x": -0.176571,
+						"y": -0.122281
+					}
+				},
+				{
+					"filename": "login-screen/buddies",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 31,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 31,
+						"h": 31
+					},
+					"frame": {
+						"x": 1996,
+						"y": 1982,
+						"w": 31,
+						"h": 31
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		},
+		{
+			"image": "login-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2035
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "login-screen/itembg3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1539,
+						"h": 747
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1539,
+						"h": 747
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1539,
+						"h": 747
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/itemback0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 450,
+						"h": 648
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 450,
+						"h": 648
+					},
+					"frame": {
+						"x": 1549,
+						"y": 4,
+						"w": 450,
+						"h": 648
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/itemback0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 450,
+						"h": 648
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 450,
+						"h": 648
+					},
+					"frame": {
+						"x": 1549,
+						"y": 658,
+						"w": 450,
+						"h": 648
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreserversbg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1498,
+						"h": 1013
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1498,
+						"h": 1013
+					},
+					"frame": {
+						"x": 4,
+						"y": 757,
+						"w": 1498,
+						"h": 1013
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/secret0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 255
+					},
+					"frame": {
+						"x": 4,
+						"y": 1776,
+						"w": 320,
+						"h": 255
+					},
+					"anchor": {
+						"x": 0.492188,
+						"y": 0.490588
+					}
+				},
+				{
+					"filename": "login-screen/secret0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 255
+					},
+					"frame": {
+						"x": 330,
+						"y": 1776,
+						"w": 320,
+						"h": 255
+					},
+					"anchor": {
+						"x": 0.492188,
+						"y": 0.490588
+					}
+				},
+				{
+					"filename": "login-screen/secret0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 255
+					},
+					"frame": {
+						"x": 656,
+						"y": 1776,
+						"w": 320,
+						"h": 255
+					},
+					"anchor": {
+						"x": 0.492188,
+						"y": 0.490588
+					}
+				},
+				{
+					"filename": "login-screen/secret0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 255
+					},
+					"frame": {
+						"x": 982,
+						"y": 1776,
+						"w": 320,
+						"h": 255
+					},
+					"anchor": {
+						"x": 0.492188,
+						"y": 0.490588
+					}
+				},
+				{
+					"filename": "login-screen/secret0005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 255
+					},
+					"frame": {
+						"x": 1308,
+						"y": 1776,
+						"w": 320,
+						"h": 255
+					},
+					"anchor": {
+						"x": 0.492188,
+						"y": 0.490588
+					}
+				},
+				{
+					"filename": "login-screen/more0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 359,
+						"h": 287
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 359,
+						"h": 269
+					},
+					"frame": {
+						"x": 1634,
+						"y": 1312,
+						"w": 359,
+						"h": 269
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/items0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 19,
+						"w": 183,
+						"h": 183
+					},
+					"frame": {
+						"x": 1508,
+						"y": 1587,
+						"w": 183,
+						"h": 183
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/full0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 402,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 40,
+						"w": 347,
+						"h": 54
+					},
+					"frame": {
+						"x": 1697,
+						"y": 1587,
+						"w": 347,
+						"h": 54
+					},
+					"anchor": {
+						"x": 0.0120149,
+						"y": 0.0753977
+					}
+				},
+				{
+					"filename": "login-screen/secret0006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 255
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 255
+					},
+					"frame": {
+						"x": 1634,
+						"y": 1776,
+						"w": 320,
+						"h": 255
+					},
+					"anchor": {
+						"x": 0.492188,
+						"y": 0.490588
+					}
+				},
+				{
+					"filename": "login-screen/closeButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 77
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1647,
+						"w": 77,
+						"h": 77
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/closeButtonDown",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 77
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1730,
+						"w": 77,
+						"h": 77
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/closeButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 77
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1813,
+						"w": 77,
+						"h": 77
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreserversclose0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1896,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversclose0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1960,
+						"y": 1965,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/learnButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 215,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 215,
+						"h": 68
+					},
+					"frame": {
+						"x": 1697,
+						"y": 1647,
+						"w": 215,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreserversclose0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1508,
+						"y": 1312,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversclose0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1508,
+						"y": 1312,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversdown0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1508,
+						"y": 1381,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversdown0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1508,
+						"y": 1450,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/safeChat",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 60
+					},
+					"frame": {
+						"x": 1508,
+						"y": 1519,
+						"w": 62,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		},
+		{
+			"image": "login-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2036
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "login-screen/itembg5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1472,
+						"h": 819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1472,
+						"h": 819
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1472,
+						"h": 819
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/itembg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 549,
+						"h": 747
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 549,
+						"h": 747
+					},
+					"frame": {
+						"x": 1482,
+						"y": 4,
+						"w": 549,
+						"h": 747
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 118
+					},
+					"frame": {
+						"x": 1482,
+						"y": 757,
+						"w": 357,
+						"h": 118
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/items0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 19,
+						"w": 183,
+						"h": 183
+					},
+					"frame": {
+						"x": 1845,
+						"y": 757,
+						"w": 183,
+						"h": 183
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/carousel0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1017,
+						"h": 485
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1017,
+						"h": 485
+					},
+					"frame": {
+						"x": 4,
+						"y": 829,
+						"w": 1017,
+						"h": 485
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/carousel1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1017,
+						"h": 485
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1017,
+						"h": 485
+					},
+					"frame": {
+						"x": 1027,
+						"y": 946,
+						"w": 1017,
+						"h": 485
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/carousel2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1017,
+						"h": 485
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1017,
+						"h": 485
+					},
+					"frame": {
+						"x": 4,
+						"y": 1320,
+						"w": 1017,
+						"h": 485
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/buddy",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 1027,
+						"y": 881,
+						"w": 58,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/account0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1015,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1015,
+						"h": 180
+					},
+					"frame": {
+						"x": 1027,
+						"y": 1437,
+						"w": 1015,
+						"h": 180
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/full0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 402,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 15,
+						"w": 326,
+						"h": 104
+					},
+					"frame": {
+						"x": 1091,
+						"y": 829,
+						"w": 326,
+						"h": 104
+					},
+					"anchor": {
+						"x": -0.0030597,
+						"y": -0.000625
+					}
+				},
+				{
+					"filename": "login-screen/full0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 402,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 42,
+						"w": 355,
+						"h": 50
+					},
+					"frame": {
+						"x": 1423,
+						"y": 881,
+						"w": 355,
+						"h": 50
+					},
+					"anchor": {
+						"x": 0.00166667,
+						"y": 0.08625
+					}
+				},
+				{
+					"filename": "login-screen/itemback40001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 675,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 675,
+						"h": 221
+					},
+					"frame": {
+						"x": 4,
+						"y": 1811,
+						"w": 675,
+						"h": 221
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/itemback40002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 675,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 675,
+						"h": 221
+					},
+					"frame": {
+						"x": 685,
+						"y": 1811,
+						"w": 675,
+						"h": 221
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/items0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 20,
+						"w": 183,
+						"h": 182
+					},
+					"frame": {
+						"x": 1027,
+						"y": 1623,
+						"w": 183,
+						"h": 182
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/items0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 20,
+						"w": 183,
+						"h": 182
+					},
+					"frame": {
+						"x": 1216,
+						"y": 1623,
+						"w": 183,
+						"h": 182
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/rules0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 698,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 676,
+						"h": 82
+					},
+					"frame": {
+						"x": 1366,
+						"y": 1811,
+						"w": 676,
+						"h": 82
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/items0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 19,
+						"w": 183,
+						"h": 182
+					},
+					"frame": {
+						"x": 1405,
+						"y": 1623,
+						"w": 183,
+						"h": 182
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/items0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 239,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 20,
+						"w": 183,
+						"h": 182
+					},
+					"frame": {
+						"x": 1594,
+						"y": 1623,
+						"w": 183,
+						"h": 182
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/buttonDown",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 118
+					},
+					"frame": {
+						"x": 1366,
+						"y": 1899,
+						"w": 357,
+						"h": 118
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/learnButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 215,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 215,
+						"h": 68
+					},
+					"frame": {
+						"x": 1783,
+						"y": 1623,
+						"w": 215,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/moreserversdown0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1783,
+						"y": 1697,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversdown0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1783,
+						"y": 1697,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversup0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1852,
+						"y": 1697,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversup0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1921,
+						"y": 1697,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversup0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1729,
+						"y": 1899,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/moreserversup0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1729,
+						"y": 1899,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/checkboxChecked",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 60
+					},
+					"frame": {
+						"x": 1729,
+						"y": 1968,
+						"w": 60,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		},
+		{
+			"image": "login-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2034,
+				"h": 635
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "login-screen/itembg4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 774,
+						"h": 324
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 774,
+						"h": 324
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 774,
+						"h": 324
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/account0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1015,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 999,
+						"h": 164
+					},
+					"frame": {
+						"x": 784,
+						"y": 4,
+						"w": 999,
+						"h": 164
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/account0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1015,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 17,
+						"w": 981,
+						"h": 146
+					},
+					"frame": {
+						"x": 784,
+						"y": 174,
+						"w": 981,
+						"h": 146
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/more0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 359,
+						"h": 287
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 70,
+						"w": 259,
+						"h": 207
+					},
+					"frame": {
+						"x": 1771,
+						"y": 174,
+						"w": 259,
+						"h": 207
+					},
+					"anchor": {
+						"x": 0.0379109,
+						"y": 0.243031
+					}
+				},
+				{
+					"filename": "login-screen/worldTile",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 873,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 873,
+						"h": 106
+					},
+					"frame": {
+						"x": 784,
+						"y": 326,
+						"w": 873,
+						"h": 106
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/buttonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 357,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 357,
+						"h": 118
+					},
+					"frame": {
+						"x": 1663,
+						"y": 387,
+						"w": 357,
+						"h": 118
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/rules0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 698,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 698,
+						"h": 98
+					},
+					"frame": {
+						"x": 4,
+						"y": 334,
+						"w": 698,
+						"h": 98
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/worldTileSelect",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 873,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 873,
+						"h": 106
+					},
+					"frame": {
+						"x": 4,
+						"y": 438,
+						"w": 873,
+						"h": 106
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/rules0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 698,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 688,
+						"h": 90
+					},
+					"frame": {
+						"x": 883,
+						"y": 438,
+						"w": 688,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/full0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 402,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 351,
+						"h": 65
+					},
+					"frame": {
+						"x": 1577,
+						"y": 511,
+						"w": 351,
+						"h": 65
+					},
+					"anchor": {
+						"x": -0.00139303,
+						"y": 0.0555682
+					}
+				},
+				{
+					"filename": "login-screen/moreGalleryHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 711,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 711,
+						"h": 81
+					},
+					"frame": {
+						"x": 4,
+						"y": 550,
+						"w": 711,
+						"h": 81
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "login-screen/back0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 8,
+						"w": 696,
+						"h": 74
+					},
+					"frame": {
+						"x": 721,
+						"y": 550,
+						"w": 696,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgot0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 8,
+						"w": 696,
+						"h": 74
+					},
+					"frame": {
+						"x": 721,
+						"y": 550,
+						"w": 696,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "login-screen/forgotExisting0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 720,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 8,
+						"w": 696,
+						"h": 74
+					},
+					"frame": {
+						"x": 721,
+						"y": 550,
+						"w": 696,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:35e503e142fd2012e83b87fac7a70bdc:a04206c361495b398ce10a931abd7a82:22d9dc957f22b7030d2a2f652c5a0182$"
+	}
+}

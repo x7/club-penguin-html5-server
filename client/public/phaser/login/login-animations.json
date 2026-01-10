@@ -1,0 +1,182 @@
+{
+    "anims": [
+        {
+            "key": "accountAnimationlogin-screen/account",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "login",
+                    "frame": "login-screen/account0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/account0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/account0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "randomFrame": false
+        },
+        {
+            "key": "backAnimationlogin-screen/back",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "login",
+                    "frame": "login-screen/back0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/back0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/back0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "randomFrame": false
+        },
+        {
+            "key": "forgotAnimationlogin-screen/forgot",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "login",
+                    "frame": "login-screen/forgot0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/forgot0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/forgot0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "randomFrame": false
+        },
+        {
+            "key": "rulesAnimationlogin-screen/rules",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "login",
+                    "frame": "login-screen/rules0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/rules0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/rules0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "randomFrame": false
+        },
+        {
+            "key": "differentAnimationlogin-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "login",
+                    "frame": "login-screen/moreGallery0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/moreGallery0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/moreGallery0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "randomFrame": false
+        },
+        {
+            "key": "forgetExistingAnimationlogin-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "login",
+                    "frame": "login-screen/forgotExisting0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/forgotExisting0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "login",
+                    "frame": "login-screen/forgotExisting0002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "showOnStart": true,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

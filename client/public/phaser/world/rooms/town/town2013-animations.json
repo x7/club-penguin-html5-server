@@ -1,0 +1,190 @@
+{
+    "anims": [
+        {
+            "key": "town2013-speakers-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "town2013",
+                    "frame": "town/speakers1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/speakers1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/speakers2",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 375,
+            "randomFrame": false
+        },
+        {
+            "key": "town2013-discostars1-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0002",
+                    "duration": 250,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0004",
+                    "duration": 250,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0006",
+                    "duration": 250,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "town2013-discostars2-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0006",
+                    "duration": 125,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "town2013-discostars3-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0010",
+                    "duration": 250,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0012",
+                    "duration": 250,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0006",
+                    "duration": 250,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "town2013",
+                    "frame": "town/discolights0008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

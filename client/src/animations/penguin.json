@@ -1,0 +1,650 @@
+{
+    "penguin_idle_look_left": [
+        {
+            "animation_key": "penguin_idle_look_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [2],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [2],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_right": [
+        {
+            "animation_key": "penguin_idle_look_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [6],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [6],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_up": [
+        {
+            "animation_key": "penguin_idle_look_up_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [4],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_up_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [4],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_down": [
+        {
+            "animation_key": "penguin_idle_look_down_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [0],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_down_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [0],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_top_left": [
+        {
+            "animation_key": "penguin_idle_look_top_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [3],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_top_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [3],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_top_right": [
+        {
+            "animation_key": "penguin_idle_look_top_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [5],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_top_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [5],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_bottom_left": [
+        {
+            "animation_key": "penguin_idle_look_bottom_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [1],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_bottom_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [1],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_idle_look_bottom_right": [
+        {
+            "animation_key": "penguin_idle_look_bottom_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [7],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_idle_look_bottom_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [7],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_left": [
+        {
+            "animation_key": "penguin_sitting_look_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [18],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [18],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_right": [
+        {
+            "animation_key": "penguin_sitting_look_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [22],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [22],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_up": [
+        {
+            "animation_key": "penguin_sitting_look_up_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [20],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_up_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [20],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_down": [
+        {
+            "animation_key": "penguin_sitting_look_down_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [16],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_down_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [16],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_top_left": [
+        {
+            "animation_key": "penguin_sitting_look_top_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [19],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_top_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [19],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_top_right": [
+        {
+            "animation_key": "penguin_sitting_look_top_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [21],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_top_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [21],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_bottom_left": [
+        {
+            "animation_key": "penguin_sitting_look_bottom_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [17],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_bottom_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [17],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_sitting_look_bottom_right": [
+        {
+            "animation_key": "penguin_sitting_look_bottom_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [23],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_sitting_look_bottom_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [23],
+            "frame_ranges": false,
+            "frame_ranges_start": 0,
+            "frame_ranges_end": 0,
+            "frame_rate": 1,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_down": [
+        {
+            "animation_key": "penguin_waddle_down_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [8],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_down_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [8],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_up": [
+        {
+            "animation_key": "penguin_waddle_up_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [12],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_up_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [12],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_left": [
+        {
+            "animation_key": "penguin_waddle_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [10],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [10],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_right": [
+        {
+            "animation_key": "penguin_waddle_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [14],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [14],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_up_top_left": [
+        {
+            "animation_key": "penguin_waddle_up_top_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [11],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_up_top_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [11],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_up_top_right": [
+        {
+            "animation_key": "penguin_waddle_up_top_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [13],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_up_top_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [13],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_down_bottom_left": [
+        {
+            "animation_key": "penguin_waddle_down_bottom_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [9],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_down_bottom_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [9],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_waddle_down_bottom_right": [
+        {
+            "animation_key": "penguin_waddle_down_bottom_right_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [15],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_waddle_down_bottom_right_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [15],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 8,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_dance_wave": [
+        {
+            "animation_key": "penguin_dance_wave_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [24],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 12,
+            "frame_rate": 20,
+            "repeat": 0
+        },
+        {
+            "animation_key": "penguin_dance_wave_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [24],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 12,
+            "frame_rate": 20,
+            "repeat": 0
+        }
+    ],
+    "penguin_dance_default": [
+        {
+            "animation_key": "penguin_dance_default_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [25],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 80,
+            "frame_rate": 20,
+            "repeat": -1
+        },
+        {
+            "animation_key": "penguin_dance_default_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [25],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 80,
+            "frame_rate": 20,
+            "repeat": -1
+        }
+    ],
+    "penguin_throw_snowball_top_left": [
+        {
+            "animation_key": "penguin_throw_snowball_top_left_body",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/body/",
+            "frames": [27],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 28,
+            "frame_rate": 20,
+            "repeat": 0
+        },
+        {
+            "animation_key": "penguin_throw_snowball_top_left_overlay",
+            "parent_key": "penguin",
+            "frame_parent": "penguin/overlay/",
+            "frames": [27],
+            "frame_ranges": true,
+            "frame_ranges_start": 1,
+            "frame_ranges_end": 28,
+            "frame_rate": 20,
+            "repeat": 0
+        }
+    ]
+}

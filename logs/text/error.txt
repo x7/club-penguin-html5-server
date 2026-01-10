@@ -1,0 +1,10 @@
+[2026-01-08 05:01:03] [99729728000000] [ERROR] - test | java.lang.NumberFormatException: For input string: "-"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:564)
+	at java.base/java.lang.Integer.parseInt(Integer.java:661)
+	at org.awesome.Main.main(Main.java:35)
+[2026-01-08 05:01:03] [99656433700000] [ERROR] - test | java.lang.NumberFormatException: For input string: "-"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:564)
+	at java.base/java.lang.Integer.parseInt(Integer.java:661)
+	at org.awesome.Main.main(Main.java:35)

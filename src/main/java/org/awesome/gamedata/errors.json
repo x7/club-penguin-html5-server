@@ -1,0 +1,20 @@
+{
+  "READ_THIS": "Make sure this file matches the one in the server otherwise bad things will HAPPEN",
+  "errors": [
+    {
+      "id": 1,
+      "name": "login_no_username_provided",
+      "message": "No username has been provided"
+    },
+    {
+      "id": 2,
+      "name": "login_no_password_provided",
+      "message": "No password has been provided"
+    },
+    {
+      "id": 3,
+      "name": "login_incorrect_information",
+      "message": "    Incorrect username or password.\nNOTE: Passwords are CaSe SeNsiTIVE"
+    }
+  ]
+}

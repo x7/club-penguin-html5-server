@@ -1,0 +1,95 @@
+{
+	"textures": [
+		{
+			"image": "engine-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 62,
+				"h": 62
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "engine/snowball0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 26,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 26
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 26,
+						"h": 26
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "engine/snowball0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 26,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 26,
+						"h": 22
+					},
+					"frame": {
+						"x": 4,
+						"y": 36,
+						"w": 26,
+						"h": 22
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5955555555555555
+					}
+				},
+				{
+					"filename": "engine/snowballShadow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 11
+					},
+					"frame": {
+						"x": 36,
+						"y": 4,
+						"w": 22,
+						"h": 11
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f5b5685d261b66cf125027d90b15aecf:e38017a60ce97eee2090674b1abe6d52:3985657da789fa2ca0acd7ec2a6a856c$"
+	}
+}

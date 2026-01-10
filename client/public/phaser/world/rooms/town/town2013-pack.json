@@ -1,0 +1,61 @@
+{
+    "section1": {
+        "files": [
+            {
+                "type": "multiatlas",
+                "url": "public/phaser/world/rooms/town/town2013.json",
+                "path": "public/phaser/world/rooms/town/",
+                "key": "town"
+            },
+            {
+                "url": [
+                    "public/phaser/world/rooms/town/town2013-coffeeclose.mp3"
+                ],
+                "type": "audio",
+                "key": "town2013-coffeeclose"
+            },
+            {
+                "url": [
+                    "public/phaser/world/rooms/town/town2013-coffeeopen.mp3"
+                ],
+                "type": "audio",
+                "key": "town2013-coffeeopen"
+            },
+            {
+                "url": [
+                    "public/phaser/world/rooms/town/town2013-discoclose.mp3"
+                ],
+                "type": "audio",
+                "key": "town2013-discoclose"
+            },
+            {
+                "url": [
+                    "public/phaser/world/rooms/town/town2013-discoopen.mp3"
+                ],
+                "type": "audio",
+                "key": "town2013-discoopen"
+            },
+            {
+                "url": [
+                    "public/phaser/world/rooms/town/town2013-shopclose.mp3"
+                ],
+                "type": "audio",
+                "key": "town2013-shopclose"
+            },
+            {
+                "url": [
+                    "public/phaser/world/rooms/town/town2013-shopopen.mp3"
+                ],
+                "type": "audio",
+                "key": "town2013-shopopen"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

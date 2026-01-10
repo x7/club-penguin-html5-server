@@ -1,0 +1,36 @@
+{
+  "development" : {
+    "logging" : {
+      "success" : true,
+      "info" : true,
+      "warn" : true,
+      "error" : true,
+      "default" : true,
+      "database" : true
+    },
+    "database" : {
+      "host" : "localhost",
+      "port" : 5432,
+      "username" : "postgres",
+      "password" : "Catlol123!!",
+      "database_name" : "club_penguin_html"
+    }
+  },
+  "production" : {
+    "logging" : {
+      "success" : true,
+      "info" : true,
+      "warn" : true,
+      "error" : true,
+      "default" : true,
+      "database" : true
+    },
+    "database" : {
+      "host" : "localhost",
+      "port" : 5432,
+      "username" : "postgres",
+      "password" : "Catlol123!!",
+      "database_name" : "club_penguin_html"
+    }
+  }
+}

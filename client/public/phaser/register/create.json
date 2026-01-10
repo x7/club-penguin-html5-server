@@ -1,0 +1,1381 @@
+{
+	"textures": [
+		{
+			"image": "create-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "create-module/mainBackgroundConfirmation",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1575,
+						"h": 1058
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1575,
+						"h": 1058
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1575,
+						"h": 1058
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/paperdollAlternateOutline",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 437,
+						"h": 589
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 437,
+						"h": 589
+					},
+					"frame": {
+						"x": 1585,
+						"y": 4,
+						"w": 437,
+						"h": 589
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/nameConditions",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 31
+					},
+					"frame": {
+						"x": 2028,
+						"y": 4,
+						"w": 8,
+						"h": 31
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/emailConditions",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 8
+					},
+					"frame": {
+						"x": 2028,
+						"y": 41,
+						"w": 8,
+						"h": 8
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/paperdollAlternateContentFill",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 437,
+						"h": 589
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 429,
+						"h": 487
+					},
+					"frame": {
+						"x": 1585,
+						"y": 599,
+						"w": 429,
+						"h": 487
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/confirmationAsset",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1449,
+						"h": 923
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1449,
+						"h": 923
+					},
+					"frame": {
+						"x": 4,
+						"y": 1092,
+						"w": 1449,
+						"h": 923
+					},
+					"anchor": {
+						"x": -0.0898275,
+						"y": -0.0850704
+					}
+				},
+				{
+					"filename": "create-module/emailField",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 560,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 560,
+						"h": 69
+					},
+					"frame": {
+						"x": 1459,
+						"y": 1092,
+						"w": 560,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/passwordField",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 560,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 560,
+						"h": 68
+					},
+					"frame": {
+						"x": 1459,
+						"y": 1167,
+						"w": 560,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/errorBubbleReversed",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 524,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 517,
+						"h": 148
+					},
+					"frame": {
+						"x": 1459,
+						"y": 1241,
+						"w": 517,
+						"h": 148
+					},
+					"anchor": {
+						"x": 0.374637,
+						"y": 0.125125
+					}
+				},
+				{
+					"filename": "create-module/checkmark",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 46,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 46,
+						"h": 37
+					},
+					"frame": {
+						"x": 1982,
+						"y": 1241,
+						"w": 46,
+						"h": 37
+					},
+					"anchor": {
+						"x": 0.369565,
+						"y": 0.72973
+					}
+				},
+				{
+					"filename": "create-module/nextButtonArrow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 39,
+						"h": 39
+					},
+					"frame": {
+						"x": 1982,
+						"y": 1284,
+						"w": 39,
+						"h": 39
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/paperdollOutline",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 427,
+						"h": 531
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 427,
+						"h": 531
+					},
+					"frame": {
+						"x": 1459,
+						"y": 1395,
+						"w": 427,
+						"h": 531
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/envelope",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 148,
+						"h": 129
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 129
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1395,
+						"w": 148,
+						"h": 129
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/largeProgressBubble",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 93,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 93,
+						"h": 103
+					},
+					"frame": {
+						"x": 1459,
+						"y": 1932,
+						"w": 93,
+						"h": 103
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/chooseNameField",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 466,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 466,
+						"h": 95
+					},
+					"frame": {
+						"x": 1558,
+						"y": 1932,
+						"w": 466,
+						"h": 95
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 86,
+						"h": 68
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1530,
+						"w": 86,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 86,
+						"h": 68
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1604,
+						"w": 86,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 86,
+						"h": 67
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1678,
+						"w": 86,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 10,
+						"w": 83,
+						"h": 66
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1751,
+						"w": 83,
+						"h": 66
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 67,
+						"h": 86
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1823,
+						"w": 67,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 79,
+						"h": 67
+					},
+					"frame": {
+						"x": 1965,
+						"y": 1823,
+						"w": 79,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		},
+		{
+			"image": "create-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "create-module/mainBackgroundSignUp",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1575,
+						"h": 1058
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1575,
+						"h": 1058
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1575,
+						"h": 1058
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/memberButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 390,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 390,
+						"h": 86
+					},
+					"frame": {
+						"x": 1585,
+						"y": 4,
+						"w": 390,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/memberButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 390,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 390,
+						"h": 86
+					},
+					"frame": {
+						"x": 1585,
+						"y": 96,
+						"w": 390,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/paperdollContentFill",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 427,
+						"h": 531
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 3,
+						"w": 366,
+						"h": 435
+					},
+					"frame": {
+						"x": 1585,
+						"y": 188,
+						"w": 366,
+						"h": 435
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 9,
+						"w": 82,
+						"h": 68
+					},
+					"frame": {
+						"x": 1957,
+						"y": 188,
+						"w": 82,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 76,
+						"h": 68
+					},
+					"frame": {
+						"x": 1957,
+						"y": 262,
+						"w": 76,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 76,
+						"h": 68
+					},
+					"frame": {
+						"x": 1957,
+						"y": 336,
+						"w": 76,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 9,
+						"w": 75,
+						"h": 68
+					},
+					"frame": {
+						"x": 1957,
+						"y": 410,
+						"w": 75,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 73,
+						"h": 67
+					},
+					"frame": {
+						"x": 1957,
+						"y": 484,
+						"w": 73,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 10,
+						"w": 71,
+						"h": 66
+					},
+					"frame": {
+						"x": 1957,
+						"y": 557,
+						"w": 71,
+						"h": 66
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/logoRu",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 326,
+						"h": 207
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 24,
+						"w": 264,
+						"h": 152
+					},
+					"frame": {
+						"x": 1585,
+						"y": 629,
+						"w": 264,
+						"h": 152
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/swatchSelected",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 68
+					},
+					"frame": {
+						"x": 1855,
+						"y": 629,
+						"w": 70,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/smallProgressBubble",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 75
+					},
+					"frame": {
+						"x": 1931,
+						"y": 629,
+						"w": 69,
+						"h": 75
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 9,
+						"w": 69,
+						"h": 68
+					},
+					"frame": {
+						"x": 1855,
+						"y": 703,
+						"w": 69,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/swatchOutline",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 67
+					},
+					"frame": {
+						"x": 1930,
+						"y": 710,
+						"w": 69,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 67,
+						"h": 86
+					},
+					"frame": {
+						"x": 1855,
+						"y": 777,
+						"w": 67,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/logo",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 326,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 25,
+						"w": 263,
+						"h": 144
+					},
+					"frame": {
+						"x": 1585,
+						"y": 787,
+						"w": 263,
+						"h": 144
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 67,
+						"h": 86
+					},
+					"frame": {
+						"x": 1928,
+						"y": 783,
+						"w": 67,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 67,
+						"h": 82
+					},
+					"frame": {
+						"x": 1854,
+						"y": 869,
+						"w": 67,
+						"h": 82
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/nextButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 240,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 69
+					},
+					"frame": {
+						"x": 1585,
+						"y": 937,
+						"w": 240,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/badge0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 209,
+						"h": 174
+					},
+					"frame": {
+						"x": 1831,
+						"y": 957,
+						"w": 209,
+						"h": 174
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/nextButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 240,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 69
+					},
+					"frame": {
+						"x": 1585,
+						"y": 1012,
+						"w": 240,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 6,
+						"w": 66,
+						"h": 73
+					},
+					"frame": {
+						"x": 1927,
+						"y": 875,
+						"w": 66,
+						"h": 73
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/badge0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 214,
+						"h": 177
+					},
+					"frame": {
+						"x": 4,
+						"y": 1137,
+						"w": 214,
+						"h": 177
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/badge0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 207,
+						"h": 174
+					},
+					"frame": {
+						"x": 4,
+						"y": 1320,
+						"w": 207,
+						"h": 174
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/badge0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 208,
+						"h": 172
+					},
+					"frame": {
+						"x": 4,
+						"y": 1500,
+						"w": 208,
+						"h": 172
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/badge0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 205,
+						"h": 172
+					},
+					"frame": {
+						"x": 217,
+						"y": 1320,
+						"w": 205,
+						"h": 172
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/errorBubble",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 619,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 597,
+						"h": 163
+					},
+					"frame": {
+						"x": 224,
+						"y": 1137,
+						"w": 597,
+						"h": 163
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.17801
+					}
+				},
+				{
+					"filename": "create-module/errorBubbleModified",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 619,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 597,
+						"h": 163
+					},
+					"frame": {
+						"x": 827,
+						"y": 1068,
+						"w": 597,
+						"h": 163
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.17801
+					}
+				},
+				{
+					"filename": "create-module/spinner0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 4,
+						"w": 67,
+						"h": 78
+					},
+					"frame": {
+						"x": 1430,
+						"y": 1068,
+						"w": 67,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 4,
+						"w": 67,
+						"h": 78
+					},
+					"frame": {
+						"x": 1503,
+						"y": 1068,
+						"w": 67,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/swatchContentFill",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 1576,
+						"y": 1087,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "create-module/spinner0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 66,
+						"h": 68
+					},
+					"frame": {
+						"x": 1430,
+						"y": 1152,
+						"w": 66,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:50a0a417943c5beabc80c16f42cd41d4:f27a8aa0babed2badcfa4070a59450c7:c7211d5c32b4e4992080a04f9da4b78e$"
+	}
+}

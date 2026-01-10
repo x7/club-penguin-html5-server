@@ -1,0 +1,1667 @@
+{
+	"textures": [
+		{
+			"image": "town2013-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2041,
+				"h": 2039
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "town/base",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1963,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1963,
+						"h": 1080
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1963,
+						"h": 1080
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 49,
+						"h": 44
+					},
+					"frame": {
+						"x": 1973,
+						"y": 4,
+						"w": 49,
+						"h": 44
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 49,
+						"h": 44
+					},
+					"frame": {
+						"x": 1973,
+						"y": 54,
+						"w": 49,
+						"h": 44
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/altbluelight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 46,
+						"h": 46
+					},
+					"frame": {
+						"x": 1973,
+						"y": 104,
+						"w": 46,
+						"h": 46
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 96,
+						"y": 12,
+						"w": 45,
+						"h": 43
+					},
+					"frame": {
+						"x": 1973,
+						"y": 156,
+						"w": 45,
+						"h": 43
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 96,
+						"y": 12,
+						"w": 45,
+						"h": 43
+					},
+					"frame": {
+						"x": 1973,
+						"y": 205,
+						"w": 45,
+						"h": 43
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/redlight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 42,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 41,
+						"h": 41
+					},
+					"frame": {
+						"x": 1973,
+						"y": 254,
+						"w": 41,
+						"h": 41
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/greenlight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 41,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 40,
+						"h": 40
+					},
+					"frame": {
+						"x": 1973,
+						"y": 301,
+						"w": 40,
+						"h": 40
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/altgreenlight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 43
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 34,
+						"h": 40
+					},
+					"frame": {
+						"x": 1973,
+						"y": 347,
+						"w": 34,
+						"h": 40
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/bottom",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1962,
+						"h": 280
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1962,
+						"h": 280
+					},
+					"frame": {
+						"x": 4,
+						"y": 1090,
+						"w": 1962,
+						"h": 280
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/forts_btn0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 267,
+						"h": 572
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 267,
+						"h": 572
+					},
+					"frame": {
+						"x": 4,
+						"y": 1376,
+						"w": 267,
+						"h": 572
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/clouds",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1760,
+						"h": 266
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1760,
+						"h": 266
+					},
+					"frame": {
+						"x": 277,
+						"y": 1376,
+						"w": 1760,
+						"h": 266
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/seat1_btn0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 79
+					},
+					"frame": {
+						"x": 4,
+						"y": 1954,
+						"w": 101,
+						"h": 79
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/seat2_btn0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 79
+					},
+					"frame": {
+						"x": 111,
+						"y": 1954,
+						"w": 101,
+						"h": 79
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/sky",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1755,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1755,
+						"h": 259
+					},
+					"frame": {
+						"x": 277,
+						"y": 1648,
+						"w": 1755,
+						"h": 259
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/speakers1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 391,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 391,
+						"h": 71
+					},
+					"frame": {
+						"x": 218,
+						"y": 1954,
+						"w": 391,
+						"h": 71
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/speakers2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 389,
+						"h": 67
+					},
+					"frame": {
+						"x": 615,
+						"y": 1913,
+						"w": 389,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/cord",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 49
+					},
+					"frame": {
+						"x": 615,
+						"y": 1986,
+						"w": 78,
+						"h": 49
+					},
+					"anchor": {
+						"x": 0.4715384615384616,
+						"y": 0.5485714285714286
+					}
+				},
+				{
+					"filename": "town/purplelight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 68,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 67,
+						"h": 67
+					},
+					"frame": {
+						"x": 1010,
+						"y": 1913,
+						"w": 67,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/spotlightleft",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 83,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 83,
+						"h": 59
+					},
+					"frame": {
+						"x": 1083,
+						"y": 1913,
+						"w": 83,
+						"h": 59
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 1
+					}
+				},
+				{
+					"filename": "town/dancestars",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 52
+					},
+					"frame": {
+						"x": 1083,
+						"y": 1978,
+						"w": 133,
+						"h": 52
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 58
+					},
+					"frame": {
+						"x": 1172,
+						"y": 1913,
+						"w": 141,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 58
+					},
+					"frame": {
+						"x": 1222,
+						"y": 1977,
+						"w": 141,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0007",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 58
+					},
+					"frame": {
+						"x": 1319,
+						"y": 1913,
+						"w": 141,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0008",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 58
+					},
+					"frame": {
+						"x": 1369,
+						"y": 1977,
+						"w": 141,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0013",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 58
+					},
+					"frame": {
+						"x": 1466,
+						"y": 1913,
+						"w": 141,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 58
+					},
+					"frame": {
+						"x": 1516,
+						"y": 1977,
+						"w": 103,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 58
+					},
+					"frame": {
+						"x": 1613,
+						"y": 1913,
+						"w": 103,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 0,
+						"w": 99,
+						"h": 58
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1977,
+						"w": 99,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/discolights0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 0,
+						"w": 99,
+						"h": 58
+					},
+					"frame": {
+						"x": 1722,
+						"y": 1913,
+						"w": 99,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		},
+		{
+			"image": "town2013-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1970,
+				"h": 1333
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "town/mountains",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1735,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1735,
+						"h": 219
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1735,
+						"h": 219
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/storenames0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1268,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 1,
+						"w": 1261,
+						"h": 291
+					},
+					"frame": {
+						"x": 4,
+						"y": 229,
+						"w": 1261,
+						"h": 291
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/storenames0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1268,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 1252,
+						"h": 293
+					},
+					"frame": {
+						"x": 4,
+						"y": 526,
+						"w": 1252,
+						"h": 293
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/storenames0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1268,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 1240,
+						"h": 289
+					},
+					"frame": {
+						"x": 4,
+						"y": 825,
+						"w": 1240,
+						"h": 289
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/shopfronts",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1134,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1134,
+						"h": 208
+					},
+					"frame": {
+						"x": 4,
+						"y": 1120,
+						"w": 1134,
+						"h": 208
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/newsboard",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 695,
+						"h": 489
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 695,
+						"h": 489
+					},
+					"frame": {
+						"x": 1271,
+						"y": 229,
+						"w": 695,
+						"h": 489
+					},
+					"anchor": {
+						"x": 0.49369784172661874,
+						"y": 0.3285276073619632
+					}
+				},
+				{
+					"filename": "town/forts_trigger",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 315,
+						"h": 240
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 315,
+						"h": 240
+					},
+					"frame": {
+						"x": 1262,
+						"y": 724,
+						"w": 315,
+						"h": 240
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "town/dock_trigger",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 308,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 308,
+						"h": 250
+					},
+					"frame": {
+						"x": 1583,
+						"y": 724,
+						"w": 308,
+						"h": 250
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "town/shop_trigger",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 198,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 198,
+						"h": 111
+					},
+					"frame": {
+						"x": 1745,
+						"y": 4,
+						"w": 198,
+						"h": 111
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "town/dancecover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 175,
+						"h": 230
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 175,
+						"h": 230
+					},
+					"frame": {
+						"x": 1250,
+						"y": 970,
+						"w": 175,
+						"h": 230
+					},
+					"anchor": {
+						"x": 0.48725714,
+						"y": 0.9
+					}
+				},
+				{
+					"filename": "town/spotlightmaskleft",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 132,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 253
+					},
+					"frame": {
+						"x": 1431,
+						"y": 970,
+						"w": 132,
+						"h": 253
+					},
+					"anchor": {
+						"x": 0.624697,
+						"y": 1.13787
+					}
+				},
+				{
+					"filename": "town/spotlightmaskright",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 260
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 260
+					},
+					"frame": {
+						"x": 1569,
+						"y": 980,
+						"w": 106,
+						"h": 260
+					},
+					"anchor": {
+						"x": 0.473302,
+						"y": 1.13581
+					}
+				},
+				{
+					"filename": "town/coffee_trigger",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 198,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 198,
+						"h": 110
+					},
+					"frame": {
+						"x": 1681,
+						"y": 980,
+						"w": 198,
+						"h": 110
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "town/dance_trigger",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 203,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 203,
+						"h": 101
+					},
+					"frame": {
+						"x": 1745,
+						"y": 121,
+						"w": 203,
+						"h": 101
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "town/shopdoor0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 94,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 2,
+						"w": 88,
+						"h": 152
+					},
+					"frame": {
+						"x": 1144,
+						"y": 1120,
+						"w": 88,
+						"h": 152
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/shopsign",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 123
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 123
+					},
+					"frame": {
+						"x": 1238,
+						"y": 1206,
+						"w": 85,
+						"h": 123
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/dancedoor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 116
+					},
+					"frame": {
+						"x": 1329,
+						"y": 1206,
+						"w": 96,
+						"h": 116
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "town/table",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 119,
+						"h": 99
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 119,
+						"h": 99
+					},
+					"frame": {
+						"x": 1681,
+						"y": 1096,
+						"w": 119,
+						"h": 99
+					},
+					"anchor": {
+						"x": 0.48025210084033615,
+						"y": 0.6818181818181818
+					}
+				},
+				{
+					"filename": "town/danceinside",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 111
+					},
+					"frame": {
+						"x": 1806,
+						"y": 1096,
+						"w": 91,
+						"h": 111
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/benchside",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 99
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 99
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1229,
+						"w": 76,
+						"h": 99
+					},
+					"anchor": {
+						"x": 0.47065789,
+						"y": 0.70565657
+					}
+				},
+				{
+					"filename": "town/leftchair",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 108
+					},
+					"frame": {
+						"x": 1681,
+						"y": 1201,
+						"w": 91,
+						"h": 108
+					},
+					"anchor": {
+						"x": 0.47593406593406595,
+						"y": 0.3510185185185185
+					}
+				},
+				{
+					"filename": "town/rightchair",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 106
+					},
+					"frame": {
+						"x": 1778,
+						"y": 1213,
+						"w": 79,
+						"h": 106
+					},
+					"anchor": {
+						"x": 0.46987341772151897,
+						"y": 0.3714150943396226
+					}
+				}
+			]
+		},
+		{
+			"image": "town2013-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1847,
+				"h": 1980
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "town/block",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1710,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1710,
+						"h": 1080
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1710,
+						"h": 1080
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/storenames0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1268,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 1260,
+						"h": 289
+					},
+					"frame": {
+						"x": 4,
+						"y": 1090,
+						"w": 1260,
+						"h": 289
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/storenames0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1268,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 0,
+						"w": 1245,
+						"h": 296
+					},
+					"frame": {
+						"x": 4,
+						"y": 1385,
+						"w": 1245,
+						"h": 296
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/storenames0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1268,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 1240,
+						"h": 289
+					},
+					"frame": {
+						"x": 4,
+						"y": 1687,
+						"w": 1240,
+						"h": 289
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/sidetrees",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 297,
+						"h": 555
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 297,
+						"h": 555
+					},
+					"frame": {
+						"x": 1270,
+						"y": 1090,
+						"w": 297,
+						"h": 555
+					},
+					"anchor": {
+						"x": 0.49164983164983167,
+						"y": 0.4962162162162162
+					}
+				},
+				{
+					"filename": "town/dock_btn0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 270,
+						"h": 574
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 270,
+						"h": 574
+					},
+					"frame": {
+						"x": 1573,
+						"y": 1090,
+						"w": 270,
+						"h": 574
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/shopdoor0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 94,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 88,
+						"h": 180
+					},
+					"frame": {
+						"x": 1720,
+						"y": 4,
+						"w": 88,
+						"h": 180
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/coffeedoor0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 90,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 89,
+						"h": 160
+					},
+					"frame": {
+						"x": 1720,
+						"y": 190,
+						"w": 89,
+						"h": 160
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/spotlightcontent",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 338,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 15,
+						"w": 338,
+						"h": 244
+					},
+					"frame": {
+						"x": 1250,
+						"y": 1687,
+						"w": 338,
+						"h": 244
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/clothes",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 127,
+						"h": 130
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 127,
+						"h": 130
+					},
+					"frame": {
+						"x": 1594,
+						"y": 1670,
+						"w": 127,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0.4800787401574803,
+						"y": 0.585
+					}
+				},
+				{
+					"filename": "town/coffeedoor0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 90,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 89,
+						"h": 138
+					},
+					"frame": {
+						"x": 1720,
+						"y": 356,
+						"w": 89,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "town/spotlightright",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 60
+					},
+					"frame": {
+						"x": 1594,
+						"y": 1806,
+						"w": 85,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 1
+					}
+				},
+				{
+					"filename": "town/bluelight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 34,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 33,
+						"h": 34
+					},
+					"frame": {
+						"x": 1250,
+						"y": 1937,
+						"w": 33,
+						"h": 34
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:071873ac5576e690f9c5e3f8790ead43:3a379b92d66d947b062c1bfa68931894:bba2496e565466486ca4108a87d435dc$"
+	}
+}

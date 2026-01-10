@@ -1,0 +1,445 @@
+{
+	"textures": [
+		{
+			"image": "public/phaser/start/start-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1942,
+				"h": 675
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "start-screen/module",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1425,
+						"h": 429
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1425,
+						"h": 428
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 1425,
+						"h": 428
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/createPenguinGraphic0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 636,
+						"h": 234
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 636,
+						"h": 233
+					},
+					"frame": {
+						"x": 4,
+						"y": 438,
+						"w": 636,
+						"h": 233
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/createPenguinGraphic0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 636,
+						"h": 234
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 635,
+						"h": 231
+					},
+					"frame": {
+						"x": 646,
+						"y": 438,
+						"w": 635,
+						"h": 231
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/mainButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 396,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 396,
+						"h": 103
+					},
+					"frame": {
+						"x": 1435,
+						"y": 4,
+						"w": 396,
+						"h": 103
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/mainButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 396,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 396,
+						"h": 103
+					},
+					"frame": {
+						"x": 1435,
+						"y": 113,
+						"w": 396,
+						"h": 103
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberButton",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 397,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 397,
+						"h": 73
+					},
+					"frame": {
+						"x": 1435,
+						"y": 222,
+						"w": 397,
+						"h": 73
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberButtonHover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 397,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 397,
+						"h": 73
+					},
+					"frame": {
+						"x": 1435,
+						"y": 301,
+						"w": 397,
+						"h": 73
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/loginGraphic0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 232
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 232
+					},
+					"frame": {
+						"x": 1287,
+						"y": 438,
+						"w": 171,
+						"h": 232
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/logo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 304,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 304,
+						"h": 142
+					},
+					"frame": {
+						"x": 1464,
+						"y": 380,
+						"w": 304,
+						"h": 142
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/logoRu",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 272,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 272,
+						"h": 137
+					},
+					"frame": {
+						"x": 1464,
+						"y": 528,
+						"w": 272,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/loginGraphic0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 171,
+						"h": 232
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 232
+					},
+					"frame": {
+						"x": 1774,
+						"y": 380,
+						"w": 164,
+						"h": 232
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberBadge0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 53
+					},
+					"frame": {
+						"x": 1742,
+						"y": 618,
+						"w": 64,
+						"h": 53
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberBadge0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 53
+					},
+					"frame": {
+						"x": 1812,
+						"y": 618,
+						"w": 64,
+						"h": 53
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberBadge0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 53
+					},
+					"frame": {
+						"x": 1837,
+						"y": 4,
+						"w": 64,
+						"h": 53
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberBadge0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 53
+					},
+					"frame": {
+						"x": 1837,
+						"y": 63,
+						"w": 64,
+						"h": 53
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberBadge0005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 53
+					},
+					"frame": {
+						"x": 1837,
+						"y": 122,
+						"w": 64,
+						"h": 53
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "start-screen/memberBadge0006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 53
+					},
+					"frame": {
+						"x": 1838,
+						"y": 181,
+						"w": 64,
+						"h": 53
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e4ffbb9fdec4899d7deda86b7dc381d6:bca0250f9a837efb4f9ea97332e84da9:f95f80e14bdf39cb94d4a25607364ff0$"
+	}
+}

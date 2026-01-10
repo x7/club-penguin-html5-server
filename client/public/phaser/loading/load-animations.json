@@ -1,0 +1,1551 @@
+{
+    "anims": [
+        {
+            "key": "load-spinner-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/spinner0020",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-pizzatoss-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0048",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0049",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0050",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0051",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0052",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0053",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0054",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0055",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0056",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0057",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0058",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0059",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0060",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0061",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0062",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0063",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0064",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0065",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0066",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0067",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0068",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0069",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0070",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0071",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/pizzatoss0072",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-snowshovel-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/snowshovel0016",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-maincart-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-maincart0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-maincart0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-maincart0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-maincart0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-maincart0005",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-flip-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0048",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0049",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0050",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0051",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0052",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0053",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flip0054",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-pufflehair-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-pufflehair0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-pufflehair0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-pufflehair0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-rightbackwheel-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartrightbackwheel0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartrightbackwheel0002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-rightfrontwheel-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartrightfrontwheel0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartrightfrontwheel0002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-leftfrontwheel-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartleftfrontwheel0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartleftfrontwheel0002",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-rails-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-rails0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-rails0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-rails0003",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-cartfront-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartfront0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartfront0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartfront0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartfront0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartfront0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-cartfront0006",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "load-cartsurfer-flipcartfront-animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0048",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0049",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0050",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0051",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0052",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0053",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "load",
+                    "frame": "load-screen/cartsurfer-flipcartfront0054",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}
