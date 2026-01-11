@@ -1,4 +1,3 @@
-import Phaser from "phaser";
 import { getAnimation } from "../animations/animations";
 import { animationExist } from "../animations/animations";
 import * as animationKeys from "../animations/animationKeys";
@@ -17,14 +16,12 @@ export default class Penguin {
         this.state = "idle";
         this.animation = null;
 
-        // set the color to red
+        // Edit the penguin body
         this.body.setTint(0xff0000);
-        
-        // rescale
         this.body.setScale(0.72);
         this.overlay.setScale(0.72);
 
-        // add the name under the sprite itself
+        // Add the players username
         this.playersUsername = scene.add.text(0, 20, this.username);
         this.playersUsername.setFontFamily("Arial");
         this.playersUsername.setFontSize(18);
@@ -35,7 +32,7 @@ export default class Penguin {
         this.penguinContainer.add([this.body, this.overlay, this.playersUsername]);
     }
 
-    playAnimation(phaserAnimationKey, bodyAnimationKey, overlayAnimationKey) {
+    playAnimation(phaserAnimationKey, bodyAnimationKey, overlayAnimationKey, penguinState) {
         if(!animationExist(bodyAnimationKey)) {
             console.log("Cannot play animation " + bodyAnimationKey + " it does not exist");
             return;
@@ -49,6 +46,7 @@ export default class Penguin {
         this.body.play(bodyAnimationKey);
         this.overlay.play(overlayAnimationKey);
         this.setCurrentAnimation(phaserAnimationKey);
+        this.state = penguinState;
     }
 
     stopAnimation() {
@@ -60,11 +58,12 @@ export default class Penguin {
         this.body.stop(currentAnimation);
         this.overlay.stop(currentAnimation);
         this.setCurrentAnimation(null);
+        this.state = "idle";
     }
 
     getPose(mouseX, mouseY) {
-        const sideLookThresholdX = 30;
-        const sideLookThresholdY = 30;
+        const sideLookThresholdX = 50;
+        const sideLookThresholdY = 50;
 
         if(mouseY > (this.getY() + sideLookThresholdY)) {
             if(mouseX > (this.getX() + sideLookThresholdX)) {
@@ -101,30 +100,12 @@ export default class Penguin {
         return "unknown_pose";
     }
 
-    // change this to states etc
-    // state = IDLE, SITTING, DANCING
-    // TODO: make it so when players are sat down and they click s on another pose it auto sits them down again without standing up
-    setPose(pose, sitting) {        
-        const currentAnimation = this.getCurrentAnimation();
-        const sittingAnimationList = [
-            animationKeys.PENGUIN_SITTING_LOOK_BOTTOM_LEFT,
-            animationKeys.PENGUIN_SITTING_LOOK_BOTTOM_RIGHT,
-            animationKeys.PENGUIN_SITTING_LOOK_DOWN,
-            animationKeys.PENGUIN_SITTING_LOOK_LEFT,
-            animationKeys.PENGUIN_SITTING_LOOK_RIGHT,
-            animationKeys.PENGUIN_SITTING_LOOK_TOP_LEFT,
-            animationKeys.PENGUIN_SITTING_LOOK_TOP_RIGHT,
-            animationKeys.PENGUIN_SITTING_LOOK_UP,
-        ];    
-
-        if(!sitting && sittingAnimationList.includes(currentAnimation)) {
+    setPose(pose, sitting) {       
+        if(this.state == 'animation') {
             return;
         }
 
-        if(sitting && sittingAnimationList.includes(currentAnimation)) { 
-            sitting = false;
-        }
-
+        const penguinState = sitting ? "sitting" : "idle";
         pose = pose.toLowerCase();
 
         switch(pose) {
@@ -132,7 +113,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_LEFT : animationKeys.PENGUIN_IDLE_LOOK_LEFT;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -142,7 +123,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_RIGHT : animationKeys.PENGUIN_IDLE_LOOK_RIGHT;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -152,7 +133,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_DOWN : animationKeys.PENGUIN_IDLE_LOOK_DOWN;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -162,7 +143,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_UP : animationKeys.PENGUIN_IDLE_LOOK_UP;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -172,7 +153,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_BOTTOM_RIGHT : animationKeys.PENGUIN_IDLE_LOOK_BOTTOM_RIGHT;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -182,7 +163,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_BOTTOM_LEFT : animationKeys.PENGUIN_IDLE_LOOK_BOTTOM_LEFT;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -192,7 +173,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_TOP_RIGHT : animationKeys.PENGUIN_IDLE_LOOK_TOP_RIGHT;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
@@ -202,7 +183,7 @@ export default class Penguin {
                 const animationKey = sitting ? animationKeys.PENGUIN_SITTING_LOOK_TOP_LEFT : animationKeys.PENGUIN_IDLE_LOOK_TOP_LEFT;
                 const animation = getAnimation(animationKey);
 
-                this.playAnimation(animationKey, animation[0], animation[1]);
+                this.playAnimation(animationKey, animation[0], animation[1], penguinState);
                 this.setCurrentPose(pose);
 
                 break;
