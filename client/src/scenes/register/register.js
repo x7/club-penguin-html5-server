@@ -789,7 +789,7 @@ export class RegisterScene extends Phaser.Scene {
 		register_penguin_color_red_not_selected_overlay.setInteractive({ useHandCursor: true });
 		// Setting all interactives sprites ends here
 
-		// All interactive events below here
+		// All interactive events start here
 		// Register button events start here
 		register_finish_login_button.on("pointerover", () => {
 			register_finish_login_button.visible = false;

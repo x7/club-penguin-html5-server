@@ -6,6 +6,7 @@ import { RegisterScene } from './scenes/register/register.js';
 import { LoadingScene } from './scenes/loading/loading.js';
 import { TownScene } from './scenes/world/rooms/town/town.js';
 import { ErrorScene } from './scenes/error/error.js';
+import { StartScene } from './scenes/start/start.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -15,7 +16,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [RegisterScene],
+    scene: [StartScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH

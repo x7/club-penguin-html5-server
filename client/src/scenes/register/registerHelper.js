@@ -252,35 +252,3 @@ export function createInputCss(width, height) {
 		pointer-events: auto;
 	`;
 }
-
-// export async function registerPenguin(username, password, email, penguinColor) {
-//     const validUsername = validateUsernameInput();
-//     const validatePassword = validatePasswordInput();
-//     const validatePasswordConfirm = doPasswordsMatch();
-//     const validateEmail = validateEmailInput();
-
-//     if(!validUsername || !validatePassword || !validatePasswordConfirm || !validateEmail) {
-//         alert("failed")
-//         return;
-//     }
-
-//     try {
-//         const request = await fetch("http://localhost:8080/api/register", {
-//             method: 'POST',
-//             headers: {
-//                 "Content-Type": "application/json"
-//             },
-//             body: JSON.stringify({
-//                 "username": username,
-//                 "password": password,
-//                 "email": email,
-//                 "penguinColor": penguinColor
-//             })
-//         });
-
-//         console.log(await request.json())
-//     } catch (error) {
-//         console.log(error)
-//         alert("error")
-//     }
-// }
