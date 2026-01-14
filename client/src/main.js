@@ -8,6 +8,7 @@ import { TownScene } from './scenes/world/rooms/town/town.js';
 import { ErrorScene } from './scenes/error/error.js';
 import { StartScene } from './scenes/start/start.js';
 import { LoginScene } from './scenes/login/login.js';
+import { ServerSelectionScene } from './scenes/login/serverSelection.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -17,7 +18,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [LoginScene],
+    scene: [ServerSelectionScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH
