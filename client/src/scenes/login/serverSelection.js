@@ -14,7 +14,6 @@ export class ServerSelectionScene extends Phaser.Scene {
 	}
 
 	create() {
-
 		// server_selection_background
 		const server_selection_background = this.add.image(-11, -18, "login_1", "login-screen/background");
 		server_selection_background.scaleX = 0.7585468997218747;
