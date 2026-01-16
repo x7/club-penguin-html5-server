@@ -2,14 +2,15 @@
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
 // import eventEmitter from '../../util/eventEmitter.js';
-// import { startLoadingScene } from '../loading/loadingHelper.js';
+import { startLoadingScene } from '../loading/loadingHelper.js';
 
 export class StartScene extends BaseScene {
 	constructor() {
 		super("StartScene");
 	}
 
-	init() {
+	init(data) {
+		super.init(data);
 		this.sceneManager = this.getSceneManager();
 		this.assetManager = this.getAssetManager();
 	}
@@ -58,7 +59,7 @@ export class StartScene extends BaseScene {
 		});
 	}
 
-	create() {
+	createContent() {
 		// start_main_blue_background
 		this.add.image(645, 376, "brb-billboardShadow");
 
@@ -220,46 +221,42 @@ export class StartScene extends BaseScene {
 		// Login button events end here
 		// All interactive events end here
 
-		// // events
-		// start_screen_mainButton_1.on("pointerover", () => {
-		//     start_screen_loginGraphic0001.visible = false;
-        //     start_screen_mainButton_1.visible = false;
-		//     start_screen_mainButtonHover.visible = true;
-		//     start_screen_loginGraphic0002.visible = true;
-		// });
+		// events
+		start_register_button.on("pointerover", () => {
+			start_register_button.visible = false;
+			start_register_button_hover.visible = true;
+			start_create_penguin_underlay_not_hovered.visible = false;
+		    start_create_penguin_underlay_hovered.visible = true;
+		});
 
-		// start_screen_mainButtonHover.on("pointerout", () => {
-        //     start_screen_loginGraphic0001.visible = true;
-        //     start_screen_mainButton_1.visible = true;
-        //     start_screen_mainButtonHover.visible = false;
-        //     start_screen_loginGraphic0002.visible = false;
-		// });
+		start_register_button_hover.on("pointerout", () => {
+			start_register_button.visible = true;
+			start_register_button_hover.visible = false;
+			start_create_penguin_underlay_not_hovered.visible = true;
+		    start_create_penguin_underlay_hovered.visible = false;
+		});
 
-		// start_screen_mainButton.on("pointerover", () => {
-		//     start_screen_mainButton.visible = false;
-		//     start_screen_createPenguinGraphic0001.visible = false;
-		//     start_screen_mainButton_2.visible = true;
-		//     start_screen_createPenguinGraphic0002.visible = true;
-		// });
+		start_login_button.on("pointerover", () => {
+		    start_login_button.visible = false;
+		    start_login_button_hover.visible = true;
+		});
 
-		// start_screen_mainButton_2.on("pointerout", () => {
-		//     start_screen_mainButton.visible = true;
-		//     start_screen_createPenguinGraphic0001.visible = true;
-        //     start_screen_mainButton_2.visible = false;
-        //     start_screen_createPenguinGraphic0002.visible = false;
-		// });
+		start_login_button_hover.on("pointerout", () => {
+		    start_login_button.visible = true;
+		    start_login_button_hover.visible = false;
+		});
 
-		// start_screen_mainButtonHover.on("pointerdown", () => {
-		// 	this.sceneManager.add({ sceneKey: "LoginScene", scene: null, autoStart: false });
-		// 	startLoadingScene("StartScene", "Loading login");
-		// 	switchScenes("LoginScene", 1);
-		// });
+		start_login_button_hover.on("pointerdown", () => {
+			start_login_button_hover.visible = false;
+			start_login_button_clicked.visible = true;
+			startLoadingScene("StartScene", "LoginScene", "Loading Login");
+		});
 
-		// start_screen_mainButton_2.on("pointerdown", () => {
-		// 	this.sceneManager.add({ sceneKey: "RegisterScene", scene: null, autoStart: false });
-		// 	startLoadingScene("StartScene", "Loading register");
-		// 	switchScenes("RegisterScene", 1);
-		// });
+		start_register_button_hover.on("pointerdown", () => {
+			start_register_button_hover.visible = false;
+			start_register_button_clicked.visible = true;
+			startLoadingScene("RegisterScene", "Loading Register");
+		});
 
 		this.events.emit("scene-awake");
 		this.events.emit("sceneReady");

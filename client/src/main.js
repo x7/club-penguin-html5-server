@@ -21,7 +21,7 @@ const config = {
     resolution: window.devicePixelRatio || 1,
     dom: { createContainer: true },
     backgroundColor: '#07c5ffff',
-    scene: [LoadingScene],
+    scene: [StartScene],
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH

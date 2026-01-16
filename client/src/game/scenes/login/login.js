@@ -1,21 +1,21 @@
 import { BaseScene } from '../base/baseScene.js';
 import { ASSET_TYPES } from '../../assets/assetTypes.js';
-
-// Todo: After launching "SavePasswordPromptScene" hide the dom elements
+import eventEmitter from '../../../util/eventEmitter.js';
+import { startLoadingScene } from '../loading/loadingHelper.js';
 
 export class LoginScene extends BaseScene {
 	constructor() {
 		super("LoginScene");
+	}
+
+	init(data) {
+		super.init(data)
+		this.sceneManager = this.getSceneManager();
+		this.assetManager = this.getAssetManager();
 		this.username = null;
 		this.password = null;
 		this.rememberMeComputer = false;
 		this.rememberMyPassword = false;
-	}
-
-	init() {
-		this.sceneManager = this.getSceneManager();
-		this.assetManager = this.getAssetManager();
-		this.sceneManager.setCurrentScene(this);
 	}
 
 	preload() {
@@ -34,7 +34,7 @@ export class LoginScene extends BaseScene {
 		});
 	}
 
-	async create() {
+	async createContent() {
 		// login_forgot_password_hover
 		const login_forgot_password_hover = this.add.image(483, 449, "login", "login-screen/background");
 		login_forgot_password_hover.scaleX = 0.18772368727813354;
@@ -297,6 +297,10 @@ export class LoginScene extends BaseScene {
 		login_back_button_hover_display.on("pointerout", () => {
 			login_back_button_hover.visible = true;
 			login_back_button_hover_display.visible = false;
+		});
+		
+		login_back_button_hover_display.on("pointerdown", () => {
+			startLoadingScene("LoginScene", "StartScene", "Loading Start");
 		});
 
 		login_login_button.on("pointerover", () => {

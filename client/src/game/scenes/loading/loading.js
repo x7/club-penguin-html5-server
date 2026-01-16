@@ -15,6 +15,7 @@ export class LoadingScene extends BaseScene {
 		this.progress = 0;
 		
 		this.text = data.text ?? "No text provided\nPlease provide one";
+		this.newScene = data.newScene ?? null;
 		eventEmitter.addEventOnce("loading:completed", (callback) => {
 			setTimeout(() => {
 				callback();
@@ -123,6 +124,11 @@ export class LoadingScene extends BaseScene {
 
 		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
+
+		// Loading system
+		this.sceneManager.add({ sceneKey: this.newScene, scene: null, autoStart: false });
+		this.sceneManager.launch(this.newScene, { "loading": true });
+		this.sceneManager.sendToBack(this.newScene);
 	}
 
 	shutdown() {

@@ -1,8 +1,38 @@
 import Phaser from "phaser";
-
-// Basic scene setup which all the scenes will extend to prevent rewriting "get manager" every time
+import eventEmitter from "../../../util/eventEmitter";
 
 export class BaseScene extends Phaser.Scene {
+    constructor(key) {
+        super(key)
+    }
+
+    init(data) {
+        if(data.loading) {
+            this.loading = true;
+            this.newScene = data.newScene ?? null;
+            this.cameras.main.setAlpha(0);
+		    this.input.enabled = false;
+        }
+
+        this.getSceneManager().setCurrentScene(this);
+    }
+
+    createContent() {
+        this.create();
+    }
+
+    create() {
+        this.createContent();
+
+        if(this.loading) {
+            eventEmitter.emit("loading:completed", () => {
+                this.sceneManager.stop("LoadingScene");
+                this.cameras.main.setAlpha(1);
+                this.input.enabled = true;
+            });
+        }
+    }
+
     getGameManager() {
         return this.game.registry.get("gameManager");
     }
