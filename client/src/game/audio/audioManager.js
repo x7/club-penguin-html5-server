@@ -1,5 +1,3 @@
-// TODO: Fix audio bugging out sometimes due to the removal part in play()
-
 export class AudioManager {
     constructor(game, sceneManager, assetManager) {
         this.game = game;
@@ -18,6 +16,10 @@ export class AudioManager {
         const scene = this.sceneManager.getCurrentScene();
         if(scene == null) {
             return;
+        }
+
+        if(this.isPlaying(key)) {
+            this.stop(key);
         }
 
         const audioCache = scene.cache.json.get("audio-json");
@@ -103,7 +105,7 @@ export class AudioManager {
         this.pausedMusic.delete(key);
     }
 
-    stopAll() {
+    stopAllMusic() {
         this.musicPlaying.clear();
         this.pausedMusic.clear();
     }

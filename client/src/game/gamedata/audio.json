@@ -1,8 +1,8 @@
 {
     "town_gift_shop_open": {
         "key": "town_gift_shop_open",
-        "volume": 0,
-        "mute": true,
+        "volume": 1,
+        "mute": false,
         "loop": false,
         "rate": 1,
         "detune": 0,
@@ -12,6 +12,50 @@
     },
     "town_gift_shop_close": {
         "key": "town_gift_shop_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "town_coffee_door_open": {
+        "key": "town_coffee_door_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "town_coffee_door_close": {
+        "key": "town_coffee_door_close",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "town_dance_club_open": {
+        "key": "town_dance_club_open",
+        "volume": 1,
+        "mute": false,
+        "loop": false,
+        "rate": 1,
+        "detune": 0,
+        "seek": 0,
+        "delay": 0,
+        "source": null
+    },
+    "town_dance_club_close": {
+        "key": "town_dance_club_close",
         "volume": 1,
         "mute": false,
         "loop": false,

@@ -18,4 +18,8 @@ export class BaseScene extends Phaser.Scene {
     getAudioManager() {
         return this.game.registry.get("audioManager");
     }
+
+    stopAllMusic() {
+        this.getAudioManager().stopAllMusic();
+    }
 }

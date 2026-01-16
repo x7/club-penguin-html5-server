@@ -304,8 +304,7 @@ export class TownScene extends BaseScene {
 			// retard didnt give me the animation for opening this door we will make it ourself
 			const doorOpeningSpeed = 2;
 			const stopY = 180;
-			this.sound.play("town_dance_club_open");
-			// town_dance_club_front_stars.play("night_club_stars_animation");
+			this.audioManager.play("town_dance_club_open");
 
 			this.open_dance_club_door_timer = this.time.addEvent({
 				delay: 10,
@@ -329,7 +328,7 @@ export class TownScene extends BaseScene {
 
 		town_dance_club_door_closed_trigger.on("pointerout", () => {
 			town_dance_club_door_closed.setY(227);
-			this.sound.play("town_dance_club_close");
+			this.audioManager.play("town_dance_club_close");
 		});
 		// All interactive events ends here
 
@@ -341,6 +340,7 @@ export class TownScene extends BaseScene {
 		// new RoomMouseMovemenet(this, this.a);
 		// new RoomKeyPressed(this, this.a)
 
+		this.events.once("shutdown", this.shutdown, this);
 		this.events.emit("scene-awake");
 	}
 
@@ -348,4 +348,8 @@ export class TownScene extends BaseScene {
 	// 	this.movementManager.update();
 	// 	this.snowballManager.update();
 	// }
+
+	shutdown() {
+		super.stopAllMusic();
+	}
 }
