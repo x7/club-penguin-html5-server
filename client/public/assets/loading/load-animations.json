@@ -1524,18 +1524,6 @@
                     "frame": "load-screen/cartsurfer-flipcartfront0052",
                     "duration": 0,
                     "keyframe": false
-                },
-                {
-                    "key": "load",
-                    "frame": "load-screen/cartsurfer-flipcartfront0053",
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "load",
-                    "frame": "load-screen/cartsurfer-flipcartfront0054",
-                    "duration": 0,
-                    "keyframe": false
                 }
             ],
             "frameRate": 24,
