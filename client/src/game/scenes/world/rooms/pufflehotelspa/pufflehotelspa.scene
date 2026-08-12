@@ -1,0 +1,584 @@
+{
+    "id": "a7761943-d312-49ad-b48b-fde0030be77e",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PuffleHotelSpaScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c3152205-2c86-437e-9126-00a4805e9a05",
+            "label": "puffle_hotel_spa_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_main_background.png"
+            },
+            "x": 807,
+            "y": 500
+        },
+        {
+            "type": "Image",
+            "id": "3bab2cf0-b9b6-44f9-92c3-895b224ca30a",
+            "label": "puffle_hotel_spa_middle_top_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_middle_top_wall.png"
+            },
+            "x": 931,
+            "y": 639
+        },
+        {
+            "type": "Sprite",
+            "id": "3c35a4d1-3ff4-4083-b2c5-1680cc8b894c",
+            "label": "puffle_hotel_spa_left_speaker0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_left_speaker0001.png"
+            },
+            "x": 240,
+            "y": 184,
+            "scaleX": 0.8742657513706324,
+            "scaleY": 0.9083009472471015
+        },
+        {
+            "type": "Sprite",
+            "id": "ede2d673-1aac-4675-a66d-914332b29202",
+            "label": "puffle_hotel_spa_left_speaker0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_left_speaker0001.png"
+            },
+            "x": 616,
+            "y": 184,
+            "scaleX": 0.8742657513706324,
+            "scaleY": 0.9083009472471015,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "7f00bf43-63ba-404f-9f3c-665f7af7fee7",
+            "label": "puffle_hotel_spa_purple_jar_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_purple_jar.png"
+            },
+            "x": 1217,
+            "y": 283
+        },
+        {
+            "type": "Image",
+            "id": "e0d02a8a-42bb-4ce0-be86-b0ea5f9fe367",
+            "label": "puffle_hotel_spa_blue_jar_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_blue_jar.png"
+            },
+            "x": 1333,
+            "y": 275
+        },
+        {
+            "type": "Image",
+            "id": "41637327-bce8-42f6-95da-a9998f6b1488",
+            "label": "puffle_hotel_spa_mirror_lghts_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_mirror_lghts.png"
+            },
+            "x": 1121,
+            "y": 204
+        },
+        {
+            "type": "Image",
+            "id": "82d67b08-78c8-4c8d-9da9-73c065b5e852",
+            "label": "puffle_hotel_spa_mirror_lghts_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_mirror_lghts.png"
+            },
+            "x": 1280,
+            "y": 204
+        },
+        {
+            "type": "Image",
+            "id": "7546caab-f55c-4acf-a614-5baf07dc02d4",
+            "label": "puffle_hotel_spa_hair_dresser_chair_one",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_hair_dresser_chair.png"
+            },
+            "x": 1118,
+            "y": 372
+        },
+        {
+            "type": "Image",
+            "id": "7753ea87-8b44-43c9-933b-6114dbca38bb",
+            "label": "puffle_hotel_spa_hair_dresser_chair_two",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_hair_dresser_chair_right.png"
+            },
+            "x": 1303,
+            "y": 375
+        },
+        {
+            "type": "Image",
+            "id": "9e9b39c0-9b87-4f35-9bbc-2002c400ff6f",
+            "label": "puffle_hotel_spa_bouncy_ball_exercise_two",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bouncy_ball_exercise.png"
+            },
+            "x": 417,
+            "y": 591
+        },
+        {
+            "type": "Image",
+            "id": "f70ef873-e416-4fa5-bbcb-797e2796d9cd",
+            "label": "puffle_hotel_spa_bouncy_ball_exercise_three",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bouncy_ball_exercise.png"
+            },
+            "x": 588,
+            "y": 510
+        },
+        {
+            "type": "Image",
+            "id": "cccf6ede-ceda-4ff3-9796-461822118da1",
+            "label": "puffle_hotel_spa_bouncy_ball_exercise_one",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bouncy_ball_exercise.png"
+            },
+            "x": 314,
+            "y": 507
+        },
+        {
+            "type": "Image",
+            "id": "816aa124-f76d-4d35-b69f-23839c811091",
+            "label": "puffle_hotel_spa_small_water_bottle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_small_water_bottle.png"
+            },
+            "x": 405,
+            "y": 500
+        },
+        {
+            "type": "Image",
+            "id": "832c191a-716c-4f6d-954d-513d89f4eb1a",
+            "label": "puffle_hotel_spa_white_drink_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_white_drink.png"
+            },
+            "x": 266,
+            "y": 355
+        },
+        {
+            "type": "Image",
+            "id": "70b60039-2af8-412a-86cc-6bf0e0c9b470",
+            "label": "puffle_hotel_spa_other_drink_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_other_drink.png"
+            },
+            "x": 311,
+            "y": 371
+        },
+        {
+            "type": "Image",
+            "id": "778f8dee-627a-4663-bdf8-820054a12b43",
+            "label": "puffle_hotel_spa_small_weights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_small_weights.png"
+            },
+            "x": 349,
+            "y": 377,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "8082917c-be8d-4ed4-b2ac-5af8e9d0348a",
+            "label": "puffle_hotel_spa_bouncy_ball_exercise_four",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bouncy_ball_exercise.png"
+            },
+            "x": 467,
+            "y": 374
+        },
+        {
+            "type": "Sprite",
+            "id": "a0150faf-41dc-4deb-b2dd-7468d921157a",
+            "label": "puffle_hotel_spa_golden_elevator_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_golden_elevator_door0001.png"
+            },
+            "x": 82,
+            "y": 315
+        },
+        {
+            "type": "Image",
+            "id": "615f19d5-9769-45da-8314-4f8049d7465e",
+            "label": "puffle_hotel_spa_golden_elevator_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_golden_elevator_overlay.png"
+            },
+            "x": 74,
+            "y": 328
+        },
+        {
+            "type": "Image",
+            "id": "1d0b4d0a-b118-4185-8305-eaaccf39649c",
+            "label": "puffle_hotel_spa_top_of_golden_elevator_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_top_of_golden_elevator.png"
+            },
+            "x": 48,
+            "y": 96
+        },
+        {
+            "type": "Image",
+            "id": "958eea07-9bbb-48cf-bce3-6a73b2932200",
+            "label": "puffle_hotel_spa_red_weights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_red_weights.png"
+            },
+            "x": 834,
+            "y": 857
+        },
+        {
+            "type": "Image",
+            "id": "1cf10e2e-b976-4b70-ac67-3d3cbbabef79",
+            "label": "puffle_hotel_spa_red_weights_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_red_weights.png"
+            },
+            "x": 870,
+            "y": 887
+        },
+        {
+            "type": "Image",
+            "id": "724187b9-06e4-4f73-8e30-d1e65c808511",
+            "label": "puffle_hotel_spa_small_green_chair_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_small_green_chair_top.png"
+            },
+            "x": 804,
+            "y": 393
+        },
+        {
+            "type": "Image",
+            "id": "42603531-abd6-47a8-a7c5-a81dc0cb80e7",
+            "label": "puffle_hotel_spa_top_wall_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_top_wall_2.png"
+            },
+            "x": 704,
+            "y": 252
+        },
+        {
+            "type": "Image",
+            "id": "169a6d3e-fbee-412e-ab45-e2c4918e6f7e",
+            "label": "puffle_hotel_spa_top_wall_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_top_wall_1.png"
+            },
+            "x": 904,
+            "y": 252
+        },
+        {
+            "type": "Image",
+            "id": "a30fe6a6-98a5-4fce-9dad-dc6e825af201",
+            "label": "puffle_hotel_spa_hair_on_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_hair_on_floor.png"
+            },
+            "x": 1226,
+            "y": 463
+        },
+        {
+            "type": "Image",
+            "id": "be5081f3-62ec-4ef7-ab02-b38f0ef8382c",
+            "label": "puffle_hotel_spa_blue_hairdresser_chair_one",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_blue_hairdresser_chair.png"
+            },
+            "x": 1077,
+            "y": 702,
+            "scaleX": 1.1444150530865131,
+            "scaleY": 1.1570830199570095
+        },
+        {
+            "type": "Image",
+            "id": "ffb714b1-f637-4600-8947-c9f96391a985",
+            "label": "puffle_hotel_spa_iron_bar_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_iron_bar.png"
+            },
+            "x": 317,
+            "y": 666
+        },
+        {
+            "type": "Image",
+            "id": "4170a71d-883a-4cfc-814c-d00c27ec6e55",
+            "label": "puffle_hotel_spa_right_middle_window_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_right_middle_window.png"
+            },
+            "x": 1418,
+            "y": 297
+        },
+        {
+            "type": "Image",
+            "id": "1d210a9c-3823-45bb-b4a2-e26c25d59e6d",
+            "label": "puffle_hotel_spa_smaller_weight_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_smaller_weight.png"
+            },
+            "x": 29,
+            "y": 671,
+            "scaleX": 0.7135240537234349,
+            "scaleY": 0.7904441158620445,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "0de3569d-7791-4974-8cef-f1bb78506d97",
+            "label": "puffle_hotel_spa_bottom_right_supplies_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bottom_right_supplies.png"
+            },
+            "x": 1573,
+            "y": 725
+        },
+        {
+            "type": "Image",
+            "id": "d1de2413-63f9-4d5d-bbb6-7f4e96233a56",
+            "label": "puffle_hotel_spa_punching_bag_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_punching_bag.png"
+            },
+            "x": 20,
+            "y": 703
+        },
+        {
+            "type": "Image",
+            "id": "47af5049-9c57-43fb-b62a-4398d5564e33",
+            "label": "puffle_hotel_spa_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bottom.png"
+            },
+            "x": 875,
+            "y": 885
+        },
+        {
+            "type": "Image",
+            "id": "7a8fc42c-3b40-45a5-9a93-334b1d59b97f",
+            "label": "puffle_hotel_spa_treadmill_floor_one",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_treadmill_floor0001.png"
+            },
+            "x": 271,
+            "y": 756
+        },
+        {
+            "type": "Image",
+            "id": "af53c272-e374-4e54-ba16-ee4ce8297658",
+            "label": "puffle_hotel_spa_treadmill_one",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_treadmill.png"
+            },
+            "x": 257,
+            "y": 705
+        },
+        {
+            "type": "Image",
+            "id": "3d841a36-91bf-4143-9659-d2567a3ed455",
+            "label": "puffle_hotel_spa_white_drink_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_white_drink.png"
+            },
+            "x": 341,
+            "y": 803
+        },
+        {
+            "type": "Image",
+            "id": "eb036c58-c1e1-4f45-a189-44da08ba8a4d",
+            "label": "puffle_hotel_spa_treadmill_floor_two",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_treadmill_floor0001.png"
+            },
+            "x": 528,
+            "y": 755
+        },
+        {
+            "type": "Image",
+            "id": "57de4be4-6dd5-4114-be60-eaacd4b3c3e3",
+            "label": "puffle_hotel_spa_treadmill_two",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_treadmill.png"
+            },
+            "x": 513,
+            "y": 703
+        },
+        {
+            "type": "Image",
+            "id": "5249822c-b880-4057-aff3-6a58b7e73d8f",
+            "label": "puffle_hotel_spa_bubbles_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_bubbles.png"
+            },
+            "x": 1260,
+            "y": 665
+        },
+        {
+            "type": "Image",
+            "id": "1363d136-760d-4243-b3ec-9d3c0a9fb0ee",
+            "label": "puffle_hotel_spa_blue_hairdresser_chair_two",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_right_blue_hairdressr.png"
+            },
+            "x": 1357,
+            "y": 705,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "ab0b818a-1dd6-4116-a9d5-97801b5560f5",
+            "label": "puffle_hotel_spa_blue_hairdresser_right_arm0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_blue_hairdresser_right_arm0001.png"
+            },
+            "x": 1432,
+            "y": 744
+        },
+        {
+            "type": "Image",
+            "id": "d2ad0702-72ea-46de-be29-a318462f7f67",
+            "label": "puffle_hotel_spa_smaller_weight_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelspa",
+                "frame": "puffle_hotel_spa_smaller_weight.png"
+            },
+            "x": 721,
+            "y": 903,
+            "scaleX": 0.5809608659715038,
+            "scaleY": 0.5513425451851808,
+            "angle": 15
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "849c479c-d9a6-468e-92d2-6e36971e8d14",
+            "label": "puffle_hotel_spa_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "puffle_hotel_spa_walking_trigger"
+            },
+            "x": 757,
+            "y": 471,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "53f5bc2a-8564-4cbd-a97b-e14bf2637af6",
+            "label": "puffle_hotel_spa_golden_elevator_trigger",
+            "scope": "METHOD",
+            "x": 103,
+            "y": 316,
+            "width": 128,
+            "height": 128,
+            "scaleY": 2.151578807117364,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

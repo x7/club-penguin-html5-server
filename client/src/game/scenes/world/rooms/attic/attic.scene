@@ -1,0 +1,527 @@
+{
+    "id": "4bf157c1-3b91-4760-ac47-ca5d7f39ce8c",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "AtticScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "98b87205-000d-4453-8d4f-f48f76c51683",
+            "label": "attic_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_background.png"
+            },
+            "x": -110,
+            "y": -15,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "fb75559a-9148-4452-a48d-a76aa145ab46",
+            "label": "attic_wood_railing_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_wood_railing_left.png"
+            },
+            "x": 741,
+            "y": 507
+        },
+        {
+            "type": "Image",
+            "id": "4c13f3ad-6199-46a6-a7d1-ecd1136838a5",
+            "label": "attic_wood_railing_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_wood_railing_right.png"
+            },
+            "x": 865,
+            "y": 590
+        },
+        {
+            "type": "Image",
+            "id": "43ffb51b-b17a-4514-a06e-b1a6b1433de2",
+            "label": "attic_purple_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_purple_seat.png"
+            },
+            "x": 309,
+            "y": 463,
+            "scaleX": 0.8493924183769546,
+            "scaleY": 0.8574765476149974
+        },
+        {
+            "type": "Image",
+            "id": "f72ab57e-c5c4-4752-9da8-125e4cf60bdd",
+            "label": "attic_pizza_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_pizza_box.png"
+            },
+            "x": 214,
+            "y": 541
+        },
+        {
+            "type": "Image",
+            "id": "715a0951-eedf-4d70-a1d4-133df435dc8d",
+            "label": "attic_left_side_green_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_left_side_green_chair.png"
+            },
+            "x": 118,
+            "y": 530
+        },
+        {
+            "type": "Image",
+            "id": "5c6aa235-e27c-405f-a9c0-6e47a03f892f",
+            "label": "attic_find_four_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_table.png"
+            },
+            "x": 247,
+            "y": 628
+        },
+        {
+            "type": "Image",
+            "id": "a4954073-1f85-4dd2-843c-3279d632316a",
+            "label": "attic_find_four_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_table.png"
+            },
+            "x": 366,
+            "y": 713
+        },
+        {
+            "type": "Image",
+            "id": "f7bc08b8-8452-4618-a1ca-408325713544",
+            "label": "attic_find_four_table_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_table.png"
+            },
+            "x": 553,
+            "y": 713
+        },
+        {
+            "type": "Image",
+            "id": "c1105824-305a-4c27-98ff-874bce565877",
+            "label": "attic_find_four_table_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_table.png"
+            },
+            "x": 679,
+            "y": 650
+        },
+        {
+            "type": "Image",
+            "id": "809fe38d-f3a1-4560-94a8-f02d73cccd0d",
+            "label": "attic_find_four_gamme_four",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0001.png"
+            },
+            "x": 676,
+            "y": 607
+        },
+        {
+            "type": "Image",
+            "id": "83b4e5cc-e504-408b-9d98-149ed6119674",
+            "label": "attic_find_four_gamme_three",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0001.png"
+            },
+            "x": 549,
+            "y": 669
+        },
+        {
+            "type": "Image",
+            "id": "f92bf67d-fa67-4487-8a5e-cf4d479d032d",
+            "label": "attic_find_four_gamme_two",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0001.png"
+            },
+            "x": 371,
+            "y": 670,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "313a3b03-9c56-44e6-b976-16d002243dbd",
+            "label": "attic_find_four_gamme_one",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0001.png"
+            },
+            "x": 253,
+            "y": 583,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "4fa8319e-5425-44c9-87c2-ed40840ca9ee",
+            "label": "attic_find_four_gamme_four_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0002.png"
+            },
+            "x": 676,
+            "y": 607,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "516a2dd7-5c6a-4cfc-862d-3f13ce722625",
+            "label": "attic_find_four_gamme_three_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0002.png"
+            },
+            "x": 549,
+            "y": 669,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7b0c18bc-b68a-4c6a-88ea-0d234fdea4f9",
+            "label": "attic_find_four_gamme_two_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0002.png"
+            },
+            "x": 371,
+            "y": 670,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "733c7a1c-e30d-4497-a8a5-0c3b96f680f5",
+            "label": "attic_find_four_gamme_one_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_find_four_gamme0002.png"
+            },
+            "x": 253,
+            "y": 583,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "78f90ad4-8a19-43b9-a022-172474ea6a83",
+            "label": "attic_left_side_green_chair_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_left_side_green_chair_arm.png"
+            },
+            "x": 68,
+            "y": 584
+        },
+        {
+            "type": "Image",
+            "id": "f60cbdc3-a604-4292-b611-6ecc69fbde87",
+            "label": "attic_left_side_small_green_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_left_side_small_green_table.png"
+            },
+            "x": 27,
+            "y": 614
+        },
+        {
+            "type": "Image",
+            "id": "17546f49-f8e9-4ad8-9d6f-c147cc29b230",
+            "label": "attic_left_side_lamp_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_left_side_lamp.png"
+            },
+            "x": 24,
+            "y": 538
+        },
+        {
+            "type": "Image",
+            "id": "61a715ee-e6bb-4f83-83fe-b304b238c4ee",
+            "label": "attic_red_carpet_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_red_carpet_top.png"
+            },
+            "x": 122,
+            "y": 721
+        },
+        {
+            "type": "Image",
+            "id": "60b2b15a-7228-417f-b1d8-c8034fb86894",
+            "label": "attic_red_carpet_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_red_carpet_bottom.png"
+            },
+            "x": 214,
+            "y": 799
+        },
+        {
+            "type": "Image",
+            "id": "a4bcc5c6-75b1-4e03-bab9-6cf2621ca326",
+            "label": "attic_bottom_left_rubbish_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_bottom_left_rubbish.png"
+            },
+            "x": 139,
+            "y": 772
+        },
+        {
+            "type": "Image",
+            "id": "0f1d6579-aa52-46ff-a299-e22b189cd2f4",
+            "label": "attic_bottom_middle_couch_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_bottom_middle_couch_top.png"
+            },
+            "x": 716,
+            "y": 770
+        },
+        {
+            "type": "Image",
+            "id": "00d70a85-9dd6-4d99-8bbb-608b4e04b304",
+            "label": "attic_bottom_middle_couch_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_bottom_middle_couch_bottom.png"
+            },
+            "x": 726,
+            "y": 837
+        },
+        {
+            "type": "Image",
+            "id": "7e598367-c8e2-40c9-9cdb-2e740b533afe",
+            "label": "attic_three_pizza_boxes_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_three_pizza_boxes.png"
+            },
+            "x": 509,
+            "y": 904
+        },
+        {
+            "type": "Image",
+            "id": "eebaeabc-a12b-437e-93cf-eee4f1e82643",
+            "label": "attic_red_carpet_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_red_carpet_right_side.png"
+            },
+            "x": 1138,
+            "y": 654
+        },
+        {
+            "type": "Image",
+            "id": "ab96a281-79bf-40df-92e3-602f4db1d416",
+            "label": "attic_small_puffle_stone_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_small_puffle_stone.png"
+            },
+            "x": 1294,
+            "y": 497
+        },
+        {
+            "type": "Image",
+            "id": "96130745-2397-4fc0-a3dc-4bb247da6622",
+            "label": "attic_small_golden_puffle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_small_golden_puffle.png"
+            },
+            "x": 1356,
+            "y": 538
+        },
+        {
+            "type": "Image",
+            "id": "c16d7151-4b53-45e3-b78f-c2a940e99259",
+            "label": "attic_purple_seat_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_purple_seat.png"
+            },
+            "x": 1048,
+            "y": 744
+        },
+        {
+            "type": "Sprite",
+            "id": "931c6385-2a8e-4519-8df9-fffcf774ab37",
+            "label": "attic_rocking_unknown_animial_chair0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_rocking_unknown_animial_chair0001.png"
+            },
+            "x": 1425,
+            "y": 548
+        },
+        {
+            "type": "Image",
+            "id": "5ee258b8-320f-4cf6-87ca-3ce3bec679e6",
+            "label": "attic_table_with_map_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_table_with_map.png"
+            },
+            "x": 1269,
+            "y": 683
+        },
+        {
+            "type": "Image",
+            "id": "e59aadce-ce13-4550-8291-8fc8960e721e",
+            "label": "attic_small_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_small_chair.png"
+            },
+            "x": 1168,
+            "y": 828
+        },
+        {
+            "type": "Image",
+            "id": "54af389f-c9fe-4a27-9be6-3224a5b36951",
+            "label": "attic_purple_portal_box0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_purple_portal_box0001.png"
+            },
+            "x": 968,
+            "y": 816
+        },
+        {
+            "type": "Image",
+            "id": "6b3c8519-3274-4fd9-892d-22c93f7f0038",
+            "label": "attic_purple_portal_box0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_purple_portal_box0002.png"
+            },
+            "x": 968,
+            "y": 816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "357c6df4-8e64-46c0-8faa-7ecf436b0b9a",
+            "label": "attic_green_number_ten_ocean_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_green_number_ten_ocean.png"
+            },
+            "x": 842,
+            "y": 829
+        },
+        {
+            "type": "Image",
+            "id": "a3aae16a-a233-459b-bc94-752418b86415",
+            "label": "attic_bottom_right_rubbish_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_bottom_right_rubbish.png"
+            },
+            "x": 1188,
+            "y": 859
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "422fdbbf-b0c7-432e-b348-a06e4466449a",
+            "label": "attic_ski_lodge_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_ski_lodge_trigger.png"
+            },
+            "x": 1220,
+            "y": 452,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body.width": 258,
+            "body.height": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "823f75df-776c-4220-9d13-132488084eda",
+            "label": "attic_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "attic",
+                "frame": "attic_walking_trigger.png"
+            },
+            "x": 759,
+            "y": 482,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body.width": 32,
+            "body.height": 32
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

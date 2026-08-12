@@ -1,0 +1,1853 @@
+{
+    "id": "b2b58f75-e98c-4dfb-ae4e-6df7bb5288a5",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MapScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "60e24377-aa94-486f-bfec-7a64eecf1188",
+            "label": "map_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_main_background.png"
+            },
+            "x": -5,
+            "y": -2,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9791972839735081,
+            "scaleY": 0.9658003732399374
+        },
+        {
+            "type": "Image",
+            "id": "6b7446f8-406f-4adb-993d-f0495954a3d4",
+            "label": "map_outer_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_outer_overlay.png"
+            },
+            "x": 762,
+            "y": 484,
+            "scaleX": 1.011144287040757,
+            "scaleY": 1.0090434040935645
+        },
+        {
+            "type": "Image",
+            "id": "37e1b76f-bb1e-4e14-aad0-f4b25728f407",
+            "label": "map_inner_layer_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_inner_layer.png"
+            },
+            "x": 766,
+            "y": 579,
+            "scaleX": 0.9813211270272462,
+            "scaleY": 0.9565581376920999
+        },
+        {
+            "type": "Image",
+            "id": "6a05908d-ec81-484d-adee-556ec08c2fdb",
+            "label": "map_above_town_snow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_above_town_snow.png"
+            },
+            "x": 570,
+            "y": 527,
+            "scaleX": 0.9587914757471104,
+            "scaleY": 0.955167833714723
+        },
+        {
+            "type": "Image",
+            "id": "1bec8e1c-6c52-45ed-adc1-ef926d2334e5",
+            "label": "map_snow_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_snow_1.png"
+            },
+            "x": 507,
+            "y": 434,
+            "scaleX": 1.2737493159753857,
+            "scaleY": 1.0921153107181365
+        },
+        {
+            "type": "Image",
+            "id": "6a102656-86c6-48f7-b596-8c74024d3ef3",
+            "label": "map_soccer_stadium_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_soccer_stadium_location.png"
+            },
+            "x": 663,
+            "y": 401,
+            "scaleX": 1.0550490399372543,
+            "scaleY": 0.9814307080535403
+        },
+        {
+            "type": "Image",
+            "id": "745e2035-e68e-48e7-8443-afc0c233b80b",
+            "label": "map_own_igloo_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_own_igloo_location.png"
+            },
+            "x": 739,
+            "y": 657,
+            "scaleX": 1.3242539776405662,
+            "scaleY": 1.1792644156528431
+        },
+        {
+            "type": "Image",
+            "id": "41c709cf-b1de-4cd6-a1d1-cc6d046d77db",
+            "label": "map_ice_berg_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ice_berg_location.png"
+            },
+            "x": 1421,
+            "y": 424,
+            "scaleX": 0.9644740224602029,
+            "scaleY": 0.8142159665430254
+        },
+        {
+            "type": "Image",
+            "id": "7fff843c-6d4f-4738-b18d-de0f6b5df9f0",
+            "label": "map_all_igloos_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_all_igloos_location.png"
+            },
+            "x": 616,
+            "y": 733,
+            "scaleX": 0.9119114799315041,
+            "scaleY": 0.9013430546343791
+        },
+        {
+            "type": "Image",
+            "id": "53ab3ad5-5065-4ac9-b90d-2795b315a045",
+            "label": "map_docks_locationo_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_docks_locationo.png"
+            },
+            "x": 312,
+            "y": 787,
+            "scaleX": 1.0395459808273395,
+            "scaleY": 1.0493906533220425
+        },
+        {
+            "type": "Image",
+            "id": "2023cb60-6d3a-4296-ab48-7420080b5af3",
+            "label": "map_cove_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_cove_location.png"
+            },
+            "x": 1405,
+            "y": 644,
+            "scaleX": 0.9277985707204581,
+            "scaleY": 1.0044877079848797
+        },
+        {
+            "type": "Image",
+            "id": "0e9a1661-7fbc-47b7-b80d-f4bc48a3e1d2",
+            "label": "map_forest_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_forest_location.png"
+            },
+            "x": 1173,
+            "y": 616,
+            "scaleX": 1.002255391850851,
+            "scaleY": 0.9577346356558257
+        },
+        {
+            "type": "Image",
+            "id": "b5d22def-23b0-4391-a522-d920e3769851",
+            "label": "map_skate_park_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_skate_park_location.png"
+            },
+            "x": 1370,
+            "y": 489,
+            "scaleX": 0.9763725513925188,
+            "scaleY": 1.0570701214487792
+        },
+        {
+            "type": "Image",
+            "id": "863e36fa-9cc2-4996-a3ef-d62ea7f282d0",
+            "label": "map_plaza_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_plaza_location.png"
+            },
+            "x": 984,
+            "y": 584,
+            "scaleX": 1.0053035371275016,
+            "scaleY": 0.9972310485490604,
+            "angle": 3
+        },
+        {
+            "type": "Image",
+            "id": "58e0f50c-65ec-4e11-9532-fe4465911caa",
+            "label": "map_puffle_park_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_puffle_park_location.png"
+            },
+            "x": 920,
+            "y": 463,
+            "scaleX": 0.8624450976759005,
+            "scaleY": 0.9966738343046978
+        },
+        {
+            "type": "Image",
+            "id": "78297354-5c6a-42dd-b8b0-7b0481a62333",
+            "label": "map_snow_forts_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_snow_forts_location.png"
+            },
+            "x": 773,
+            "y": 527,
+            "scaleX": 0.9633820260234063,
+            "scaleY": 1.0201452796681165
+        },
+        {
+            "type": "Image",
+            "id": "2bd1610b-331b-4efa-a44b-6c26930c6d7c",
+            "label": "map_soccer_stadium_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_soccer_stadium_location.png"
+            },
+            "x": 665,
+            "y": 398,
+            "scaleX": 1.0883525910299297,
+            "scaleY": 1.081628032418481,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a2977bda-b188-45a6-8b0d-ac751a826470",
+            "label": "map_mine_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_mine_location.png"
+            },
+            "x": 1172,
+            "y": 476,
+            "scaleX": 0.9293089009699141,
+            "scaleY": 0.967634195189301
+        },
+        {
+            "type": "Image",
+            "id": "6e71ec7b-5d12-4dbb-bf4e-7dd59cb70af1",
+            "label": "map_mine_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_mine_location.png"
+            },
+            "x": 1178,
+            "y": 474,
+            "scaleX": 0.9901817324203828,
+            "scaleY": 1.1026108629043316,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "879c850b-4753-40e2-a467-f11247a65e14",
+            "label": "map_snow_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_snow_2.png"
+            },
+            "x": 581,
+            "y": 472,
+            "scaleX": 0.978669646635061,
+            "scaleY": 0.9411657666359365
+        },
+        {
+            "type": "Image",
+            "id": "b0027d57-4225-45c8-9011-e7ea2f0b4f51",
+            "label": "map_ski_hill_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ski_hill_location.png"
+            },
+            "x": 324,
+            "y": 358,
+            "scaleX": 0.985158716152301,
+            "scaleY": 1.083710928731672
+        },
+        {
+            "type": "Image",
+            "id": "bd23429f-c25b-4857-965d-53fa9afa4a80",
+            "label": "map_ski_hill_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ski_hill_location_highlighted0001.png"
+            },
+            "x": 331,
+            "y": 352,
+            "scaleX": 0.9579198168814529,
+            "scaleY": 1.0866676492560146,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b6283109-e763-4924-8aba-7dc1656a140a",
+            "label": "map_beach_left_side_snow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_beach_left_side_snow.png"
+            },
+            "x": 161,
+            "y": 532,
+            "scaleX": 0.9340858193988333,
+            "scaleY": 0.9975337627328087
+        },
+        {
+            "type": "Image",
+            "id": "0d58925e-20a3-431c-8e4e-58a246520324",
+            "label": "map_light_house_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_light_house_location.png"
+            },
+            "x": 85,
+            "y": 606,
+            "scaleX": 1.0461672174069334,
+            "scaleY": 0.9415915228578962
+        },
+        {
+            "type": "Image",
+            "id": "276a53f4-0c3d-4195-b32e-62ad7d7b526c",
+            "label": "map_puffle_wild_location_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_puffle_wild_location.png"
+            },
+            "x": 529,
+            "y": 384,
+            "scaleX": 0.9127274554052986,
+            "scaleY": 1.0768075593716713
+        },
+        {
+            "type": "Image",
+            "id": "136876e3-7960-497e-a22e-50e38c3fbdfb",
+            "label": "map_town_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_town_location.png"
+            },
+            "x": 579,
+            "y": 567,
+            "scaleX": 0.9665154437006982,
+            "scaleY": 1.062785697595344
+        },
+        {
+            "type": "Image",
+            "id": "572072fd-013e-4eca-b307-1be9af6e4e9c",
+            "label": "map_ski_hill_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ski_hill_location.png"
+            },
+            "x": 327,
+            "y": 350,
+            "scaleX": 1.0248176265186615,
+            "scaleY": 1.177351938751953,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bf753ad5-99e9-476d-95dc-def7040c27c5",
+            "label": "map_ski_lodge_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ski_lodge_location.png"
+            },
+            "x": 456,
+            "y": 472,
+            "scaleX": 1.1964169728717702,
+            "scaleY": 1.2055165803441235
+        },
+        {
+            "type": "Image",
+            "id": "4917d53b-3597-4d76-83fd-993a87037bb6",
+            "label": "map_dojo_location_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_dojo_location.png"
+            },
+            "x": 917,
+            "y": 280,
+            "scaleX": 0.8798872093633356,
+            "scaleY": 0.906587543838325
+        },
+        {
+            "type": "Image",
+            "id": "e4b371b3-dbb5-4843-b3e9-2295ad8e55e4",
+            "label": "map_small_light_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_small_light_overlay.png"
+            },
+            "x": 762,
+            "y": 466,
+            "scaleX": 1.1191142188617338,
+            "scaleY": 1.1194007799334584,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7217f876-f75f-4eef-8dea-e5e6494f3bcc",
+            "label": "map_own_igloo_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_own_igloo_location_highlighted0001.png"
+            },
+            "x": 749,
+            "y": 658,
+            "scaleX": 0.9850422974066269,
+            "scaleY": 0.9130120559987681,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2d4488e5-699c-4d6a-9f34-f53cc2904af4",
+            "label": "map_all_igloos_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_all_igloos_location_highlighted0001.png"
+            },
+            "x": 617,
+            "y": 730,
+            "scaleX": 0.8683723136682474,
+            "scaleY": 0.8840925664660955,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5a3272d4-bb7b-468b-8963-740e6aff4e7c",
+            "label": "map_docks_locationo_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_docks_locationo_highlighted0001.png"
+            },
+            "x": 310,
+            "y": 787,
+            "scaleX": 1.0469506168453089,
+            "scaleY": 0.9670694196927437,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b0cfffec-60b7-47b8-8a5b-827d95ed44a2",
+            "label": "map_cove_location_highlighted_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_cove_location_highlighted.png"
+            },
+            "x": 1405,
+            "y": 646,
+            "scaleX": 0.8703270594194163,
+            "scaleY": 0.8888770085309804,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "059c788e-fc9c-4302-8065-753828789499",
+            "label": "map_forest_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_forest_location_highlighted0001.png"
+            },
+            "x": 1172,
+            "y": 616,
+            "scaleX": 0.9687486617351719,
+            "scaleY": 0.8605967904720493,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bc46d082-8f6a-4848-925d-cf4a10867d7a",
+            "label": "map_pet_extra_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pet_extra_background.png"
+            },
+            "x": 668,
+            "y": 86,
+            "scaleX": 0.8421067045197226,
+            "scaleY": 0.83243473082154,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6e73eafd-5d8e-44f6-816d-8223532e4947",
+            "label": "map_icons_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icons_background.png"
+            },
+            "x": 249,
+            "y": 92,
+            "scaleX": 0.717880462652352,
+            "scaleY": 0.7223453515448386
+        },
+        {
+            "type": "Image",
+            "id": "d2784ece-f706-46a8-afaa-4e27b0df0861",
+            "label": "map_icon_places0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icon_places0001.png"
+            },
+            "x": 66,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816
+        },
+        {
+            "type": "Image",
+            "id": "9d53a4f6-d7f2-44da-bfc4-2797b676e39b",
+            "label": "map_icon_games",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icon_games0001.png"
+            },
+            "x": 184,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816
+        },
+        {
+            "type": "Image",
+            "id": "2c55f3e9-26bf-4039-864b-2c5a7d559938",
+            "label": "map_icon_shops",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_icon0001.png"
+            },
+            "x": 302,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816
+        },
+        {
+            "type": "Image",
+            "id": "d1033c43-b3a0-40bf-b1b8-5648c82e2f08",
+            "label": "map_icon_pets",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_icon0001.png"
+            },
+            "x": 422,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816
+        },
+        {
+            "type": "Image",
+            "id": "200a9c8e-d1b8-4512-abc5-2d00fa5ff527",
+            "label": "map_icon_places0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icon_places0002.png"
+            },
+            "x": 66,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bded9484-b5a0-4a25-8c3f-70df340959e4",
+            "label": "map_icon_games0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icon_games0002.png"
+            },
+            "x": 184,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a7f5ae05-1765-49b9-88b1-957682653ae8",
+            "label": "map_shops_icon0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_icon0002.png"
+            },
+            "x": 302,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8f81a45d-7f0d-40aa-8950-bd4156f160b9",
+            "label": "map_pets_icon0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_icon0002.png"
+            },
+            "x": 422,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2c1874ff-33ad-429c-86bb-1e1041590804",
+            "label": "map_skate_park_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_skate_park_location_highlighted0001.png"
+            },
+            "x": 1369,
+            "y": 488,
+            "scaleX": 0.9664342203585101,
+            "scaleY": 1.019864906512589,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d79148c6-49db-4463-aee4-51d8431e0593",
+            "label": "map_plaza_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_plaza_location_highlighted0001.png"
+            },
+            "x": 985,
+            "y": 584,
+            "scaleX": 1.0212354632786298,
+            "scaleY": 1.0235643845457691,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "264003f0-7c6a-4948-996d-bc10f5e3b408",
+            "label": "map_puffle_park_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_puffle_park_location_highlighted0001.png"
+            },
+            "x": 920,
+            "y": 462,
+            "scaleX": 0.9768461589757744,
+            "scaleY": 1.1460341802484506,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "44f5791b-08d2-4ffa-9000-82fce160c1e8",
+            "label": "map_snow_forts_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_snow_forts_location_highlighted0001.png"
+            },
+            "x": 772,
+            "y": 526,
+            "scaleX": 1.0419532640948037,
+            "scaleY": 1.0186535093835423,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "36a32548-ead2-4279-9fc6-7e228aa0a551",
+            "label": "map_mine_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_mine_location_highlighted0001.png"
+            },
+            "x": 1169,
+            "y": 474,
+            "scaleX": 0.8995387999035417,
+            "scaleY": 0.9385533683643583,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b3630943-be66-4fe4-b040-b6519839dde0",
+            "label": "map_soccer_stadium_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_soccer_stadium_location_highlighted0001.png"
+            },
+            "x": 664,
+            "y": 401,
+            "scaleX": 0.9841291929192708,
+            "scaleY": 0.853090296000665,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e1014554-2896-4d91-85d8-d85e342d3a87",
+            "label": "map_exit_button0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_exit_button0001.png"
+            },
+            "x": 1483,
+            "y": 44,
+            "scaleX": 0.8708144524318399,
+            "scaleY": 0.8870811386825845
+        },
+        {
+            "type": "Image",
+            "id": "6d6019f6-02ab-48be-8f34-0a7d812b5262",
+            "label": "map_exit_button0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_exit_button0002.png"
+            },
+            "x": 1483,
+            "y": 44,
+            "scaleX": 0.8708144524318399,
+            "scaleY": 0.8870811386825845,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6b91c1e1-1e1d-4aa5-8c1f-d03dfaafdc78",
+            "label": "map_town_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_town_location_highlighted0001.png"
+            },
+            "x": 579,
+            "y": 564,
+            "scaleX": 0.985285515880733,
+            "scaleY": 1.1318679648973933,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "07e44333-ef82-4409-af8f-851ec3be11dc",
+            "label": "map_ski_lodge_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ski_lodge_location_highlighted0001.png"
+            },
+            "x": 452,
+            "y": 470,
+            "scaleX": 1.057003688455064,
+            "scaleY": 1.201057851256463,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "67296d16-c3c8-4000-9fa0-03f017db230a",
+            "label": "map_puffle_wild_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_puffle_wild_location_highlighted0001.png"
+            },
+            "x": 531,
+            "y": 382,
+            "scaleX": 0.9705330978300188,
+            "scaleY": 1.1807689930511711,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ad2de770-3bb3-4c9d-93cb-7d324b5a90a0",
+            "label": "map_light_house_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_light_house_location_highlighted0001.png"
+            },
+            "x": 85,
+            "y": 604,
+            "scaleX": 0.9748736041393414,
+            "scaleY": 0.916810657578877,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9917cc8b-f436-4b0c-b48e-2cae9da1b3ea",
+            "label": "map_icon_places0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icon_places0004.png"
+            },
+            "x": 66,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bd99e236-5008-4085-a21e-b3b9c2eb0e13",
+            "label": "map_icon_games0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_icon_games0004.png"
+            },
+            "x": 184,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b1ef55b8-442a-4212-9baa-c111db8ea9b3",
+            "label": "map_pets_icon0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_icon0004.png"
+            },
+            "x": 422,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "eb60e545-5643-4896-9c9a-6aa9b4188a69",
+            "label": "map_shops_icon0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_icon0004.png"
+            },
+            "x": 302,
+            "y": 72,
+            "scaleX": 0.9420092065941514,
+            "scaleY": 0.8928967974021816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6e69552e-b2b2-4494-b4fc-49128b3a1418",
+            "label": "map_games_sled_racing_icon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_sled_racing_icon0001.png"
+            },
+            "x": 310,
+            "y": 260,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d9bdc466-fb0a-4a3a-a75a-29d5e637dde4",
+            "label": "map_games_ice_fishing_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_ice_fishing_icon.png"
+            },
+            "x": 419,
+            "y": 422,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ebdd7164-118a-45de-9332-41f5961b0a6e",
+            "label": "map_games_jet_pack_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_jet_pack_icon0001.png"
+            },
+            "x": 155,
+            "y": 531,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4c4a8930-441b-47b9-a001-497ffd628a2c",
+            "label": "map_games_hydro_hopper_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_hydro_hopper_icon.png"
+            },
+            "x": 292,
+            "y": 751,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "da288cc7-c26f-4aef-9cb5-7f85b78aa7da",
+            "label": "map_games_smoothie_smash_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_smoothie_smash_icon.png"
+            },
+            "x": 431,
+            "y": 531,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c007482b-c933-49fd-b50b-02899b1735b4",
+            "label": "map_games_bean_counter_icon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_bean_counter_icon0001.png"
+            },
+            "x": 445,
+            "y": 638,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "96126406-e40f-4d39-a238-3c80a8d238f7",
+            "label": "map_games_astro_barrier_icon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_astro_barrier_icon0001.png"
+            },
+            "x": 551,
+            "y": 470,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "dc686210-302c-475c-935d-4d3582672aa4",
+            "label": "map_games_sound_studio_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_sound_studio_icon.png"
+            },
+            "x": 561,
+            "y": 630,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "23a84516-b45b-4ada-80f8-60e981f269f9",
+            "label": "map_games_dance_contest_icon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_dance_contest_icon0001.png"
+            },
+            "x": 675,
+            "y": 508,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e2daca3f-f86e-4096-97b8-3308a3479bcb",
+            "label": "map_games_puffle_launch_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_puffle_launch_icon.png"
+            },
+            "x": 842,
+            "y": 575,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "67febb0b-4fa8-49ec-b74a-5b873288c89f",
+            "label": "map_games_pufflescape_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_pufflescape_icon.png"
+            },
+            "x": 928,
+            "y": 653,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f883d206-9561-4127-84d3-a8d718b7af10",
+            "label": "map_games_pizzatron_3000_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_pizzatron_3000_icon.png"
+            },
+            "x": 1132,
+            "y": 567,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "84f8ea89-41bf-4c1a-8249-b15abf655e19",
+            "label": "map_games_cart_surfer_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_cart_surfer_icon.png"
+            },
+            "x": 1241,
+            "y": 428,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e275292d-179d-429a-bb7c-642920bbaebf",
+            "label": "map_games_puffle_rescue_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_puffle_rescue_icon.png"
+            },
+            "x": 1058,
+            "y": 419,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4fc23ffa-92e7-4139-b3d9-66255487cbfb",
+            "label": "map_games_puffle_roundup_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_puffle_roundup_icon.png"
+            },
+            "x": 1048,
+            "y": 657,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "eca71fa1-1d67-46ce-9789-95ef43469aa8",
+            "label": "map_games_aqua_grabber_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_aqua_grabber_icon.png"
+            },
+            "x": 1391,
+            "y": 402,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "90735f94-ea43-43bc-9622-1b99c2be9d8b",
+            "label": "map_games_wave_game_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_wave_game_icon.png"
+            },
+            "x": 1362,
+            "y": 657,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "36236013-29a2-4868-92df-759d14593965",
+            "label": "map_shops_sled_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_sled_icon.png"
+            },
+            "x": 340,
+            "y": 312,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5982f55a-9f8d-4da3-b403-c88a3578e079",
+            "label": "map_shops_fishing_rods_icons_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_fishing_rods_icons.png"
+            },
+            "x": 453,
+            "y": 457,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "734d9fde-a704-4d28-b67d-67a01126653c",
+            "label": "map_shops_hydro_hopper_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_hydro_hopper_icon.png"
+            },
+            "x": 338,
+            "y": 743,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "99800ca6-acba-4f15-9ec0-23ef6008fc26",
+            "label": "map_shops_clothes_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_clothes_icon.png"
+            },
+            "x": 652,
+            "y": 584,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "07494864-afff-41f7-bd4d-f938193d5914",
+            "label": "map_shops_music_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_music_icon.png"
+            },
+            "x": 180,
+            "y": 615,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bb27b85d-7a37-4afd-b839-7f547fa34d66",
+            "label": "map_shops_snow_and_sports_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_snow_and_sports_icon.png"
+            },
+            "x": 664,
+            "y": 420,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0183409a-32be-465e-a695-2996fd0e322f",
+            "label": "map_shops_costume_trunk_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_costume_trunk_icon.png"
+            },
+            "x": 1017,
+            "y": 647,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "aa90e5a4-e0f0-442d-b913-957931703d0d",
+            "label": "map_shops_pet_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_pet_icon.png"
+            },
+            "x": 884,
+            "y": 629,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3084426e-aaef-4071-8ebe-c44efd38ae65",
+            "label": "map_shops_wave_boards_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_wave_boards_icon.png"
+            },
+            "x": 1383,
+            "y": 650,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "04def81f-b0fd-4041-b8dd-3b80c5172730",
+            "label": "map_pets_puffle_wild_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_puffle_wild_icon.png"
+            },
+            "x": 517,
+            "y": 367,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "145b2503-3ead-45a9-9dde-6451c8c12609",
+            "label": "map_pets_jet_pack_game_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_jet_pack_game_icon.png"
+            },
+            "x": 175,
+            "y": 563,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c114d34c-a7da-4f7e-b98e-b9e854786f60",
+            "label": "map_pets_arcade_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_arcade_icon.png"
+            },
+            "x": 547,
+            "y": 494,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "108f7833-0dbf-4253-be96-ac28b416f3ef",
+            "label": "map_pets_cart_surfer_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_cart_surfer_icon.png"
+            },
+            "x": 1252,
+            "y": 432,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "88565080-8f4e-439b-a16a-22dd0be49070",
+            "label": "map_pets_catching_waves_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_catching_waves_icon.png"
+            },
+            "x": 1394,
+            "y": 667,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0efb1989-c0d3-4764-9ca2-86b6cb826494",
+            "label": "map_pets_dance_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_dance_icon.png"
+            },
+            "x": 658,
+            "y": 579,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "175ad474-c6be-4a3c-a031-09854925614f",
+            "label": "map_pets_puffle_care_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_puffle_care_icon.png"
+            },
+            "x": 693,
+            "y": 753,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5962fd48-531c-4595-987a-913a3fb39305",
+            "label": "map_pets_puffle_launch_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_puffle_launch_icon.png"
+            },
+            "x": 813,
+            "y": 543,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "670db505-e73c-4eae-ad8b-37b29dc1afcb",
+            "label": "map_pets_puffle_roundup_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_puffle_roundup_icon.png"
+            },
+            "x": 892,
+            "y": 452,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b3fad5d8-5a37-4180-9d4b-71ae465fabb6",
+            "label": "map_pets_puffle_rescue_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_puffle_rescue_icon.png"
+            },
+            "x": 1087,
+            "y": 419,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "853bcbe1-50ce-4979-a52f-da54941ec955",
+            "label": "map_pets_rainbow_quest_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_rainbow_quest_icon.png"
+            },
+            "x": 1065,
+            "y": 548,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "34bcdf8b-5a2f-4072-98f7-f7b688d1feb5",
+            "label": "map_pets_pet_furniture_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_pet_furniture_icon.png"
+            },
+            "x": 1089,
+            "y": 674,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2f99c84e-3c24-42ae-9208-80c933181c0a",
+            "label": "map_pets_sound_studio_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_sound_studio_icon.png"
+            },
+            "x": 956,
+            "y": 667,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b7a444fa-384d-438c-93a4-f955773078df",
+            "label": "map_pets_aqua_grabber_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_aqua_grabber_icon.png"
+            },
+            "x": 1383,
+            "y": 382,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "91204ea3-0df4-40e1-be6b-20d1bd1bae5b",
+            "label": "map_pets_puffle_adopt_icon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_puffle_adopt_icon0001.png"
+            },
+            "x": 929,
+            "y": 560,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "850c964f-d33f-4ed8-8cbf-fe1a99c948ab",
+            "label": "map_pets_blue_puffle_add_on_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_blue_puffle_add_on.png"
+            },
+            "x": 566,
+            "y": 89,
+            "scaleX": 0.9604422953158217,
+            "scaleY": 1.0766069581903364,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1967b509-bd02-4107-b34b-58522c9d1d1e",
+            "label": "map_pets_show_games_button_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_show_games_button.png"
+            },
+            "x": 707,
+            "y": 97,
+            "scaleX": 0.5547962750675575,
+            "scaleY": 0.8741518375780506,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b9cd57d2-2ff4-4094-b0cd-179f495dae76",
+            "label": "map_pets_show_games_button_clicked_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_show_games_button_clicked.png"
+            },
+            "x": 707,
+            "y": 97,
+            "scaleX": 0.5547962750675575,
+            "scaleY": 0.8741518375780506,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "144ebc96-a614-44bd-8559-f022e1dcd4f6",
+            "label": "map_pets_show_games_button_hover_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_pets_show_games_button_hover.png"
+            },
+            "x": 707,
+            "y": 97,
+            "scaleX": 0.5547962750675575,
+            "scaleY": 0.8741518375780506,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7df62c4f-f2ff-4225-b0a6-8f48884b7017",
+            "label": "map_dojo_location_highlighted0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_dojo_location_highlighted0001.png"
+            },
+            "x": 916,
+            "y": 277,
+            "scaleX": 0.8609862647069376,
+            "scaleY": 0.97092205956378,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "501e8e8b-ce2e-463e-b53f-95dcf022d82a",
+            "label": "map_shops_card_jistu_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_shops_card_jistu_icon.png"
+            },
+            "x": 894,
+            "y": 278,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f894ece1-1809-4343-89a1-54fb9dc14bc1",
+            "label": "map_games_card_jistu_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_games_card_jistu_icon.png"
+            },
+            "x": 891,
+            "y": 281,
+            "scaleX": 0.867172345120157,
+            "scaleY": 0.8305249541738066,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1abddc4e-fdcd-445b-aae1-2895b49764be",
+            "label": "map_town_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_town_location.png"
+            },
+            "x": 581,
+            "y": 570,
+            "scaleX": 1.0210776323736377,
+            "scaleY": 1.125434814714373,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "fac1b78c-dfc0-4787-8be6-63665b5f7579",
+            "label": "map_snow_forts_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_snow_forts_location.png"
+            },
+            "x": 769,
+            "y": 531,
+            "scaleX": 1.0537995552476307,
+            "scaleY": 1.246571610535205,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2b40d75d-010f-465a-b3e0-f6c962d17b94",
+            "label": "map_docks_locationo_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_docks_locationo.png"
+            },
+            "x": 312,
+            "y": 789,
+            "scaleX": 1.098214016620545,
+            "scaleY": 1.1497662481732926,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "30f826c6-b942-41f3-b4e5-ca3d731a7b4d",
+            "label": "map_light_house_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_light_house_location.png"
+            },
+            "x": 85,
+            "y": 610,
+            "scaleX": 1.145230498449875,
+            "scaleY": 1.0166384636566592,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bd78448c-61e8-4a93-a487-2f3842e3ffc3",
+            "label": "map_ski_lodge_location_normal_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ski_lodge_location.png"
+            },
+            "x": 458,
+            "y": 470,
+            "scaleX": 1.302836239958805,
+            "scaleY": 1.3564422041124309,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "461ae0f4-742f-45cd-a6d0-ac2cd2c8ca22",
+            "label": "map_puffle_wild_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_puffle_wild_location.png"
+            },
+            "x": 529,
+            "y": 384,
+            "scaleX": 0.9751667321605966,
+            "scaleY": 1.231250583259773,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0153b148-bee2-4ec4-845f-0aeb5178a636",
+            "label": "map_puffle_park_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_puffle_park_location.png"
+            },
+            "x": 923,
+            "y": 463,
+            "scaleX": 0.9181013067339482,
+            "scaleY": 1.0605189354368731,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b8174c30-0ffd-4a8f-9637-5298d3b692e0",
+            "label": "map_plaza_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_plaza_location.png"
+            },
+            "x": 986,
+            "y": 587,
+            "scaleX": 1.0297154016881698,
+            "scaleY": 1.0754941275776992,
+            "angle": 3,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1c7877df-dedf-4720-9ed7-4daae2711bc7",
+            "label": "map_forest_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_forest_location.png"
+            },
+            "x": 1175,
+            "y": 614,
+            "scaleX": 1.1457042712755923,
+            "scaleY": 1.103910750772263,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e7136b60-bce8-49e4-94a1-2bbdcd3c4792",
+            "label": "map_cove_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_cove_location.png"
+            },
+            "x": 1407,
+            "y": 644,
+            "scaleX": 1.037828420484673,
+            "scaleY": 1.1361264105882711,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "dcad081a-a43e-43dd-9e3b-e16cbec94926",
+            "label": "map_skate_park_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_skate_park_location.png"
+            },
+            "x": 1373,
+            "y": 489,
+            "scaleX": 1.0692635554859196,
+            "scaleY": 1.1788274676632446,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e5f6c4fd-4308-469e-b02d-43b5e6e08ef9",
+            "label": "map_ice_berg_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_ice_berg_location.png"
+            },
+            "x": 1421,
+            "y": 424,
+            "scaleX": 1.0467246658678744,
+            "scaleY": 0.9064167113416973,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bb6aa375-a830-4036-9dfd-9ca80fb54a5c",
+            "label": "map_all_igloos_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_all_igloos_location.png"
+            },
+            "x": 614,
+            "y": 734,
+            "scaleX": 0.989604795491758,
+            "scaleY": 0.977755815507466,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0b31e03f-2fc0-4841-a806-66a25ba0beaa",
+            "label": "map_own_igloo_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_own_igloo_location.png"
+            },
+            "x": 739,
+            "y": 657,
+            "scaleX": 1.464875318266531,
+            "scaleY": 1.3341319515446912,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b1d2f392-ddfa-4a71-8d59-37cb54a8fe30",
+            "label": "map_dojo_location_normal_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "map",
+                "frame": "map_dojo_location.png"
+            },
+            "x": 916,
+            "y": 278,
+            "scaleX": 0.9418144967800044,
+            "scaleY": 0.9962699386055076,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

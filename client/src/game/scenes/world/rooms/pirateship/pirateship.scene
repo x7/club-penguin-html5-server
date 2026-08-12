@@ -1,0 +1,384 @@
+{
+    "id": "e62382ce-cea6-4601-9d52-7996b633ef40",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PirateShipScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "667ff2e1-2941-4a9c-9996-a44643b8bea6",
+            "label": "pirate_ship_clouds_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_clouds.png"
+            },
+            "x": 731,
+            "y": 160
+        },
+        {
+            "type": "Image",
+            "id": "eb0d7b5d-309b-4101-8b10-74684d6104fc",
+            "label": "pirate_shop_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_shop_top.png"
+            },
+            "x": 763,
+            "y": 534
+        },
+        {
+            "type": "Image",
+            "id": "3c7e959d-ac72-4b24-8257-de742ad5c1f0",
+            "label": "pirate_ship_chest_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_chest.png"
+            },
+            "x": 1369,
+            "y": 385
+        },
+        {
+            "type": "Image",
+            "id": "d5647cca-38cd-4f01-a9c0-68b334f5f25c",
+            "label": "pirate_shop_stick_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_shop_stick.png"
+            },
+            "x": 1435,
+            "y": 391
+        },
+        {
+            "type": "Image",
+            "id": "455ad556-29bb-485b-af4a-79759cc9abd2",
+            "label": "pirate_ship_mop_bucket_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_mop_bucket.png"
+            },
+            "x": 264,
+            "y": 267
+        },
+        {
+            "type": "Image",
+            "id": "bed872a4-ff5e-4b58-9f3b-72af99ebac7e",
+            "label": "pirate_ship_left_middle_cheese_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_left_middle_cheese.png"
+            },
+            "x": 148,
+            "y": 388
+        },
+        {
+            "type": "Image",
+            "id": "5793eb4c-f85a-40b7-9421-90dad96f46bf",
+            "label": "pirate_ship_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_bottom.png"
+            },
+            "x": 771,
+            "y": 703
+        },
+        {
+            "type": "Image",
+            "id": "54988640-f5db-42f1-8dbe-30f8dcb64d88",
+            "label": "pirate_ship_rope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_rope.png"
+            },
+            "x": 872,
+            "y": 763
+        },
+        {
+            "type": "Image",
+            "id": "d9f46d0d-aac9-452f-8871-a74c8e3d82c8",
+            "label": "pirate_ship_wheel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_wheel.png"
+            },
+            "x": 365,
+            "y": 406
+        },
+        {
+            "type": "Image",
+            "id": "3cff5341-0236-4a7c-99ee-480866d8d29c",
+            "label": "pirate_ship_downstairs_entire_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_downstairs_entire_door0001.png"
+            },
+            "x": 518,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "698ab34b-3d53-406f-ad83-87937480a7a7",
+            "label": "pirate_ship_downstairs_dooor0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_downstairs_dooor0002.png"
+            },
+            "x": 544,
+            "y": 484,
+            "scaleX": 1.0272728188474962,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "78b509dc-88be-45fe-b41b-5b0b345dbdc3",
+            "label": "pirate_ship_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_railing.png"
+            },
+            "x": 1091,
+            "y": 458
+        },
+        {
+            "type": "Image",
+            "id": "5a8b5d76-5b35-4ab8-8551-36c5eaa659ab",
+            "label": "pirate_ship_flag_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_flag_pole.png"
+            },
+            "x": 315,
+            "y": 131
+        },
+        {
+            "type": "Sprite",
+            "id": "4e4a159c-c5a5-473d-b701-9499ca4793e6",
+            "label": "pirate_ship_flag0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_flag0001.png"
+            },
+            "x": 233,
+            "y": 127
+        },
+        {
+            "type": "Image",
+            "id": "79aebad9-f110-471e-8e4d-ab5fec55fb57",
+            "label": "pirate_ship_middle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_middle.png"
+            },
+            "x": 774,
+            "y": 313
+        },
+        {
+            "type": "Image",
+            "id": "177ca015-3e23-45f0-a9ec-fc0e1717875c",
+            "label": "pirate_shop_top_deck_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_shop_top_deck.png"
+            },
+            "x": 750,
+            "y": 351
+        },
+        {
+            "type": "Image",
+            "id": "02a04b68-5354-4ef2-ae5c-8e3cc8a55779",
+            "label": "pirate_ship_up_sign0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_up_sign0001.png"
+            },
+            "x": 761,
+            "y": 98
+        },
+        {
+            "type": "Image",
+            "id": "bc93ca82-95e0-4487-960b-87a32ae8c20f",
+            "label": "pirate_ship_up_sign0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_up_sign0004.png"
+            },
+            "x": 775,
+            "y": 129,
+            "scaleX": 0.5140786587466499,
+            "scaleY": 0.790074172326869,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Sprite",
+            "id": "c6878d9a-a02f-42ce-b61b-ad8d55243146",
+            "label": "pirate_ship_red_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_red_puffle0001.png"
+            },
+            "x": 583,
+            "y": 97
+        },
+        {
+            "type": "Sprite",
+            "id": "e905ab1b-60cc-4b61-9301-9f1c066bcbe4",
+            "label": "pirate_ship_rope_down0003_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_rope_down0003.png"
+            },
+            "x": 824,
+            "y": 164,
+            "scaleY": 1.2266138255627863
+        },
+        {
+            "type": "Image",
+            "id": "c03587cc-7392-47dd-a654-5791e0c82fb1",
+            "label": "pirate_ship_snow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_snow.png"
+            },
+            "x": 824,
+            "y": 924
+        },
+        {
+            "type": "Image",
+            "id": "6f752c76-9505-4b64-a750-e5489a18b85b",
+            "label": "pirate_ship_door_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_flag_trigger.png"
+            },
+            "x": 567,
+            "y": 502,
+            "scaleX": 1.1199192399666822,
+            "scaleY": 1.0553411030926816,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "d4e8d506-b708-4c44-b68d-1976ab843a27",
+            "label": "pirate_ship_flag_trigger_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_flag_trigger.png"
+            },
+            "x": 234,
+            "y": 125,
+            "scaleX": 0.9787552017784978,
+            "scaleY": 0.8818862014906393,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b37ca7dd-b6c4-43df-ba51-b5b82f51c3f1",
+            "label": "pirate_ship_ship_hold_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_downstairs_dooor0004.png"
+            },
+            "x": 566,
+            "y": 498,
+            "scaleX": 0.7901368990342308,
+            "scaleY": 0.6262167817963906,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 225,
+                "height": 206
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ee4619f7-e185-4f73-a40d-c8a4146f7354",
+            "label": "pirate_ship_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship_walking_trigger"
+            },
+            "x": 752,
+            "y": 479,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9157f6b5-5620-48d9-8dca-b7b6a45d3906",
+            "label": "pirate_ship_beach_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_beach_trigger.png"
+            },
+            "x": 932,
+            "y": 754,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 196,
+                "height": 130
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

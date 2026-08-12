@@ -1,0 +1,440 @@
+{
+    "id": "8ab11145-cfc9-4d63-876c-109a02dd19d8",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "HiddenLakeScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "868e66ac-55c5-4d45-9556-b346f32b1acb",
+            "label": "hidden_lake_walls_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_walls.png"
+            },
+            "x": 771,
+            "y": 480
+        },
+        {
+            "type": "Sprite",
+            "id": "1eb7bc2b-732d-4682-be77-8f5e18de3b84",
+            "label": "hidden_lake_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_door0001.png"
+            },
+            "x": 1428,
+            "y": 481,
+            "scaleY": 1.1487328100116816
+        },
+        {
+            "type": "Sprite",
+            "id": "7f22081a-5e13-4ddf-aac8-369af431b8cd",
+            "label": "hidden_lake_right_waterfall_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_left0001.png"
+            },
+            "x": 1093,
+            "y": 418
+        },
+        {
+            "type": "Sprite",
+            "id": "969af614-96c0-4854-93aa-3a859ed49461",
+            "label": "hidden_lake_right_waterfall_left0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_left0001.png"
+            },
+            "x": 742,
+            "y": 417
+        },
+        {
+            "type": "Sprite",
+            "id": "4e717984-09b9-4e94-b233-8cbb465bcfa7",
+            "label": "hidden_lake_right_waterfall_right_top_left0001_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_right_top_left0001.png"
+            },
+            "x": 756,
+            "y": 138
+        },
+        {
+            "type": "Sprite",
+            "id": "f88b3cc2-5281-45c8-9130-47667a7af2e9",
+            "label": "hidden_lake_right_waterfall_right_top_left0001_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_right_top_left0001.png"
+            },
+            "x": 701,
+            "y": 136
+        },
+        {
+            "type": "Sprite",
+            "id": "02303e8a-8461-4dae-a92e-ddeacbc23e8c",
+            "label": "hidden_lake_right_waterfall_right_top_left0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_right_top_left0001.png"
+            },
+            "x": 1127,
+            "y": 148
+        },
+        {
+            "type": "Sprite",
+            "id": "82c2c87e-61c7-4aef-bd8c-48e1549d57b5",
+            "label": "hidden_lake_right_waterfall_right_top_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_right_top_left0001.png"
+            },
+            "x": 1071,
+            "y": 145
+        },
+        {
+            "type": "Image",
+            "id": "362bc6c9-fdad-4991-9070-5e9f594345a0",
+            "label": "hidden_lake_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_background.png"
+            },
+            "x": 770,
+            "y": 481
+        },
+        {
+            "type": "Image",
+            "id": "95fc1e55-7c0f-433c-aa8d-e5d2943da60e",
+            "label": "hidden_lake_rock_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_rock_2.png"
+            },
+            "x": 53,
+            "y": 457
+        },
+        {
+            "type": "Image",
+            "id": "f5a3a23a-8937-4bbc-bcdb-c2cef441d292",
+            "label": "hidden_lake_coins_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_coins.png"
+            },
+            "x": 95,
+            "y": 650
+        },
+        {
+            "type": "Image",
+            "id": "57beecd4-cf12-4918-ac2d-b2fe64e45692",
+            "label": "hidden_lake_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_rock.png"
+            },
+            "x": 61,
+            "y": 643
+        },
+        {
+            "type": "Image",
+            "id": "a83c1d6e-dd44-4fc7-b0c8-d8772c35feeb",
+            "label": "hidden_lake_aqua_grabber_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_aqua_grabber_top.png"
+            },
+            "x": 219,
+            "y": 753
+        },
+        {
+            "type": "Image",
+            "id": "7a3aa13e-1a53-437f-868d-34332a97e598",
+            "label": "hidden_lake_aqua_grabber_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_aqua_grabber_bottom.png"
+            },
+            "x": 200,
+            "y": 792,
+            "scaleX": 0.9972117072761048
+        },
+        {
+            "type": "Sprite",
+            "id": "ecd5e966-330c-4cf7-88f4-9a0f9fcfba20",
+            "label": "hidden_lake_outline_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_outline.png"
+            },
+            "x": 779,
+            "y": 473
+        },
+        {
+            "type": "Image",
+            "id": "dfbfdb2d-1cc3-4599-9453-cb8be23d43fb",
+            "label": "hidden_lake_no_key_note0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_no_key_note0001.png"
+            },
+            "x": 1373,
+            "y": 496
+        },
+        {
+            "type": "Image",
+            "id": "e8fc2c5b-2e38-4e96-aad9-4bb36fb5c710",
+            "label": "hidden_lake_round_thing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_round_thing.png"
+            },
+            "x": 294,
+            "y": 256
+        },
+        {
+            "type": "Image",
+            "id": "561923bd-eb52-4758-9ed7-c3aaecaa1d8d",
+            "label": "hidden_lake_coins_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_coins_1.png"
+            },
+            "x": 337,
+            "y": 327
+        },
+        {
+            "type": "Image",
+            "id": "77c6b14a-7584-4471-af8c-62b0026f5ae4",
+            "label": "hidden_lake_rock_4_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_rock_4.png"
+            },
+            "x": 608,
+            "y": 305
+        },
+        {
+            "type": "Image",
+            "id": "de6f6f45-4fd2-4b9a-bb11-cb48c9808835",
+            "label": "hidden_lake_rock_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_rock_3.png"
+            },
+            "x": 577,
+            "y": 371,
+            "scaleX": 1.1047721555647945
+        },
+        {
+            "type": "Image",
+            "id": "f9549817-5de8-4524-87f8-6aa5c4a14e6d",
+            "label": "hidden_lake_coins_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_coins_rock.png"
+            },
+            "x": 518,
+            "y": 465
+        },
+        {
+            "type": "Sprite",
+            "id": "bd8e66a0-0fd2-492b-906f-7a23514b6c56",
+            "label": "hidden_lake_right_waterfall_right_top0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_right_top0001.png"
+            },
+            "x": 1086,
+            "y": 171
+        },
+        {
+            "type": "Sprite",
+            "id": "08714edb-8a06-45c3-8bfe-38aea06e97e5",
+            "label": "hidden_lake_right_waterfall_left_topo0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_right_waterfall_left_topo0001.png"
+            },
+            "x": 728,
+            "y": 158
+        },
+        {
+            "type": "Image",
+            "id": "5c647d71-404a-4b4f-a7e9-b69b48c81f9a",
+            "label": "hidden_lake_rock_5_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_rock_5.png"
+            },
+            "x": 337,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "e48055b4-b558-4b0f-b66a-252ef8fdc078",
+            "label": "hidden_lake_rock_56_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_rock_56.png"
+            },
+            "x": 240,
+            "y": 301
+        },
+        {
+            "type": "Image",
+            "id": "d469d362-6e4b-436c-bdb5-6d8632dec4eb",
+            "label": "hidden_lake_no_key_note0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_no_key_note0002.png"
+            },
+            "x": 1373,
+            "y": 496,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "638ef4d6-e6fc-437b-a7b0-397ecaa23ba2",
+            "label": "hidden_lake_underwater_room_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_underwater_room_trigger.png"
+            },
+            "x": 1418,
+            "y": 568,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "226f474d-98af-499d-a7db-33ae17e5c970",
+            "label": "hidden_lake_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hidden_lake_walking_trigger"
+            },
+            "x": 757,
+            "y": 478,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1521,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a9522900-84ce-4f71-a10e-37491a6369cd",
+            "label": "hidden_lake_cave_mine_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_left_room_trigger.png"
+            },
+            "x": 111,
+            "y": 420,
+            "scaleX": 0.47895764362429427,
+            "scaleY": 0.5523838835131725,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 266,
+                "height": 253
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "de21d89a-48db-4a3c-8539-4003518fc0eb",
+            "label": "hidden_lake_forest_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_forest_trigger.png"
+            },
+            "x": 473,
+            "y": 141,
+            "scaleX": 0.34342974502261314,
+            "scaleY": 0.9238735500749449,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 278,
+                "height": 247
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "236bb9e0-23c4-4a4f-a4d0-932aec2b06db",
+            "label": "hidden_lake_underwater_room_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "hiddenlake",
+                "frame": "hidden_lake_underwater_room_trigger.png"
+            },
+            "x": 1440,
+            "y": 535,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 208,
+                "height": 253
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

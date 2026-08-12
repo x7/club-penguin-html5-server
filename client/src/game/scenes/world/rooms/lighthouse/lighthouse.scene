@@ -1,0 +1,335 @@
+{
+    "id": "ba96798f-abe3-4a6c-9055-2f80b1073530",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LightHouseScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e8c843b6-f67c-44b4-a430-fd92b9236857",
+            "label": "lighthouse_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_main.png"
+            },
+            "x": 736,
+            "y": 477,
+            "scaleX": 1.0122724296121048,
+            "scaleY": 1.004719070172936
+        },
+        {
+            "type": "Image",
+            "id": "bc63c43d-3a36-463a-8d27-29707e6eacfb",
+            "label": "lighthouse_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_door0001.png"
+            },
+            "x": 441,
+            "y": 393,
+            "scaleX": 1.0123228536815267,
+            "scaleY": 0.9497739975226398
+        },
+        {
+            "type": "Image",
+            "id": "cfdff23d-1894-4b0e-9972-d699ce96b929",
+            "label": "lighthouse_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_door0002.png"
+            },
+            "x": 441,
+            "y": 393,
+            "scaleX": 1.0123228536815267,
+            "scaleY": 0.9497739975226398,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9c2730ac-e04a-4a6d-bee0-9f2d9a1d19e9",
+            "label": "lighthouse_red_wire_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_red_wire.png"
+            },
+            "x": 308,
+            "y": 668,
+            "scaleY": 1.2751482540891277
+        },
+        {
+            "type": "Image",
+            "id": "dca9b847-b5b6-4e7b-9f99-b61788e39ea0",
+            "label": "lighthouse_piano_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_piano.png"
+            },
+            "x": 382,
+            "y": 679,
+            "scaleX": 0.9447548408044311,
+            "scaleY": 1.0019885367791712
+        },
+        {
+            "type": "Image",
+            "id": "5baa9acd-241d-4943-a821-6d970eaf1742",
+            "label": "lighthouse_drum_set0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_drum_set0001.png"
+            },
+            "x": 132,
+            "y": 483,
+            "scaleX": 1.0122841574614623,
+            "scaleY": 1.0696757292107817
+        },
+        {
+            "type": "Image",
+            "id": "d8decd36-d084-4dc4-aa05-bea8707fdbb3",
+            "label": "lighthouse_microphone_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_microphone.png"
+            },
+            "x": 285,
+            "y": 604,
+            "scaleX": 1.2114080623886512,
+            "scaleY": 1.1159220850569462
+        },
+        {
+            "type": "Sprite",
+            "id": "415b3faf-ea13-4e1d-816e-074f198f37ee",
+            "label": "lighthouse_to_top_button0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_to_top_button0001.png"
+            },
+            "x": 261,
+            "y": 47,
+            "scaleX": 0.895507275124449,
+            "scaleY": 0.9516802664034422
+        },
+        {
+            "type": "Sprite",
+            "id": "59914721-db83-443a-90b2-33c91fc16bb0",
+            "label": "lighthouse_triple_speaker0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_triple_speaker0001.png"
+            },
+            "x": 87,
+            "y": 285,
+            "scaleX": 0.9406407201155282,
+            "scaleY": 0.9496401957669167
+        },
+        {
+            "type": "Sprite",
+            "id": "16edba88-b516-4817-9da1-106df02dbf71",
+            "label": "lighthouuse_speakers_two0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouuse_speakers_two0001.png"
+            },
+            "x": 311,
+            "y": 328,
+            "scaleX": 0.9483214413382748,
+            "scaleY": 1.085726330819191
+        },
+        {
+            "type": "Sprite",
+            "id": "d6314f9d-e246-4350-9280-be8a1c8fce5b",
+            "label": "lighthouse_speaker_bottom_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_speaker_bottom_left0001.png"
+            },
+            "x": -36,
+            "y": 876,
+            "scaleX": 1.0956752128740803,
+            "scaleY": 0.8931601546038402
+        },
+        {
+            "type": "Image",
+            "id": "3199accc-5ba3-4720-847e-a9be367daab8",
+            "label": "lighthouse_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_railing.png"
+            },
+            "x": 629,
+            "y": 281,
+            "scaleX": 1.034993369028122,
+            "scaleY": 0.9954235555746943
+        },
+        {
+            "type": "Image",
+            "id": "73e4248c-78fe-4f1a-a659-842d8ba4a5f9",
+            "label": "lighthouse_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair.png"
+            },
+            "x": 948,
+            "y": 759,
+            "scaleX": 1.1527432731207259,
+            "scaleY": 0.9498489136627083
+        },
+        {
+            "type": "Image",
+            "id": "531877dc-b6ea-4b53-823b-03a9460fa0ee",
+            "label": "lighthouse_chair_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair.png"
+            },
+            "x": 726,
+            "y": 657,
+            "scaleX": 1.1527432731207259,
+            "scaleY": 0.9498489136627083
+        },
+        {
+            "type": "Image",
+            "id": "14892c46-5b74-4f4b-96a6-a2221bfc8bd8",
+            "label": "lighthouse_chair_set_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair_set.png"
+            },
+            "x": 902,
+            "y": 857,
+            "scaleX": 1.056518334817072,
+            "scaleY": 1.2648569124896123
+        },
+        {
+            "type": "Image",
+            "id": "a39703e7-c668-4f9b-a341-2d10257f1d88",
+            "label": "lighthouse_chair_no_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair_no_seat.png"
+            },
+            "x": 913,
+            "y": 857,
+            "scaleX": 1.1527432731207259,
+            "scaleY": 0.9498489136627083
+        },
+        {
+            "type": "Image",
+            "id": "9d7efd3c-1265-48ca-b58f-573e4fd5f0cc",
+            "label": "lighthouse_chair_set_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair_set.png"
+            },
+            "x": 624,
+            "y": 858,
+            "scaleX": 1.1537720494112926,
+            "scaleY": 1.2224283720995313
+        },
+        {
+            "type": "Image",
+            "id": "dd2cd9f1-f464-4a1b-a5ad-f6b511ea3701",
+            "label": "lighthouse_chair_set_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair_set.png"
+            },
+            "x": 689,
+            "y": 764
+        },
+        {
+            "type": "Image",
+            "id": "ea5d16af-fb1b-41f6-bac0-9bbfab4ae20e",
+            "label": "lighthouse_chair_no_seat_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair_no_seat.png"
+            },
+            "x": 697,
+            "y": 763,
+            "scaleX": 1.1527432731207259,
+            "scaleY": 0.9498489136627083
+        },
+        {
+            "type": "Image",
+            "id": "6e40cb5c-77a5-4f30-8907-8ebc67c57f7b",
+            "label": "lighthouse_chair_no_seat_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair_no_seat.png"
+            },
+            "x": 632,
+            "y": 861,
+            "scaleX": 1.1527432731207259,
+            "scaleY": 0.9498489136627083,
+            "angle": 10
+        },
+        {
+            "type": "Image",
+            "id": "55748860-69be-4949-868e-0f793dffff63",
+            "label": "lighthouse_chair_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "lighthouse_chair.png"
+            },
+            "x": 922,
+            "y": 673,
+            "scaleX": 1.1527432731207259,
+            "scaleY": 0.9498489136627083
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "448cf9fb-a594-4ad0-84f4-4b7c397d8ade",
+            "label": "lighthouse_walk_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lighthouse_walk_trigger"
+            },
+            "x": 770,
+            "y": 316,
+            "scaleX": 1.0260972554174463,
+            "scaleY": 1.0956461013829624,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

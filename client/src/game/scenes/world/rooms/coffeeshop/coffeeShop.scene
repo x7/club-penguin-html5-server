@@ -1,0 +1,872 @@
+{
+    "id": "0e0959a0-e0ce-4e9d-a993-8c8ea1be0b97",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "CoffeeShopScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "92d4a1db-5591-4f8d-81ea-bc6a71e7b3c0",
+            "label": "coffee_shop_main_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_main_floor.png"
+            },
+            "x": 728,
+            "y": 478
+        },
+        {
+            "type": "Image",
+            "id": "251d8106-7026-4674-98b3-64cddbfdada2",
+            "label": "coffee_shop_town_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_town_door0001.png"
+            },
+            "x": 706,
+            "y": 240,
+            "scaleX": 0.4427888795842937,
+            "scaleY": 0.4172271332049616
+        },
+        {
+            "type": "Image",
+            "id": "5e69c7af-3667-4771-8e76-efceb86d9870",
+            "label": "coffee_shop_smaller_carpet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smaller_carpet.png"
+            },
+            "x": 458,
+            "y": 438,
+            "scaleX": 0.43230992372013777,
+            "scaleY": 0.42301182500325096
+        },
+        {
+            "type": "Image",
+            "id": "8670c095-4eb2-4ab9-b574-18dc4a4d23ac",
+            "label": "coffee_shop_top_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_top_table.png"
+            },
+            "x": 449,
+            "y": 419,
+            "scaleX": 0.45816157810235314,
+            "scaleY": 0.4556595780521608
+        },
+        {
+            "type": "Image",
+            "id": "d42fbf78-4c7e-4b6b-b3ac-4ab8b519851d",
+            "label": "coffee_shop_window_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_window.png"
+            },
+            "x": 452,
+            "y": 175,
+            "scaleX": 0.43305001248742836,
+            "scaleY": 0.4625995141110907
+        },
+        {
+            "type": "Image",
+            "id": "5ac27c0b-7217-420f-8fcb-42a737d879eb",
+            "label": "coffee_shop_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_tree.png"
+            },
+            "x": 288,
+            "y": 253,
+            "scaleX": 0.5205712839793422,
+            "scaleY": 0.5113643948339319
+        },
+        {
+            "type": "Image",
+            "id": "04915541-a22b-452a-8771-e685732833a1",
+            "label": "coffee_shop_top_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_top_couch.png"
+            },
+            "x": 467,
+            "y": 292,
+            "scaleX": 0.43816181251301095,
+            "scaleY": 0.4224046869296946
+        },
+        {
+            "type": "Image",
+            "id": "7578f8ba-c06e-4d0c-9720-addc46649958",
+            "label": "coffee_shop_top_left_side_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_top_left_side_couch.png"
+            },
+            "x": 226,
+            "y": 370,
+            "scaleX": 0.4321856991877677,
+            "scaleY": 0.40873663561901596
+        },
+        {
+            "type": "Image",
+            "id": "7c08aa21-4622-4c5b-9d5c-6f131c23104a",
+            "label": "coffee_shop_chair_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_chair_arm.png"
+            },
+            "x": 203,
+            "y": 428,
+            "scaleX": 0.48856446796275865,
+            "scaleY": 0.4448014408793563
+        },
+        {
+            "type": "Image",
+            "id": "9599df8e-89ad-4cd5-93a1-7740d455b1ae",
+            "label": "coffee_shop_paintings_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_paintings.png"
+            },
+            "x": 161,
+            "y": 182,
+            "scaleX": 0.4676913474617863,
+            "scaleY": 0.4640943975137752
+        },
+        {
+            "type": "Image",
+            "id": "ad60088a-423b-40f4-88c7-8bdbd07c3e54",
+            "label": "coffee_shop_chair_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_chair_seat.png"
+            },
+            "x": 243,
+            "y": 491,
+            "scaleX": 0.5628553570933474,
+            "scaleY": 0.5335307510180065
+        },
+        {
+            "type": "Image",
+            "id": "6d85ff57-5672-4566-be14-c34c530f47c4",
+            "label": "coffee_shop_yellow_rails_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_yellow_rails.png"
+            },
+            "x": 648,
+            "y": 537,
+            "scaleX": 0.4433742509981592,
+            "scaleY": 0.4936494055294237
+        },
+        {
+            "type": "Image",
+            "id": "c21ffb0d-202e-42a3-96e3-a9ea4e474bb9",
+            "label": "coffee_shop_smoothie_back_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smoothie_back_table.png"
+            },
+            "x": 117,
+            "y": 624,
+            "scaleX": 0.39168090414366397,
+            "scaleY": 0.370091928509571
+        },
+        {
+            "type": "Image",
+            "id": "b7e124db-4cf0-4fcc-9b05-5da3bc0429db",
+            "label": "coffee_shop_smoothie_smash_animation_trigger0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smoothie_smash_animation_trigger0002.png"
+            },
+            "x": 70,
+            "y": 526,
+            "scaleX": 0.30322017098650345,
+            "scaleY": 0.47814279521004355,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "a12f4fda-77b4-46f5-9ff1-c4a513938698",
+            "label": "coffee_shop_smoothie_smash_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smoothie_smash_top.png"
+            },
+            "x": 75,
+            "y": 478,
+            "scaleX": 0.4171476000176657,
+            "scaleY": 0.420260529107175
+        },
+        {
+            "type": "Image",
+            "id": "b600cb46-13ff-4efa-bfa2-90ac0a373bcd",
+            "label": "coffee_shop_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_lights.png"
+            },
+            "x": 741,
+            "y": 500,
+            "scaleX": 0.4296044236614773,
+            "scaleY": 0.4280038582684184
+        },
+        {
+            "type": "Image",
+            "id": "926681e4-822b-4dc5-b2a0-0ae687e76d01",
+            "label": "coffee_shop_table_behind_counter_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_table_behind_counter.png"
+            },
+            "x": 1061,
+            "y": 424,
+            "scaleX": 0.4409792581531393,
+            "scaleY": 0.45052598901020097
+        },
+        {
+            "type": "Image",
+            "id": "fd13f9a1-9f3d-4280-b70c-81cb4b47789a",
+            "label": "coffee_shop_bean_counter_w_bucket_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bean_counter_w_bucket.png"
+            },
+            "x": 909,
+            "y": 318,
+            "scaleX": 0.4372302576668026,
+            "scaleY": 0.4295202765592806
+        },
+        {
+            "type": "Image",
+            "id": "d70ddd47-3997-4ccb-b2da-b58eed15b985",
+            "label": "coffee_shop_counter_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_counter_table.png"
+            },
+            "x": 900,
+            "y": 406,
+            "scaleX": 0.4237991053749753,
+            "scaleY": 0.4709065736823277
+        },
+        {
+            "type": "Image",
+            "id": "4d65f512-3c96-4062-82cf-d08f0b831794",
+            "label": "coffee_shop_coffee_maker_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_coffee_maker.png"
+            },
+            "x": 975,
+            "y": 260,
+            "scaleX": 0.3596255743533479,
+            "scaleY": 0.3864082717042355
+        },
+        {
+            "type": "Image",
+            "id": "82ce4a29-79df-4256-a49d-fc1b6262a530",
+            "label": "coffee_shop_coffee_maker_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_coffee_maker_1.png"
+            },
+            "x": 1035,
+            "y": 286,
+            "scaleX": 0.39743295887101243,
+            "scaleY": 0.4106406409169515
+        },
+        {
+            "type": "Image",
+            "id": "26cd2e22-f38c-4571-a384-4b6141ad05b2",
+            "label": "coffee_shop_counter_bottle_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_counter_bottle_2.png"
+            },
+            "x": 1064,
+            "y": 354,
+            "scaleX": 0.40530355184316613,
+            "scaleY": 0.3919635193506838
+        },
+        {
+            "type": "Image",
+            "id": "a067f94f-d14f-4e8c-a6dc-791a7c8f6239",
+            "label": "coffee_shop_counter_bottle_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_counter_bottle_1.png"
+            },
+            "x": 1089,
+            "y": 381,
+            "scaleX": 0.40530355184316613,
+            "scaleY": 0.3919635193506838
+        },
+        {
+            "type": "Image",
+            "id": "b7e4aeea-53a9-4258-8cac-bcfe64aa8180",
+            "label": "coffee_shop_counter_bottle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_counter_bottle.png"
+            },
+            "x": 1114,
+            "y": 412,
+            "scaleX": 0.40530355184316613,
+            "scaleY": 0.3919635193506838
+        },
+        {
+            "type": "Sprite",
+            "id": "9cb37c11-e80e-4120-9280-7df7d1859cde",
+            "label": "coffee_shop_right_side_cash_register0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_right_side_cash_register0001.png"
+            },
+            "x": 898,
+            "y": 462,
+            "scaleX": 0.3702525979991861,
+            "scaleY": 0.35826419178406266
+        },
+        {
+            "type": "Sprite",
+            "id": "6b8b5917-d342-4d15-8da4-04207a1b33cc",
+            "label": "coffee_shop_bean_counter_gamme0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bean_counter_gamme00010001.png"
+            },
+            "x": 1349,
+            "y": 768,
+            "scaleX": 0.4544304025192314,
+            "scaleY": 0.41728602049745817
+        },
+        {
+            "type": "Image",
+            "id": "8ca05f59-1f98-43bb-b200-5b8e67ef9884",
+            "label": "coffee_shop_bean_counter_door_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bean_counter_door.png"
+            },
+            "x": 1424,
+            "y": 806,
+            "scaleX": 0.4911975551795293,
+            "scaleY": 0.44214875630707273
+        },
+        {
+            "type": "Image",
+            "id": "2831d972-9cb3-41ec-88fa-136b9b776d8a",
+            "label": "coffee_shop_bean_counter_arrow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bean_counter_arrow.png"
+            },
+            "x": 1470,
+            "y": 455,
+            "scaleX": 0.4222039589102974,
+            "scaleY": 0.38343913465674806
+        },
+        {
+            "type": "Image",
+            "id": "5c2f5dd4-efb7-4bfb-9bad-ea4a79785e75",
+            "label": "coffee_shop_smoothie_front_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smoothie_front_table.png"
+            },
+            "x": 180,
+            "y": 808,
+            "scaleX": 0.3784958978632053,
+            "scaleY": 0.3920240126409131
+        },
+        {
+            "type": "Image",
+            "id": "62211679-8c9c-4823-b459-5db765980bae",
+            "label": "coffee_shop_ceiling_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_ceiling_light.png"
+            },
+            "x": 532,
+            "y": 67,
+            "scaleX": 0.4748984967987585,
+            "scaleY": 0.5348002480514867
+        },
+        {
+            "type": "Image",
+            "id": "181ea8dc-8202-4e68-9743-ad7e803b4c18",
+            "label": "coffee_shop_ceiling_light_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_ceiling_light.png"
+            },
+            "x": 352,
+            "y": 69,
+            "scaleX": 0.4748984967987585,
+            "scaleY": 0.5348002480514867
+        },
+        {
+            "type": "Sprite",
+            "id": "893dee6f-3011-41dc-8bb8-03cc2c023c35",
+            "label": "coffee_shop_smooth_smash0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smooth_smash0001.png"
+            },
+            "x": 129,
+            "y": 748,
+            "scaleX": 0.42204900100199966,
+            "scaleY": 0.4279798025365009
+        },
+        {
+            "type": "Image",
+            "id": "279303d9-d3b6-4f6e-b191-040978bc3e53",
+            "label": "coffee_shop_black_berry_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_black_berry.png"
+            },
+            "x": 358,
+            "y": 596
+        },
+        {
+            "type": "Image",
+            "id": "4674018c-2904-46c7-bd3d-b8000273d6d2",
+            "label": "coffee_shop_smooth_smash_text_board_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smooth_smash_text_board.png"
+            },
+            "x": 99,
+            "y": 365,
+            "scaleX": 0.4062900420056371,
+            "scaleY": 0.3969979029822167
+        },
+        {
+            "type": "Image",
+            "id": "dd92498f-e3ea-46da-afc8-f2bfc8f8abdb",
+            "label": "coffee_shop_smooth_smash_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smooth_smash_chair.png"
+            },
+            "x": 417,
+            "y": 816
+        },
+        {
+            "type": "Image",
+            "id": "e9e7d672-ece9-4906-88cd-e268a3cd135e",
+            "label": "coffee_shop_smooth_smash_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smooth_smash_chair.png"
+            },
+            "x": 428,
+            "y": 714
+        },
+        {
+            "type": "Image",
+            "id": "ac05ac56-979d-4069-a7d5-bd7061c2ba95",
+            "label": "coffee_shop_carpet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_carpet.png"
+            },
+            "x": 893,
+            "y": 826,
+            "scaleX": 0.471296259068,
+            "scaleY": 0.38091980980307205
+        },
+        {
+            "type": "Image",
+            "id": "d1b3825b-5c1f-4c00-ad06-9b42fd2fa4c1",
+            "label": "coffee_shop_bottom_right_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bottom_right_couch.png"
+            },
+            "x": 1113,
+            "y": 832,
+            "scaleX": 0.5223855417148998,
+            "scaleY": 0.4323150897187319
+        },
+        {
+            "type": "Image",
+            "id": "5997a5ca-be05-4416-b5c1-72be78c6ae7a",
+            "label": "coffee_shop_bottom_right_couch_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bottom_right_couch_top.png"
+            },
+            "x": 1226,
+            "y": 813
+        },
+        {
+            "type": "Image",
+            "id": "1884e5ce-e5cf-4d8f-a774-4c2881fa24e1",
+            "label": "coffee_shop_yellow_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_yellow_table.png"
+            },
+            "x": 895,
+            "y": 791,
+            "scaleX": 0.4645204937843975,
+            "scaleY": 0.4676391193550611
+        },
+        {
+            "type": "Image",
+            "id": "0b8a06a7-0563-4200-b988-209483ca1165",
+            "label": "coffee_shop_bottom_right_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bottom_right_seat.png"
+            },
+            "x": 695,
+            "y": 835,
+            "scaleX": 0.4974575258909829,
+            "scaleY": 0.4816567159341131
+        },
+        {
+            "type": "Image",
+            "id": "c3107d6d-16eb-4955-a600-ee9fee69c42b",
+            "label": "coffee_shop_bottom_right_seat_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bottom_right_seat_top.png"
+            },
+            "x": 688,
+            "y": 787,
+            "scaleX": 0.5655820190215506,
+            "scaleY": 0.5307908590370582
+        },
+        {
+            "type": "Sprite",
+            "id": "fa797dc1-7c8f-40bf-878d-7fdd9286643a",
+            "label": "coffee_shop_smoothie_cash_register0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smoothie_cash_register0001.png"
+            },
+            "x": 288,
+            "y": 651,
+            "scaleX": 0.3425214491743712,
+            "scaleY": 0.3463056484989952
+        },
+        {
+            "type": "Image",
+            "id": "7039b659-b444-416a-baf1-17ff513c0121",
+            "label": "coffee_shop_cpt_door_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_cpt_door.png"
+            },
+            "x": 1302,
+            "y": 328,
+            "scaleX": 1.0258050610626377,
+            "scaleY": 1.013893890840069
+        },
+        {
+            "type": "Image",
+            "id": "4ffb6d7b-38fe-4116-bf3a-f5592e3279ea",
+            "label": "coffee_shop_cpt_door_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_cpt_door_light.png"
+            },
+            "x": 1298,
+            "y": 415,
+            "scaleX": 0.4941881855465728,
+            "scaleY": 0.6788635701432557,
+            "angle": 1,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "c70e6817-bd4e-4001-a656-84b90a0b1305",
+            "label": "coffee_shop_smooth_smash_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_smooth_smash_text0001.png"
+            },
+            "x": 107,
+            "y": 364,
+            "scaleX": 0.42310074362333777,
+            "scaleY": 0.41108539690234486
+        },
+        {
+            "type": "Image",
+            "id": "35ca785d-bf58-44d9-9b55-63b0aad683fb",
+            "label": "coffee_shop_town_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_town_door0002.png"
+            },
+            "x": 706,
+            "y": 240,
+            "scaleX": 0.4427888795842937,
+            "scaleY": 0.4172271332049616,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e41ef33a-371f-4fdb-b2f2-db15766e4e37",
+            "label": "coffee_shop_table_bottom_right_bean_bag_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_table_bottom_right_bean_bag.png"
+            },
+            "x": 1211,
+            "y": 741
+        },
+        {
+            "type": "Image",
+            "id": "28ed9341-1df9-4c6c-a657-a6fd3636c3fb",
+            "label": "coffee_shop_roof_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_roof_wood.png"
+            },
+            "x": 868,
+            "y": 44,
+            "scaleX": 0.9873874435762898,
+            "scaleY": 1.0884217875118019
+        },
+        {
+            "type": "Image",
+            "id": "8635c15f-7ef0-4b73-90c4-45fd5ae0d1e3",
+            "label": "coffee_shop_ceiling_light_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_ceiling_light_1.png"
+            },
+            "x": 843,
+            "y": 125,
+            "scaleX": 0.40965332646092995,
+            "scaleY": 0.29263982330856864
+        },
+        {
+            "type": "Image",
+            "id": "8df3cd2a-bf3e-466e-8e25-e0d1f52ce4e9",
+            "label": "coffee_shop_ceiling_light_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_ceiling_light_2.png"
+            },
+            "x": 865,
+            "y": 137,
+            "scaleX": 0.6270462661189421,
+            "scaleY": 0.40290027820983376
+        },
+        {
+            "type": "Image",
+            "id": "89288b1a-4341-4e42-8c29-fceaa3512915",
+            "label": "coffee_shop_ceiling_light_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_ceiling_light_3.png"
+            },
+            "x": 890,
+            "y": 152,
+            "scaleX": 0.7949687980371808,
+            "scaleY": 0.5508795757377113
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "662a0e26-2f0e-49ec-8173-d1abdfabccb8",
+            "label": "coffee_shop_bean_counter_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_bean_counter_trigger.png"
+            },
+            "x": 1406,
+            "y": 819,
+            "scaleX": 1.1038682652888037,
+            "scaleY": 0.9408848886876826,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0,
+            "body": {
+                "width": 236,
+                "height": 320
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "13698cb2-2d64-468c-bb77-8b2938fc68dd",
+            "label": "coffee_shop_cpt_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_cpt_trigger.png"
+            },
+            "x": 1302,
+            "y": 425,
+            "scaleX": 1.0564886487082594,
+            "scaleY": 0.8470186735817627,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0,
+            "body": {
+                "width": 186,
+                "height": 384
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cf07a2e2-ea75-43ab-a656-0f3486298ede",
+            "label": "coffee_shop_town_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_town_trigger.png"
+            },
+            "x": 709,
+            "y": 223,
+            "scaleX": 1.272657333207253,
+            "scaleY": 1.5652063556919114,
+            "angle": 90,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 172,
+                "height": 96
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8d335c87-0d55-42b8-9e10-dd7dcac70b74",
+            "label": "coffee_shop_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_walking_trigger.png"
+            },
+            "x": 740,
+            "y": 484,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0,
+            "body": {
+                "width": 1612,
+                "height": 973
+            }
+        },
+        {
+            "type": "Image",
+            "id": "fba40558-82ed-443e-a2fc-d7d21370df63",
+            "label": "coffee_shop_chair_bottom_left_red_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop",
+                "frame": "coffee_shop_chair_bottom_left_red_arm.png"
+            },
+            "x": 664,
+            "y": 840,
+            "scaleX": 1.092230943817713
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "158bbadf-6667-466d-a937-8d705f66838b",
+            "label": "coffee_shop_walking_trigger_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "coffeeshop_walking_trigger"
+            },
+            "x": 678,
+            "y": 415,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1612,
+                "height": 973
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

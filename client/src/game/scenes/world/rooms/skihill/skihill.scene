@@ -1,0 +1,220 @@
+{
+    "id": "74497a4e-03df-4de2-bcfa-4131c5d35f01",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SkiHillScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "4759876b-331f-4ee8-b8f8-ca48e311f56a",
+            "label": "skihill_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_sky.png"
+            },
+            "x": 711,
+            "y": 139,
+            "scaleX": 0.9955363415032087,
+            "scaleY": 1.1620353373740027
+        },
+        {
+            "type": "Image",
+            "id": "b3efc933-7d63-42f8-9673-cbebb3e0185d",
+            "label": "skihill_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_background.png"
+            },
+            "x": -175,
+            "y": 119,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9752745429207709,
+            "scaleY": 1.1241444579320303
+        },
+        {
+            "type": "Image",
+            "id": "d24ed0e3-264e-4b62-93a6-0d47f4107771",
+            "label": "skihill_line_two_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_line_two.png"
+            },
+            "x": 937,
+            "y": 98,
+            "scaleX": 0.8657394748027144,
+            "scaleY": 0.9414447230969358
+        },
+        {
+            "type": "Image",
+            "id": "f0fe2786-cb04-4f48-b91b-25d51915509d",
+            "label": "ski_hill_queue_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "ski_hill_queue.png"
+            },
+            "x": 1127,
+            "y": 360,
+            "scaleX": 1.0074168964558892,
+            "scaleY": 1.0250146731755228
+        },
+        {
+            "type": "Image",
+            "id": "9dca61eb-fa17-484e-a59b-a19ad14b8447",
+            "label": "skihill_line_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_line.png"
+            },
+            "x": 1075,
+            "y": 181,
+            "scaleX": 0.7745135539894845,
+            "scaleY": 0.5934581978882644,
+            "angle": 13,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c21d38ab-d644-4dd8-8923-7d5b55d4f194",
+            "label": "ski_hill_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "ski_hill_main.png"
+            },
+            "x": 727,
+            "y": 558,
+            "scaleX": 0.928777877299569,
+            "scaleY": 1.002693317923844
+        },
+        {
+            "type": "Image",
+            "id": "8ed84dc1-247d-4646-926d-6eee5716604a",
+            "label": "skihill_shack_behind_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_shack_behind.png"
+            },
+            "x": 975,
+            "y": 256,
+            "scaleX": 1.3182027428683138,
+            "scaleY": 1.1584834604689804
+        },
+        {
+            "type": "Image",
+            "id": "0139e670-f5f5-4639-b94d-784a460a6f52",
+            "label": "skihill_line_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_line.png"
+            },
+            "x": 895,
+            "y": 131,
+            "scaleX": 0.7421606576365563,
+            "scaleY": 0.8363259454246562
+        },
+        {
+            "type": "Image",
+            "id": "205c4f61-233d-4f02-8667-d99a11d82a18",
+            "label": "skihill_shack_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_shack.png"
+            },
+            "x": 1033,
+            "y": 207,
+            "scaleX": 1.1515277188926207,
+            "scaleY": 0.9641788909843253
+        },
+        {
+            "type": "Image",
+            "id": "08ecfe28-4e1a-471d-8c55-f05bf84565e9",
+            "label": "skihill_top_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_top_part.png"
+            },
+            "x": 574,
+            "y": 214,
+            "scaleX": 0.9391392757482948,
+            "scaleY": 0.924923754215114
+        },
+        {
+            "type": "Image",
+            "id": "b76848ca-3e11-4c82-b644-eda0c6032b37",
+            "label": "skihill_green_paper0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_green_paper0001.png"
+            },
+            "x": 456,
+            "y": 181,
+            "scaleX": 0.6345773750833913,
+            "scaleY": 0.8472977713749209
+        },
+        {
+            "type": "Image",
+            "id": "025077ed-5054-4bb3-b1ae-8e070b7b9038",
+            "label": "skihill_green_arrow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_green_arrow.png"
+            },
+            "x": 944,
+            "y": 648,
+            "scaleX": 0.863641354695569,
+            "scaleY": 0.9002086603203987
+        },
+        {
+            "type": "Image",
+            "id": "564415d0-f009-4d1a-bc96-b7a64fb9c4fb",
+            "label": "skihill_green_arrow_snow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_green_arrow_snow.png"
+            },
+            "x": 1138,
+            "y": 544,
+            "scaleX": 0.9708151311967932,
+            "scaleY": 1.044165333757181
+        },
+        {
+            "type": "Image",
+            "id": "e0f15637-fdda-439b-8d7c-c4be02fb7562",
+            "label": "skihill_blue_arrow_snow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skihill",
+                "frame": "skihill_blue_arrow_snow.png"
+            },
+            "x": 464,
+            "y": 585,
+            "scaleX": 0.9171864584957394,
+            "scaleY": 0.9802705469423592
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

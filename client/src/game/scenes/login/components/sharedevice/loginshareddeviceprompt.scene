@@ -1,0 +1,138 @@
+{
+    "id": "03c8c3fe-243c-41de-9e9b-736f5c192a2c",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoginSharedDevicePromptScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "36d25cb7-2b62-4a63-b9f7-f02164c68934",
+            "label": "login_shared_device_background",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/itembg4"
+            },
+            "x": -37,
+            "y": 87,
+            "scaleX": 1.0529225673113631,
+            "scaleY": 1.2645247416470615,
+            "originX": -0.5,
+            "originY": -0.5
+        },
+        {
+            "type": "Image",
+            "id": "2c2fed9b-e586-457c-af03-5f910ea4ba83",
+            "label": "login_shared_device_no_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/learnButton"
+            },
+            "x": 840,
+            "y": 555,
+            "scaleX": 0.9009751228615204,
+            "scaleY": 1.275523782595144,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "88c928fa-e125-4dd3-9d7d-c0af17caee26",
+            "label": "login_shared_device_yes_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/learnButton"
+            },
+            "x": 529,
+            "y": 555,
+            "scaleX": 0.9009751228615204,
+            "scaleY": 1.275523782595144,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "77c33fcf-4221-478a-bdb1-274dd3fb16be",
+            "label": "login_shared_device_no_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/learnButtonHover"
+            },
+            "x": 841,
+            "y": 556,
+            "scaleX": 0.9009751228615204,
+            "scaleY": 1.275523782595144,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "827be020-ba1f-42d9-b73b-ae9d9d593672",
+            "label": "login_shared_device_yes_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/learnButtonHover"
+            },
+            "x": 530,
+            "y": 555,
+            "scaleX": 0.9009751228615204,
+            "scaleY": 1.275523782595144,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "BitmapText",
+            "id": "9dd70eca-8e76-4400-989d-ff53b1bf7195",
+            "label": "login_shared_device_wait_people_text",
+            "scope": "METHOD",
+            "x": 573,
+            "y": 348,
+            "scaleX": 1.074251717005933,
+            "scaleY": 1.1516731758506966,
+            "text": "                WAIT!\n   Do other people use this\n             computer?",
+            "font": "BurbankSmallBold",
+            "fontSize": 32,
+            "letterSpacing": 1
+        },
+        {
+            "type": "BitmapText",
+            "id": "d8224a1d-2f6b-4afe-af9a-9aaa1170d1c6",
+            "label": "login_shared_device_yes_button_text",
+            "scope": "METHOD",
+            "x": 597,
+            "y": 577,
+            "text": "Yes",
+            "font": "BurbankSmallBold",
+            "fontSize": 36
+        },
+        {
+            "type": "BitmapText",
+            "id": "d3ed6cc8-2f44-4b53-a613-ebfde5ee79a8",
+            "label": "login_shared_device_no_button_text",
+            "scope": "METHOD",
+            "x": 921,
+            "y": 576,
+            "text": "No",
+            "font": "BurbankSmallBold",
+            "fontSize": 36
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

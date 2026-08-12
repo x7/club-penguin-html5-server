@@ -1,0 +1,406 @@
+{
+    "id": "24d38449-ac2c-4ed9-8124-dc7347af9312",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "AgentLobby",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "f0b8cb57-2246-4097-9d20-86aeb727849a",
+            "label": "agent_lobby_water_opening_epf0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_water_opening_epf0001.png"
+            },
+            "x": 757,
+            "y": 82
+        },
+        {
+            "type": "Image",
+            "id": "860d37da-65ff-4df3-9f52-54f2f8bde2b1",
+            "label": "agent_lobby_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_background.png"
+            },
+            "x": -120,
+            "y": 0,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "2f8eff0b-da72-4c7e-9155-ee8b52e25505",
+            "label": "agent_lobby_top_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_top_table.png"
+            },
+            "x": 761,
+            "y": 351
+        },
+        {
+            "type": "Image",
+            "id": "ce19aa2a-1daf-4b5c-9429-f684e9d6c8bb",
+            "label": "agent_lobby_orange_big_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_big_chair.png"
+            },
+            "x": 1356,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "18d57957-94b6-43a9-b1c6-7168f07acd5d",
+            "label": "agent_lobby_orange_big_chair_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_big_chair_arm.png"
+            },
+            "x": 1414,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "28d34db4-10c6-493e-8fa8-426c882d8230",
+            "label": "agent_lobby_orange_big_chair_table_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_big_chair_table_top.png"
+            },
+            "x": 1169,
+            "y": 499
+        },
+        {
+            "type": "Image",
+            "id": "548f6b68-c165-4d17-ad54-871a0c77e1ae",
+            "label": "agent_lobby_orange_big_chair_table_bottomm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_big_chair_table_bottomm.png"
+            },
+            "x": 1352,
+            "y": 598
+        },
+        {
+            "type": "Image",
+            "id": "1c27d5ca-1ca1-4490-b953-4548af51e91e",
+            "label": "agent_lobby_door_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_door.png"
+            },
+            "x": 274,
+            "y": 387
+        },
+        {
+            "type": "Image",
+            "id": "625aaa2d-16ec-4ba9-bd90-4db4eb81d034",
+            "label": "agent_lobby_water_bottle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_water_bottle.png"
+            },
+            "x": 472,
+            "y": 681
+        },
+        {
+            "type": "Sprite",
+            "id": "9a05cd1c-7b58-401e-a1a9-84cc82e1c41d",
+            "label": "agent_lobby_small_fish0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_small_fish0001.png"
+            },
+            "x": 470,
+            "y": 655
+        },
+        {
+            "type": "Image",
+            "id": "cc9d39b6-d61e-4cec-b3bc-e6ecd2aad624",
+            "label": "agent_lobby_smaller_bottom_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_smaller_bottom_part.png"
+            },
+            "x": 893,
+            "y": 735
+        },
+        {
+            "type": "Image",
+            "id": "8f77d686-2c02-4166-b895-fe10b5b673d2",
+            "label": "agent_lobby_ski_village_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_ski_village_door0001.png"
+            },
+            "x": 23,
+            "y": 354
+        },
+        {
+            "type": "Image",
+            "id": "44e3a0c5-df0c-43e4-a6fa-3f485b67b1a8",
+            "label": "agent_lobby_door_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_door_railing.png"
+            },
+            "x": 157,
+            "y": 538
+        },
+        {
+            "type": "Image",
+            "id": "96616e47-63e5-4439-8937-65e5b578855c",
+            "label": "agent_lobby_orange_chair_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_3.png"
+            },
+            "x": 675,
+            "y": 730
+        },
+        {
+            "type": "Image",
+            "id": "0fd31877-3e79-4e65-9b1d-595ccc7097bf",
+            "label": "agent_lobby_blue_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_blue_bush.png"
+            },
+            "x": 159,
+            "y": 581
+        },
+        {
+            "type": "Image",
+            "id": "522d38c2-ac34-432e-a84b-f6aa2307f202",
+            "label": "agent_lobby_orange_chair_4_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_4.png"
+            },
+            "x": 746,
+            "y": 774
+        },
+        {
+            "type": "Image",
+            "id": "3228008b-19cd-4f19-9a0e-f2c3a47d7a62",
+            "label": "agent_lobby_orange_chair_6_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_5.png"
+            },
+            "x": 849,
+            "y": 731
+        },
+        {
+            "type": "Image",
+            "id": "c0356371-3946-4f96-af7d-8fd28a29dba4",
+            "label": "agent_lobby_orange_chair_6_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_6.png"
+            },
+            "x": 1202,
+            "y": 749
+        },
+        {
+            "type": "Image",
+            "id": "06fd433c-aa1d-44e3-83de-530d5de5859b",
+            "label": "agent_lobby_orange_chair_2_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_2.png"
+            },
+            "x": 1131,
+            "y": 789
+        },
+        {
+            "type": "Image",
+            "id": "47fb138f-821f-4cd9-8b8a-21537089ee29",
+            "label": "agent_lobby_coffee_machine_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_coffee_machine.png"
+            },
+            "x": 12,
+            "y": 599
+        },
+        {
+            "type": "Image",
+            "id": "85a2f6bd-9693-4932-9ddb-a1902eed9808",
+            "label": "agent_lobby_bottom_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_bottom_part.png"
+            },
+            "x": 748,
+            "y": 490
+        },
+        {
+            "type": "Sprite",
+            "id": "964374fc-9eb3-4cce-940e-c25fd4aad425",
+            "label": "agent_lobby_top_epf_grass0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_top_epf_grass0001.png"
+            },
+            "x": 502,
+            "y": 202
+        },
+        {
+            "type": "Image",
+            "id": "249fe85d-fd94-46a9-9b96-298083159c72",
+            "label": "agent_lobby_blue_chair_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_blue_chair_bottom.png"
+            },
+            "x": 1164,
+            "y": 625
+        },
+        {
+            "type": "Image",
+            "id": "de19a4fc-faa1-4147-8e9c-6a5b4dffd95a",
+            "label": "agent_lobby_blue_chair_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_blue_chair_top.png"
+            },
+            "x": 1130,
+            "y": 624
+        },
+        {
+            "type": "Image",
+            "id": "a7f9cde3-1dc2-4c9f-b72d-e8e0a322bf58",
+            "label": "agent_lobby_bottom_left_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_bottom_left_table.png"
+            },
+            "x": 267,
+            "y": 720
+        },
+        {
+            "type": "Image",
+            "id": "3c1fccb9-84d3-4da7-a5dd-5057026dcc51",
+            "label": "agent_lobby_orange_chair_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_1.png"
+            },
+            "x": 608,
+            "y": 381
+        },
+        {
+            "type": "Image",
+            "id": "5947aec1-2cc8-440c-a807-de039fa3c4af",
+            "label": "agent_lobby_orange_chair_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_orange_chair_2.png"
+            },
+            "x": 764,
+            "y": 399
+        },
+        {
+            "type": "Image",
+            "id": "c99c525f-6c66-4703-824f-43a9dc53b535",
+            "label": "agent_lobby_top_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_top_desk.png"
+            },
+            "x": 512,
+            "y": 403
+        },
+        {
+            "type": "Image",
+            "id": "2efc1d1e-2bdd-47e9-b23c-7d1b58db1467",
+            "label": "agent_lobby_top_desk_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_top_desk_2.png"
+            },
+            "x": 740,
+            "y": 464
+        },
+        {
+            "type": "Image",
+            "id": "79b24528-fb8e-4665-b5a7-395da8d31e69",
+            "label": "agent_lobby_tv_map0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_tv_map0001.png"
+            },
+            "x": 474,
+            "y": 152
+        },
+        {
+            "type": "Image",
+            "id": "99b8ce47-aac3-4fa0-8f92-7a05fdeec47a",
+            "label": "agent_lobby_tc_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_tc.png"
+            },
+            "x": 485,
+            "y": 108
+        },
+        {
+            "type": "Image",
+            "id": "7fc88d2f-4f15-4460-a95a-fbfc69d19396",
+            "label": "agent_lobby_phone_booth0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "agentlobby",
+                "frame": "agent_lobby_phone_booth0001.png"
+            },
+            "x": 580,
+            "y": -165
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

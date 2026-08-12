@@ -1,0 +1,806 @@
+{
+    "id": "a3c2d610-0fa7-4b2c-bfdd-19b58192c270",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "CaveMineScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "cda38e67-9dea-432f-80ba-a031d118ab6a",
+            "label": "cave_mine_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_background.png"
+            },
+            "x": 882,
+            "y": 490
+        },
+        {
+            "type": "Image",
+            "id": "969e1031-b81a-4562-be48-9395393d24b2",
+            "label": "cave_mine_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_floor.png"
+            },
+            "x": 883,
+            "y": 571
+        },
+        {
+            "type": "Image",
+            "id": "d546f10a-94b2-43c3-b303-144e579bde4f",
+            "label": "cave_mine_right_coffee_table_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_coffee_table_chair.png"
+            },
+            "x": 522,
+            "y": 840
+        },
+        {
+            "type": "Image",
+            "id": "89b12f81-ce9d-45b6-b1b1-2edb8be8ee60",
+            "label": "cave_mine_left_coffee_table_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_coffee_table_chair.png"
+            },
+            "x": 398,
+            "y": 789
+        },
+        {
+            "type": "Image",
+            "id": "863d5c38-e7ab-4c6a-9222-3b6354fbab57",
+            "label": "cave_mine_coffee_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_coffee_table.png"
+            },
+            "x": 355,
+            "y": 884
+        },
+        {
+            "type": "Image",
+            "id": "5d29c3cb-d960-4aca-8c18-90f5cc437ad5",
+            "label": "cave_mine_left_side_top_rope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_side_top_rope.png"
+            },
+            "x": 398,
+            "y": 353,
+            "scaleX": 1.068881649363238
+        },
+        {
+            "type": "Image",
+            "id": "70e53cfd-82a3-4631-bda6-920cdb18c6ba",
+            "label": "cave_mine_left_rope_bridge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_rope_bridge.png"
+            },
+            "x": 453,
+            "y": 427
+        },
+        {
+            "type": "Image",
+            "id": "f6fc8ecc-aeed-4a17-9714-029cc4bd10d0",
+            "label": "cave_mine_big_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_big_rock.png"
+            },
+            "x": 407,
+            "y": 508
+        },
+        {
+            "type": "Image",
+            "id": "1a307152-dd75-4503-853f-37d16a5954a3",
+            "label": "cave_mine_left_exit_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_exit.png"
+            },
+            "x": 262,
+            "y": 554
+        },
+        {
+            "type": "Image",
+            "id": "e725c339-5a3e-4eec-9866-2cbfc86f5663",
+            "label": "cave_mine_left_door_exit_hover_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_door_exit_hover.png"
+            },
+            "x": 261,
+            "y": 565,
+            "scaleX": 1.010593449626388,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1efa3db3-e66b-4c99-bf69-0a3f8304efdc",
+            "label": "cave_mine_golden_puffle_dots_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_puffle_dots.png"
+            },
+            "x": 370,
+            "y": 76
+        },
+        {
+            "type": "Image",
+            "id": "1ffe6ec3-7fce-4959-aaf7-d419dc22ea42",
+            "label": "cave_mine_left_exit_top_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_exit_top_part.png"
+            },
+            "x": 181,
+            "y": 387,
+            "scaleX": 0.9545831445567867
+        },
+        {
+            "type": "Image",
+            "id": "6cd7f2e5-f573-49fc-8ec4-25d7f41641a4",
+            "label": "cave_mine_golden_puffle_drill_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_puffle_drill.png"
+            },
+            "x": 366,
+            "y": 210
+        },
+        {
+            "type": "Image",
+            "id": "e76a4265-91cc-4bdf-bee5-b714bb80aa8f",
+            "label": "cave_mine_golden_under_puffle_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_under_puffle_light.png"
+            },
+            "x": 474,
+            "y": 195
+        },
+        {
+            "type": "Image",
+            "id": "1aa7aa30-637b-40c7-982d-b157996df7bb",
+            "label": "cave_mine_outer_layer_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_outer_layer.png"
+            },
+            "x": 893,
+            "y": 518
+        },
+        {
+            "type": "Image",
+            "id": "6b508613-1e03-4a63-96f0-c6db5ac46fb1",
+            "label": "cave_mine_top_rope_bridge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_top_rope_bridge.png"
+            },
+            "x": 548,
+            "y": 344,
+            "scaleX": 0.9503765243253095
+        },
+        {
+            "type": "Image",
+            "id": "8ab56d5a-7d5a-42c9-8799-fdfdbd90e727",
+            "label": "cave_mine_going_up_rope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_going_up_rope.png"
+            },
+            "x": 660,
+            "y": 403
+        },
+        {
+            "type": "Image",
+            "id": "b61b5eb7-f947-4e9f-ba67-02bab5f25f5f",
+            "label": "cave_mine_tiny_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_tiny_rock.png"
+            },
+            "x": 522,
+            "y": 583
+        },
+        {
+            "type": "Image",
+            "id": "db5b672e-a8a7-4995-a4aa-1ad3ba92a530",
+            "label": "cave_mine_dig_for_coins_instructions_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_dig_for_coins_instructions.png"
+            },
+            "x": 858,
+            "y": 351
+        },
+        {
+            "type": "Image",
+            "id": "2dac9bb5-d59d-46dc-ac07-df6144365b6e",
+            "label": "cave_mine_dig_for_coins_instructions_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_dig_for_coins_instructions_text.png"
+            },
+            "x": 855,
+            "y": 328
+        },
+        {
+            "type": "Image",
+            "id": "fc91e5f7-dca9-42bd-b8bb-0a6960b930fd",
+            "label": "cave_mine_right_exit_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_exit.png"
+            },
+            "x": 1046,
+            "y": 449
+        },
+        {
+            "type": "Image",
+            "id": "08d07116-89ef-44ad-8d4f-2f5a4d50389f",
+            "label": "cave_mine_hard_hats0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_hard_hats0001.png"
+            },
+            "x": 850,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "98c6de82-69a2-4678-a751-e6d0223a940c",
+            "label": "cave_mine_golden_puffle_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_puffle_light.png"
+            },
+            "x": 477,
+            "y": 196,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b68b8e89-59c7-4ef2-8a3e-01ed242f86b9",
+            "label": "cave_mine_top_rockk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_top_rockk.png"
+            },
+            "x": 907,
+            "y": 293,
+            "scaleX": 1.0242718664146362
+        },
+        {
+            "type": "Image",
+            "id": "1f2ff1d3-50ec-4a8a-9113-5946d987b9e9",
+            "label": "cave_mine_drill_spots_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_drill_spots.png"
+            },
+            "x": 1110,
+            "y": 566
+        },
+        {
+            "type": "Image",
+            "id": "e4649dc8-f88c-4f21-9076-baea88b2be49",
+            "label": "cave_mine_right_side_big_sheet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_side_big_sheet.png"
+            },
+            "x": 1487,
+            "y": 669
+        },
+        {
+            "type": "Image",
+            "id": "027cef7b-0bc8-4a7a-8dbc-a81a918c08c6",
+            "label": "cave_mine_driller_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_driller.png"
+            },
+            "x": 1222,
+            "y": 127
+        },
+        {
+            "type": "Image",
+            "id": "31665df3-98e6-4975-a9cf-c770778f6671",
+            "label": "cave_mine_drill_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_drill.png"
+            },
+            "x": 1505,
+            "y": 176,
+            "scaleY": 1.0743713079282295
+        },
+        {
+            "type": "Image",
+            "id": "18795566-13df-45fe-86ba-4aa113a94783",
+            "label": "cave_mine_background_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_background.png"
+            },
+            "x": 882,
+            "y": 490
+        },
+        {
+            "type": "Image",
+            "id": "c77d03b0-a7e0-4a6b-a5bb-1647b37bcf99",
+            "label": "cave_mine_floor_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_floor.png"
+            },
+            "x": 883,
+            "y": 571
+        },
+        {
+            "type": "Image",
+            "id": "878b243c-856a-4ef6-8f8d-33ed1ccd7329",
+            "label": "cave_mine_right_exit_door_hover_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_exit_door_hover.png"
+            },
+            "x": 1088,
+            "y": 394,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "502cad69-86b7-412a-a9cc-0bf02571a783",
+            "label": "cave_mine_right_coffee_table_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_coffee_table_chair.png"
+            },
+            "x": 522,
+            "y": 840
+        },
+        {
+            "type": "Image",
+            "id": "5eb4e443-ca5f-49c9-b18a-930d3dfdea59",
+            "label": "cave_mine_left_coffee_table_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_coffee_table_chair.png"
+            },
+            "x": 398,
+            "y": 789
+        },
+        {
+            "type": "Image",
+            "id": "6a092a5a-bd57-4cac-8aa0-ae6a9cab3e38",
+            "label": "cave_mine_coffee_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_coffee_table.png"
+            },
+            "x": 355,
+            "y": 884
+        },
+        {
+            "type": "Image",
+            "id": "6d44b172-8d39-419b-8127-54679a7b071a",
+            "label": "cave_mine_left_side_top_rope_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_side_top_rope.png"
+            },
+            "x": 398,
+            "y": 353,
+            "scaleX": 1.068881649363238
+        },
+        {
+            "type": "Image",
+            "id": "33995ebb-51f7-4af1-ada2-1332c7938cfe",
+            "label": "cave_mine_left_rope_bridge_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_rope_bridge.png"
+            },
+            "x": 453,
+            "y": 427
+        },
+        {
+            "type": "Image",
+            "id": "a5016cb8-81b3-4b84-8b58-547861cc9803",
+            "label": "cave_mine_big_rock_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_big_rock.png"
+            },
+            "x": 407,
+            "y": 508
+        },
+        {
+            "type": "Image",
+            "id": "1458c0bf-43f8-4085-9eef-fb98a4d73793",
+            "label": "cave_mine_left_exit_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_exit.png"
+            },
+            "x": 262,
+            "y": 554
+        },
+        {
+            "type": "Image",
+            "id": "04d1cded-04c3-4a1b-8b66-45dab158d774",
+            "label": "cave_mine_left_door_exit_hover_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_door_exit_hover.png"
+            },
+            "x": 261,
+            "y": 565,
+            "scaleX": 1.010593449626388,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6e58a489-3adb-4eea-a7f0-ecdf19814d2c",
+            "label": "cave_mine_golden_puffle_dots_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_puffle_dots.png"
+            },
+            "x": 370,
+            "y": 76
+        },
+        {
+            "type": "Image",
+            "id": "d89e4eda-1362-4487-85bf-c39262a1604f",
+            "label": "cave_mine_left_exit_top_part_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_exit_top_part.png"
+            },
+            "x": 181,
+            "y": 387,
+            "scaleX": 0.9545831445567867
+        },
+        {
+            "type": "Image",
+            "id": "1dbca52b-4082-4395-a701-0a09ee67b603",
+            "label": "cave_mine_golden_puffle_drill_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_puffle_drill.png"
+            },
+            "x": 366,
+            "y": 210
+        },
+        {
+            "type": "Image",
+            "id": "62c2ff81-4899-4898-bbf5-70e116aa9779",
+            "label": "cave_mine_golden_under_puffle_light_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_under_puffle_light.png"
+            },
+            "x": 474,
+            "y": 195
+        },
+        {
+            "type": "Image",
+            "id": "59e8821a-43eb-4479-8bfe-8f6ab4ebdcd1",
+            "label": "cave_mine_outer_layer_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_outer_layer.png"
+            },
+            "x": 893,
+            "y": 518
+        },
+        {
+            "type": "Image",
+            "id": "14bf1c35-c885-4ed9-aa6c-9fea86d1e60b",
+            "label": "cave_mine_top_rope_bridge_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_top_rope_bridge.png"
+            },
+            "x": 548,
+            "y": 344,
+            "scaleX": 0.9503765243253095
+        },
+        {
+            "type": "Image",
+            "id": "f40eb829-111b-408c-8c5b-c26dfe82a23f",
+            "label": "cave_mine_going_up_rope_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_going_up_rope.png"
+            },
+            "x": 660,
+            "y": 403
+        },
+        {
+            "type": "Image",
+            "id": "da6637a7-9acd-4996-a487-82a6a6d362ad",
+            "label": "cave_mine_tiny_rock_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_tiny_rock.png"
+            },
+            "x": 522,
+            "y": 583
+        },
+        {
+            "type": "Image",
+            "id": "299c2c38-1a4a-41a9-a139-bebe1ff08d90",
+            "label": "cave_mine_dig_for_coins_instructions_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_dig_for_coins_instructions.png"
+            },
+            "x": 858,
+            "y": 351
+        },
+        {
+            "type": "Image",
+            "id": "489d84f2-91e1-4618-800b-d7d6a2942986",
+            "label": "cave_mine_dig_for_coins_instructions_text_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_dig_for_coins_instructions_text.png"
+            },
+            "x": 855,
+            "y": 328
+        },
+        {
+            "type": "Image",
+            "id": "75cb3ea7-b86f-46df-9485-6eed4699809a",
+            "label": "cave_mine_right_exit_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_exit.png"
+            },
+            "x": 1046,
+            "y": 449
+        },
+        {
+            "type": "Image",
+            "id": "3a5cc365-e40f-48bc-ac90-437785da6f85",
+            "label": "cave_mine_hard_hats0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_hard_hats0001.png"
+            },
+            "x": 850,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "4097db02-1723-45bd-b4a7-9d022f03adbb",
+            "label": "cave_mine_golden_puffle_light_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_golden_puffle_light.png"
+            },
+            "x": 477,
+            "y": 196,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c721f12d-f19f-4e85-9ad9-853575f1b062",
+            "label": "cave_mine_top_rockk_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_top_rockk.png"
+            },
+            "x": 907,
+            "y": 293,
+            "scaleX": 1.0242718664146362
+        },
+        {
+            "type": "Image",
+            "id": "21ed77be-6bbe-4cb9-8ae3-ea98a141467c",
+            "label": "cave_mine_drill_spots_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_drill_spots.png"
+            },
+            "x": 1112,
+            "y": 565,
+            "scaleY": 1.168426539448515
+        },
+        {
+            "type": "Image",
+            "id": "65b34e23-73c9-4675-86f8-393865272dc6",
+            "label": "cave_mine_right_side_big_sheet_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_side_big_sheet.png"
+            },
+            "x": 1487,
+            "y": 669
+        },
+        {
+            "type": "Image",
+            "id": "d7a13deb-79c9-49a6-9320-f37ad04656d7",
+            "label": "cave_mine_driller_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_driller.png"
+            },
+            "x": 1222,
+            "y": 127
+        },
+        {
+            "type": "Image",
+            "id": "b8fecfe0-eb25-44e6-9bde-5c90b30facb2",
+            "label": "cave_mine_drill_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_drill.png"
+            },
+            "x": 1505,
+            "y": 176,
+            "scaleY": 1.0743713079282295
+        },
+        {
+            "type": "Image",
+            "id": "d9b09e07-ab11-4426-bab3-b984bcb64e21",
+            "label": "cave_mine_hard_hats0001_png_1_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_hard_hats0001.png"
+            },
+            "x": 850,
+            "y": 472,
+            "scaleX": 1.0177853724515475,
+            "scaleY": 1.0328829190691855,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "845cc7f3-2640-4782-8034-7fc8f70d4527",
+            "label": "cave_mine_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave_mine_walking_trigger"
+            },
+            "x": 894,
+            "y": 485,
+            "scaleX": 1.0181200530604542,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f955af6d-c5e1-4c4c-8129-112605c5d0a1",
+            "label": "cave_mine_hiddenroom_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_right_exit_trigger.png"
+            },
+            "x": 1138,
+            "y": 408,
+            "scaleX": 0.7274113698215946,
+            "scaleY": 0.8533975564124291,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 215,
+                "height": 100
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b6b90a95-b8bf-4f86-90b0-0b918792eadb",
+            "label": "cave_mine_mine_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cavemine",
+                "frame": "cave_mine_left_exit_trigger.png"
+            },
+            "x": 195,
+            "y": 558,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 220,
+                "height": 152
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

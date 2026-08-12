@@ -1,0 +1,249 @@
+{
+    "id": "3dabc5c7-9c4c-48a8-b436-d5e31e4ec4c0",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SkateParkScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e56519e1-9491-4ac3-a1c6-a554bec81094",
+            "label": "skate_park_blue_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_blue_sky.png"
+            },
+            "x": 750,
+            "y": 154
+        },
+        {
+            "type": "Image",
+            "id": "9f111279-eddf-482d-a12c-9cf00cd5988a",
+            "label": "skate_park_clouds_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_clouds.png"
+            },
+            "x": 784,
+            "y": 131
+        },
+        {
+            "type": "Image",
+            "id": "9f26e609-4f9d-4840-8b49-83cb1d12f947",
+            "label": "skate_park_dojo_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_dojo.png"
+            },
+            "x": 346,
+            "y": 136
+        },
+        {
+            "type": "Image",
+            "id": "85e21c7c-9f6a-4ca3-b39e-222d475cc20c",
+            "label": "skate_park_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_background.png"
+            },
+            "x": 784,
+            "y": 534
+        },
+        {
+            "type": "Image",
+            "id": "70990184-463d-4cd2-aa87-86f06059fc79",
+            "label": "skate_park_bench_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_bench.png"
+            },
+            "x": 1215,
+            "y": 227
+        },
+        {
+            "type": "Image",
+            "id": "ed1552ab-ce86-49c2-83e0-399898cf0d36",
+            "label": "skate_park_bench_armm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_bench_armm.png"
+            },
+            "x": 1271,
+            "y": 250
+        },
+        {
+            "type": "Image",
+            "id": "10cfbc8e-d9db-4a0f-b035-695f76df941b",
+            "label": "skate_park_bottom_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_bottom_railing.png"
+            },
+            "x": 1197,
+            "y": 719
+        },
+        {
+            "type": "Image",
+            "id": "2dae7066-149f-4f0c-9ae0-c570a255cd18",
+            "label": "skate_park_top_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_top_railing.png"
+            },
+            "x": 1249,
+            "y": 430
+        },
+        {
+            "type": "Image",
+            "id": "8cbfc50a-f22a-4373-8cc5-38d098d70e24",
+            "label": "skate_park_above_bottom_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_above_bottom_railing.png"
+            },
+            "x": 1286,
+            "y": 546
+        },
+        {
+            "type": "Image",
+            "id": "4eb4a14f-0950-46d0-80cf-4afaa5845473",
+            "label": "skate_park_puffle_statue_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_puffle_statue.png"
+            },
+            "x": 44,
+            "y": 415
+        },
+        {
+            "type": "Image",
+            "id": "e545af08-a99f-4eba-bea0-86bada1734e3",
+            "label": "skate_park_purchase_skateboards_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_purchase_skateboards.png"
+            },
+            "x": 339,
+            "y": 185
+        },
+        {
+            "type": "Image",
+            "id": "4a92c4b3-c369-4374-86cd-a2d97f61a954",
+            "label": "skate_park_purchase_skateboards_png_hover_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_purchase_skateboards.png_hover.png"
+            },
+            "x": 339,
+            "y": 185,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6babbae6-5f16-4ddf-b4bc-39e8c7fdc547",
+            "label": "skate_park_skateboard_purchase_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_skateboard_purchase_hover_trigger0004.png"
+            },
+            "x": 344,
+            "y": 185,
+            "scaleX": 0.8718288193447924,
+            "scaleY": 0.7295356093123448,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "1e0a670a-fb93-4b40-9c85-f36d7842f6a1",
+            "label": "skate_park_bottom_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_bottom_left.png"
+            },
+            "x": 400,
+            "y": 826
+        },
+        {
+            "type": "Image",
+            "id": "0042ba41-89f1-472a-9da4-392bac9b8ca5",
+            "label": "skate_park_bottom_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_bottom_right.png"
+            },
+            "x": 1299,
+            "y": 841
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1a005e0c-b082-46af-8a71-40dbdfaa4af2",
+            "label": "skate_park_walking_trigger0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skate_park_walking_trigger0002"
+            },
+            "x": 760,
+            "y": 478,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "44b89d28-aa8e-4bc7-b223-629b47ceb8a1",
+            "label": "skate_park_exit_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skatepark",
+                "frame": "skate_park_exit_trigger.png"
+            },
+            "x": -2,
+            "y": 170,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 383,
+                "height": 305
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

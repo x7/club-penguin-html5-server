@@ -3,12 +3,12 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/loading/load.json",
-                "path": "public/assets/loading",
+                "url": "assets/loading/load.json",
+                "path": "assets/loading",
                 "key": "load"
             },
             {
-                "url": "public/assets/loading/load-animations.json",
+                "url": "assets/loading/load-animations.json",
                 "type": "animation",
                 "key": "load-animations"
             }

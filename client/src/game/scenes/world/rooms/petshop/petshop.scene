@@ -1,0 +1,1001 @@
+{
+    "id": "42d3b00d-38dd-445e-97d9-94eefbfc6735",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PetShopScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7db24951-eb3d-4fdf-8772-48f72d175f76",
+            "label": "pet_shop_puffle_scape_bg_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_scape_bg.png"
+            },
+            "x": 961,
+            "y": 179
+        },
+        {
+            "type": "Image",
+            "id": "87443565-6e55-4787-8f7c-8966e7f69f77",
+            "label": "pet_shop_outside_backgrounds_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_outside_backgrounds.png"
+            },
+            "x": 917,
+            "y": 312
+        },
+        {
+            "type": "Sprite",
+            "id": "0096dfd8-15a4-479e-850e-3b53042388a7",
+            "label": "pet_shop_puffle_launch_window0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_launch_window0001.png"
+            },
+            "x": 1177,
+            "y": 161
+        },
+        {
+            "type": "Image",
+            "id": "44846d62-5e60-4d08-a04e-0e2e399c747c",
+            "label": "pet_shop_puffle_launch_bg_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_launch_bg.png"
+            },
+            "x": 1196,
+            "y": 281
+        },
+        {
+            "type": "Sprite",
+            "id": "4bfe9195-05b0-4432-995d-1e0897403b11",
+            "label": "pet_shop_puffle_launch_machine0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_launch_machine0001.png"
+            },
+            "x": 1217,
+            "y": 224
+        },
+        {
+            "type": "Sprite",
+            "id": "67cf9d7f-d2cb-428c-8336-5ba97f1c1446",
+            "label": "pet_shop_pufflescape_ball0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_pufflescape_ball0001.png"
+            },
+            "x": 971,
+            "y": 212
+        },
+        {
+            "type": "Image",
+            "id": "a8f6e3a0-0be4-48a3-a95f-ab5976995a80",
+            "label": "pet_shop_plaza_doore0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_plaza_doore0001.png"
+            },
+            "x": 738,
+            "y": 186
+        },
+        {
+            "type": "Image",
+            "id": "1d37e28d-bd8f-4319-97cc-bca68dc58869",
+            "label": "pet_shop_plaza_doore0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_plaza_doore0002.png"
+            },
+            "x": 738,
+            "y": 186,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ebe0f732-1c88-4966-8114-05587c3ff2ef",
+            "label": "pet_shop_outer_layer_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_outer_layer.png"
+            },
+            "x": 748,
+            "y": 475
+        },
+        {
+            "type": "Sprite",
+            "id": "5df69b29-85d0-4538-9ec2-4df2c06f6364",
+            "label": "pet_shop_blue_puffle_top_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_blue_puffle_top_left0001.png"
+            },
+            "x": 150,
+            "y": 141
+        },
+        {
+            "type": "Image",
+            "id": "2d31f783-20f2-423c-ba17-71d7beef0efa",
+            "label": "pet_shop_puffle_park_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_park_door0001.png"
+            },
+            "x": 1431,
+            "y": 339
+        },
+        {
+            "type": "Image",
+            "id": "53cc7b82-9b07-4b78-8c2c-d1d9bb42cf69",
+            "label": "pet_shop_puffle_park_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_park_door0002.png"
+            },
+            "x": 1431,
+            "y": 339,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "3297e646-c229-4ec5-a502-db245fb0e75b",
+            "label": "pet_shop_blue_puffle_top_middle_walking0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_blue_puffle_top_middle_walking0001.png"
+            },
+            "x": 806,
+            "y": 8
+        },
+        {
+            "type": "Image",
+            "id": "f28ae582-d392-4715-9e3b-38d60e730c0e",
+            "label": "pet_shop_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_background.png"
+            },
+            "x": 748,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "a7963268-f42a-48d2-8bae-1b0b8e1b50b4",
+            "label": "pet_shop_puffle_berry_top0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_berry_top0001.png"
+            },
+            "x": 546,
+            "y": 155,
+            "scaleY": 1.0541005123973575
+        },
+        {
+            "type": "Image",
+            "id": "76a03c4e-b781-4683-be3f-b5f50d2e9ac3",
+            "label": "pet_shop_puffle_berry_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_berry_bottom.png"
+            },
+            "x": 527,
+            "y": 377
+        },
+        {
+            "type": "Image",
+            "id": "cc3e9887-8e48-4cc6-a6cf-2743e1c566a5",
+            "label": "pet_shop_puffle_berry_carpet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_berry_carpet.png"
+            },
+            "x": 571,
+            "y": 426
+        },
+        {
+            "type": "Image",
+            "id": "dae8df4f-55f9-47a6-940d-11006067dbd4",
+            "label": "pet_shop_top_tunnels_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_top_tunnels.png"
+            },
+            "x": 819,
+            "y": 194
+        },
+        {
+            "type": "Sprite",
+            "id": "a6a601f3-793a-4370-9bfd-fee9bc924855",
+            "label": "pet_shop_blue_puffle_top_right_walk_through_tunnels0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_blue_puffle_top_right_walk_through_tunnels0001.png"
+            },
+            "x": 1327,
+            "y": 42
+        },
+        {
+            "type": "Image",
+            "id": "97260d54-845b-413b-9092-e47e6db92ed7",
+            "label": "pet_shop_right_side_tunnel_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_right_side_tunnel_top.png"
+            },
+            "x": 607,
+            "y": 152,
+            "originX": 0.40616491162638574,
+            "originY": 0.43224858613554384
+        },
+        {
+            "type": "Image",
+            "id": "d1e83e14-1d53-4ab8-9e43-fb16873a8afc",
+            "label": "pet_shop_adopt_a_puffle_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_background.png"
+            },
+            "x": 291,
+            "y": 326
+        },
+        {
+            "type": "Sprite",
+            "id": "fee4afe2-c881-49ef-8599-e52f6a9e17dc",
+            "label": "pet_shop_adopt_a_puffle_white_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_white_puffle0001.png"
+            },
+            "x": 354,
+            "y": 252
+        },
+        {
+            "type": "Sprite",
+            "id": "c8eea978-a2e5-4ccb-9624-b9f93d084946",
+            "label": "pet_shop_adopt_a_puffle_purple_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_purple_puffle0001.png"
+            },
+            "x": 255,
+            "y": 236
+        },
+        {
+            "type": "Image",
+            "id": "094bd588-00b2-4a3e-8227-9870adc7b94b",
+            "label": "pet_shop_puffle_berry_circle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_berry_circle0001.png"
+            },
+            "x": 477,
+            "y": 301
+        },
+        {
+            "type": "Image",
+            "id": "08ce6c4a-7d15-4e6a-8985-ff152bb8a064",
+            "label": "pet_shop_adopt_a_puffle_border_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_border.png"
+            },
+            "x": 209,
+            "y": 273,
+            "scaleX": 0.9623945408349526,
+            "scaleY": 0.9590495974049525
+        },
+        {
+            "type": "Image",
+            "id": "120f7858-a903-49e6-a5ea-49092d069cf7",
+            "label": "pet_shop_adopt_a_puffle_top_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_top_wood.png"
+            },
+            "x": 320,
+            "y": 203,
+            "scaleX": 0.9816187031199654,
+            "scaleY": 1.0151974798662593
+        },
+        {
+            "type": "Image",
+            "id": "97c0e7e5-3436-41d8-a1d6-8be003297054",
+            "label": "pet_shopo_puffle_hotel_entrace_backgrouond_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shopo_puffle_hotel_entrace_backgrouond.png"
+            },
+            "x": 99,
+            "y": 552
+        },
+        {
+            "type": "Image",
+            "id": "56726a06-c6e6-4bf8-8fee-2ad729883d4f",
+            "label": "pet_shop_puffle_hotel_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_hotel_door0001.png"
+            },
+            "x": 14,
+            "y": 557
+        },
+        {
+            "type": "Image",
+            "id": "651a3dd9-c269-4d1b-8d15-95b680c72547",
+            "label": "pet_shop_puffle_hotel_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_hotel_door0002.png"
+            },
+            "x": 11,
+            "y": 577,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "eadf7c8f-2942-45ac-9730-93fee3126aba",
+            "label": "pet_shop_puffle_hotel_stand_entrance_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_hotel_stand_entrance.png"
+            },
+            "x": -4,
+            "y": 553
+        },
+        {
+            "type": "Image",
+            "id": "d6a03bc3-e893-4c28-ae8a-9576cf6f93bb",
+            "label": "pet_shop_floor_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_floor_wood.png"
+            },
+            "x": 303,
+            "y": 441
+        },
+        {
+            "type": "Image",
+            "id": "cd7a0803-4b4e-46c3-a8b3-18deff5ad24b",
+            "label": "pet_shop_book0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_book0001.png"
+            },
+            "x": 240,
+            "y": 483
+        },
+        {
+            "type": "Image",
+            "id": "e28c3d36-cea3-49ba-88a5-ac43ab8718e8",
+            "label": "pet_shop_book0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_book0002.png"
+            },
+            "x": 240,
+            "y": 483
+        },
+        {
+            "type": "Image",
+            "id": "e0397e2d-37e6-492c-aef4-d81fa5d79f06",
+            "label": "pet_shop_litte_stand_png_4",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1389,
+            "y": 544,
+            "scaleX": 1.0738474752877867,
+            "scaleY": 1.1848640302302222
+        },
+        {
+            "type": "Image",
+            "id": "35b0b82c-59c1-48c8-8460-75a6bcef5d70",
+            "label": "pet_shop_litte_stand_png_5",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1416,
+            "y": 535,
+            "scaleX": 1.0738474752877867,
+            "scaleY": 1.1848640302302222
+        },
+        {
+            "type": "Image",
+            "id": "194f143b-eacf-4c19-a014-9756acdfeb3e",
+            "label": "pet_shop_litte_stand_png_6",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1365,
+            "y": 579,
+            "scaleX": 1.0738474752877867,
+            "scaleY": 1.1848640302302222
+        },
+        {
+            "type": "Image",
+            "id": "1addb277-c757-46e6-8ac6-48fa88616bcd",
+            "label": "pet_shop_puffle_park_door_railing_left_side_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_park_door_railing_left_side.png"
+            },
+            "x": 1398,
+            "y": 557
+        },
+        {
+            "type": "Image",
+            "id": "c3f59f6d-944d-4d89-bc37-465287e5abea",
+            "label": "pet_shop_bottom_right_blue_stand_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_bottom_right_blue_stand_top.png"
+            },
+            "x": 1328,
+            "y": 609
+        },
+        {
+            "type": "Image",
+            "id": "70c59dd6-09ff-4fee-9194-6c8fe80dc797",
+            "label": "pet_shop_bottom_right_blue_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_bottom_right_blue_stand.png"
+            },
+            "x": 1287,
+            "y": 834
+        },
+        {
+            "type": "Image",
+            "id": "9cf67501-6ea2-493a-af9e-8046991b61ba",
+            "label": "pet_shop_middle_carpet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_middle_carpet.png"
+            },
+            "x": 736,
+            "y": 672
+        },
+        {
+            "type": "Image",
+            "id": "300eb265-c595-4ab3-bb88-6427bb2ed751",
+            "label": "pet_shop_pink_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_pink_seat.png"
+            },
+            "x": 303,
+            "y": 887
+        },
+        {
+            "type": "Image",
+            "id": "64b7e111-2d9c-49f8-8141-57e24b903e10",
+            "label": "pet_shop_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_bottom.png"
+            },
+            "x": 725,
+            "y": 882
+        },
+        {
+            "type": "Image",
+            "id": "d8263698-7939-4663-9c78-4b9d76c6a34d",
+            "label": "pet_shop_red_puffle_carpet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_red_puffle_carpet.png"
+            },
+            "x": 738,
+            "y": 664
+        },
+        {
+            "type": "Image",
+            "id": "0a0f4eab-614f-40f2-8db2-254cdbbde90c",
+            "label": "pet_shop_skate_board_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_skate_board.png"
+            },
+            "x": 920,
+            "y": 786
+        },
+        {
+            "type": "Image",
+            "id": "b4e97611-4b4e-40e0-9fd3-ea86c4fcf030",
+            "label": "pet_shop_food_bowl_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_food_bowl.png"
+            },
+            "x": 1000,
+            "y": 866
+        },
+        {
+            "type": "Image",
+            "id": "75bb1b7b-de25-41df-9d17-b43e0d43a08b",
+            "label": "pet_shop_bouncy_call_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_bouncy_call.png"
+            },
+            "x": 446,
+            "y": 406
+        },
+        {
+            "type": "Image",
+            "id": "e911c5af-6443-48ef-a789-699c022c9b11",
+            "label": "pet_shop_green_food_bowl_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_green_food_bowl.png"
+            },
+            "x": 872,
+            "y": 399
+        },
+        {
+            "type": "Image",
+            "id": "88972f40-8303-4f4c-8423-0109e3d4916f",
+            "label": "pet_shop_orange_food_bowl_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_orange_food_bowl.png"
+            },
+            "x": 910,
+            "y": 438
+        },
+        {
+            "type": "Image",
+            "id": "d31f53a0-d860-4701-bdd8-d493ed1b8117",
+            "label": "pet_shop_green_truck_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_green_truck_bottom.png"
+            },
+            "x": 1182,
+            "y": 514
+        },
+        {
+            "type": "Image",
+            "id": "34bcc51b-124a-4769-91aa-f7d34fbeaa41",
+            "label": "pet_shop_green_truck_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_green_truck_top.png"
+            },
+            "x": 1191,
+            "y": 444
+        },
+        {
+            "type": "Image",
+            "id": "fa4b07f5-31f1-4c9a-abef-5fdb373c8fe4",
+            "label": "pet_shop_pink_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_pink_stand.png"
+            },
+            "x": 522,
+            "y": 849
+        },
+        {
+            "type": "Image",
+            "id": "a30f0c1b-0935-48f2-b6f4-270d9fe91f9c",
+            "label": "pet_shop_painting_stuff_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_painting_stuff.png"
+            },
+            "x": 257,
+            "y": 573
+        },
+        {
+            "type": "Image",
+            "id": "ecf7ed98-c67a-4fac-ab01-8fa888e01b06",
+            "label": "pet_shop_pink_roller_blades_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_pink_roller_blades.png"
+            },
+            "x": 205,
+            "y": 649
+        },
+        {
+            "type": "Image",
+            "id": "3a4767a0-7c28-4df7-8c8f-a64e2990ac1d",
+            "label": "pet_shop_puffle_hotel_stand_entrance_puffle_icon_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_hotel_stand_entrance_puffle_icon.png"
+            },
+            "x": 53,
+            "y": 292
+        },
+        {
+            "type": "Image",
+            "id": "8a0b4bbe-6de5-4bd9-9a0e-3d7e56f47fc3",
+            "label": "pet_shop_adopt_a_puffle_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_text0001.png"
+            },
+            "x": 296,
+            "y": 112
+        },
+        {
+            "type": "Sprite",
+            "id": "99a55470-d71f-4dc0-8331-7c92f92a856a",
+            "label": "pet_shop_pink_puffle_top_of_adopt_a_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_pink_puffle_top_of_adopt_a_puffle0001.png"
+            },
+            "x": 243,
+            "y": 152
+        },
+        {
+            "type": "Sprite",
+            "id": "614e0146-b890-4bc6-825d-f73964ab48bc",
+            "label": "pet_shop_orange_puffle_top_of_adopt_a_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_orange_puffle_top_of_adopt_a_puffle0001.png"
+            },
+            "x": 314,
+            "y": 138
+        },
+        {
+            "type": "Sprite",
+            "id": "d5608efc-13b7-42e6-a09a-bf2be33747f4",
+            "label": "pet_shop_black_puffle_top_of_adopt_a_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_black_puffle_top_of_adopt_a_puffle0001.png"
+            },
+            "x": 390,
+            "y": 149
+        },
+        {
+            "type": "Image",
+            "id": "3561f2ad-65da-407d-bace-968068a9f301",
+            "label": "pet_shop_top_left_disco_ball_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_top_left_disco_ball.png"
+            },
+            "x": 49,
+            "y": 92
+        },
+        {
+            "type": "Image",
+            "id": "c2454f6f-dfe1-4d4e-9359-592b1aaada08",
+            "label": "pet_shop_top_left_disco_ball_handle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_top_left_disco_ball_handle.png"
+            },
+            "x": 43,
+            "y": -4
+        },
+        {
+            "type": "Sprite",
+            "id": "07debd46-541d-4113-9dc0-1d689636b2b3",
+            "label": "pet_shop_adopt_a_puffle_yellow_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_yellow_puffle0001.png"
+            },
+            "x": 319,
+            "y": 295
+        },
+        {
+            "type": "Sprite",
+            "id": "73eb5f0c-a5e3-4a44-bccc-653283a46101",
+            "label": "pet_shop_adopt_a_puffle_brown_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_brown_puffle0001.png"
+            },
+            "x": 260,
+            "y": 292
+        },
+        {
+            "type": "Sprite",
+            "id": "0eaff9ad-52fc-45f1-9371-95dec2164c12",
+            "label": "pet_shop_adopt_a_puffle_green_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_green_puffle0001.png"
+            },
+            "x": 207,
+            "y": 307
+        },
+        {
+            "type": "Sprite",
+            "id": "54941e06-068a-4ae8-a19e-969face574ea",
+            "label": "pet_shop_adopt_a_puffle_red_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_red_puffle0001.png"
+            },
+            "x": 361,
+            "y": 335
+        },
+        {
+            "type": "Sprite",
+            "id": "dd0999c4-dbdc-4090-841a-d286cae6830b",
+            "label": "pet_shop_adopt_a_puffle_orange_cat_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_orange_cat_puffle0001.png"
+            },
+            "x": 317,
+            "y": 355
+        },
+        {
+            "type": "Sprite",
+            "id": "acb37c91-72a6-4730-a715-7bd993e1c1f6",
+            "label": "pet_shop_adopt_a_puffle_blue_cat_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_blue_cat_puffle0001.png"
+            },
+            "x": 259,
+            "y": 338
+        },
+        {
+            "type": "Sprite",
+            "id": "de3f38d0-6da2-4fbf-8144-09602aa16716",
+            "label": "pet_shop_adopt_a_puffle_blue_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_blue_puffle0001.png"
+            },
+            "x": 214,
+            "y": 363
+        },
+        {
+            "type": "Image",
+            "id": "cf4377f9-fecd-4ff2-a696-35370c46df71",
+            "label": "pet_shop_adopt_a_puffle_list_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_adopt_a_puffle_list.png"
+            },
+            "x": 424,
+            "y": 305
+        },
+        {
+            "type": "Image",
+            "id": "87345e7b-f8c3-44d6-bd1e-1723460150a1",
+            "label": "pet_shop_litte_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1253,
+            "y": 489
+        },
+        {
+            "type": "Image",
+            "id": "b2f30eca-020e-4557-8f6a-18682202c4f1",
+            "label": "pet_shop_litte_stand_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1279,
+            "y": 457
+        },
+        {
+            "type": "Image",
+            "id": "d7687a8d-3344-4339-aaac-25a3fb7f5be3",
+            "label": "pet_shop_litte_stand_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1302,
+            "y": 448
+        },
+        {
+            "type": "Image",
+            "id": "33094c29-84c5-41d4-a11a-e4a4528b5a93",
+            "label": "pet_shop_litte_stand_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_litte_stand.png"
+            },
+            "x": 1329,
+            "y": 440,
+            "scaleX": 1.0738474752877867,
+            "scaleY": 1.1848640302302222
+        },
+        {
+            "type": "Image",
+            "id": "c1c42842-d40c-4883-a47f-0f925dc82ed3",
+            "label": "pet_shop_puffle_park_door_railing_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_park_door_railing_left_side.png"
+            },
+            "x": 1294,
+            "y": 466
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "09c98d59-c8a1-4c87-b8cd-96660d189cb8",
+            "label": "pet_shop_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pet_shop_walking_trigger0002"
+            },
+            "x": 754,
+            "y": 472,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5ee5c6b8-58ae-4606-b177-a619f1151f2e",
+            "label": "pet_shop_puffle_park_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_park_trigger.png"
+            },
+            "x": 1468,
+            "y": 433,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 220,
+                "height": 119
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0a984292-2565-4783-8056-93069d9178d4",
+            "label": "pet_shop_puffle_hotel_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_puffle_hotel_trigger.png"
+            },
+            "x": 26,
+            "y": 644,
+            "scaleX": 0.5549829961000735,
+            "scaleY": 0.2430630579274894,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 260,
+                "height": 411
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "05c4a8ec-9b56-4f06-bf9e-2211f42e2a74",
+            "label": "pet_shop_plaza_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "petshop",
+                "frame": "pet_shop_plaza_trigger.png"
+            },
+            "x": 738,
+            "y": 245,
+            "scaleX": 0.654237325370535,
+            "scaleY": 0.7811142450600612,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 360,
+                "height": 80
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

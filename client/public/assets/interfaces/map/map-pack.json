@@ -3,8 +3,8 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/interfaces/map/map.json",
-                "path": "public/assets/interfaces/map",
+                "url": "assets/interfaces/map/map.json",
+                "path": "assets/interfaces/map",
                 "key": "map"
             }
         ]

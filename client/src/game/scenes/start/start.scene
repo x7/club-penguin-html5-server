@@ -1,0 +1,271 @@
+{
+    "id": "c6e2a7ac-a44c-4d53-9cb7-603dd77ae870",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "StartScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "256800f2-9641-49e3-8195-1917438a77f6",
+            "label": "start_main_blue_background",
+            "scope": "METHOD",
+            "texture": {
+                "key": "brb-billboardShadow"
+            },
+            "x": 730,
+            "y": 473,
+            "scaleX": 1.2164996704841768,
+            "scaleY": 1.246165561289864
+        },
+        {
+            "type": "Image",
+            "id": "006c3c80-8fea-49bf-95a9-f646c2c46d1c",
+            "label": "start_home_screen_page",
+            "scope": "METHOD",
+            "texture": {
+                "key": "brb-billboard"
+            },
+            "x": 760,
+            "y": 367,
+            "scaleX": 0.9073591929891096,
+            "scaleY": 0.7297869042513413
+        },
+        {
+            "type": "Image",
+            "id": "1d2b9245-d0d2-496c-bb1e-cc97c1174361",
+            "label": "start_blue_border",
+            "scope": "METHOD",
+            "texture": {
+                "key": "start",
+                "frame": "start-screen/module"
+            },
+            "x": 765,
+            "y": 561,
+            "originX": 0.5,
+            "originY": 0,
+            "scaleX": 0.9301137006375564,
+            "scaleY": 0.9328153761045828
+        },
+        {
+            "type": "Image",
+            "id": "545b82b8-5e5b-47a4-9110-27071449cb65",
+            "label": "start_create_penguin_underlay_not_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "start",
+                "frame": "start-screen/createPenguinGraphic0001"
+            },
+            "x": 158,
+            "y": 689,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9704766680573679,
+            "scaleY": 1.026196925509367
+        },
+        {
+            "type": "Image",
+            "id": "2e92df63-774c-4003-8220-70f1dcdcc699",
+            "label": "start_create_penguin_underlay_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "start",
+                "frame": "start-screen/createPenguinGraphic0002"
+            },
+            "x": 158,
+            "y": 689,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9704766680573679,
+            "scaleY": 1.026196925509367,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9b30d8a0-8018-4b1c-b9f7-c2ab4509a4c0",
+            "label": "start_login_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/button"
+            },
+            "x": 858,
+            "y": 755,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.1502188521084615,
+            "scaleY": 1.1366304439897212
+        },
+        {
+            "type": "Image",
+            "id": "58d30979-81e1-41c8-b6d2-5dd8a5d9f7a6",
+            "label": "start_login_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/buttonHover"
+            },
+            "x": 858,
+            "y": 755,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.1502188521084615,
+            "scaleY": 1.1366304439897212,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c4373cac-54dd-4dc9-bf9e-85dff054fb8d",
+            "label": "start_login_button_clicked",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/publicpromptbutton0002"
+            },
+            "x": 828,
+            "y": 755,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.6119253946021173,
+            "scaleY": 1.3003574364380923,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "babab64c-74ba-4dc0-aed4-dc7fc4e998b2",
+            "label": "start_login_button_yellow_penguin",
+            "scope": "METHOD",
+            "texture": {
+                "key": "start",
+                "frame": "start-screen/loginGraphic0001"
+            },
+            "x": 1218,
+            "y": 689,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0409005180477484,
+            "scaleY": 1.0394809824885978
+        },
+        {
+            "type": "Image",
+            "id": "778885ef-faf1-4a26-b459-d64377f87269",
+            "label": "start_login_button_yellow_penguin_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "start",
+                "frame": "start-screen/loginGraphic0002"
+            },
+            "x": 1218,
+            "y": 689,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0409005180477484,
+            "scaleY": 1.0394809824885978,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c3f28b7d-ef18-4b7c-b4ff-73ac75761c88",
+            "label": "start_register_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/button"
+            },
+            "x": 322,
+            "y": 755,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.1502188521084615,
+            "scaleY": 1.1366304439897212
+        },
+        {
+            "type": "Image",
+            "id": "e0e37fd8-60a7-4b5b-89d9-3cb037372311",
+            "label": "start_register_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/buttonHover"
+            },
+            "x": 322,
+            "y": 755,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.2021885210846146,
+            "scaleY": 1.1766304439897213,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "72875d9f-0b75-4527-970f-c38ba1aa0e4a",
+            "label": "start_register_button_clicked",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/publicpromptbutton0002"
+            },
+            "x": 322,
+            "y": 755,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.614754302734691,
+            "scaleY": 1.295649671904039,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1371e434-2703-47b7-9e8c-841396fa6df2",
+            "label": "start_club_penguin_logo",
+            "scope": "METHOD",
+            "texture": {
+                "key": "start",
+                "frame": "start-screen/logo"
+            },
+            "x": 772,
+            "y": 589,
+            "originX": 0.5,
+            "originY": 0,
+            "scaleX": 0.9803020602141062,
+            "scaleY": 0.8133384718625689
+        },
+        {
+            "type": "BitmapText",
+            "id": "fbc794c1-a791-4ee4-b1b3-8f1ff7d4dc49",
+            "label": "start_login_button_text",
+            "scope": "METHOD",
+            "x": 997,
+            "y": 788,
+            "font": "CCComicCrazyBoldItalicShadow",
+            "text": "Login",
+            "scaleX": 0.7,
+            "scaleY": 0.6598527246831939,
+            "fontSize": 65,
+            "letterSpacing": 3
+        },
+        {
+            "type": "BitmapText",
+            "id": "a14933b8-823c-45ef-a895-49ac3442470e",
+            "label": "start_create_penguin_button_text",
+            "scope": "METHOD",
+            "x": 370,
+            "y": 795,
+            "font": "CCComicCrazyBoldItalicShadow",
+            "text": "Create a Penguin",
+            "scaleX": 0.48,
+            "scaleY": 0.6143235996320014,
+            "fontSize": 60
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -3,12 +3,12 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/login/login.json",
-                "path": "public/assets/login/",
+                "url": "assets/login/login.json",
+                "path": "assets/login/",
                 "key": "login"
             },
             {
-                "url": "public/assets/login/login-animations.json",
+                "url": "assets/login/login-animations.json",
                 "type": "animation",
                 "key": "login-animations"
             }

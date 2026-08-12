@@ -1,0 +1,323 @@
+{
+    "id": "f44dcfca-039a-43ff-91c9-049b8488f469",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SkiVillageScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "779b87ed-8da0-45b2-b360-1299595dfc22",
+            "label": "skivillage_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_background.png"
+            },
+            "x": 765,
+            "y": 173,
+            "scaleX": 0.8752239238348142,
+            "scaleY": 0.9814237536282568
+        },
+        {
+            "type": "Image",
+            "id": "779178e9-1d37-4dc2-bd84-4beff336984a",
+            "label": "ski_village_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "ski_village_main.png"
+            },
+            "x": -2,
+            "y": -3,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.1299282576648517,
+            "scaleY": 1.2362333118074642
+        },
+        {
+            "type": "Image",
+            "id": "279763d9-2323-4e0d-aeda-c2b02331a8e9",
+            "label": "ski_village_lodge_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "ski_village_lodge_door0001.png"
+            },
+            "x": 997,
+            "y": 361,
+            "scaleX": 0.9430683964035707,
+            "scaleY": 0.971568772923885
+        },
+        {
+            "type": "Image",
+            "id": "4aceff38-78c6-477c-8504-00582a39675e",
+            "label": "ski_village_epf_door_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "ski_village_epf_door.png"
+            },
+            "x": 1284,
+            "y": 433,
+            "scaleX": 0.9057598079518092,
+            "scaleY": 0.9704255931047322
+        },
+        {
+            "type": "Sprite",
+            "id": "f1e59bc6-aefe-432c-87cb-95f28f753492",
+            "label": "skivillage_seats0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_seats0001.png"
+            },
+            "x": 264,
+            "y": 325,
+            "scaleX": 0.8645745633318944,
+            "scaleY": 0.9392297774097994
+        },
+        {
+            "type": "Sprite",
+            "id": "67433eaa-ff3d-4b09-8f25-80b03cfac13d",
+            "label": "ski_village_seats0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "ski_village_seats0001.png"
+            },
+            "x": 548,
+            "y": 436,
+            "scaleX": 0.39994831380066526,
+            "scaleY": 0.40906754797685285
+        },
+        {
+            "type": "Sprite",
+            "id": "f28c2b0e-52d6-42c9-b173-b8be6618066c",
+            "label": "skivillage_seat_going_up_and_down0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_seat_going_up_and_down0001.png"
+            },
+            "x": 150,
+            "y": 59,
+            "scaleX": 0.9331652764402452,
+            "scaleY": 0.905358179501486
+        },
+        {
+            "type": "Image",
+            "id": "cb69702c-60c7-48a3-9f18-83452617ad2e",
+            "label": "skivillage_epf_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_epf_side.png"
+            },
+            "x": 773,
+            "y": 339,
+            "scaleX": 0.8827253393018074,
+            "scaleY": 0.9572340508134033
+        },
+        {
+            "type": "Image",
+            "id": "afcb0e99-7a40-45e6-adc7-383af201217c",
+            "label": "skivillage_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_side.png"
+            },
+            "x": 366,
+            "y": 650,
+            "scaleX": 1.0138944740663867,
+            "scaleY": 0.9139958469829678
+        },
+        {
+            "type": "Image",
+            "id": "178cf516-3ed5-4c78-be59-884ffbf3f51e",
+            "label": "skivillage_epf_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_epf_text0001.png"
+            },
+            "x": 1281,
+            "y": 266,
+            "scaleX": 0.8459603790323005,
+            "scaleY": 0.8530767131877395
+        },
+        {
+            "type": "Image",
+            "id": "a4d27da3-f963-432c-96e9-b06aecac2004",
+            "label": "skivillage_right_side_arrow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_right_side_arrow.png"
+            },
+            "x": 1339,
+            "y": 602,
+            "scaleX": 0.9936347067251903,
+            "scaleY": 0.9896481836173983
+        },
+        {
+            "type": "Image",
+            "id": "7183b38a-9768-4102-ae1b-1ad096a4c469",
+            "label": "symbol_2990001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "Symbol 2990001.png"
+            },
+            "x": 312,
+            "y": 575,
+            "scaleX": 1.1382475693605403,
+            "scaleY": 1.0169437034793816
+        },
+        {
+            "type": "Image",
+            "id": "977a61bd-3006-4c66-bf3d-4f7bd7ad0b75",
+            "label": "symbol_2990002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "Symbol 2990002.png"
+            },
+            "x": 312,
+            "y": 575,
+            "scaleX": 1.1382475693605403,
+            "scaleY": 1.0169437034793816,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2f6d8a01-ce6f-4d0c-a781-0374aaad1d19",
+            "label": "skivillage_rope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_rope.png"
+            },
+            "x": 495,
+            "y": 347,
+            "scaleX": 0.8856808867926599,
+            "scaleY": 0.8778343064800821
+        },
+        {
+            "type": "Image",
+            "id": "25b6dc49-dc14-481c-afe7-05983b159f6e",
+            "label": "skivillage_bottom_trees_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_bottom_trees.png"
+            },
+            "x": 810,
+            "y": 865,
+            "scaleX": 0.9004263972429297,
+            "scaleY": 1.019580582073548
+        },
+        {
+            "type": "Image",
+            "id": "e394cc7e-c596-46c9-98ad-2031ed5cee09",
+            "label": "skivillage_puffle_wild_entrance_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "skivillage_puffle_wild_entrance.png"
+            },
+            "x": 728,
+            "y": 255,
+            "scaleX": 0.9223202488983618,
+            "scaleY": 0.9554690789929879
+        },
+        {
+            "type": "Image",
+            "id": "906b4681-1970-4734-bc72-4d981e2cae74",
+            "label": "ski_village_lodge_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "ski_village_lodge_door0002.png"
+            },
+            "x": 997,
+            "y": 361,
+            "scaleX": 0.9430683964035707,
+            "scaleY": 0.971568772923885,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7ee16a97-a7bc-45d1-b1a8-f0de2c7bc423",
+            "label": "ski_village_epf_door_open_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skivillage",
+                "frame": "ski_village_epf_door_open.png"
+            },
+            "x": 1282,
+            "y": 433,
+            "scaleX": 0.9057598079518092,
+            "scaleY": 0.9704255931047322,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "fed965ff-461c-448a-a7eb-2ba4dbae32f9",
+            "label": "ski_village_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "ski_village_walking_trigger"
+            },
+            "x": 751,
+            "y": 479,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "2e7956a1-f129-4917-9f2d-720cf2a5a100",
+            "label": "ski_village_docks_trigger",
+            "scope": "METHOD",
+            "x": 1453,
+            "y": 699,
+            "width": 128,
+            "height": 128,
+            "scaleY": 1.9611854898072765,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "8233ea7a-5a94-47d3-a044-e3edf9d45e6b",
+            "label": "ski_village_ski_mountain_trigger",
+            "scope": "METHOD",
+            "x": 375,
+            "y": 432,
+            "width": 128,
+            "height": 128,
+            "scaleY": 1.9747217080487043,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

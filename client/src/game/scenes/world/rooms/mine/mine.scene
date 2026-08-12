@@ -1,0 +1,525 @@
+{
+    "id": "13a95524-53ec-4b21-98f2-e56007988494",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MineScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3aa537b1-471f-40d8-87d0-6b07f9eaceea",
+            "label": "mine_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_background.png"
+            },
+            "x": 785,
+            "y": 467
+        },
+        {
+            "type": "Image",
+            "id": "a654944c-04a1-41ac-bdf9-85ac4b423b40",
+            "label": "mine_puffle_rescue_board0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_puffle_rescue_board0001.png"
+            },
+            "x": 510,
+            "y": 95
+        },
+        {
+            "type": "Image",
+            "id": "1f67e66a-34d2-4543-88c9-bec274bcfe92",
+            "label": "mine_puffle_rescue_board0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_puffle_rescue_board0002.png"
+            },
+            "x": 510,
+            "y": 95,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "36fb6f7b-4a5a-4d28-ad15-dfbdbcf7444e",
+            "label": "mine_underground_pool_door_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_underground_pool_door_light.png"
+            },
+            "x": 165,
+            "y": 338,
+            "scaleX": 1.0411838528385315,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ee230fed-3d26-4964-a1af-928f75c46bda",
+            "label": "mine_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_left_side.png"
+            },
+            "x": 377,
+            "y": 312,
+            "scaleX": 1.2159107188035907
+        },
+        {
+            "type": "Image",
+            "id": "ca46707b-ead7-42dc-be40-9e16cba6a529",
+            "label": "mine_rock_7_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_7.png"
+            },
+            "x": 93,
+            "y": 604,
+            "scaleX": 1.1686213035302462,
+            "scaleY": 1.3650476533305915
+        },
+        {
+            "type": "Image",
+            "id": "aa59d846-50f4-484e-bf0d-719e160a2619",
+            "label": "mine_rock_6_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_6.png"
+            },
+            "x": 354,
+            "y": 825
+        },
+        {
+            "type": "Sprite",
+            "id": "c65c4d05-8c76-4300-9ab0-873f342aad3c",
+            "label": "mine_mine_cart0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_mine_cart0001.png"
+            },
+            "x": 1415,
+            "y": 306
+        },
+        {
+            "type": "Image",
+            "id": "1fba279a-be88-4e9b-9570-b9074c99e5aa",
+            "label": "mine_rock_8_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_8.png"
+            },
+            "x": 993,
+            "y": 832
+        },
+        {
+            "type": "Image",
+            "id": "386815b2-f995-4a41-ad23-60f042f83277",
+            "label": "mine_cart_surfer_wall_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_cart_surfer_wall_left.png"
+            },
+            "x": 1172,
+            "y": 288
+        },
+        {
+            "type": "Image",
+            "id": "026fa4f0-8a76-4e6c-918a-83fd1ae8eb98",
+            "label": "mine_cart_surfer_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_cart_surfer_wall.png"
+            },
+            "x": 1223,
+            "y": 280
+        },
+        {
+            "type": "Image",
+            "id": "e4617dc2-7b0f-40fb-be4f-e992b7360d47",
+            "label": "mine_gold_mine_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_gold_mine_door0001.png"
+            },
+            "x": 1231,
+            "y": 654
+        },
+        {
+            "type": "Image",
+            "id": "3c2eaa05-af92-495b-8b0d-e0623ef27da2",
+            "label": "mine_gold_mine_door_hovered0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_gold_mine_door_hovered0001.png"
+            },
+            "x": 1289,
+            "y": 754,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e481c69f-b45d-4b03-82c1-697210d1ce94",
+            "label": "mine_bottomo_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_bottomo.png"
+            },
+            "x": 777,
+            "y": 464
+        },
+        {
+            "type": "Image",
+            "id": "d4f5184a-3bc4-4f49-ae4b-b8cfec307a16",
+            "label": "mine_rock_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_1.png"
+            },
+            "x": 439,
+            "y": 787
+        },
+        {
+            "type": "Image",
+            "id": "e686b3b4-6a2f-4f21-a439-ebd293164d98",
+            "label": "mine_rock_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_2.png"
+            },
+            "x": 507,
+            "y": 834
+        },
+        {
+            "type": "Image",
+            "id": "02baf614-1eab-4d09-b348-85ff5d4ebc9d",
+            "label": "mine_rock_5_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_5.png"
+            },
+            "x": 453,
+            "y": 567
+        },
+        {
+            "type": "Image",
+            "id": "9204745d-c1f9-436f-8aa0-9d01e0e6a188",
+            "label": "mine_rock_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_3.png"
+            },
+            "x": 295,
+            "y": 468
+        },
+        {
+            "type": "Image",
+            "id": "1ef2641c-7868-4f52-b0a2-dcdefc19a189",
+            "label": "mine_med_kit_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_med_kit.png"
+            },
+            "x": 363,
+            "y": 500
+        },
+        {
+            "type": "Image",
+            "id": "e43f357b-0fd2-467a-b6e7-dcc330201060",
+            "label": "mine_rock_4_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_rock_4.png"
+            },
+            "x": 418,
+            "y": 541
+        },
+        {
+            "type": "Image",
+            "id": "72f696bf-e557-40e6-9528-ecccb53dff09",
+            "label": "mine_exit_door_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_exit_door_light.png"
+            },
+            "x": 851,
+            "y": 196,
+            "scaleX": 1.000149399555367,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f9fe7c6a-99c0-4fdf-b4ca-ad7a96899695",
+            "label": "mine_exit_door_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_exit_door_overlay.png"
+            },
+            "x": 805,
+            "y": 183
+        },
+        {
+            "type": "Image",
+            "id": "fb2a0038-167c-4b00-a45c-27ae1419dc66",
+            "label": "mine_puffle_rescue_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_puffle_rescue_table.png"
+            },
+            "x": 517,
+            "y": 361
+        },
+        {
+            "type": "Image",
+            "id": "42ebed36-06aa-4389-9d4d-d19c75056bd1",
+            "label": "mine_black_puffle_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_black_puffle_seat.png"
+            },
+            "x": 384,
+            "y": 409
+        },
+        {
+            "type": "Sprite",
+            "id": "b9b1652f-d480-4de4-aa13-4baa53b41531",
+            "label": "mine_black_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_black_puffle0001.png"
+            },
+            "x": 385,
+            "y": 392
+        },
+        {
+            "type": "Image",
+            "id": "92ad2afc-11de-4cb2-9ca1-7e878ba15a4b",
+            "label": "mine_mine_cart_no_animm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_mine_cart_no_animm.png"
+            },
+            "x": 1181,
+            "y": 400
+        },
+        {
+            "type": "Image",
+            "id": "6fa43bd0-0997-4183-8bab-1145b4fbf7d0",
+            "label": "mine_puffle_rescue_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_puffle_rescue_sign.png"
+            },
+            "x": 506,
+            "y": 95,
+            "scaleX": 0.989692350246752,
+            "scaleY": 0.8833221835905611
+        },
+        {
+            "type": "Image",
+            "id": "ff878b8a-f5ab-4a42-8424-3c74f6b7abca",
+            "label": "mine_puffle_rescue_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_puffle_rescue_text0001.png"
+            },
+            "x": 483,
+            "y": 92
+        },
+        {
+            "type": "Image",
+            "id": "f5c98595-b80e-4244-b431-2e0631951d94",
+            "label": "mine_cart_surfer_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_cart_surfer_text0001.png"
+            },
+            "x": 1215,
+            "y": 185
+        },
+        {
+            "type": "Image",
+            "id": "ec33a22f-3096-44ff-b1fa-04ed79b8d36e",
+            "label": "mine_cart_surfer_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_cart_surfer_trigger0004.png"
+            },
+            "x": 1352,
+            "y": 203,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "5efe56d1-5e47-4fd9-ba58-cfc81929144e",
+            "label": "mine_gold_mine_door0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_gold_mine_door0004.png"
+            },
+            "x": 1282,
+            "y": 886,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0a754d6b-ac39-4ec2-b20e-0c6c044fe235",
+            "label": "mine_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_walking_trigger.png"
+            },
+            "x": 753,
+            "y": 471,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8c0cb70a-af9c-420e-8787-bb0092250575",
+            "label": "mine_cavemine_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_cavemine_trigger.png"
+            },
+            "x": 1360,
+            "y": 778,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 266,
+                "height": 170
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "7c502259-b48b-4f9e-82b7-94d6adc53345",
+            "label": "mine_underground_pool_room_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_underground_pool_trigger.png"
+            },
+            "x": 158,
+            "y": 454,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 190,
+                "height": 106
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "7134020e-566b-4049-91cc-6865cd99f8fb",
+            "label": "mine_puffle_mine_shack_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine",
+                "frame": "mine_puffle_rescue_trigger.png"
+            },
+            "x": 841,
+            "y": 256,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 228,
+                "height": 110
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "40bffdc3-5966-44bd-b38b-c3ed1e83ade4",
+            "label": "mine_puffle_rescue_trigger",
+            "scope": "METHOD",
+            "x": 481,
+            "y": 224,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.8709229674343564,
+            "scaleY": 2.5478780177969442,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "fdcf68d3-f975-4fef-b31a-96d8c8a6a518",
+            "label": "mine_underground_pool_trigger",
+            "scope": "METHOD",
+            "x": 160,
+            "y": 330,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.472917760639545,
+            "scaleY": 2.9508694701570555,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

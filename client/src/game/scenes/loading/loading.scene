@@ -1,0 +1,107 @@
+{
+    "id": "9000710f-1cce-45da-922e-e77a212c1175",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoadingScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "014073cc-80a5-4c2e-ab09-30c87396fe82",
+            "label": "login_screen_background",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/background"
+            },
+            "x": -35,
+            "y": -20,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.91822095603599,
+            "scaleY": 0.9307085567300964
+        },
+        {
+            "type": "Image",
+            "id": "ffaa635a-2850-44ee-b8a9-7fe5664310df",
+            "label": "load_screen_background",
+            "scope": "METHOD",
+            "texture": {
+                "key": "load",
+                "frame": "load-screen/background"
+            },
+            "x": 653,
+            "y": 502,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.7,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Sprite",
+            "id": "b58a40f2-a369-4fce-8e60-43d8d12feff8",
+            "label": "load_screen_spinner0001",
+            "scope": "METHOD",
+            "texture": {
+                "key": "load",
+                "frame": "load-screen/spinner0001"
+            },
+            "x": 659,
+            "y": 509,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.6426046833060873,
+            "scaleY": 0.7090060693349223
+        },
+        {
+            "type": "Sprite",
+            "id": "8521f540-1774-49eb-939d-cfdbde57d497",
+            "label": "load_screen_mask",
+            "scope": "METHOD",
+            "texture": {
+                "key": "load",
+                "frame": "load-screen/mask"
+            },
+            "x": 691,
+            "y": 514,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.6788731834515179,
+            "scaleY": 0.9448333658041439,
+            "visible": false,
+            "tintTopLeft": "#FFC12E",
+            "tintTopRight": "#FFC12E",
+            "tintBottomLeft": "#FFC12E",
+            "tintBottomRight": "#FFC12E",
+            "tintFill": true
+        },
+        {
+            "type": "BitmapText",
+            "id": "fa765d7a-6f70-4b19-8588-1e951053522b",
+            "label": "loading_random_text",
+            "scope": "METHOD",
+            "x": 0,
+            "y": 0,
+            "font": "BurbankSmallBold",
+            "text": "this.text",
+            "originX": 0.5,
+            "originY": 0,
+            "scaleX": 1.0251222621528076,
+            "scaleY": 1.1359024394507538,
+            "fontSize": 20,
+            "lineSpacing": 5,
+            "setCenterAlign": true
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,581 @@
+{
+    "id": "f1cc21d3-65cd-466a-a3fa-fa915774cbb2",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "WaterDojoScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "67fc2117-0d64-42b1-bbe7-714d1a5acfc7",
+            "label": "water_dojo_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_background.png"
+            },
+            "x": 0,
+            "y": -5,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5f8ed407-e323-44ef-8bb6-02b89a515e59",
+            "label": "water_dojo_instructions_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_instructions_wall.png"
+            },
+            "x": 1309,
+            "y": 426,
+            "scaleX": 0.9950628911098461
+        },
+        {
+            "type": "Image",
+            "id": "26f93b0f-af30-465b-8a7d-173c4208c179",
+            "label": "water_dojo_third_match_mat0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_third_match_mat0001.png"
+            },
+            "x": 1039,
+            "y": 674
+        },
+        {
+            "type": "Image",
+            "id": "c8529716-7d0a-4321-8104-fa849388f96a",
+            "label": "water_dojo_small_bucket_back_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_small_bucket_back.png"
+            },
+            "x": 642,
+            "y": 213,
+            "scaleX": 1.0261479697612153
+        },
+        {
+            "type": "Image",
+            "id": "0b0bb12b-59f9-4055-8722-a943216ea86f",
+            "label": "water_dojo_small_bucket_front_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_small_bucket_front.png"
+            },
+            "x": 643,
+            "y": 271
+        },
+        {
+            "type": "Image",
+            "id": "5e423f18-c723-4ddf-94f5-7a54ab927fff",
+            "label": "water_dojo_first_match_mat0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_first_match_mat0001.png"
+            },
+            "x": 352,
+            "y": 584
+        },
+        {
+            "type": "Image",
+            "id": "0f995d8a-2a05-4d04-b2bf-b93c6dc0af06",
+            "label": "water_dojo_fourth_match_mat0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_fourth_match_mat0001.png"
+            },
+            "x": 1195,
+            "y": 591
+        },
+        {
+            "type": "Sprite",
+            "id": "abc985f8-40c3-4384-bda5-ab3eec2c6744",
+            "label": "water_dojo_bottom_left_water_line0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_bottom_left_water_line0001.png"
+            },
+            "x": 423,
+            "y": 446
+        },
+        {
+            "type": "Sprite",
+            "id": "49c42f21-11ba-4977-9400-5771daa2df9b",
+            "label": "water_dojo_bottom_left_water_top_line0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_bottom_left_water_top_line0001.png"
+            },
+            "x": 279,
+            "y": 167
+        },
+        {
+            "type": "Image",
+            "id": "0e9fcd7d-9212-4034-8006-0a7dc6d855f4",
+            "label": "water_dojo_legend_poster_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_legend_poster_wall.png"
+            },
+            "x": 358,
+            "y": 397
+        },
+        {
+            "type": "Image",
+            "id": "5282b8db-3890-4586-82a6-0513f010dad8",
+            "label": "water_dojo_legend_poster_white_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_legend_poster_white_overlay.png"
+            },
+            "x": 228,
+            "y": 388,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "fbb3be94-cb39-4298-85e6-cd9cc2c77d49",
+            "label": "water_dojo_legend_poster_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_legend_poster.png"
+            },
+            "x": 228,
+            "y": 389
+        },
+        {
+            "type": "Image",
+            "id": "ded43cca-4790-44a5-8591-4069420311dc",
+            "label": "water_dojo_first_match_mat0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_first_match_mat0002.png"
+            },
+            "x": 349,
+            "y": 583,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cc8f4765-30ac-46bf-b0a1-70182c4a83b9",
+            "label": "water_dojo_second_match_mat0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_second_match_mat0001.png"
+            },
+            "x": 524,
+            "y": 675
+        },
+        {
+            "type": "Image",
+            "id": "682b05d7-f721-43f1-a09f-3cb36334002c",
+            "label": "water_dojo_second_match_mat0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_second_match_mat0002.png"
+            },
+            "x": 520,
+            "y": 671,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "13da8cab-8285-46c1-a582-d9b15ba8b8ce",
+            "label": "water_dojo_third_match_mat0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_third_match_mat0002.png"
+            },
+            "x": 1037,
+            "y": 666,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8e090007-605f-40eb-8553-48d7c11d89ee",
+            "label": "water_dojo_fourth_match_mat0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_fourth_match_mat0002.png"
+            },
+            "x": 1200,
+            "y": 589,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ee92407f-c211-4c9a-86ab-bb6c2a154fea",
+            "label": "water_dojo_exit_bridge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_exit_bridge.png"
+            },
+            "x": 776,
+            "y": 708
+        },
+        {
+            "type": "Image",
+            "id": "7e8dd5d8-0f9a-404e-95c3-1f4d52ea01e5",
+            "label": "water_dojo_two_small_balsl_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_two_small_balsl.png"
+            },
+            "x": 1126,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "e8b9e3eb-3fc8-4763-97c8-6428af987ca0",
+            "label": "water_dojo_laterns_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_laterns.png"
+            },
+            "x": 771,
+            "y": 235
+        },
+        {
+            "type": "Sprite",
+            "id": "f5170a92-ba8b-4486-8a39-28340384662e",
+            "label": "water_dojo_orange_fish0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_orange_fish0001.png"
+            },
+            "x": 431,
+            "y": 136
+        },
+        {
+            "type": "Image",
+            "id": "6fd41022-bd1f-491b-9308-cd89693c3dfc",
+            "label": "water_dojo_statues_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_statues.png"
+            },
+            "x": 779,
+            "y": 192
+        },
+        {
+            "type": "Image",
+            "id": "a684a37b-7272-462d-b578-d29bc8d75fdd",
+            "label": "water_dojo_sensi_white_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_sensi_white_overlay.png"
+            },
+            "x": 779,
+            "y": 193,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "16ed33b5-24a2-45dc-b465-26bde0cc1461",
+            "label": "water_dojo_sensi0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_sensi0001.png"
+            },
+            "x": 778,
+            "y": 193
+        },
+        {
+            "type": "Sprite",
+            "id": "ab6a508e-8e64-4239-83c0-2ace29b40708",
+            "label": "water_dojo_big_water_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_big_water_left0001.png"
+            },
+            "x": 365,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "ea1b2e3e-14ab-4c73-9977-316cb36ee250",
+            "label": "water_dojo_instructions_poster_white_overlay_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_legend_poster_white_overlay.png"
+            },
+            "x": 1335,
+            "y": 389,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "62350d3a-a887-4f84-9439-257bdd7732da",
+            "label": "water_dojo_instructions_poster_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_instructions_poster.png"
+            },
+            "x": 1336,
+            "y": 390
+        },
+        {
+            "type": "Sprite",
+            "id": "e92a009f-2fca-4369-9a04-947f66e086ce",
+            "label": "water_dojo_blue_dots0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_blue_dots0001.png"
+            },
+            "x": 644,
+            "y": 239
+        },
+        {
+            "type": "Image",
+            "id": "635818fb-0fbb-4b88-8201-a1c01935e643",
+            "label": "water_dojo_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_lights.png"
+            },
+            "x": 873,
+            "y": 129
+        },
+        {
+            "type": "Sprite",
+            "id": "fec2c229-8d58-4c48-bc7d-5494ab09f997",
+            "label": "water_dojo_big_water_right0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_big_water_right0001.png"
+            },
+            "x": 1197,
+            "y": 817
+        },
+        {
+            "type": "Sprite",
+            "id": "1daee897-fb21-4971-9094-371f9e9c09cf",
+            "label": "water_dojo_bottom_right_water_bottom_line0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_bottom_right_water_bottom_line0001.png"
+            },
+            "x": 1144,
+            "y": 452
+        },
+        {
+            "type": "Image",
+            "id": "6ab63061-e061-427c-ac5a-f728c1f2bb9f",
+            "label": "water_dojo_instructions_text_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_instructions_text_1.png"
+            },
+            "x": 1337,
+            "y": 357
+        },
+        {
+            "type": "Image",
+            "id": "74bc0c8a-10e3-4443-9d3b-978c3ec1bb94",
+            "label": "water_dojo_legend_text_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_legend_text_1.png"
+            },
+            "x": 229,
+            "y": 356
+        },
+        {
+            "type": "Image",
+            "id": "ab6e1ccb-606a-44e8-82e2-8afec7fc0de8",
+            "label": "water_dojo_bigger_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_bigger_rock.png"
+            },
+            "x": 956,
+            "y": 462
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "7ffacc60-d43f-4951-8638-2fa88bdb854b",
+            "label": "water_dojo_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "water_dojo_walking_trigger"
+            },
+            "x": 774,
+            "y": 475,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a8ce4c7b-b93f-4005-82d7-c59d50a37cdc",
+            "label": "water_dojo_dojo_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojowater",
+                "frame": "water_dojo_first_match_mat0004.png"
+            },
+            "x": 776,
+            "y": 828,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 320,
+                "height": 140
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "538d00a6-ea77-48e4-a504-55242212d756",
+            "label": "water_dojo_third_match_hover_trigger",
+            "scope": "METHOD",
+            "x": 1008,
+            "y": 659,
+            "width": 128,
+            "height": 128,
+            "scaleY": 1.4614215690320573,
+            "angle": -30,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "1fb167f8-e63c-49a1-a4fe-19fcba790157",
+            "label": "water_dojo_fourth_match_hover_trigger",
+            "scope": "METHOD",
+            "x": 1168,
+            "y": 572,
+            "width": 128,
+            "height": 128,
+            "scaleY": 1.4614215690320573,
+            "angle": -59.99999999999994,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "3455772e-f664-4fd3-8966-89754a240595",
+            "label": "water_dojo_second_match_hover_trigger",
+            "scope": "METHOD",
+            "x": 552,
+            "y": 646,
+            "width": 128,
+            "height": 128,
+            "scaleY": 1.4614215690320573,
+            "angle": 30,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "a3437768-a06b-4fc5-93fd-54fa2aebeebc",
+            "label": "water_dojo_first_match_hover_trigger",
+            "scope": "METHOD",
+            "x": 371,
+            "y": 562,
+            "width": 128,
+            "height": 128,
+            "scaleY": 1.4614215690320573,
+            "angle": 60,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "ddda9796-659c-4b34-baaf-d3ba9e097214",
+            "label": "water_dojo_instructions_poster_hover_trigger",
+            "scope": "METHOD",
+            "x": 1334,
+            "y": 389,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0878464802015149,
+            "scaleY": 0.8556450575784182,
+            "angle": 10,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "3eea5e20-7b06-4e7b-84b8-d4434ea85a04",
+            "label": "water_dojo_legend_poster_hover_trigger_1",
+            "scope": "METHOD",
+            "x": 232,
+            "y": 388,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0878464802015149,
+            "scaleY": 0.8556450575784182,
+            "angle": -10,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "fd74c670-10af-4d7f-959a-c20e97b50496",
+            "label": "water_dojo_sensi_hover_trigger",
+            "scope": "METHOD",
+            "x": 785,
+            "y": 191,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.8072761787675415,
+            "scaleY": 1.8041036129849024,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "id": "0af8d859-cae9-4076-a0d1-1ca2d60b744e",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SnowDojoScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e0bca885-f483-4249-962e-be7c098a828e",
+            "label": "snow_dojo_background_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_background_sky.png"
+            },
+            "x": 834,
+            "y": 134
+        },
+        {
+            "type": "Image",
+            "id": "5bfe6c3f-3fdc-4db0-8fce-0702558599a7",
+            "label": "snow_dojo_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_background.png"
+            },
+            "x": 861,
+            "y": 460
+        },
+        {
+            "type": "Sprite",
+            "id": "a96125e1-86e3-44e4-aef8-480aeeb9773d",
+            "label": "snow_dojo_bridge0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_bridge0001.png"
+            },
+            "x": 1152,
+            "y": 384
+        },
+        {
+            "type": "Image",
+            "id": "7f106d05-ce61-4d33-913c-00a00242557a",
+            "label": "symbol_259_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "Symbol 259.png"
+            },
+            "x": 688,
+            "y": 466
+        },
+        {
+            "type": "Image",
+            "id": "cbfbdc73-8c01-4b80-81cb-0d68bc96043d",
+            "label": "snow_dojo_exit_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_exit.png"
+            },
+            "x": 214,
+            "y": 575
+        },
+        {
+            "type": "Image",
+            "id": "45b3bb54-7043-4b43-8e02-2ea2d72ed2f7",
+            "label": "snow_dojo_exit_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_exit_sign.png"
+            },
+            "x": 261,
+            "y": 702
+        },
+        {
+            "type": "Image",
+            "id": "e9138f7a-b97f-4c16-b509-daf646049df2",
+            "label": "snow_dojo_random_button_not_sure_what_this_triggers0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_random_button_not_sure_what_this_triggers0001.png"
+            },
+            "x": 1174,
+            "y": 469
+        },
+        {
+            "type": "Image",
+            "id": "35cd16ce-8567-4761-806c-a39cf3e03017",
+            "label": "snow_dojo_random_button_not_sure_what_this_triggers0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_random_button_not_sure_what_this_triggers0002.png"
+            },
+            "x": 1174,
+            "y": 469,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3e11d18a-e234-43f8-8f64-5ec8c7ab90e6",
+            "label": "snow_dojo_dojo_cave_light_trigger0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_dojo_cave_light_trigger0002.png"
+            },
+            "x": 105,
+            "y": 648,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b65bc665-75b7-41bb-a499-fa3cb4d8296f",
+            "label": "snow_dojo_bottom_middle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_bottom_middle.png"
+            },
+            "x": 624,
+            "y": 815
+        },
+        {
+            "type": "Image",
+            "id": "f5f7c000-ce9e-4f61-8ed4-aadfe7553075",
+            "label": "snow_dojo_dojo_cave_light_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_dojo_cave_light_trigger0004.png"
+            },
+            "x": 118,
+            "y": 657,
+            "scaleX": 0.5767668052882362,
+            "scaleY": 0.7281062220765234,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "f75c2b87-39b5-4723-85f7-74fd7ac79816",
+            "label": "snow_dojo_bridge_animation_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_bridge_animation_trigger0004.png"
+            },
+            "x": 1163,
+            "y": 357,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "db5caaad-a163-445f-b070-8630fbb826fc",
+            "label": "snow_dojo_random_button_not_sure_what_this_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_dojo_cave_light_trigger0004.png"
+            },
+            "x": 1176,
+            "y": 464,
+            "scaleX": 0.38866273617248126,
+            "scaleY": 0.46375461501702,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d50bb4f8-ca87-49f7-8f7c-7b438015dfe9",
+            "label": "snow_dojo_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snow_dojo_walking_trigger"
+            },
+            "x": 759,
+            "y": 481,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5075ebd8-2937-4dda-8159-003d431e79f7",
+            "label": "snow_dojo_dojo_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowdojo",
+                "frame": "snow_dojo_dojo_trigger.png"
+            },
+            "x": 40,
+            "y": 663,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 248,
+                "height": 147
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -8,7 +8,7 @@ import org.springframework.web.socket.WebSocketSession;
 public class DisconnectWebsocket {
     public boolean kickSession(String sessionId) {
         WebSocketSession session = WebSocketConfig.WS_SESSIONS.get(sessionId);
-        if (session == null) {
+        if(session == null) {
             return false;
         }
 

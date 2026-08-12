@@ -3,8 +3,8 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/world/snowball/snowball.json",
-                "path": "public/assets/world/snowball",
+                "url": "assets/world/snowball/snowball.json",
+                "path": "assets/world/snowball",
                 "key": "snowball"
             }
         ]

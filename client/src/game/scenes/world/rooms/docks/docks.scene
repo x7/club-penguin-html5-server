@@ -1,0 +1,246 @@
+{
+    "id": "6585299b-ff61-4490-a082-47ec78aa6635",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "DocksScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "4cf69ba5-7e0f-4023-998e-0f2fa40d5ac0",
+            "label": "docks_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_main_background.png"
+            },
+            "x": 741,
+            "y": 117,
+            "scaleX": 1.0124038953450232,
+            "scaleY": 1.1699199091683639
+        },
+        {
+            "type": "Image",
+            "id": "c9232e3e-a0c8-447f-a088-b8b842bb2f75",
+            "label": "docks_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_main.png"
+            },
+            "x": -25,
+            "y": 30,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9737051414804503,
+            "scaleY": 0.9884389522891749
+        },
+        {
+            "type": "Image",
+            "id": "48c961a8-e591-47d3-a8ce-ca52e99fff67",
+            "label": "docks_bench_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_bench.png"
+            },
+            "x": 940,
+            "y": 330,
+            "scaleX": 0.7225244291851599,
+            "scaleY": 0.963019855890167
+        },
+        {
+            "type": "Image",
+            "id": "a8e0f6e2-7474-4217-bba8-1d5d9bcf46c1",
+            "label": "docks_frozen_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_frozen_right_side.png"
+            },
+            "x": 1481,
+            "y": 512,
+            "scaleX": 1.0987685856923155,
+            "scaleY": 1.0340967529708107
+        },
+        {
+            "type": "Image",
+            "id": "363752cf-0748-45f3-b217-8ab3f2550c6e",
+            "label": "docks_pink_surfboard_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_pink_surfboard.png"
+            },
+            "x": 1223,
+            "y": 665,
+            "scaleX": 0.959256029284872,
+            "scaleY": 0.9261652676946989
+        },
+        {
+            "type": "Image",
+            "id": "2b44803b-8443-453c-b34f-a4d4309b2244",
+            "label": "docks_surf_board_sale_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_surf_board_sale.png"
+            },
+            "x": 806,
+            "y": 633
+        },
+        {
+            "type": "Sprite",
+            "id": "a4ae5f38-b7f3-465a-b4e3-7346402a1dd9",
+            "label": "docks_buy_surf_board_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_buy_surf_board.png"
+            },
+            "x": 777,
+            "y": 631,
+            "scaleX": 0.6920965595273212,
+            "scaleY": 0.8338788371388933
+        },
+        {
+            "type": "Image",
+            "id": "5b511b72-751f-4fbd-8661-f298edcf39b4",
+            "label": "docks_stairs_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_stairs.png"
+            },
+            "x": 423,
+            "y": 478,
+            "scaleX": 1.1873409581787242,
+            "scaleY": 1.1482171785705582
+        },
+        {
+            "type": "Image",
+            "id": "fe775360-24b8-44a5-92c7-8db874fec1e8",
+            "label": "docks_lampost_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_lampost.png"
+            },
+            "x": 558,
+            "y": 464,
+            "scaleX": 1.2824485690103873,
+            "scaleY": 1.305629426638525
+        },
+        {
+            "type": "Sprite",
+            "id": "250f09a2-29cd-4b53-9f1a-a7d3c1b195e1",
+            "label": "docks_hydro_hopper0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_hydro_hopper0001.png"
+            },
+            "x": 194,
+            "y": 645,
+            "scaleX": 1.1530051512062083,
+            "scaleY": 1.092112535850837
+        },
+        {
+            "type": "Image",
+            "id": "716345cc-5260-4318-8b15-61c9457e6776",
+            "label": "docks_deck_board_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_deck_board.png"
+            },
+            "x": 275,
+            "y": 617,
+            "scaleX": 0.9906023400653966,
+            "scaleY": 1.0394387001499181
+        },
+        {
+            "type": "Sprite",
+            "id": "a2b25a68-3a16-4968-bab9-c8f6aa7dd05b",
+            "label": "docks_bouncy_circles0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_bouncy_circles0001.png"
+            },
+            "x": 572,
+            "y": 678,
+            "scaleX": 0.9893160264392027,
+            "scaleY": 0.9667309758275568
+        },
+        {
+            "type": "Image",
+            "id": "c7ab584e-992f-49af-b53a-5b0b6f03e12c",
+            "label": "docks_random_stick_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_random_stick.png"
+            },
+            "x": 343,
+            "y": 823,
+            "scaleX": 1.2022791734090184,
+            "scaleY": 1.0052508727404124
+        },
+        {
+            "type": "Image",
+            "id": "530b93d9-6cd0-42e8-ac3e-d78d0d541715",
+            "label": "docks_right_side_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_right_side_chair.png"
+            },
+            "x": 221,
+            "y": 330,
+            "scaleX": 0.9059397327441412,
+            "scaleY": 0.7585583243832948
+        },
+        {
+            "type": "Image",
+            "id": "d89698fa-cd31-465b-974d-02ce71d4ebdd",
+            "label": "docks_left_side_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks",
+                "frame": "docks_left_side_chair.png"
+            },
+            "x": 166,
+            "y": 359,
+            "scaleX": 0.8823557579528026,
+            "scaleY": 0.652412431045195
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "69dff8ae-103e-4e99-b8b5-bcfbdd4489d8",
+            "label": "docks_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "docks_walking_trigger"
+            },
+            "x": 767,
+            "y": 422,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

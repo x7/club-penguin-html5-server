@@ -1,0 +1,853 @@
+{
+    "id": "044b4457-6e86-4c7f-ade4-896c500231c5",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "InterfaceEmojiScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b31c8d37-55da-4b14-82ce-93f04097fab1",
+            "label": "interface_emoji_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_box.png"
+            },
+            "x": 320,
+            "y": 620,
+            "scaleX": 1.036802767680024,
+            "scaleY": 1.0253384801385017
+        },
+        {
+            "type": "Image",
+            "id": "a24c3b99-2ecb-4bb7-9977-19c4255b88ba",
+            "label": "interface_emoji_red_heart_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "db0c0a89-379b-47af-9421-9c4277a9fa1c",
+            "label": "interface_emoji_lightbulb_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "24af38d2-92a1-464f-ab89-7232d3d22f04",
+            "label": "interface_emoji_yellow_flower_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "888aa8df-b586-465d-b1fc-53fc6a969594",
+            "label": "interface_emoji_sidewards_straight_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 748
+        },
+        {
+            "type": "Image",
+            "id": "0ae58656-e6cd-4a7a-a3d3-1313fac4899f",
+            "label": "interface_emoji_birthday_cake_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 748
+        },
+        {
+            "type": "Image",
+            "id": "a83d28eb-1a8c-4bc4-a163-413b338c26b1",
+            "label": "interface_emoji_green_leaf_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 748
+        },
+        {
+            "type": "Image",
+            "id": "4156e9a3-1712-49ab-bca3-1f359c6f7eaf",
+            "label": "interface_emoji_angry_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 684
+        },
+        {
+            "type": "Image",
+            "id": "de6069f7-17ba-4abd-a684-8e00bffb6ab8",
+            "label": "interface_emoji_lonely_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 684
+        },
+        {
+            "type": "Image",
+            "id": "8b46acc0-af88-40f7-a709-fa5120849a39",
+            "label": "interface_emoji_pink_ice_cream_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 684
+        },
+        {
+            "type": "Image",
+            "id": "7f712818-c75f-40b6-88cf-8914e86cf2af",
+            "label": "interface_emoji_wink_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 620
+        },
+        {
+            "type": "Image",
+            "id": "3f3a3b8e-d7db-4402-8336-bbc6ba027de6",
+            "label": "interface_emoji_vomit_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 620
+        },
+        {
+            "type": "Image",
+            "id": "c62b13bf-58ff-4963-a45b-cf49b5415714",
+            "label": "interface_emoji_pizza_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 620
+        },
+        {
+            "type": "Image",
+            "id": "e15898f3-be63-4956-b730-3513196bd326",
+            "label": "interface_emoji_shocked_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 556
+        },
+        {
+            "type": "Image",
+            "id": "234b1088-d290-4fac-8f46-51d6173d9a9c",
+            "label": "interface_emoji_tongue_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 556
+        },
+        {
+            "type": "Image",
+            "id": "d1d7a453-778b-47ce-9b83-4ceb044354c2",
+            "label": "interface_emoji_popcorn_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 556
+        },
+        {
+            "type": "Image",
+            "id": "0b031b8e-df69-456d-8464-a7b76aa571d0",
+            "label": "interface_emoji_straight_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 492
+        },
+        {
+            "type": "Image",
+            "id": "a2a7d51a-863f-4c15-975f-9d628d803a20",
+            "label": "interface_emoji_sad_frown_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 492
+        },
+        {
+            "type": "Image",
+            "id": "b10a9d60-0b72-442b-9370-2c6cca522ee8",
+            "label": "interface_emoji_gaming_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 492
+        },
+        {
+            "type": "Image",
+            "id": "30fb5841-b672-4a29-9ee8-2173c47573ba",
+            "label": "interface_emoji_happy_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 256,
+            "y": 428
+        },
+        {
+            "type": "Image",
+            "id": "7c443bec-4827-4a0c-8bf2-13364fd6e052",
+            "label": "interface_emoji_smile_face_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 320,
+            "y": 428
+        },
+        {
+            "type": "Image",
+            "id": "c7af65f8-9ef5-4497-b40c-87359df329b3",
+            "label": "interface_emoji_coffee_cup_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 384,
+            "y": 428
+        },
+        {
+            "type": "Image",
+            "id": "17d4eb6d-46a1-4bc8-b176-2e7d61f4346d",
+            "label": "interface_emoji_happy_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 428,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8ae6d10d-539d-4dd8-b19f-82d3bd0094a9",
+            "label": "interface_emoji_smile_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 428,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a9316dd6-2104-4f7d-a0b7-e942af687b50",
+            "label": "interface_emoji_coffee_cup_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 428,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1b9886d6-5d22-4cd1-9a57-43e91b93ba80",
+            "label": "interface_emoji_straight_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 492,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1ee89258-516c-4692-9f3b-def7a1278c4c",
+            "label": "interface_emoji_sad_frown_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 492,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c9bc2772-fb4b-4888-be25-720dd66762f3",
+            "label": "interface_emoji_gaming_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 492,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d74816d9-2baf-46c9-837d-b282d05b9b39",
+            "label": "interface_emoji_shocked_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 556,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6a1e81e4-3500-498b-9235-17bd381c1f4c",
+            "label": "interface_emoji_tongue_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 556,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "57a6ff2d-f479-4b6b-b21c-ef98f0b186c3",
+            "label": "interface_emoji_popcorn_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 556,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "52994637-ef80-430e-ac0f-3f9cda047ab4",
+            "label": "interface_emoji_wink_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 620,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1e14d3e5-8446-4506-af57-86ac584f3afc",
+            "label": "interface_emoji_vomit_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 620,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3d249c0e-62d7-4e12-8794-0ea10841cf0f",
+            "label": "interface_emoji_pizza_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 620,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "90407451-7885-4943-9fdd-0b865aa44460",
+            "label": "interface_emoji_angry_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 684,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "17e6fd7a-e6b2-4a35-84a2-54dad256d477",
+            "label": "interface_emoji_lonely_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 684,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a32de158-8d5b-4c64-bd53-66b6b690fdd6",
+            "label": "interface_emoji_pink_ice_cream_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 684,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4d20d0ce-0027-4370-ab97-86d834c83c7f",
+            "label": "interface_emoji_sidewards_straight_face_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 748,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f46a0b07-73e1-4b40-906e-52ab5f2b33a8",
+            "label": "interface_emoji_birthday_cake_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 748,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "eeb2738d-6d72-4648-ad4f-b4699bdab9b8",
+            "label": "interface_emoji_green_leaf_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 748,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "04c97e93-b823-4f10-8577-8da05d916636",
+            "label": "interface_emoji_red_heart_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 256,
+            "y": 812,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d8a98bab-d430-4c48-b5e9-9f4cfa2fa4ff",
+            "label": "interface_emoji_lightbulb_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 320,
+            "y": 812,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4dc5acbe-3fe4-4888-9ae6-6ccf731088c1",
+            "label": "interface_emoji_yellow_flower_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 384,
+            "y": 812,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e15b9c94-e14d-4a8e-b360-430692579162",
+            "label": "interface_emoji_happy_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0001.png"
+            },
+            "x": 255,
+            "y": 425,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "a34989e9-ab9d-4a1a-9687-568abc8a1c09",
+            "label": "interface_emoji_smile_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0002.png"
+            },
+            "x": 319,
+            "y": 425,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8504544147534642
+        },
+        {
+            "type": "Image",
+            "id": "dced6da7-b32e-45c0-b55b-4e696a59da59",
+            "label": "interface_emoji_coffee_cup_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0013.png"
+            },
+            "x": 385,
+            "y": 425,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8504544147534642
+        },
+        {
+            "type": "Image",
+            "id": "8bc7faf8-9023-470c-8d2d-481ed4461a24",
+            "label": "interface_emoji_straight_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0003.png"
+            },
+            "x": 255,
+            "y": 489,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "957c2859-3823-4e9c-a3b7-cdd4336b6f7c",
+            "label": "interface_emoji_sad_frown_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0004.png"
+            },
+            "x": 319,
+            "y": 489,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "d642f1d8-b8b6-43ce-8d27-05ef748004b2",
+            "label": "interface_emoji_gaming_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0018.png"
+            },
+            "x": 383,
+            "y": 489,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "8ef55a44-b47d-45e8-a8a8-2cdccf8d5e04",
+            "label": "interface_emoji_shocked_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0005.png"
+            },
+            "x": 255,
+            "y": 554,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "2677077b-e8ec-4ab8-9878-975367c5dbef",
+            "label": "interface_emoji_tongue_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0006.png"
+            },
+            "x": 319,
+            "y": 554,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "361e0e18-969a-44bf-ba96-e5b2cf9e327d",
+            "label": "interface_emoji_popcorn_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0029.png"
+            },
+            "x": 383,
+            "y": 556,
+            "scaleX": 0.786240357588246,
+            "scaleY": 0.7316268545415423
+        },
+        {
+            "type": "Image",
+            "id": "09b0fda1-8d80-4fb0-a535-00477176e288",
+            "label": "interface_emoji_wink_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0007.png"
+            },
+            "x": 255,
+            "y": 618,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "b0545bdc-63bf-4616-913f-3fb20f4edd19",
+            "label": "interface_emoji_vomit_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0008.png"
+            },
+            "x": 319,
+            "y": 618,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "cbd9dc68-9fd8-408c-8ee5-c6ca7bf398af",
+            "label": "interface_emoji_pizza_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0024.png"
+            },
+            "x": 381,
+            "y": 618,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "646f26c4-cc5b-4891-b5ec-022f8575e743",
+            "label": "interface_emoji_angry_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0009.png"
+            },
+            "x": 255,
+            "y": 682,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "720e58e9-7840-45fb-87b8-c814d562b3fd",
+            "label": "interface_emoji_lonely_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0010.png"
+            },
+            "x": 319,
+            "y": 682,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "3af46d61-69f6-406f-b4be-3064e5bd5ad7",
+            "label": "interface_emoji_pink_ice_cream_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0026.png"
+            },
+            "x": 384,
+            "y": 682,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "5ed6fec3-53fc-40ad-afda-41e9eb039041",
+            "label": "interface_emoji_sidewards_straight_face_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0011.png"
+            },
+            "x": 255,
+            "y": 746,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "0c14b35d-0fe1-44ef-a900-6f7e32e44047",
+            "label": "interface_emoji_birthday_cake_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0028.png"
+            },
+            "x": 319,
+            "y": 746,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "de062783-0e64-4bf3-8d5c-37461a5c6d70",
+            "label": "interface_emoji_green_leaf_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0017.png"
+            },
+            "x": 384,
+            "y": 745,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "52f4cc4b-3b75-4cad-b3bf-92a822d9c4f6",
+            "label": "interface_emoji_red_heart_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0030.png"
+            },
+            "x": 255,
+            "y": 810,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "146ac042-eb30-464a-a52c-b99d17b58344",
+            "label": "interface_emoji_lightbulb_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0012.png"
+            },
+            "x": 319,
+            "y": 810,
+            "scaleX": 0.8504544147534642,
+            "scaleY": 0.8217306663746075
+        },
+        {
+            "type": "Image",
+            "id": "f83ce41f-f719-486e-9e40-9efb0cfa27c0",
+            "label": "interface_emoji_yellow_flower_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_happy_face0016.png"
+            },
+            "x": 384,
+            "y": 810,
+            "scaleX": 0.7797032709742509,
+            "scaleY": 0.7515722065298248
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

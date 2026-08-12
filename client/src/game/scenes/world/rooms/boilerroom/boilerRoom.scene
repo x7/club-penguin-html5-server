@@ -1,0 +1,257 @@
+{
+    "id": "49ee4aaa-f5a1-456c-8699-96578792356e",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "BoilerRoomScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b16e9278-248d-4805-a39d-954072a80ed5",
+            "label": "boiler_room_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_main.png"
+            },
+            "x": 0,
+            "y": -5,
+            "originX": 0,
+            "originY": 0,
+            "scaleY": 1.0055444592871736
+        },
+        {
+            "type": "Image",
+            "id": "4ced6f75-a495-4f6f-96ea-3eb6ddd6fbf1",
+            "label": "boiler_room_draw0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 811,
+            "y": 294,
+            "scaleX": 0.5007951314672706,
+            "scaleY": 0.5145017964185077,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5fab64e5-ff45-4a71-9020-f0d24c992fcd",
+            "label": "boiler_room_draw0001_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 704,
+            "y": 359,
+            "scaleX": 0.5007951314672706,
+            "scaleY": 0.5145017964185077,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9556b644-d737-4de2-b166-b5998d30a26f",
+            "label": "boiler_room_draw0001_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 702,
+            "y": 418,
+            "scaleX": 0.5007951314672706,
+            "scaleY": 0.5145017964185077,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "95bae9d4-4348-45ff-979e-23278e5d103c",
+            "label": "boiler_room_draw0001_png_4",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 804,
+            "y": 415,
+            "scaleX": 0.5007951314672706,
+            "scaleY": 0.5145017964185077,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "97188505-0255-438a-9b95-9078664cec89",
+            "label": "boiler_room_draw0001_png_5",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 807,
+            "y": 355,
+            "scaleX": 0.5007951314672706,
+            "scaleY": 0.5145017964185077,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6bca87b1-5841-4dec-aa8c-eaa09de47014",
+            "label": "boiler_room_dooor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_dooor0001.png"
+            },
+            "x": 588,
+            "y": 372,
+            "scaleX": 0.39372945876305515,
+            "scaleY": 0.3915786705175174
+        },
+        {
+            "type": "Sprite",
+            "id": "08848c78-d8cd-414c-b7fd-d46a81b3c2c9",
+            "label": "boiler_room_smoke0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_smoke0001.png"
+            },
+            "x": 266,
+            "y": 194,
+            "scaleX": 1.3135029797846425,
+            "scaleY": 0.9535917336211418
+        },
+        {
+            "type": "Image",
+            "id": "6894d78c-0df4-436b-b34c-30c2ddccfd0a",
+            "label": "boiler_room_dooor0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_dooor0002.png"
+            },
+            "x": 588,
+            "y": 372,
+            "scaleX": 0.39372945876305515,
+            "scaleY": 0.3915786705175174,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "db2293b1-9621-44a3-90c1-c64f26033894",
+            "label": "boiler_room_draw0001_png_6",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 828,
+            "y": 475,
+            "scaleX": 0.5921143306003507,
+            "scaleY": 0.6359666733992642
+        },
+        {
+            "type": "Sprite",
+            "id": "8a0dde8a-a8c6-4eea-b975-a7c61db0d37f",
+            "label": "boiler_room_draw0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 832,
+            "y": 400,
+            "scaleX": 0.5921143306003507,
+            "scaleY": 0.6359666733992642
+        },
+        {
+            "type": "Sprite",
+            "id": "c03d68b2-0f30-4bb8-809d-66c246b5554c",
+            "label": "boiler_room_draw0001_png_7",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 827,
+            "y": 549,
+            "scaleX": 0.5921143306003507,
+            "scaleY": 0.6359666733992642
+        },
+        {
+            "type": "Sprite",
+            "id": "6739a4c5-77d5-42ff-9373-6e3d7c44e519",
+            "label": "boiler_room_draw0001_png_8",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 951,
+            "y": 401,
+            "scaleX": 0.5921143306003507,
+            "scaleY": 0.6359666733992642
+        },
+        {
+            "type": "Sprite",
+            "id": "930b4d3b-dd3b-460a-9143-d35de1995051",
+            "label": "boiler_room_draw0001_png_9",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 947,
+            "y": 475,
+            "scaleX": 0.5921143306003507,
+            "scaleY": 0.6359666733992642
+        },
+        {
+            "type": "Sprite",
+            "id": "a082c58e-2d92-4763-b6bd-9fe0f5e89355",
+            "label": "boiler_room_draw0001_png_10",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boilerroom",
+                "frame": "boiler_room_draw0001.png"
+            },
+            "x": 944,
+            "y": 547,
+            "scaleX": 0.5921143306003507,
+            "scaleY": 0.6359666733992642
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "11ffb3af-51ee-4e28-a8c5-58c264b018d4",
+            "label": "boiler_room_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boiler_room_walking_trigger"
+            },
+            "x": 762,
+            "y": 453,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 917
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

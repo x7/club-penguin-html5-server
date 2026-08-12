@@ -1,0 +1,667 @@
+{
+    "id": "3a3aec4d-b07e-44f3-b2aa-d7565bc95fc4",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SchoolScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "00403b0e-24e8-4a6f-9f93-19e27f979fcb",
+            "label": "school_kitchen_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_floor0001.png"
+            },
+            "x": 1149,
+            "y": 474
+        },
+        {
+            "type": "Image",
+            "id": "6d3cbaac-a1fd-40ee-b4d9-3fa8e0e924a7",
+            "label": "school_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_background.png"
+            },
+            "x": 759,
+            "y": 471
+        },
+        {
+            "type": "Image",
+            "id": "08db6e11-6678-470b-af34-ab22dfa7db8a",
+            "label": "school_kitchen_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_lights.png"
+            },
+            "x": 1129,
+            "y": 281
+        },
+        {
+            "type": "Image",
+            "id": "a8c2c65b-4c8e-449c-a720-7e19063fd689",
+            "label": "school_stairs_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_stairs.png"
+            },
+            "x": 905,
+            "y": 305
+        },
+        {
+            "type": "Image",
+            "id": "6a1b0744-a0a3-4234-aa4e-8a5bcb7ab7c1",
+            "label": "school_learning_top_left_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_top_left_table.png"
+            },
+            "x": 383,
+            "y": 371
+        },
+        {
+            "type": "Image",
+            "id": "961ca8d6-5536-4618-8f09-f8ddaabcba89",
+            "label": "school_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_table.png"
+            },
+            "x": 1247,
+            "y": 275
+        },
+        {
+            "type": "Image",
+            "id": "5d862aa5-25aa-411b-9ff3-5bed005ed6dd",
+            "label": "school_food_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_food_table.png"
+            },
+            "x": 1328,
+            "y": 329
+        },
+        {
+            "type": "Image",
+            "id": "91e7f02e-8857-45d7-9041-42a81fb93224",
+            "label": "school_chair_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom.png"
+            },
+            "x": 431,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "c2cd3a7b-ac76-4cb7-bfa7-86d1ac506485",
+            "label": "school_chair_top_2_png_4",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top.png"
+            },
+            "x": 403,
+            "y": 413,
+            "scaleY": 0.761178041547726
+        },
+        {
+            "type": "Image",
+            "id": "44792189-d26f-463f-8776-aeadefb9a960",
+            "label": "school_chair_bottom_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom.png"
+            },
+            "x": 385,
+            "y": 566
+        },
+        {
+            "type": "Image",
+            "id": "ea2da601-5f9b-498f-b6ad-e31b1e7e46b9",
+            "label": "school_chair_bottom_2_png_4",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom_2.png"
+            },
+            "x": 317,
+            "y": 434
+        },
+        {
+            "type": "Image",
+            "id": "04435bbc-d4f0-49b4-bcd6-5da43d3c98cf",
+            "label": "school_chair_top_2_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top.png"
+            },
+            "x": 306,
+            "y": 419
+        },
+        {
+            "type": "Image",
+            "id": "8e1c9f51-a1e7-4bb5-a0cb-ca5e163be886",
+            "label": "school_learning_bottom_left_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_bottom_left_table.png"
+            },
+            "x": 333,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "b63c2add-5b68-482c-b978-3671d6702daa",
+            "label": "school_chair_top_2_png_5",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top.png"
+            },
+            "x": 365,
+            "y": 536
+        },
+        {
+            "type": "Image",
+            "id": "99eb0878-ab1c-4dd4-bde2-d0a6d7e33aca",
+            "label": "school_chair_bottom_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom.png"
+            },
+            "x": 248,
+            "y": 565
+        },
+        {
+            "type": "Image",
+            "id": "361e872d-1d5f-4269-8182-b167c1a7a125",
+            "label": "school_go_team_pictures0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_go_team_pictures0001.png"
+            },
+            "x": 1158,
+            "y": 188
+        },
+        {
+            "type": "Image",
+            "id": "1e9d0e16-69a1-4bf3-a3ba-354adfbe630e",
+            "label": "school_go_team_banner0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_go_team_banner0001.png"
+            },
+            "x": 1159,
+            "y": 115
+        },
+        {
+            "type": "Image",
+            "id": "68e8de8b-7b15-4d77-8991-0d92328359d9",
+            "label": "school_go_team_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_go_team_text0001.png"
+            },
+            "x": 1164,
+            "y": 116
+        },
+        {
+            "type": "Image",
+            "id": "e4b0f0bd-2311-4343-ba6c-f6e6a064233e",
+            "label": "school_food_bar_icon_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_food_bar_icon_stand.png"
+            },
+            "x": 1356,
+            "y": 130
+        },
+        {
+            "type": "Image",
+            "id": "50d794a6-d8d1-4fd6-ad7d-c444b4439db3",
+            "label": "school_doors_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_doors.png"
+            },
+            "x": 768,
+            "y": 421
+        },
+        {
+            "type": "Image",
+            "id": "3a776106-7c21-483c-9f41-94f429288fb9",
+            "label": "school_door_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_door.png"
+            },
+            "x": 1481,
+            "y": 611
+        },
+        {
+            "type": "Image",
+            "id": "0e01542e-6753-4b9b-b3b5-567df3e2e74e",
+            "label": "school_door_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_door.png"
+            },
+            "x": 56,
+            "y": 614,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "4ef6ef23-810d-4955-a02f-b3f9d8317058",
+            "label": "school_lockers_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_lockers.png"
+            },
+            "x": 762,
+            "y": 482
+        },
+        {
+            "type": "Image",
+            "id": "2c096789-c41b-457a-a385-9eaf183ecdb8",
+            "label": "school_learning_chalk0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_chalk0001.png"
+            },
+            "x": 516,
+            "y": 184
+        },
+        {
+            "type": "Image",
+            "id": "4f5b7b1d-14c3-4344-812c-aa67deb12765",
+            "label": "school_learning_professor_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_professor_chair.png"
+            },
+            "x": 715,
+            "y": 285
+        },
+        {
+            "type": "Image",
+            "id": "0af6c5b8-a71a-48a8-978f-5c20a1ccc288",
+            "label": "school_learning_professor_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_professor_table.png"
+            },
+            "x": 654,
+            "y": 320
+        },
+        {
+            "type": "Image",
+            "id": "ca4fac9f-e63e-46c4-9d53-03019ceb247d",
+            "label": "school_learning_top_right_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_top_right_table.png"
+            },
+            "x": 675,
+            "y": 395
+        },
+        {
+            "type": "Image",
+            "id": "62a56a57-b67a-4ee5-9da9-fcf3c2579cc3",
+            "label": "school_chair_bottom_2_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom_2.png"
+            },
+            "x": 624,
+            "y": 456
+        },
+        {
+            "type": "Image",
+            "id": "cba752e0-d2f3-448a-afec-08c886261481",
+            "label": "school_chair_bottom_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom_1.png"
+            },
+            "x": 721,
+            "y": 436
+        },
+        {
+            "type": "Image",
+            "id": "29c2da8b-74c7-401b-bdfe-a5f9b6488b82",
+            "label": "school_chair_top_2_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top_2.png"
+            },
+            "x": 623,
+            "y": 434
+        },
+        {
+            "type": "Image",
+            "id": "058807dc-5d04-4e8f-be96-3f7896f2d4fe",
+            "label": "school_chair_top_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top_1.png"
+            },
+            "x": 732,
+            "y": 428
+        },
+        {
+            "type": "Image",
+            "id": "96a20136-39fa-4444-8360-34bfd5b5b462",
+            "label": "school_learning_bottom_right_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_learning_bottom_right_table.png"
+            },
+            "x": 669,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "b0175a45-513f-4914-a350-2aa8f930fc39",
+            "label": "school_chair_bottom_2_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom_2.png"
+            },
+            "x": 622,
+            "y": 563
+        },
+        {
+            "type": "Image",
+            "id": "58945241-10ef-413f-a4c2-b02ea6d151dd",
+            "label": "school_chair_bottom_2_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_bottom_2.png"
+            },
+            "x": 742,
+            "y": 560
+        },
+        {
+            "type": "Image",
+            "id": "0b86e4f3-9836-4262-b48d-c40e50cbf2e0",
+            "label": "school_chair_top_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top_2.png"
+            },
+            "x": 620,
+            "y": 540
+        },
+        {
+            "type": "Image",
+            "id": "64725aee-b7fd-4cfa-8c55-00d05a20e1fd",
+            "label": "school_chair_top_2_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_chair_top_2.png"
+            },
+            "x": 740,
+            "y": 540
+        },
+        {
+            "type": "Image",
+            "id": "ad0a86e6-ab41-47c3-a903-5b1975ec7b71",
+            "label": "school_kitchen_microphone_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_microphone.png"
+            },
+            "x": 1085,
+            "y": 269
+        },
+        {
+            "type": "Image",
+            "id": "9c9ac4df-8dcf-44c8-9d6b-6fc7ab38a824",
+            "label": "school_middle_bar_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_middle_bar.png"
+            },
+            "x": 734,
+            "y": 348
+        },
+        {
+            "type": "Image",
+            "id": "e0668620-0e86-428f-8976-4d6b79f2f388",
+            "label": "school_middle_wall_green_sticker0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_middle_wall_green_sticker0001.png"
+            },
+            "x": 851,
+            "y": 332,
+            "scaleX": 1.0654006292954405,
+            "scaleY": 1.037046066714487
+        },
+        {
+            "type": "Image",
+            "id": "6d707332-1414-4d37-9119-30375af93fd1",
+            "label": "school_middle_wall_picture0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_middle_wall_picture0001.png"
+            },
+            "x": 850,
+            "y": 429
+        },
+        {
+            "type": "Image",
+            "id": "87a6e856-81a8-41b9-ac9a-39ac93f61a87",
+            "label": "school_kitchen_chair_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_chair_1.png"
+            },
+            "x": 1189,
+            "y": 366
+        },
+        {
+            "type": "Image",
+            "id": "98693e65-9a46-4cb6-847a-44afce7b0bcb",
+            "label": "school_kitchen_chair_1_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_chair_1.png"
+            },
+            "x": 1302,
+            "y": 500
+        },
+        {
+            "type": "Image",
+            "id": "41c0b704-103e-4084-92dd-44f3ce08fc17",
+            "label": "school_kitchen_chair_1_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_chair_1.png"
+            },
+            "x": 987,
+            "y": 354,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "cd169b79-48b0-4680-bef8-8f9ae0d949d4",
+            "label": "school_kitchen_top_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_top_table.png"
+            },
+            "x": 1082,
+            "y": 396
+        },
+        {
+            "type": "Image",
+            "id": "bede1f9a-05f5-4bd0-8d8b-effc3dc71ded",
+            "label": "school_kitchen_bottom_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_bottom_table.png"
+            },
+            "x": 1196,
+            "y": 542
+        },
+        {
+            "type": "Image",
+            "id": "9a2fc518-442c-492f-bf92-a8add6a8f673",
+            "label": "school_kitchen_chair_bottom_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_chair_bottom_2.png"
+            },
+            "x": 1045,
+            "y": 580
+        },
+        {
+            "type": "Image",
+            "id": "1c6954af-13f3-42f1-b1a0-5aae6a40f4f8",
+            "label": "school_kitchen_chair_top_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_kitchen_chair_top_2.png"
+            },
+            "x": 1021,
+            "y": 534
+        },
+        {
+            "type": "Image",
+            "id": "c5a3fa5e-ef2e-430c-9923-3b3890e5098d",
+            "label": "school_food_bar_icon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_food_bar_icon0001.png"
+            },
+            "x": 1347,
+            "y": 158
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8e8b9865-6f13-4ba6-ab2d-2b04285d0081",
+            "label": "school_right_side_door_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_right_side_door_trigger.png"
+            },
+            "x": 1467,
+            "y": 685,
+            "scaleX": 0.6758384426962973,
+            "scaleY": 0.8171243218763948,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 198,
+                "height": 212
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8cde85dd-0dcc-4ee2-9372-69d3184f6fbf",
+            "label": "school_left_side_door_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "school",
+                "frame": "school_left_side_door_trigger.png"
+            },
+            "x": 56,
+            "y": 691,
+            "scaleX": 0.5817405332020855,
+            "scaleY": 0.6709287160474938,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 198,
+                "height": 212
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "00481bca-07a9-4323-bb02-36b1aa50d8be",
+            "label": "school_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "`${this.textureKey}_walking_trigger`"
+            },
+            "x": 753,
+            "y": 470,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

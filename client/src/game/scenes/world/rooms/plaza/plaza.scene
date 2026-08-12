@@ -1,0 +1,496 @@
+{
+    "id": "dacdb3cf-c597-4602-b269-4290259da9eb",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PlazaScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "bc96af03-36f6-40d9-9447-d4918e635b39",
+            "label": "plaza_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_sky.png"
+            },
+            "x": 716,
+            "y": 87,
+            "scaleX": 0.9982228920870307,
+            "scaleY": 1.1666968570750087
+        },
+        {
+            "type": "Image",
+            "id": "424f6a45-7b3b-4d7e-9542-eae5c98873d4",
+            "label": "plaza_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_main_background.png"
+            },
+            "x": -130,
+            "y": 115,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9923768666057723,
+            "scaleY": 1.1621760421090446
+        },
+        {
+            "type": "Image",
+            "id": "709bf93c-3da8-4aa7-a791-12201ecb9a28",
+            "label": "plaza_park_tower0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_park_tower0001.png"
+            },
+            "x": 163,
+            "y": 361,
+            "scaleX": 0.9609596954890374,
+            "scaleY": 0.7397304783197567
+        },
+        {
+            "type": "Image",
+            "id": "5e5d6c6d-8e69-47e2-a656-0cd79ce5f88c",
+            "label": "plaza_shops_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_shops.png"
+            },
+            "x": 782,
+            "y": 327,
+            "scaleX": 0.9675524343224674,
+            "scaleY": 0.9602046578154335
+        },
+        {
+            "type": "Image",
+            "id": "1ab65e6c-2f44-47e7-82d7-9ab86f2134fb",
+            "label": "plaza_puffle_berry_mall_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_puffle_berry_mall_wall.png"
+            },
+            "x": 921,
+            "y": 299,
+            "scaleX": 0.9696429132114572,
+            "scaleY": 0.9414280911169803
+        },
+        {
+            "type": "Image",
+            "id": "ab3ffad2-4480-436b-83e9-54c4663e9b0e",
+            "label": "plaza_mall_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_mall_door0001.png"
+            },
+            "x": 928,
+            "y": 398,
+            "scaleX": 0.9613526645238123,
+            "scaleY": 1.00317853852403
+        },
+        {
+            "type": "Image",
+            "id": "d06db1c8-b2e5-4495-9648-99f7a47729dc",
+            "label": "plaza_flag_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_flag_pole.png"
+            },
+            "x": 762,
+            "y": 91,
+            "scaleX": 1.3577579000410323,
+            "scaleY": 0.9157917966406792
+        },
+        {
+            "type": "Sprite",
+            "id": "e8d715b3-5c98-4d2d-8255-0118d76ee3c5",
+            "label": "plaza_flag_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_flag_left0001.png"
+            },
+            "x": 787,
+            "y": 81,
+            "scaleX": 0.8442693028290237,
+            "scaleY": 0.7630716486464258
+        },
+        {
+            "type": "Image",
+            "id": "0c3bfb95-9a1f-42e6-b023-0bf2bd07185c",
+            "label": "plaza_right_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_right_pole.png"
+            },
+            "x": 1061,
+            "y": 89,
+            "scaleX": 1.3782836157168727,
+            "scaleY": 0.8461297124601583
+        },
+        {
+            "type": "Sprite",
+            "id": "29ef7d85-e8ce-483f-ae92-462eaa99f2bd",
+            "label": "plaza_flag_right0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_flag_right0001.png"
+            },
+            "x": 1085,
+            "y": 88,
+            "scaleX": 0.8442693028290237,
+            "scaleY": 0.7630716486464258
+        },
+        {
+            "type": "Image",
+            "id": "7c78d952-316d-4e38-997d-73d6ee1327cc",
+            "label": "plaza_left_side_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_left_side_tree.png"
+            },
+            "x": 53,
+            "y": 842,
+            "scaleX": 0.938495891823824,
+            "scaleY": 0.9320356401941057
+        },
+        {
+            "type": "Image",
+            "id": "e523a477-bae9-45c8-ad84-33270b324132",
+            "label": "plaza_pizza_shop_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pizza_shop_door0001.png"
+            },
+            "x": 1221,
+            "y": 412,
+            "scaleX": 0.9449561112101815,
+            "scaleY": 1.013302273693885
+        },
+        {
+            "type": "Image",
+            "id": "0c957d5e-3454-4926-a52a-dcd0d0f8a31f",
+            "label": "plaza_pizza_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pizza_text.png"
+            },
+            "x": 1248,
+            "y": 292,
+            "scaleX": 0.9555118122845913,
+            "scaleY": 0.9764278983063226
+        },
+        {
+            "type": "Image",
+            "id": "30a0cf58-c353-4ef8-a37b-5877514afdd5",
+            "label": "plaza_mall_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_mall_text.png"
+            },
+            "x": 932,
+            "y": 93,
+            "scaleX": 0.950296390792287,
+            "scaleY": 0.8961547482232987
+        },
+        {
+            "type": "Image",
+            "id": "93e55cea-bd5d-49f2-8a3c-97d1a394afef",
+            "label": "plaza_puffle_hotel_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_puffle_hotel_text.png"
+            },
+            "x": 549,
+            "y": 154,
+            "scaleX": 0.9330859388354946,
+            "scaleY": 0.9148031041298177
+        },
+        {
+            "type": "Image",
+            "id": "d123c033-9ddf-4f51-a07f-20211d5098b7",
+            "label": "plaza_puffle_hotel_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_puffle_hotel_door0001.png"
+            },
+            "x": 663,
+            "y": 403,
+            "scaleX": 0.87434473129851,
+            "scaleY": 1.006923573217672,
+            "angle": 2
+        },
+        {
+            "type": "Image",
+            "id": "062d8e6a-8736-424e-bd86-f0299105f396",
+            "label": "plaza_puffle_hotel_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_puffle_hotel_door0002.png"
+            },
+            "x": 663,
+            "y": 403,
+            "scaleX": 0.87434473129851,
+            "scaleY": 1.006923573217672,
+            "angle": 2,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d7357284-0661-4c33-ad0c-07fbd1aac5a6",
+            "label": "plaza_pet_shop_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pet_shop_door0001.png"
+            },
+            "x": 410,
+            "y": 423,
+            "scaleX": 1.001132851130645,
+            "scaleY": 1.121252500105973
+        },
+        {
+            "type": "Image",
+            "id": "b7425137-d1ee-4ba7-a763-6285f3f43a03",
+            "label": "plaza_pet_shop_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pet_shop_door0002.png"
+            },
+            "x": 410,
+            "y": 423,
+            "scaleX": 1.001132851130645,
+            "scaleY": 1.121252500105973,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "fab2fa5a-26e9-43aa-8644-69bfc5825e1c",
+            "label": "plaza_pet_shop_front_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pet_shop_front.png"
+            },
+            "x": 410,
+            "y": 288,
+            "scaleX": 0.9229875738389257,
+            "scaleY": 0.9063592705272285
+        },
+        {
+            "type": "Image",
+            "id": "3cc3261e-19f0-4ed3-9815-c9d69fc62249",
+            "label": "plaza_puffle_hotel_front_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_puffle_hotel_front.png"
+            },
+            "x": 650,
+            "y": 372,
+            "scaleX": 0.874477116919654,
+            "scaleY": 0.9612319347642855
+        },
+        {
+            "type": "Image",
+            "id": "79eb99a6-8ca6-412c-a24d-ba08e6761d3f",
+            "label": "plaza_pet_shop_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pet_shop_text.png"
+            },
+            "x": 394,
+            "y": 314,
+            "scaleX": 1.0241992135000602,
+            "scaleY": 0.9646549840649263
+        },
+        {
+            "type": "Image",
+            "id": "e264fcfb-9e66-45cb-948f-dd4ecf014355",
+            "label": "plaza_mall_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_mall_door0002.png"
+            },
+            "x": 928,
+            "y": 398,
+            "scaleX": 0.9613526645238123,
+            "scaleY": 1.00317853852403,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b6ba74a3-9653-4eab-a9b7-76ece966e037",
+            "label": "plaza_pizza_shop_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_pizza_shop_door0002.png"
+            },
+            "x": 1221,
+            "y": 412,
+            "scaleX": 0.9449561112101815,
+            "scaleY": 1.013302273693885,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "4235cd12-7478-4182-b640-c9476f574cd6",
+            "label": "plaza_underground_door_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza",
+                "frame": "plaza_underground_door0001.png"
+            },
+            "x": 525,
+            "y": 493,
+            "scaleX": 1.062600097429365,
+            "scaleY": 0.9322432415619236
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4b08c0c7-a473-496f-9f09-c4b9ea6655f8",
+            "label": "plaza_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "plaza_walking_trigger"
+            },
+            "x": 761,
+            "y": 477,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "f756fce3-0601-4c96-b42d-e7cdf5487766",
+            "label": "plaza_puffle_hotel_trigger",
+            "scope": "METHOD",
+            "x": 661,
+            "y": 439,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.6418773503319696,
+            "scaleY": 0.4447027427521548,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "aa0483b4-add1-4a44-8de6-d4df910889e0",
+            "label": "plaza_berry_mall_trigger",
+            "scope": "METHOD",
+            "x": 923,
+            "y": 440,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.7453273631214405,
+            "scaleY": 0.4447027427521548,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "b2f12052-19d0-48b3-b905-79d000ffcac6",
+            "label": "plaza_pizza_parlor_trigger",
+            "scope": "METHOD",
+            "x": 1218,
+            "y": 451,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.7453273631214405,
+            "scaleY": 0.4447027427521548,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "40b680e8-c026-4e9d-b6fb-82cb4c6e8a99",
+            "label": "plaza_pet_shop_trigger",
+            "scope": "METHOD",
+            "x": 419,
+            "y": 448,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0261702330798397,
+            "scaleY": 0.4447027427521548,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "36baeae2-14e1-4abe-9fe0-86c842326277",
+            "label": "plaza_puffle_park_trigger",
+            "scope": "METHOD",
+            "x": 169,
+            "y": 466,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.7904877069093351,
+            "scaleY": 0.4447027427521548,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "c76ab9e6-8585-42e1-83ae-ec23b098c372",
+            "label": "plaza_snow_forts_trigger",
+            "scope": "METHOD",
+            "x": 19,
+            "y": 497,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.7032064376954231,
+            "scaleY": 0.4447027427521548,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "31b1852e-808f-4d8b-8bfc-841898b2583c",
+            "label": "plaza_forest_trigger",
+            "scope": "METHOD",
+            "x": 1462,
+            "y": 488,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0433581787463355,
+            "scaleY": 0.8212288028500787,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -3,8 +3,8 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/penguin/penguin.json",
-                "path": "public/assets/penguin",
+                "url": "assets/penguin/penguin.json",
+                "path": "assets/penguin",
                 "key": "penguin"
             }
         ]

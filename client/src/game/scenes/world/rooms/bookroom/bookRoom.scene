@@ -1,0 +1,707 @@
+{
+    "id": "ea54009f-1b03-498a-a6f8-0118d2575c54",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "BookRoomScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "9aa781b6-2b69-4f3e-be4d-ba2a66183e2f",
+            "label": "book_room_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_main_background.png"
+            },
+            "x": -59,
+            "y": -8,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9224648006840986
+        },
+        {
+            "type": "Image",
+            "id": "ece7d8e6-b1ef-4608-a9e8-65aa6532ea86",
+            "label": "book_room_purple_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_purple_box.png"
+            },
+            "x": 135,
+            "y": 800
+        },
+        {
+            "type": "Image",
+            "id": "c2df6286-2ae8-4c65-b9a9-466d057102f7",
+            "label": "book_room_small_newspaper_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_small_newspaper.png"
+            },
+            "x": 229,
+            "y": 904
+        },
+        {
+            "type": "Image",
+            "id": "e760b51c-b0cd-456c-bf50-0a1e05132b4e",
+            "label": "book_room_mancala_instructions0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_instructions0001.png"
+            },
+            "x": 1371,
+            "y": 279
+        },
+        {
+            "type": "Image",
+            "id": "9456c25c-e4ab-42fd-8923-f39f7be2fe81",
+            "label": "symbol_730002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "Symbol 730002.png"
+            },
+            "x": 1405,
+            "y": 314,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1b4e6f8f-7efd-46c6-9717-6f48eca015a2",
+            "label": "book_room_exit_door_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_exit_door_couch.png"
+            },
+            "x": 1354,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "2d556c11-d01b-4820-b8a3-969e443d13b9",
+            "label": "book_room_cpt_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_cpt.png"
+            },
+            "x": 992,
+            "y": 191,
+            "scaleX": 0.9036278332491338,
+            "scaleY": 0.9359804456732669
+        },
+        {
+            "type": "Image",
+            "id": "5e6419c9-307d-47b7-8653-826c23309759",
+            "label": "book_room_bottom_right_couch_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_bottom_right_couch_table.png"
+            },
+            "x": 1368,
+            "y": 690
+        },
+        {
+            "type": "Image",
+            "id": "0d9b168a-d546-44e1-a977-d91b2ae04108",
+            "label": "book_room_bottom_right_couch_plant_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_bottom_right_couch_plant.png"
+            },
+            "x": 1403,
+            "y": 606
+        },
+        {
+            "type": "Image",
+            "id": "fe66a43b-e118-4359-b2d8-d12f61706365",
+            "label": "book_room_bottom_right_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_bottom_right_couch.png"
+            },
+            "x": 1339,
+            "y": 826
+        },
+        {
+            "type": "Image",
+            "id": "03f64053-5b26-400f-902b-a237057053c4",
+            "label": "book_room_penguin_art0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_penguin_art0001.png"
+            },
+            "x": 634,
+            "y": 159,
+            "scaleX": 0.9292081560798866,
+            "scaleY": 0.9161004115217309
+        },
+        {
+            "type": "Image",
+            "id": "5eb0c97e-bd50-4706-83cd-b4ae3f12343a",
+            "label": "book_room_penguin_art0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_penguin_art0002.png"
+            },
+            "x": 632,
+            "y": 159,
+            "scaleX": 0.89941382427573,
+            "scaleY": 0.9204188643993122,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9badcc38-adbb-44d5-928a-01f1a5d930a6",
+            "label": "book_room_view_books_cabinet0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_view_books_cabinet0001.png"
+            },
+            "x": 443,
+            "y": 322,
+            "scaleX": 0.9215779496361554,
+            "scaleY": 0.9991799061005874
+        },
+        {
+            "type": "Image",
+            "id": "d336de38-a022-44f7-8e38-a650a167ece9",
+            "label": "book_room_view_books_cabinet0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_view_books_cabinet0002.png"
+            },
+            "x": 443,
+            "y": 322,
+            "scaleX": 0.9215779496361554,
+            "scaleY": 0.9991799061005874,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f2cd5f5c-d1cb-4e4b-8238-ad90e6f645bd",
+            "label": "book_room_small_cabinet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_small_cabinet.png"
+            },
+            "x": 344,
+            "y": 455
+        },
+        {
+            "type": "Image",
+            "id": "330dff92-e943-4439-9f35-5c276bfbff14",
+            "label": "book_room_wanted_poser_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_wanted_poser.png"
+            },
+            "x": 317,
+            "y": 608
+        },
+        {
+            "type": "Sprite",
+            "id": "4ef2ef69-15dd-4ec4-bc57-41442b53aa47",
+            "label": "book_room_newspaper_printer_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_newspaper_printer.png"
+            },
+            "x": 371,
+            "y": 741,
+            "scaleX": 0.955932969331434,
+            "scaleY": 0.9302935205344396
+        },
+        {
+            "type": "Image",
+            "id": "4bb11a55-62e2-44bb-8ed8-d05df1f710e9",
+            "label": "book_room_wall_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_wall_lights.png"
+            },
+            "x": 757,
+            "y": 480,
+            "scaleX": 0.9334932760751589
+        },
+        {
+            "type": "Image",
+            "id": "c5ef2aab-c18e-4892-9de4-1ab12cc80bd5",
+            "label": "book_room_bottom_left_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_bottom_left_chair.png"
+            },
+            "x": 781,
+            "y": 743
+        },
+        {
+            "type": "Image",
+            "id": "a893dae4-77ca-4710-af03-a8c8dd1eb879",
+            "label": "book_room_small_window_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_small_window_bottom.png"
+            },
+            "x": 872,
+            "y": 620
+        },
+        {
+            "type": "Image",
+            "id": "aed1c52c-0cd0-41cb-8b8b-0a5734f73b1d",
+            "label": "book_room_hat_hanger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_hat_hanger.png"
+            },
+            "x": 786,
+            "y": 305
+        },
+        {
+            "type": "Image",
+            "id": "1a9ed827-a9f6-4bb0-82bf-48a6f50016bb",
+            "label": "book_room_top_small_plant_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_top_small_plant.png"
+            },
+            "x": 792,
+            "y": 415
+        },
+        {
+            "type": "Image",
+            "id": "8be5b0f8-01e4-440c-a780-789c2fd54575",
+            "label": "book_room_right_side_bigger_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_right_side_bigger_desk.png"
+            },
+            "x": 972,
+            "y": 331,
+            "scaleX": 0.94602865583623
+        },
+        {
+            "type": "Image",
+            "id": "2d53315f-d558-4419-b5ee-3356cb326d18",
+            "label": "book_room_right_side_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_right_side_wall.png"
+            },
+            "x": 837,
+            "y": 244
+        },
+        {
+            "type": "Image",
+            "id": "64d0fb00-2af6-45d1-a475-d1347e1b82f1",
+            "label": "book_room_main_office_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_main_office_chair.png"
+            },
+            "x": 652,
+            "y": 297
+        },
+        {
+            "type": "Image",
+            "id": "3cc2279e-218c-4a62-81fb-04ae9dbc4eeb",
+            "label": "book_room_main_office_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_main_office_table.png"
+            },
+            "x": 625,
+            "y": 404
+        },
+        {
+            "type": "Image",
+            "id": "ba2e8df7-3c24-4abb-b6ce-6d2b2a231517",
+            "label": "book_room_penguin_art_painting_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_penguin_art_painting.png"
+            },
+            "x": 639,
+            "y": 80
+        },
+        {
+            "type": "Image",
+            "id": "515cb8d5-cbea-487a-8317-79e5ec53434d",
+            "label": "book_room_penguin_art_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_penguin_art_text0001.png"
+            },
+            "x": 639,
+            "y": 80,
+            "scaleX": 0.5333207007234047,
+            "scaleY": 0.576082620018079
+        },
+        {
+            "type": "Image",
+            "id": "284cc2e0-95da-46ee-97e4-2c97d405833d",
+            "label": "book_room_rail_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_rail.png"
+            },
+            "x": 854,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "54f3bb92-a228-48bf-9290-28d9d730fe27",
+            "label": "book_room_right_side_desk_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_right_side_desk_chair.png"
+            },
+            "x": 1025,
+            "y": 407
+        },
+        {
+            "type": "Image",
+            "id": "86d04681-46c8-4392-ad4c-6d3d9294729b",
+            "label": "book_room_right_side_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_right_side_desk.png"
+            },
+            "x": 1053,
+            "y": 464
+        },
+        {
+            "type": "Image",
+            "id": "391bfe27-96cb-45a4-a824-9a993b0df1de",
+            "label": "book_room_mancala_table_1_not_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0001.png"
+            },
+            "x": 1190,
+            "y": 559
+        },
+        {
+            "type": "Image",
+            "id": "fe49e900-b5d8-4059-a71f-289db8eef0ed",
+            "label": "book_room_mancala_table_2_not_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0001.png"
+            },
+            "x": 1078,
+            "y": 629
+        },
+        {
+            "type": "Image",
+            "id": "f34614e1-0eec-4727-85df-4752abb83eda",
+            "label": "book_room_mancala_table_3_not_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0001.png"
+            },
+            "x": 1230,
+            "y": 685
+        },
+        {
+            "type": "Image",
+            "id": "9cc4e5b9-13c2-43b2-9092-910e48f1076a",
+            "label": "book_room_mancala_table_4_not_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0001.png"
+            },
+            "x": 1116,
+            "y": 786
+        },
+        {
+            "type": "Image",
+            "id": "060e2a77-ab9f-4dab-948f-691426c75863",
+            "label": "book_room_mancala_table_1_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0003.png"
+            },
+            "x": 1190,
+            "y": 559,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1da567a2-0061-4012-a821-d34138fd32c5",
+            "label": "book_room_mancala_table_2_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0003.png"
+            },
+            "x": 1078,
+            "y": 629,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1a99298e-8ec2-4740-9d3b-8ec76521efd2",
+            "label": "book_room_mancala_table_3_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0003.png"
+            },
+            "x": 1230,
+            "y": 685,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8124565c-6164-4c03-8f52-41b8b44fd03e",
+            "label": "book_room_mancala_table_4_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_table0003.png"
+            },
+            "x": 1116,
+            "y": 786,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c75ba9ab-20b5-49ba-bec7-0c0b27b7ca45",
+            "label": "book_room_bottom_left_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_bottom_left_desk.png"
+            },
+            "x": 879,
+            "y": 742
+        },
+        {
+            "type": "Image",
+            "id": "03f66a13-30df-4cb8-b7d6-e5d98457ea9f",
+            "label": "book_room_bottom_right_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_bottom_right_desk.png"
+            },
+            "x": 985,
+            "y": 782
+        },
+        {
+            "type": "Image",
+            "id": "ce43b4aa-d496-4e5c-8ea0-998a6266339a",
+            "label": "book_room_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_wall.png"
+            },
+            "x": 940,
+            "y": 763,
+            "scaleX": 0.8464276906035506
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d8b1ac6a-71f8-46b4-a62c-f760bd045871",
+            "label": "book_room_mancala_table_4_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_trigger.png"
+            },
+            "x": 1115,
+            "y": 775,
+            "scaleX": 0.7519427003247866,
+            "scaleY": 0.5156306183558828,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 160,
+                "height": 120
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "931a928e-4e72-408c-9608-59398ba2047c",
+            "label": "book_room_mancala_table_3_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_trigger.png"
+            },
+            "x": 1229,
+            "y": 675,
+            "scaleX": 0.7432724930267998,
+            "scaleY": 0.5664056147647432,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 160,
+                "height": 120
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8b0667c1-c413-4035-8aa5-0551f85487b9",
+            "label": "book_room_mancala_table_2_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_trigger.png"
+            },
+            "x": 1078,
+            "y": 621,
+            "scaleX": 0.7266316778562156,
+            "scaleY": 0.5640323647091106,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 160,
+                "height": 120
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "47adb79e-49fe-461e-afe2-3b0aa5e7c597",
+            "label": "book_room_mancala_table_1_trigger_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_mancala_trigger.png"
+            },
+            "x": 1194,
+            "y": 549,
+            "scaleX": 0.7636059943674992,
+            "scaleY": 0.5968503607162771,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 160,
+                "height": 120
+            }
+        },
+        {
+            "type": "Image",
+            "id": "989a1365-1eea-41c9-b774-f0515bcaee97",
+            "label": "book_room_exit_door_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_exit_door_light.png"
+            },
+            "x": 1226,
+            "y": 341,
+            "scaleX": 0.13370852823221513,
+            "scaleY": 0.24060622729907638,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b49cbce7-0a34-458e-834e-55740a1c3b85",
+            "label": "book_room_exit_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom",
+                "frame": "book_room_exit_trigger.png"
+            },
+            "x": 1224,
+            "y": 339,
+            "scaleX": 0.8730536356382065,
+            "scaleY": 0.8670730488886225,
+            "angle": 90,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 200,
+                "height": 120
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a15d12bf-73a0-4e99-8521-e66f54af1451",
+            "label": "book_room_walk_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "bookroom_walk_trigger"
+            },
+            "x": 738,
+            "y": 477,
+            "scaleY": 1.0688214550772455,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1720,
+                "height": 964
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

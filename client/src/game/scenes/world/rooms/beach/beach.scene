@@ -1,0 +1,347 @@
+{
+    "id": "c63c2c6c-c429-4c92-a022-6238da8fbb7b",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "BeachScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "dd403118-a0ea-4807-bc2e-e405c9a3faad",
+            "label": "beach_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_background.png"
+            },
+            "x": 773,
+            "y": 117,
+            "scaleX": 1.1469691133278472,
+            "scaleY": 1.781668969161465
+        },
+        {
+            "type": "Image",
+            "id": "a739de30-ce36-44f8-9357-74613c69a8e3",
+            "label": "beach_background_clouds_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_background_clouds.png"
+            },
+            "x": 763,
+            "y": 160,
+            "scaleX": 0.993620930829786,
+            "scaleY": 1.3232399233345262
+        },
+        {
+            "type": "Image",
+            "id": "426ad340-eaf9-4b22-a5a2-ff83870c18a1",
+            "label": "beach_water_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_water.png"
+            },
+            "x": -136,
+            "y": 230,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9931020532325403,
+            "scaleY": 1.0107935036331477
+        },
+        {
+            "type": "Sprite",
+            "id": "77819453-f925-4d40-9c81-4efb5fda6f51",
+            "label": "beach_rockhopper_migrator_ship0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_rockhopper_migrator_ship0001.png"
+            },
+            "x": 415,
+            "y": 173,
+            "scaleX": 0.9246441120731139,
+            "scaleY": 1.079138656266888
+        },
+        {
+            "type": "Image",
+            "id": "122f45c6-429e-411c-b9cb-3c136f48b3fa",
+            "label": "beach_mountains_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_mountains.png"
+            },
+            "x": 1320,
+            "y": 123,
+            "scaleX": 0.9306300060101699,
+            "scaleY": 1.1286294407166402
+        },
+        {
+            "type": "Image",
+            "id": "0100f756-f652-437c-afcc-de82d0e03e94",
+            "label": "beach_main_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_main_floor.png"
+            },
+            "x": 20,
+            "y": -22,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "a268a774-eddb-46b9-8b60-0c9af6b05bf2",
+            "label": "beach_debris_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_debris.png"
+            },
+            "x": 243,
+            "y": 635,
+            "scaleX": 0.9973278516239773,
+            "scaleY": 1.0337830890666655
+        },
+        {
+            "type": "Image",
+            "id": "0b22002c-7591-4ee9-af0e-17e9cb5b6c13",
+            "label": "beach_light_house_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_light_house_door0001.png"
+            },
+            "x": 394,
+            "y": 307,
+            "scaleX": 1.0072261085967595,
+            "scaleY": 0.985384023524362
+        },
+        {
+            "type": "Image",
+            "id": "ce9e4352-4366-4985-8a40-10154c706b34",
+            "label": "beach_light_house_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_light_house_door0002.png"
+            },
+            "x": 394,
+            "y": 307,
+            "scaleX": 1.0072261085967595,
+            "scaleY": 0.985384023524362,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "167fba15-4b88-4ec2-a9c4-4571fe70d7f1",
+            "label": "beach_handle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_handle.png"
+            },
+            "x": 382,
+            "y": 403,
+            "scaleX": 1.0658649908621685,
+            "scaleY": 0.9362029377019738
+        },
+        {
+            "type": "Image",
+            "id": "965eeaa7-46b4-47e2-af87-9fd38d953dfb",
+            "label": "beach_right_side_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_right_side_tree.png"
+            },
+            "x": 1378,
+            "y": 427,
+            "scaleX": 1.0703246076656712,
+            "scaleY": 1.0071305610735295
+        },
+        {
+            "type": "Image",
+            "id": "a5dec83d-10c0-40e5-b471-c1181310f298",
+            "label": "beach_left_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_left_chair.png"
+            },
+            "x": 835,
+            "y": 531,
+            "scaleX": 0.998961725864967,
+            "scaleY": 1.052818960980209
+        },
+        {
+            "type": "Image",
+            "id": "71ad5af5-3ce7-4a97-99c3-fbcc8635d996",
+            "label": "beach_sunbrella_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_sunbrella_chair.png"
+            },
+            "x": 1013,
+            "y": 453,
+            "scaleX": 0.998961725864967,
+            "scaleY": 1.052818960980209
+        },
+        {
+            "type": "Image",
+            "id": "4e0946ab-b636-4fc0-8d85-834eebc5a86f",
+            "label": "beach_sunbrella_chair_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_sunbrella_chair_arm.png"
+            },
+            "x": 943,
+            "y": 507,
+            "scaleX": 0.9222789389850943,
+            "scaleY": 1.0079129949320513
+        },
+        {
+            "type": "Sprite",
+            "id": "4cd1dc54-7135-4dc9-b352-db5400c2bf25",
+            "label": "beach_green_bucket",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_green_bucket0001.png"
+            },
+            "x": 1061,
+            "y": 586
+        },
+        {
+            "type": "Image",
+            "id": "1e43e52d-1275-41c5-a8ee-e0c09ba4eaea",
+            "label": "beach_sand_castle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_sand_castle.png"
+            },
+            "x": 773,
+            "y": 683,
+            "scaleX": 0.9945447508904232,
+            "scaleY": 1.0597168661052654
+        },
+        {
+            "type": "Image",
+            "id": "65c9ca6e-c0c8-465c-b3c0-23423a340d01",
+            "label": "beach_right_lower_ledge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach",
+                "frame": "beach_right_lower_ledge.png"
+            },
+            "x": 1351,
+            "y": 598,
+            "scaleX": 1.1130646404568485,
+            "scaleY": 1.235393419120074
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "89b86008-8621-44c5-98af-44c52745a89c",
+            "label": "beach_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beach_walking_trigger"
+            },
+            "x": 759,
+            "y": 473,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "4ab0f7e9-753d-41b7-87a2-c7c1730d5103",
+            "label": "beach_docks_trigger",
+            "scope": "METHOD",
+            "x": 1257,
+            "y": 299,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.7811366259881916,
+            "scaleY": 1.1912750425360845,
+            "isFilled": true,
+            "alpha": 0.001,
+            "hitArea": {
+                "shape": "CIRCLE",
+                "x": 64,
+                "y": 64,
+                "radius": 64
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "a242aaa6-b108-4581-b13e-ebf664091f06",
+            "label": "beach_ski_village_trigger",
+            "scope": "METHOD",
+            "x": 919,
+            "y": 184,
+            "width": 128,
+            "height": 128,
+            "scaleX": 2.045086882486506,
+            "scaleY": 1.8148714114032596,
+            "isFilled": true,
+            "alpha": 0.001,
+            "hitArea": {
+                "shape": "CIRCLE",
+                "x": 64,
+                "y": 64,
+                "radius": 64
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "475dd646-ea70-41bf-b012-1c0ee929e894",
+            "label": "beach_pirate_ship_trigger",
+            "scope": "METHOD",
+            "x": 614,
+            "y": 232,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.7811366259881916,
+            "scaleY": 1.4477237071805544,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "145b9461-7b35-4410-a173-9e14fbf4b4a7",
+            "label": "beach_light_house_trigger",
+            "scope": "METHOD",
+            "x": 397,
+            "y": 330,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.8187578201515209,
+            "scaleY": 0.6563003843500301,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

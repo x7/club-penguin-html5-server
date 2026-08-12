@@ -1,0 +1,810 @@
+{
+    "id": "37682dc5-9d73-4adf-9173-28bfcb21d832",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PuffleHotelLobbyScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c5f5b943-7d17-4a70-be9a-e401e6d91fa7",
+            "label": "puffle_hotel_lobby_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_main_background.png"
+            },
+            "x": -75,
+            "y": 60,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "aa696f89-f55d-4fe9-b0ae-275664d63335",
+            "label": "puffle_hotel_lobby_plaza_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_plaza_door0001.png"
+            },
+            "x": 806,
+            "y": 171
+        },
+        {
+            "type": "Image",
+            "id": "f21a4074-8f03-4c50-8cb1-5e29767d3e26",
+            "label": "puffle_hotel_lobby_plaza_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_plaza_door0002.png"
+            },
+            "x": 806,
+            "y": 175,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4938bb01-81aa-4830-953c-660374a05ded",
+            "label": "puffle_hotel_yay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_yay.png"
+            },
+            "x": 817,
+            "y": 455
+        },
+        {
+            "type": "Image",
+            "id": "300d70aa-cd99-4ea9-a91f-776b5da0cdb5",
+            "label": "puffle_hotel_lobby_left_railing_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_left_railing_1.png"
+            },
+            "x": 375,
+            "y": 605
+        },
+        {
+            "type": "Image",
+            "id": "7be989be-08a5-4748-8870-e76bfb42d63f",
+            "label": "puffle_hotel_lobby_blue_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_blue_wall.png"
+            },
+            "x": 192,
+            "y": 677
+        },
+        {
+            "type": "Image",
+            "id": "4f53e7cb-1b44-4d61-b6a8-8db65189660a",
+            "label": "puffle_hotel_lobby_left_railing_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_left_railing_2.png"
+            },
+            "x": 425,
+            "y": 635
+        },
+        {
+            "type": "Image",
+            "id": "ea1c200b-d69e-42f7-919d-f1c21d6bc6eb",
+            "label": "puffle_hotel_lobby_left_railing_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_left_railing_3.png"
+            },
+            "x": 468,
+            "y": 679
+        },
+        {
+            "type": "Image",
+            "id": "a0a3ab26-61bb-4e03-8974-e0445d7c1d55",
+            "label": "puffle_hotel_lobby_smoothie_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_smoothie_sign.png"
+            },
+            "x": 231,
+            "y": 574
+        },
+        {
+            "type": "Image",
+            "id": "054fb45f-5cf3-44c7-9625-ef714aaa48a1",
+            "label": "puffle_hotel_lobby_chair_and_seat_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_chair_and_seat.png"
+            },
+            "x": 322,
+            "y": 635
+        },
+        {
+            "type": "Image",
+            "id": "b9796e13-275c-4a69-9f6d-2d4dd4d2da1c",
+            "label": "puffle_hotel_lobby_puffle_feeding_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_puffle_feeding_table.png"
+            },
+            "x": 343,
+            "y": 703
+        },
+        {
+            "type": "Image",
+            "id": "4543688b-73f8-4239-8517-f9787b8434d2",
+            "label": "puffle_hotel_lobby_bottom_blue_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_bottom_blue_couch.png"
+            },
+            "x": 814,
+            "y": 827
+        },
+        {
+            "type": "Image",
+            "id": "a601d3ae-bf06-489e-aaf0-f3751caf6991",
+            "label": "puffle_hotel_lobby_chair_and_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_chair_and_seat.png"
+            },
+            "x": 398,
+            "y": 758
+        },
+        {
+            "type": "Image",
+            "id": "67c7c446-9005-4999-b921-167a0f70f6f4",
+            "label": "puffle_hotel_lobby_reception_green_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_reception_green_wall.png"
+            },
+            "x": 577,
+            "y": 229
+        },
+        {
+            "type": "Image",
+            "id": "a0c6d670-0f8a-47f8-b27e-b004f542c7a4",
+            "label": "puffle_hotel_lobby_reception_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_reception_side.png"
+            },
+            "x": 289,
+            "y": 215
+        },
+        {
+            "type": "Sprite",
+            "id": "647cd455-a16d-4cb6-86bf-1b298c8f3157",
+            "label": "puffle_hotel_lobby_golden_elevator_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_golden_elevator_door0001.png"
+            },
+            "x": 86,
+            "y": 397
+        },
+        {
+            "type": "Image",
+            "id": "df69031f-141b-4b9e-972d-b5bdcf542e08",
+            "label": "puffle_hotel_lobby_elevator_overlay_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_elevator_overlay.png"
+            },
+            "x": 94,
+            "y": 339
+        },
+        {
+            "type": "Image",
+            "id": "d6c17531-163d-407f-8b12-f5d1f7f8e228",
+            "label": "puffle_hotel_lobby_plaza_door_left_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_plaza_door_left_tree.png"
+            },
+            "x": 691,
+            "y": 226
+        },
+        {
+            "type": "Image",
+            "id": "88621a03-1d62-477f-bee0-177ed5741f8c",
+            "label": "puffle_hotel_lobby_big_door_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_big_door_stand.png"
+            },
+            "x": 631,
+            "y": 188,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "cceea9c3-4ae8-42f1-b60b-02da861d5820",
+            "label": "puffle_hotel_lobby_bottom_left_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_bottom_left_desk.png"
+            },
+            "x": 73,
+            "y": 641
+        },
+        {
+            "type": "Image",
+            "id": "4c23fd44-9690-4756-9ada-44bfb6e5de14",
+            "label": "puffle_hotel_lobby_top_right_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_top_right_wall.png"
+            },
+            "x": 1202,
+            "y": 110
+        },
+        {
+            "type": "Image",
+            "id": "aaaa24f2-b678-47c8-b9d0-9b104a18f05c",
+            "label": "puffle_hotel_lobby_puffle_feeding_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_puffle_feeding_table.png"
+            },
+            "x": 407,
+            "y": 836
+        },
+        {
+            "type": "Image",
+            "id": "b8c3b201-c3c1-4042-8c87-7a213e377503",
+            "label": "puffle_hotel_lobby_food_basket_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_food_basket.png"
+            },
+            "x": 96,
+            "y": 812
+        },
+        {
+            "type": "Image",
+            "id": "148bec4c-d09b-4086-8ef4-8f0ba3612d26",
+            "label": "puffle_hotel_lobby_right_railing_5_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_right_railing_5.png"
+            },
+            "x": 1054,
+            "y": 770,
+            "scaleX": 0.9412596167226123
+        },
+        {
+            "type": "Image",
+            "id": "5a95fc9d-74c8-4a68-989f-99f03592c98f",
+            "label": "puffle_hotel_lobby_left_railing_5_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_left_railing_5.png"
+            },
+            "x": 550,
+            "y": 771,
+            "scaleX": 0.9460042900017891
+        },
+        {
+            "type": "Image",
+            "id": "4f9f31a8-500d-4dae-ae53-e58855fb74ca",
+            "label": "puffle_hotel_lobby_two_fruits_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_two_fruits.png"
+            },
+            "x": 65,
+            "y": 880
+        },
+        {
+            "type": "Image",
+            "id": "50e4f327-93aa-408b-a918-38ef9fbc2438",
+            "label": "puffle_hotel_lobby_orange_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_orange.png"
+            },
+            "x": 75,
+            "y": 915
+        },
+        {
+            "type": "Image",
+            "id": "d360c736-c42a-42f6-8ed4-8200e15fa255",
+            "label": "puffle_hotel_lobby_bottom_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_bottom_part.png"
+            },
+            "x": 775,
+            "y": 476
+        },
+        {
+            "type": "Image",
+            "id": "6c18233f-8128-4aff-81b6-d51f87dfa405",
+            "label": "puffle_hotel_lobby_main_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_main_railing.png"
+            },
+            "x": 819,
+            "y": 567,
+            "scaleX": 0.993568938151241
+        },
+        {
+            "type": "Image",
+            "id": "15b319b5-72f7-4775-b750-479bf0671e93",
+            "label": "puffle_hotel_lobby_big_rainbow_puffle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_big_rainbow_puffle.png"
+            },
+            "x": 806,
+            "y": 511
+        },
+        {
+            "type": "Sprite",
+            "id": "f2b7556e-6e40-4b97-b8fd-e817fadf367c",
+            "label": "puffle_hotel_lobby_water0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_water0002.png"
+            },
+            "x": 917,
+            "y": 545
+        },
+        {
+            "type": "Sprite",
+            "id": "4c8887e1-1091-40eb-a896-15cc184a3632",
+            "label": "puffle_hotel_lobby_main_board0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_main_board0001.png"
+            },
+            "x": 820,
+            "y": 557
+        },
+        {
+            "type": "Image",
+            "id": "6a329eaa-ba67-4030-a819-afccddf84f31",
+            "label": "puffle_hotel_lobby_plaza_door_right_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_plaza_door_right_tree.png"
+            },
+            "x": 917,
+            "y": 218
+        },
+        {
+            "type": "Image",
+            "id": "6a33e693-4661-4c88-9e1c-8b25668f356b",
+            "label": "puffle_hotel_lobby_top_right_right_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_top_right_right_wall.png"
+            },
+            "x": 1293,
+            "y": 239
+        },
+        {
+            "type": "Image",
+            "id": "9e6cc0ce-b9fe-4b38-8e8e-4b2dc4ef18ff",
+            "label": "puffle_hotel_lobby_coat_check_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_coat_check_side.png"
+            },
+            "x": 1324,
+            "y": 267
+        },
+        {
+            "type": "Image",
+            "id": "acb779e9-d8d3-40cb-968e-ecf6179f94e3",
+            "label": "puffle_hotel_lobby_big_door_stand_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_big_door_stand.png"
+            },
+            "x": 981,
+            "y": 187
+        },
+        {
+            "type": "Image",
+            "id": "60dc4fcc-87f6-45ce-bd20-1d1d468f371b",
+            "label": "puffle_hotel_lobby_reception_white_ceiling_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_reception_white_ceiling_lights.png"
+            },
+            "x": 803,
+            "y": 48
+        },
+        {
+            "type": "Image",
+            "id": "7097bd0f-c740-4591-8340-e0b9de32cad9",
+            "label": "puffle_hotel_lobby_puffle_sleep_bed_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_puffle_sleep_bed.png"
+            },
+            "x": 1407,
+            "y": 677
+        },
+        {
+            "type": "Image",
+            "id": "8b01bffa-daa5-40bd-9479-6981c0fb31c7",
+            "label": "puffle_hotel_lobby_puffle_sleep_bed_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_puffle_sleep_bed.png"
+            },
+            "x": 1265,
+            "y": 799
+        },
+        {
+            "type": "Image",
+            "id": "6af087a0-c962-4ff5-9d06-e1ffe68c0eab",
+            "label": "puffle_hotel_lobby_bottom_right_lamp_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_bottom_right_lamp.png"
+            },
+            "x": 1524,
+            "y": 830
+        },
+        {
+            "type": "Image",
+            "id": "3f71a80a-a53f-4311-a116-742ff1a94cd9",
+            "label": "puffle_hotel_lobby_pet_shop_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_pet_shop_wall.png"
+            },
+            "x": 1463,
+            "y": 343
+        },
+        {
+            "type": "Image",
+            "id": "70f8e2b6-2c3b-4d7e-bf25-b4566ff28ab7",
+            "label": "puffle_hotel_lobby_pet_shop_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_pet_shop_door0001.png"
+            },
+            "x": 1478,
+            "y": 354,
+            "scaleX": 1.176535091326748
+        },
+        {
+            "type": "Image",
+            "id": "434bf6ce-f2f8-409b-9eb1-09ea383fd07a",
+            "label": "puffle_hotel_lobby_reception_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_reception_chair.png"
+            },
+            "x": 432,
+            "y": 292
+        },
+        {
+            "type": "Image",
+            "id": "98e67f8f-850f-4f2e-81a0-7effbfbad8dd",
+            "label": "puffle_hotel_lobby_pet_shop_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_pet_shop_door0002.png"
+            },
+            "x": 1478,
+            "y": 354,
+            "scaleX": 1.176535091326748,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c1908fd9-2760-4983-8109-378c343a6b7f",
+            "label": "puffle_hotel_lobby_pet_shop_top0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_pet_shop_top0001.png"
+            },
+            "x": 1469,
+            "y": 283
+        },
+        {
+            "type": "Image",
+            "id": "60d50d54-5700-42ce-bf41-a8b17fde1da0",
+            "label": "puffle_hotel_lobby_reception_main_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_reception_main_desk.png"
+            },
+            "x": 462,
+            "y": 303
+        },
+        {
+            "type": "Image",
+            "id": "ca2061ad-e6fc-4e3b-9bef-d0eb3089a197",
+            "label": "puffle_hotel_lobby_reception_text_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_reception_text_1.png"
+            },
+            "x": 430,
+            "y": 122
+        },
+        {
+            "type": "Image",
+            "id": "ec689a9b-7eb0-4bfe-8a19-3f15663215c8",
+            "label": "puffle_hotel_lobby_coat_check_text_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_coat_check_text_1.png"
+            },
+            "x": 1215,
+            "y": 102
+        },
+        {
+            "type": "Image",
+            "id": "131cdf80-0c31-4fca-8ea8-c590180c20b2",
+            "label": "puffle_hotel_lobby_right_railing_4_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_right_railing_4.png"
+            },
+            "x": 1085,
+            "y": 722
+        },
+        {
+            "type": "Image",
+            "id": "c7db38d8-f79e-4ba1-88c1-7207d5f39576",
+            "label": "puffle_hotel_lobby_right_railing_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_right_railing_3.png"
+            },
+            "x": 1138,
+            "y": 675,
+            "scaleX": 1.0137832374566458
+        },
+        {
+            "type": "Image",
+            "id": "bb3fb19e-73ff-4f7a-83fd-64954d1ebe73",
+            "label": "puffle_hotel_lobby_right_railing_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_right_railing_1.png"
+            },
+            "x": 1238,
+            "y": 585
+        },
+        {
+            "type": "Image",
+            "id": "0a1f3b78-fc9e-44cc-81d8-3d1f4873dbd7",
+            "label": "puffle_hotel_lobby_right_railing_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_right_railing_2.png"
+            },
+            "x": 1196,
+            "y": 632
+        },
+        {
+            "type": "Image",
+            "id": "4b33f544-bb9e-42b9-ae16-1bb8f0f49cbf",
+            "label": "puffle_hotel_lobby_left_railing_4_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_left_railing_4.png"
+            },
+            "x": 520,
+            "y": 690
+        },
+        {
+            "type": "Image",
+            "id": "ab7d66aa-4567-4062-a28a-e3a899c808d1",
+            "label": "puffle_hotel_lobby_plaza_door0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_plaza_door0004.png"
+            },
+            "x": 793,
+            "y": 182,
+            "scaleX": 0.831937056344833,
+            "scaleY": 0.9421165945728577,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "a94ebebc-3272-485b-9a14-231b4fd17fdd",
+            "label": "puffle_hotel_lobby_pet_shop_door0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_pet_shop_door0004.png"
+            },
+            "x": 1475,
+            "y": 358,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "fdd0243e-5082-435a-9a71-4cdc5995294d",
+            "label": "puffle_hotel_lobby_flower_pot_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_flower_pot.png"
+            },
+            "x": 1503,
+            "y": 496
+        },
+        {
+            "type": "Image",
+            "id": "527e0582-97d0-4d92-b40d-49b069ecb94c",
+            "label": "puffle_hotel_lobby_elevator_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_elevator_trigger0004.png"
+            },
+            "x": 101,
+            "y": 399,
+            "scaleX": 0.6165470998082216,
+            "scaleY": 0.8936289817942629,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6e28774c-f8be-473a-ad0a-f87ee9e7c6d0",
+            "label": "puffle_hotel_lobby_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "puffle_hotel_lobby_walking_trigger"
+            },
+            "x": 801,
+            "y": 477,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1710,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c9b911bd-7587-4b21-8d5d-f42616b1351f",
+            "label": "puffle_hotel_lobby_plaza_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_plaza_trigger.png"
+            },
+            "x": 806,
+            "y": 273,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 200,
+                "height": 29
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ab6e97b9-6ecd-4686-b8cb-4c8e465e8294",
+            "label": "puffle_hotel_lobby_pet_shop_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotellobby",
+                "frame": "puffle_hotel_lobby_pet_shop_trigger.png"
+            },
+            "x": 1501,
+            "y": 422,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 162,
+                "height": 73
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "a4e0449d-7635-4ed9-997b-50f6b45e31ac",
+            "label": "puffle_hotel_lobby_rainbow_puffle_board_trigger",
+            "scope": "METHOD",
+            "x": 831,
+            "y": 641,
+            "width": 128,
+            "height": 128,
+            "scaleX": 2.440359818120461,
+            "scaleY": 1.4777099719068905,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

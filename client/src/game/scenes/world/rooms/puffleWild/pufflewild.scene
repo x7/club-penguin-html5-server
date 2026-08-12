@@ -1,0 +1,315 @@
+{
+    "id": "ae51680d-6a88-49b6-8997-d40de33e0626",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PuffleWildScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f9b00cbb-507f-451f-9f22-c4774e328cef",
+            "label": "pufflewild_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_main_background.png"
+            },
+            "x": -296,
+            "y": -271,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8945419785409258,
+            "scaleY": 1.017872258921152
+        },
+        {
+            "type": "Image",
+            "id": "a2724172-1a41-474a-9165-6520c5a182c8",
+            "label": "pufflewild_top_left_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_top_left_bush.png"
+            },
+            "x": 152,
+            "y": 87,
+            "scaleX": 0.7849467385294957,
+            "scaleY": 0.6181186737582228,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4f4850c8-b358-4202-b935-e0f1de19f052",
+            "label": "pufflewild_right_side_walk_pattern_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_right_side_walk_pattern.png"
+            },
+            "x": 1163,
+            "y": 113,
+            "scaleX": 0.9244233564328059,
+            "scaleY": 0.9378236072377969
+        },
+        {
+            "type": "Image",
+            "id": "4515d7e5-efd2-4002-a9e2-83860a79268c",
+            "label": "pufflewild_tree_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_tree_light.png"
+            },
+            "x": 962,
+            "y": 159,
+            "scaleX": 0.7431244074788013,
+            "scaleY": 0.904993379856171
+        },
+        {
+            "type": "Image",
+            "id": "fccfbd01-d824-4fbe-9916-7681a05fd10a",
+            "label": "pufflewild_bush_50008_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_bush_50008.png"
+            },
+            "x": 551,
+            "y": 211,
+            "scaleX": 1.3002259308351833,
+            "scaleY": 1.095996892547313
+        },
+        {
+            "type": "Image",
+            "id": "78cf3425-ef4f-44cc-a063-cb9231add4bb",
+            "label": "puffle_wild_big_bush0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "puffle_wild_big_bush0001.png"
+            },
+            "x": 770,
+            "y": 197,
+            "scaleX": 0.7920209371414901,
+            "scaleY": 0.9597015724300486
+        },
+        {
+            "type": "Image",
+            "id": "14e3e57f-0150-4c25-9e2b-fff20120ca3f",
+            "label": "pufflewild_bush_puffle_hides_in0003_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_bush_puffle_hides_in0003.png"
+            },
+            "x": 903,
+            "y": 240,
+            "scaleX": 1.0970479393800954
+        },
+        {
+            "type": "Image",
+            "id": "01474b32-0984-4340-8662-15b79b715208",
+            "label": "pufflewild_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_rock.png"
+            },
+            "x": 552,
+            "y": 271,
+            "scaleX": 0.9834672469077875,
+            "scaleY": 0.9995396739521343
+        },
+        {
+            "type": "Image",
+            "id": "edf21d96-578d-4554-a33b-b7c02aeb09ef",
+            "label": "pufflewild_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_tree.png"
+            },
+            "x": 470,
+            "y": 145,
+            "scaleX": 0.7500942750530941,
+            "scaleY": 0.7492855687892866
+        },
+        {
+            "type": "Image",
+            "id": "78d33bde-ae46-427a-8fba-c41e537cb123",
+            "label": "pufflewild_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_bush.png"
+            },
+            "x": 443,
+            "y": 299,
+            "scaleX": 0.9968361515423799,
+            "scaleY": 1.0991894377086062
+        },
+        {
+            "type": "Image",
+            "id": "26858791-f498-44c7-a6cf-446e30b4333b",
+            "label": "pufflewild_bush_40001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_bush_40001.png"
+            },
+            "x": 935,
+            "y": 304,
+            "scaleY": 1.1465443680369678
+        },
+        {
+            "type": "Image",
+            "id": "75549def-213d-471c-941f-5294090690b8",
+            "label": "pufflewild_rock_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_rock_2.png"
+            },
+            "x": 1026,
+            "y": 310,
+            "scaleX": 0.7983359957584073,
+            "scaleY": 0.9529985398371071
+        },
+        {
+            "type": "Image",
+            "id": "73d94476-0d14-46fd-85af-b79a2abec797",
+            "label": "pufflewild_stomp_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_stomp.png"
+            },
+            "x": 762,
+            "y": 353,
+            "scaleX": 0.9371333834271476,
+            "scaleY": 1.040420045537688
+        },
+        {
+            "type": "Image",
+            "id": "b3ff42de-e655-47e2-aed9-7fc3f8217ec9",
+            "label": "pufflewild_bottom_arrow_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_bottom_arrow_sign.png"
+            },
+            "x": 550,
+            "y": 677,
+            "scaleX": 1.2343361076916413,
+            "scaleY": 1.042576680020403
+        },
+        {
+            "type": "Image",
+            "id": "fc8fbc25-d495-4ab2-8e2a-dbf9a8fe4499",
+            "label": "pufflewild_rock_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_rock_3.png"
+            },
+            "x": 358,
+            "y": 820,
+            "scaleX": 0.7624762505603337,
+            "scaleY": 0.7381353839263054
+        },
+        {
+            "type": "Image",
+            "id": "884fa042-8acb-42ae-9ae4-8ec41d94eee8",
+            "label": "pufflewild_tree_7_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_tree_7.png"
+            },
+            "x": 490,
+            "y": 843,
+            "scaleX": 0.9897695054361307,
+            "scaleY": 0.8913827042268955
+        },
+        {
+            "type": "Image",
+            "id": "4111117c-ba89-41c3-8814-b37229591542",
+            "label": "puffle_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "puffle_light.png"
+            },
+            "x": 1143,
+            "y": 685,
+            "scaleX": 0.9741855789067742,
+            "scaleY": 1.1172539956694667
+        },
+        {
+            "type": "Image",
+            "id": "8f532f21-ec6b-4fc1-88b3-ec5dee9eedbd",
+            "label": "pufflewild_light_back_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_light_back.png"
+            },
+            "x": 1216,
+            "y": 640,
+            "scaleX": 1.0435450569754217,
+            "scaleY": 1.0337771471334376
+        },
+        {
+            "type": "Image",
+            "id": "12c9b5b2-69b9-4158-80fc-01d5f8b0bbd9",
+            "label": "pufflewild_tree_5_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_tree_5.png"
+            },
+            "x": 1288,
+            "y": 783,
+            "scaleX": 0.9307232423065929,
+            "scaleY": 0.8963559282738021
+        },
+        {
+            "type": "Image",
+            "id": "33a95be3-eabe-4a8f-9ba2-ecb56c873f3f",
+            "label": "pufflewild_tree_4_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_tree_4.png"
+            },
+            "x": 1093,
+            "y": 860,
+            "scaleX": 0.9547862640054052,
+            "scaleY": 0.9924511191522758
+        },
+        {
+            "type": "Image",
+            "id": "afe686c8-952c-47bc-a727-c9813f3a8f51",
+            "label": "pufflewild_tree_6_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflewild",
+                "frame": "pufflewild_tree_6.png"
+            },
+            "x": 1441,
+            "y": 835,
+            "scaleX": 1.0816894273340174,
+            "scaleY": 1.1093906454365439
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

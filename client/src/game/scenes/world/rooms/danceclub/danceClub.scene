@@ -1,0 +1,521 @@
+{
+    "id": "20aeeb8f-5e56-4059-a3d5-f3d012b08a90",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "DanceClubScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "7aa1847b-9aaf-4fc5-9090-88bfc44cad66",
+            "label": "danceclub_dance_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_dance_floor0001.png"
+            },
+            "x": 709,
+            "y": 885,
+            "scaleX": 0.9009585112642639,
+            "scaleY": 0.9698731025407039
+        },
+        {
+            "type": "Image",
+            "id": "5545cca4-dbfb-46e9-99db-6a2f5170c4ce",
+            "label": "danceclub_town_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_town_door0001.png"
+            },
+            "x": 210,
+            "y": 366,
+            "scaleX": 0.8747037961197944,
+            "scaleY": 1.0390493591352845
+        },
+        {
+            "type": "Image",
+            "id": "38fe36b3-a080-475f-afe0-7c46f1a6e655",
+            "label": "danceclub_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_main_background.png"
+            },
+            "x": -50,
+            "y": -107,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9053063850229959,
+            "scaleY": 0.9787574859418197
+        },
+        {
+            "type": "Image",
+            "id": "685731cc-af30-4747-b40d-c5170088dfc7",
+            "label": "danceclub_railing_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_railing_right_side.png"
+            },
+            "x": 441,
+            "y": 331,
+            "scaleX": 1.0942252769353578,
+            "scaleY": 0.9987322042779724
+        },
+        {
+            "type": "Image",
+            "id": "aaba19f8-6192-493c-8c50-dee803e9eb6c",
+            "label": "danceclub_left_bottom_speaker_bpx_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_left_bottom_speaker_bpx.png"
+            },
+            "x": 373,
+            "y": 342,
+            "scaleX": 0.9771959652850684,
+            "scaleY": 0.9843933266277761
+        },
+        {
+            "type": "Image",
+            "id": "062dd441-5b1f-4ad2-b226-3c75100962fe",
+            "label": "danceclub_left_side_top_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_left_side_top_railing.png"
+            },
+            "x": 246,
+            "y": 349,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c4f3ba88-5b40-425d-8eaf-19f2c3af056d",
+            "label": "danceclub_railing_right_side_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_railing_right_side.png"
+            },
+            "x": 779,
+            "y": 268,
+            "scaleX": 0.8477412582937142,
+            "scaleY": 0.8548200219946321,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "35c12b6e-e2f9-4b5e-9337-df39202e834f",
+            "label": "danceclub_unground_entrance0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_unground_entrance0001.png"
+            },
+            "x": 1004,
+            "y": 317,
+            "scaleX": 0.9447800622134415,
+            "scaleY": 1.0142906247448638
+        },
+        {
+            "type": "Image",
+            "id": "c52c52b6-7b78-46ab-be9a-c9692799355a",
+            "label": "danceclub_unground_entrance0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_unground_entrance0002.png"
+            },
+            "x": 973,
+            "y": 323,
+            "scaleX": 0.9447800622134415,
+            "scaleY": 1.0142906247448638,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0b579460-e394-4654-89dc-ae1be26427d5",
+            "label": "danceclub_sound_studio_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_sound_studio.png"
+            },
+            "x": 696,
+            "y": 394,
+            "scaleX": 0.9310852366825809,
+            "scaleY": 0.911569501272237
+        },
+        {
+            "type": "Image",
+            "id": "d3b3289e-7663-435c-80f6-26a486674e32",
+            "label": "danceclub_sound_studio_small_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_sound_studio_small_floor.png"
+            },
+            "x": 693,
+            "y": 366,
+            "scaleX": 1.0535443209387254,
+            "scaleY": 1.1947952522846803
+        },
+        {
+            "type": "Image",
+            "id": "317aed56-84ca-412e-9e20-f5a995c4355d",
+            "label": "danceclub_sound_studio_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_sound_studio_top.png"
+            },
+            "x": 691,
+            "y": 357,
+            "scaleX": 0.9428957415427648,
+            "scaleY": 0.9561268857597519
+        },
+        {
+            "type": "Sprite",
+            "id": "89eb8095-6d50-48ae-bc3f-5deb673174b0",
+            "label": "danceclub_green_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_green_puffle0001.png"
+            },
+            "x": 1011,
+            "y": 196,
+            "scaleX": 1.0004423251731371,
+            "scaleY": 0.9821093951253981
+        },
+        {
+            "type": "Image",
+            "id": "56a0544c-de1f-4816-adfb-dfa3b3c58ea9",
+            "label": "danceclub_dance_contest_signup_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_dance_contest_signup_table.png"
+            },
+            "x": 1103,
+            "y": 433,
+            "scaleX": 0.8971162675328774,
+            "scaleY": 1.1084367974640368
+        },
+        {
+            "type": "Image",
+            "id": "cd9821bd-76ac-481f-a30a-94966a956454",
+            "label": "danceclub_bottom_left_couch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_bottom_left_couch.png"
+            },
+            "x": 174,
+            "y": 760,
+            "scaleX": 1.0217538402979924,
+            "scaleY": 1.0883350846943038
+        },
+        {
+            "type": "Image",
+            "id": "08e946cb-7b49-4655-99f0-5efe0d13fa16",
+            "label": "danceclub_dance_contest_signup_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_dance_contest_signup.png"
+            },
+            "x": 1134,
+            "y": 275,
+            "scaleX": 1.1258415271136748,
+            "scaleY": 1.1157181485820509,
+            "angle": -5
+        },
+        {
+            "type": "Image",
+            "id": "7b659494-2f0f-49e0-8a13-d61b6afa1925",
+            "label": "danceclub_upstairs_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_upstairs_door0001.png"
+            },
+            "x": 1302,
+            "y": 329,
+            "scaleX": 0.8829717390252741
+        },
+        {
+            "type": "Sprite",
+            "id": "7d0a0c76-4011-46d9-b180-063c8ad8b08f",
+            "label": "danceclub_bottom_right_speaker0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_bottom_right_speaker0001.png"
+            },
+            "x": 993,
+            "y": 325,
+            "scaleX": 1.1420120944242962,
+            "scaleY": 0.9813609972235328
+        },
+        {
+            "type": "Sprite",
+            "id": "64e30f58-7e33-466c-86d4-278bc3f1dfb6",
+            "label": "danceclub_left_bottom_speaker0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_left_bottom_speaker0001.png"
+            },
+            "x": 383,
+            "y": 349,
+            "scaleX": 1.0053695544648633,
+            "scaleY": 0.938941908833967
+        },
+        {
+            "type": "Sprite",
+            "id": "08791486-a3a0-4483-974c-4ab5d89fa36a",
+            "label": "danceclub_left_bottom_speaker0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_left_bottom_speaker0001.png"
+            },
+            "x": 255,
+            "y": 62,
+            "scaleX": 0.573994024016248,
+            "scaleY": 0.5626009278874076,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "132b3924-f617-43d2-bc80-f5e99805211b",
+            "label": "danceclub_upstairs_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_upstairs_door0002.png"
+            },
+            "x": 1302,
+            "y": 329,
+            "scaleX": 0.8829717390252741,
+            "scaleY": 1.006040199697122,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a747627d-c9b1-4c46-8a4a-1b866326880b",
+            "label": "danceclub_upstairs_entrance_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_upstairs_entrance.png"
+            },
+            "x": 1249,
+            "y": 240,
+            "scaleX": 0.8726917390649486,
+            "scaleY": 1.0247854494728579
+        },
+        {
+            "type": "Sprite",
+            "id": "6d8fe0e1-9ffa-414e-b05f-ee9a0acd0ccc",
+            "label": "danceclub_contest_signup_paper_pencils0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_contest_signup_paper_pencils0001.png"
+            },
+            "x": 1084,
+            "y": 384,
+            "scaleX": 0.9360987075088671,
+            "scaleY": 0.9361858602713252
+        },
+        {
+            "type": "Image",
+            "id": "f7ac495e-9017-4e41-a0f1-8ce95fd19745",
+            "label": "danceclub_right_side_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_right_side_railing.png"
+            },
+            "x": 1124,
+            "y": 492,
+            "scaleX": 1.0023430426575806,
+            "scaleY": 0.8099631340552891
+        },
+        {
+            "type": "Sprite",
+            "id": "7d2215f9-a349-46ee-a57e-80ffd124d6fb",
+            "label": "danceclub_bottom_right_speaker0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_bottom_right_speaker0001.png"
+            },
+            "x": 876,
+            "y": 51,
+            "scaleX": 0.4551570301098177,
+            "scaleY": 0.49349854327660236,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "08863153-2620-490b-8467-b9b7b3b009b9",
+            "label": "danceclub_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_lights.png"
+            },
+            "x": 726,
+            "y": 353,
+            "scaleX": 0.896281530343336,
+            "scaleY": 1.5862322997171228
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4fa036b2-10fe-4938-9da1-18364b5504e7",
+            "label": "danceclub_town_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_town_trigger.png"
+            },
+            "x": 194,
+            "y": 466,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 139,
+                "height": 139
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "07817419-ae9f-4500-a91c-9d89e0828746",
+            "label": "danceclub_dance_contest_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_dance_contest_trigger.png"
+            },
+            "x": 1104,
+            "y": 400,
+            "scaleX": 0.7535507445298227,
+            "scaleY": 1.0018607252927696,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 174,
+                "height": 134
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "64c969fd-50ff-4621-98a1-cde9b26a7aa2",
+            "label": "danceclub_lounge_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_lounge_trigger.png"
+            },
+            "x": 1297,
+            "y": 442,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 160,
+                "height": 80
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0964748c-3d4d-40da-a896-d1117ef9c73a",
+            "label": "danceclub_cave_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_cave_trigger.png"
+            },
+            "x": 993,
+            "y": 365,
+            "scaleX": 0.7990584340272201,
+            "scaleY": 0.9018012689198701,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 120,
+                "height": 109
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "59c1f437-7844-4136-b599-03cf6a6d26e7",
+            "label": "danceclub_sound_studio_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_sound_studio_trigger.png"
+            },
+            "x": 692,
+            "y": 366,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 190,
+                "height": 60
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f0a961a5-9a0f-4fc2-a125-ce99556928f7",
+            "label": "danceclub_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "danceclub",
+                "frame": "danceclub_walking_trigger.png"
+            },
+            "x": 758,
+            "y": 479,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

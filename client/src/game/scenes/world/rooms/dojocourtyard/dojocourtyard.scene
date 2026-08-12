@@ -1,0 +1,271 @@
+{
+    "id": "7653ecef-ba44-4375-8534-acaa3193f479",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "DojoCourtyardScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b074b30e-267d-4c9a-89b7-b83fe317e07b",
+            "label": "dojo_courtyard_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_sky.png"
+            },
+            "x": 765,
+            "y": 125
+        },
+        {
+            "type": "Image",
+            "id": "6c0ea959-3b3e-4cc0-9dce-1990dd9e71b0",
+            "label": "dojo_courtyard_left_side_mountains_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_left_side_mountains.png"
+            },
+            "x": 718,
+            "y": 465
+        },
+        {
+            "type": "Sprite",
+            "id": "3cac0f8b-2a53-4d84-a207-25ad47fbf0f8",
+            "label": "dojo_courtyard_water_falling0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_water_falling0001.png"
+            },
+            "x": 306,
+            "y": 334,
+            "scaleX": 0.4733795267642118,
+            "scaleY": 0.44508198070976945
+        },
+        {
+            "type": "Image",
+            "id": "70854909-4035-4f2b-9557-310723daae63",
+            "label": "dojo_courtyard_bridges_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_bridges.png"
+            },
+            "x": 844,
+            "y": 522
+        },
+        {
+            "type": "Sprite",
+            "id": "8c478890-560c-40e0-bdb1-54836b51ee89",
+            "label": "dojo_courtyard_fire_smoke0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_fire_smoke0001.png"
+            },
+            "x": 64,
+            "y": 143,
+            "scaleX": 0.27775185980857553,
+            "scaleY": 0.37184447132832504
+        },
+        {
+            "type": "Image",
+            "id": "e9b06d0c-b74d-4df0-880d-43710aa29333",
+            "label": "dojo_courtyard_dojo_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_dojo_door0001.png"
+            },
+            "x": 767,
+            "y": 490,
+            "scaleX": 0.44250407396913793,
+            "scaleY": 0.39613651623813284
+        },
+        {
+            "type": "Image",
+            "id": "d67cdad6-f638-420b-ba61-074aab3c10ca",
+            "label": "dojo_courtyard_dojo_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_dojo_door0002.png"
+            },
+            "x": 767,
+            "y": 482,
+            "scaleX": 0.44250407396913793,
+            "scaleY": 0.45816672818756327,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3a7eacb4-b552-4791-a5f3-a89d95709b1e",
+            "label": "dojo_courtyard_dojo_house_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_dojo_house.png"
+            },
+            "x": 655,
+            "y": 467
+        },
+        {
+            "type": "Image",
+            "id": "cf374c98-7f18-4834-8175-f187d9625874",
+            "label": "dojo_courtyard_dojo_door0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_dojo_door0004.png"
+            },
+            "x": 769,
+            "y": 487,
+            "scaleX": 0.42636072620709137,
+            "scaleY": 0.401011140070115,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "0e0f6cea-ad7b-4467-9f7b-e54e619fca6b",
+            "label": "dojo_courtyard_puffle_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_puffle_left.png"
+            },
+            "x": 453,
+            "y": 827
+        },
+        {
+            "type": "Image",
+            "id": "b2d51ea6-79d5-4203-a9ed-1a7dbe47ee0c",
+            "label": "dojo_courtyard_puffle_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_puffle_right.png"
+            },
+            "x": 1107,
+            "y": 818
+        },
+        {
+            "type": "Image",
+            "id": "e383ee12-e3b6-466e-9702-ec3ff72d2319",
+            "label": "dojo_courtyard_bottom_right_bottom_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_bottom_right_bottom_tree.png"
+            },
+            "x": 1494,
+            "y": 839
+        },
+        {
+            "type": "Image",
+            "id": "fd5c7ba0-713b-42e0-a808-2ba86db3eb4b",
+            "label": "dojo_courtyard_bottom_right_top_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_bottom_right_top_tree.png"
+            },
+            "x": 1383,
+            "y": 682
+        },
+        {
+            "type": "Image",
+            "id": "db81798f-005a-4024-83d1-f5fb758ab714",
+            "label": "dojo_courtyard_bottom_right_left_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_bottom_right_left_tree.png"
+            },
+            "x": 1282,
+            "y": 760
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c3f0c0bd-075b-4fe7-87e6-674b1878f454",
+            "label": "dojo_courtyard_walking_triggerr_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo_courtyard_walking_triggerr"
+            },
+            "x": 733,
+            "y": 452,
+            "scaleX": 0.9301640891465893,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1600,
+                "height": 1040
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3f7d435c-6fa7-4897-a671-853f2f00eb86",
+            "label": "dojo_courtyard_mine_shack_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_mine_shack_trigger.png"
+            },
+            "x": 769,
+            "y": 879,
+            "scaleX": 0.9730218092242524,
+            "scaleY": 0.8342724400324608,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 516,
+                "height": 168
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9dd2d9f6-7c3c-4052-be4d-e62e613b8af1",
+            "label": "dojo_courtyard_dojo_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojocourtyard",
+                "frame": "dojo_courtyard_dojo_trigger.png"
+            },
+            "x": 766,
+            "y": 545,
+            "scaleX": 0.6815906689265991,
+            "scaleY": 0.6965954702206402,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 296,
+                "height": 111
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -3,48 +3,48 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/world/rooms/town/town2013.json",
-                "path": "public/assets/world/rooms/town/",
+                "url": "assets/world/rooms/town/town2013.json",
+                "path": "assets/world/rooms/town/",
                 "key": "town"
             },
             {
                 "url": [
-                    "public/assets/world/rooms/town/town2013-coffeeclose.mp3"
+                    "assets/world/rooms/town/town2013-coffeeclose.mp3"
                 ],
                 "type": "audio",
                 "key": "town2013-coffeeclose"
             },
             {
                 "url": [
-                    "public/assets/world/rooms/town/town2013-coffeeopen.mp3"
+                    "assets/world/rooms/town/town2013-coffeeopen.mp3"
                 ],
                 "type": "audio",
                 "key": "town2013-coffeeopen"
             },
             {
                 "url": [
-                    "public/assets/world/rooms/town/town2013-discoclose.mp3"
+                    "assets/world/rooms/town/town2013-discoclose.mp3"
                 ],
                 "type": "audio",
                 "key": "town2013-discoclose"
             },
             {
                 "url": [
-                    "public/assets/world/rooms/town/town2013-discoopen.mp3"
+                    "assets/world/rooms/town/town2013-discoopen.mp3"
                 ],
                 "type": "audio",
                 "key": "town2013-discoopen"
             },
             {
                 "url": [
-                    "public/assets/world/rooms/town/town2013-shopclose.mp3"
+                    "assets/world/rooms/town/town2013-shopclose.mp3"
                 ],
                 "type": "audio",
                 "key": "town2013-shopclose"
             },
             {
                 "url": [
-                    "public/assets/world/rooms/town/town2013-shopopen.mp3"
+                    "assets/world/rooms/town/town2013-shopopen.mp3"
                 ],
                 "type": "audio",
                 "key": "town2013-shopopen"

@@ -3,7 +3,7 @@
         "files": [
             {
                 "type": "multiatlas",
-                "url": "public/assets/start/start.json",
+                "url": "assets/start/start.json",
                 "path": "",
                 "key": "start"
             }

@@ -1,0 +1,422 @@
+{
+    "id": "501e6e29-691d-40a1-975b-a4d6179e5f51",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ClothesShopScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "16b59121-ed53-4956-8398-dac5b62dc22f",
+            "label": "giftshop_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_main.png"
+            },
+            "x": -117,
+            "y": -41,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9958943252972757
+        },
+        {
+            "type": "Image",
+            "id": "ee2eb459-282d-43ef-8044-c0f92525eed3",
+            "label": "giftshop_bottom_fish_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_bottom_fish.png"
+            },
+            "x": 733,
+            "y": 495,
+            "scaleX": 1.0072285539494639,
+            "scaleY": 1.0158509427060216
+        },
+        {
+            "type": "Image",
+            "id": "6fab9771-a3f5-4a81-9f37-6392eb867db4",
+            "label": "giftshop_chair_one_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_one.png"
+            },
+            "x": 1095,
+            "y": 626,
+            "scaleX": 0.7730058883734877,
+            "scaleY": 0.765819493532557
+        },
+        {
+            "type": "Image",
+            "id": "d1115758-f89c-4334-ac2e-b58e11dfdb09",
+            "label": "giftshop_chair_two_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_two.png"
+            },
+            "x": 1027,
+            "y": 703,
+            "scaleX": 0.8828193203111082,
+            "scaleY": 0.9958005547647024
+        },
+        {
+            "type": "Image",
+            "id": "f06fef98-fdc9-4b77-a2c1-9a98623c9d12",
+            "label": "giftshop_chair_three_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_three.png"
+            },
+            "x": 1366,
+            "y": 384,
+            "scaleX": 1.06280078513135,
+            "scaleY": 0.8431859648966638
+        },
+        {
+            "type": "Image",
+            "id": "15ba4f46-8b5a-468f-bd21-7d732046fae0",
+            "label": "giftshop_counter_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_counter.png"
+            },
+            "x": 1347,
+            "y": 466,
+            "scaleX": 1.1497372224116273,
+            "scaleY": 1.2252148278035895
+        },
+        {
+            "type": "Sprite",
+            "id": "078a70b9-85d6-4056-aed1-2ff2861a842d",
+            "label": "giftshop_watches0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_watches0001.png"
+            },
+            "x": 1407,
+            "y": 442,
+            "scaleX": 0.46428219009474814,
+            "scaleY": 0.45112374089539253
+        },
+        {
+            "type": "Sprite",
+            "id": "084ab944-f7a8-4d25-9106-6bb44307eac5",
+            "label": "giftshop_cash_register0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_cash_register0001.png"
+            },
+            "x": 1276,
+            "y": 364,
+            "scaleX": 0.8720126380575843,
+            "scaleY": 0.7910136529145547
+        },
+        {
+            "type": "Sprite",
+            "id": "4473f0ff-d503-4f1f-89a0-589f964a26a5",
+            "label": "giftshop_speakers0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_speakers0001.png"
+            },
+            "x": 747,
+            "y": 228,
+            "scaleX": 0.986864014002472,
+            "scaleY": 1.0275086975098104
+        },
+        {
+            "type": "Sprite",
+            "id": "e72a03f7-3f91-4a90-9470-84c6b276ccd8",
+            "label": "giftshop_curtain0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_curtain0001.png"
+            },
+            "x": 446,
+            "y": 282,
+            "scaleX": 0.8623817951869084,
+            "scaleY": 0.9586460794322212
+        },
+        {
+            "type": "Image",
+            "id": "5605508e-043b-48c0-9fa9-3e9a95cd5980",
+            "label": "giftshop_clothes_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_clothes.png"
+            },
+            "x": 350,
+            "y": 475,
+            "scaleX": 1.0601878935022935,
+            "scaleY": 1.031001967903876
+        },
+        {
+            "type": "Image",
+            "id": "e085be1f-d1e1-4f5c-8425-d59152cf3b15",
+            "label": "giftshop_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_door0001.png"
+            },
+            "x": 1091,
+            "y": 240,
+            "scaleX": 1.0367026714260419,
+            "scaleY": 0.984027915938957
+        },
+        {
+            "type": "Image",
+            "id": "ac9baf2e-a0a7-4e22-8460-a3dd1ddcc586",
+            "label": "giftshop_chair_four_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_four.png"
+            },
+            "x": 318,
+            "y": 780,
+            "scaleX": 0.9241198991873245,
+            "scaleY": 0.9115332169037532
+        },
+        {
+            "type": "Image",
+            "id": "b33b693e-a936-4460-aa6f-43db8b770325",
+            "label": "giftshop_chair_four_arm_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_four_arm.png"
+            },
+            "x": 322,
+            "y": 840,
+            "scaleX": 0.8217715947129681,
+            "scaleY": 0.8266244164140131
+        },
+        {
+            "type": "Image",
+            "id": "b07e46ec-f1be-4e98-8a14-958ef2b6cb5a",
+            "label": "giftshop_chair_four_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_four.png"
+            },
+            "x": 284,
+            "y": 645,
+            "scaleX": 0.9241198991873245,
+            "scaleY": 0.9115332169037532
+        },
+        {
+            "type": "Image",
+            "id": "1da78077-9c0c-4d32-a42f-88368c0f2f39",
+            "label": "giftshop_chair_four_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chair_four_arm.png"
+            },
+            "x": 286,
+            "y": 707,
+            "scaleX": 0.8217715947129681,
+            "scaleY": 0.8266244164140131
+        },
+        {
+            "type": "Image",
+            "id": "8f53f91a-ec23-4e04-9af0-2ebf10785070",
+            "label": "giftshop_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_door0002.png"
+            },
+            "x": 1091,
+            "y": 240,
+            "scaleX": 1.0367026714260419,
+            "scaleY": 0.984027915938957,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "be873ff5-b81b-47a5-a95b-92ed18469e16",
+            "label": "giftshop_town_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_door0004.png"
+            },
+            "x": 1097,
+            "y": 254,
+            "scaleX": 0.7637955002265135,
+            "scaleY": 0.9004847400713745,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 173,
+                "height": 224
+            }
+        },
+        {
+            "type": "Image",
+            "id": "2551f8d5-9025-4c29-a0bf-7f4966f0f2a2",
+            "label": "giftshop_curtains_hover_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_curtain0004.png"
+            },
+            "x": 444,
+            "y": 298,
+            "scaleX": 0.7174282267397791,
+            "scaleY": 0.7385700099618152,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "b3fea2d1-d112-490e-9dc7-736bb1131008",
+            "label": "giftshop_chest0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chest0001.png"
+            },
+            "x": 1335,
+            "y": 547
+        },
+        {
+            "type": "Image",
+            "id": "b453a6eb-211a-4bbf-a95d-d2ebd4b59a17",
+            "label": "giftshop_chest0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chest0002.png"
+            },
+            "x": 1335,
+            "y": 547,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "324063ce-93d3-40da-91f2-77e0e495ab30",
+            "label": "giftshop_chest_hover_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chest0004.png"
+            },
+            "x": 1333,
+            "y": 561,
+            "scaleX": 0.9333516373643962,
+            "scaleY": 0.8343866414990089,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "bfc1f07b-bd34-42cd-a167-7d2d2bed33c6",
+            "label": "giftshop_watches_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_watches_hover_trigger0004.png"
+            },
+            "x": 1416,
+            "y": 439,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "a725c9ed-a0c3-4e13-a0bf-0b61ce1c9eff",
+            "label": "giftshop_cash_register_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_cash_register_hover_trigger0004.png"
+            },
+            "x": 1276,
+            "y": 364,
+            "scaleX": 0.8625541291022913,
+            "scaleY": 0.6788529779161818,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3dbdf816-f89f-49d9-a1ca-5b0e25f325c7",
+            "label": "giftshop_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop-triggers",
+                "frame": "giftshop_walking_trigger.png"
+            },
+            "x": 762,
+            "y": 489,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Sprite",
+            "id": "c5e6d01b-0899-4bf0-b706-1a0fdc2ec2da",
+            "label": "giftshop_chest_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "giftshop",
+                "frame": "giftshop_chest_trigger.png"
+            },
+            "x": 1323,
+            "y": 583,
+            "scaleX": 0.6874836120458289,
+            "scaleY": 0.653713718035664,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,334 @@
+{
+    "id": "97df4cd9-0ac5-42db-a7be-54e231fbb2ab",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "CoveScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "8778e0ac-3c37-4ab7-b363-7ce6eb97798e",
+            "label": "cove_mountains_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_mountains_background.png"
+            },
+            "x": 728,
+            "y": 120
+        },
+        {
+            "type": "Image",
+            "id": "824eee6a-1235-46a2-bf7d-18da3fcc02a9",
+            "label": "cove_a_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_a.png"
+            },
+            "x": 742,
+            "y": 447
+        },
+        {
+            "type": "Image",
+            "id": "f87263b2-1ebe-455b-a3e1-25a7432032c9",
+            "label": "cove_tree_log_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_tree_log.png"
+            },
+            "x": 210,
+            "y": 483,
+            "scaleY": 1.0225144852378918
+        },
+        {
+            "type": "Image",
+            "id": "0a8b2f35-68c0-4949-b841-d4cf5a032267",
+            "label": "cove_fish_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_fish.png"
+            },
+            "x": 109,
+            "y": 529,
+            "scaleX": 1.0423182541843912,
+            "scaleY": 1.063880898453483
+        },
+        {
+            "type": "Image",
+            "id": "291859ed-e695-47d4-8f77-1a4008343eaa",
+            "label": "cove_glasses0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_glasses0001.png"
+            },
+            "x": 433,
+            "y": 234
+        },
+        {
+            "type": "Image",
+            "id": "c2e6321d-6fe3-474d-b984-3787ee365480",
+            "label": "cove_red_circle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_red_circle.png"
+            },
+            "x": 455,
+            "y": 341,
+            "scaleX": 0.8763633051582433,
+            "scaleY": 0.9407921980196094
+        },
+        {
+            "type": "Image",
+            "id": "6ac567b7-dc85-43fc-9c01-0b8595a2f581",
+            "label": "cove_waves_blue_paper0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_waves_blue_paper0001.png"
+            },
+            "x": 1001,
+            "y": 277,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "50aa0f41-ebd2-481b-ac11-f81d569810da",
+            "label": "cove_surf_shack_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_surf_shack.png"
+            },
+            "x": 1282,
+            "y": 209,
+            "scaleX": 0.9556759661719731,
+            "scaleY": 1.0625963041179816
+        },
+        {
+            "type": "Image",
+            "id": "8dd6ab83-3ca3-4318-a9e0-099729c0f664",
+            "label": "cove_table_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_table_chair.png"
+            },
+            "x": 1113,
+            "y": 458
+        },
+        {
+            "type": "Image",
+            "id": "1ccfc166-85d4-43f9-acdb-1510e68f4eae",
+            "label": "cove_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_table.png"
+            },
+            "x": 1212,
+            "y": 467
+        },
+        {
+            "type": "Image",
+            "id": "2a6d2793-7ff1-444f-a1b0-fa4da78b9f4c",
+            "label": "cove_bottom_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_bottom_tree.png"
+            },
+            "x": 724,
+            "y": 876,
+            "scaleX": 0.9910791739854167
+        },
+        {
+            "type": "Image",
+            "id": "edbea5ed-935e-4130-a1bd-ca61b07501ba",
+            "label": "cove_campfire_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_campfire.png"
+            },
+            "x": 364,
+            "y": 668,
+            "scaleX": 1.0916317121767793,
+            "scaleY": 1.0349465403089473
+        },
+        {
+            "type": "Image",
+            "id": "01c66197-7b5c-4cb1-aaaa-ebe138dd3c24",
+            "label": "cove_chair_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_chair_seat.png"
+            },
+            "x": 1320,
+            "y": 539,
+            "scaleX": 1.1079348082554092
+        },
+        {
+            "type": "Image",
+            "id": "6bbd2585-8bc4-4873-9ed3-9183a11fa21b",
+            "label": "cove_chair_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_chair_stand.png"
+            },
+            "x": 1357,
+            "y": 522,
+            "scaleX": 1.2504270139765328,
+            "scaleY": 1.0289013508676992
+        },
+        {
+            "type": "Image",
+            "id": "07e08057-bf9e-40b5-948b-4cb99fda6f50",
+            "label": "cove_iron_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_iron_stand.png"
+            },
+            "x": 1269,
+            "y": 560,
+            "scaleX": 0.947085851438471,
+            "scaleY": 1.105949905131534
+        },
+        {
+            "type": "Image",
+            "id": "c69c9345-57ef-431a-a774-4b51dd8eb889",
+            "label": "cove_bottom_right_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_bottom_right_rock.png"
+            },
+            "x": 1483,
+            "y": 572
+        },
+        {
+            "type": "Image",
+            "id": "d693f919-98c9-4a54-a482-e029017948d9",
+            "label": "cove_surf0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_surf0001.png"
+            },
+            "x": 1193,
+            "y": 673,
+            "scaleY": 1.084220495543721
+        },
+        {
+            "type": "Image",
+            "id": "8b3a71d8-0832-4050-b3f5-e3275bf7cbd9",
+            "label": "cove_first_aid_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_first_aid.png"
+            },
+            "x": 854,
+            "y": 196,
+            "scaleX": 0.9390225943935135,
+            "scaleY": 1.0382865716815224
+        },
+        {
+            "type": "Image",
+            "id": "41b797fb-c1b4-46ce-b0cc-e78486488afe",
+            "label": "cove_bottom_left_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_bottom_left_rock.png"
+            },
+            "x": 516,
+            "y": 893,
+            "scaleX": 1.0409240875801433,
+            "scaleY": 1.1307722338033317
+        },
+        {
+            "type": "Sprite",
+            "id": "725f3297-f49c-4acc-8686-61ff7644cdfd",
+            "label": "cove_fire0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_fire0001.png"
+            },
+            "x": 360,
+            "y": 877,
+            "scaleX": 0.42972315821231033,
+            "scaleY": 0.35577936184690745
+        },
+        {
+            "type": "Image",
+            "id": "87ee3f63-feea-4504-a4e2-cb6b8960ce0f",
+            "label": "cove_rope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_rope.png"
+            },
+            "x": 1090,
+            "y": 531
+        },
+        {
+            "type": "Image",
+            "id": "298e5eb7-5452-4656-8442-6aad18a1fbd7",
+            "label": "cove_rope_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_rope_stand.png"
+            },
+            "x": 1027,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "1fc2a609-c50a-4de9-b62b-204a639c2228",
+            "label": "cove_glasses0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_glasses0002.png"
+            },
+            "x": 433,
+            "y": 234,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a0fd07d6-005f-417a-a3c4-6e8f1291a2e2",
+            "label": "cove_surf0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cove",
+                "frame": "cove_surf0002.png"
+            },
+            "x": 1193,
+            "y": 673,
+            "scaleY": 1.084220495543721,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

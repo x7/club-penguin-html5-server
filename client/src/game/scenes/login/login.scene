@@ -1,0 +1,267 @@
+{
+    "id": "9af58451-d7f3-46df-891d-2a6c59416ad1",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoginScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "6685757a-7b3b-418f-ae70-e5633d09981e",
+            "label": "login_forgot_password_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/background"
+            },
+            "x": 588,
+            "y": 610,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.2113536761173771,
+            "scaleY": 0.06486862419527441
+        },
+        {
+            "type": "Image",
+            "id": "1ea05795-3cf7-4045-9678-f32d84344897",
+            "label": "login_create_penguin_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/background"
+            },
+            "x": 542,
+            "y": 706,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.26990066253322303,
+            "scaleY": 0.09623164289465366
+        },
+        {
+            "type": "Image",
+            "id": "b2d9f1f8-4cb2-4526-a05c-869c11588302",
+            "label": "login_back_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/background"
+            },
+            "x": 606,
+            "y": 850,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.19732195125169272,
+            "scaleY": 0.05934418952142533
+        },
+        {
+            "type": "Image",
+            "id": "4b8f510b-bfab-4497-b294-7e099409dd1f",
+            "label": "login_screen_background",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/background"
+            },
+            "x": -32,
+            "y": -21,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9126762350732655,
+            "scaleY": 0.9245221499361267
+        },
+        {
+            "type": "Image",
+            "id": "0c3ddbec-d9bf-4b89-8b3a-3fe1dc8d03fb",
+            "label": "login_back_button_hover_display",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/account0001"
+            },
+            "x": 583,
+            "y": 846,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.3875402965450471,
+            "scaleY": 0.3739456724686127,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8d40b741-ab92-4b62-9432-f15fc08e01e4",
+            "label": "login_keep_password_safe_note",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/secret0001"
+            },
+            "x": 1217,
+            "y": 559,
+            "originX": 0.492188,
+            "originY": 0.490588,
+            "scaleX": 0.8818197552959005,
+            "scaleY": 0.8975777543978966
+        },
+        {
+            "type": "Image",
+            "id": "f264767a-2621-461f-afdc-5d16580956d2",
+            "label": "login_create_penguin_hover_display",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/account0001"
+            },
+            "x": 527,
+            "y": 704,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.47728164554186425,
+            "scaleY": 0.5864731292925616,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8ee31753-3437-4b11-a366-f3165e72c88d",
+            "label": "login_forgot_password_hover_display",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/account0001"
+            },
+            "x": 550,
+            "y": 610,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.452032754718954,
+            "scaleY": 0.39902531566654004,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2ae84375-50a0-4b81-a734-215cc01f11a5",
+            "label": "login_login_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/button"
+            },
+            "x": 607,
+            "y": 474,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8903200395717945,
+            "scaleY": 0.9507586237590265
+        },
+        {
+            "type": "Image",
+            "id": "4140b157-25d5-4652-acaf-ff64eb537b16",
+            "label": "login_login_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/buttonHover"
+            },
+            "x": 607,
+            "y": 474,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8903200395717945,
+            "scaleY": 0.9507586237590265,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c797f5e0-d4b2-46c9-9d80-39918fa4dcc3",
+            "label": "login_login_button_clicked",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/buttonDown"
+            },
+            "x": 607,
+            "y": 474,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8903200395717945,
+            "scaleY": 0.9507586237590265,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5f78c9f4-f131-4132-a522-98c22178861d",
+            "label": "login_remember_password_checkbox",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/checkbox"
+            },
+            "x": 521,
+            "y": 377,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0790002080934058,
+            "scaleY": 1.0392083038701059
+        },
+        {
+            "type": "Image",
+            "id": "96c45888-739e-4a1d-9ff0-697b2cab6b39",
+            "label": "login_remember_me_computer_checkbox",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/checkbox"
+            },
+            "x": 521,
+            "y": 310,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0790002080934058,
+            "scaleY": 1.0392083038701059
+        },
+        {
+            "type": "Image",
+            "id": "fb3a67f9-d708-4540-bfa3-7e6f99b72004",
+            "label": "login_remember_me_computer_checkbox_ticked",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/checkboxChecked"
+            },
+            "x": 521,
+            "y": 310,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0790002080934058,
+            "scaleY": 1.0392083038701059,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "05e9cdf4-8069-4b4a-b2e8-31376f280e53",
+            "label": "login_remember_password_checkbox_ticked",
+            "scope": "METHOD",
+            "texture": {
+                "key": "login",
+                "frame": "login-screen/checkboxChecked"
+            },
+            "x": 521,
+            "y": 377,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0790002080934058,
+            "scaleY": 1.0392083038701059,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

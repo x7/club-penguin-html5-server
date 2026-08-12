@@ -1,0 +1,192 @@
+{
+    "id": "8835cb23-0a1d-49c6-ac27-18c0978e9180",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ShipNestScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "ddb61ec1-5652-46c0-b965-ed7ca8d3b68d",
+            "label": "ship_nest_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_main_background.png"
+            },
+            "x": -75,
+            "y": -65,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "2523e5c1-3480-4264-821c-d3fd1d36d983",
+            "label": "ship_nest_powder_box0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_powder_box0001.png"
+            },
+            "x": 979,
+            "y": 420
+        },
+        {
+            "type": "Image",
+            "id": "4af51d45-0944-4695-bba2-e406b4e9bb9b",
+            "label": "ship_nest_snowballs_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_snowballs.png"
+            },
+            "x": 1111,
+            "y": 515
+        },
+        {
+            "type": "Image",
+            "id": "eaa7166f-ce03-4bf3-93b0-192a4e256db5",
+            "label": "ship_nest_solo_snowball_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_solo_snowball.png"
+            },
+            "x": 403,
+            "y": 643
+        },
+        {
+            "type": "Image",
+            "id": "a9a06abb-01b1-449d-81ca-a9d168cf3444",
+            "label": "ship_nest_out_layer_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_out_layer.png"
+            },
+            "x": 752,
+            "y": 659
+        },
+        {
+            "type": "Sprite",
+            "id": "6437ef56-d856-448a-9d8b-90d8bf6e4d68",
+            "label": "ship_nest_flag0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_flag0001.png"
+            },
+            "x": 617,
+            "y": 186,
+            "scaleX": 0.8506474536401656,
+            "scaleY": 0.7600488186140033
+        },
+        {
+            "type": "Image",
+            "id": "6ef9017e-8a59-4128-b2e8-2f63a999615f",
+            "label": "ship_nest_flag_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_flag_pole.png"
+            },
+            "x": 791,
+            "y": 294
+        },
+        {
+            "type": "Sprite",
+            "id": "7ce4f2b1-13e8-4048-9e46-755b92a439b2",
+            "label": "pirate_ship_red_puffle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pirateship",
+                "frame": "pirate_ship_red_puffle0001.png"
+            },
+            "x": 311,
+            "y": 836
+        },
+        {
+            "type": "Sprite",
+            "id": "09829507-f0d6-40ab-be00-4e7d75c38b44",
+            "label": "ship_nest_cannon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_cannon0001.png"
+            },
+            "x": 296,
+            "y": 336
+        },
+        {
+            "type": "Image",
+            "id": "4a970243-ed0d-4be4-891f-ffe9191e2e12",
+            "label": "ship_nest_cannon_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_cannon_trigger0004.png"
+            },
+            "x": 419,
+            "y": 427,
+            "scaleX": 1.084700736595872,
+            "scaleY": 1.0650094102244463,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2d4094d8-326e-44a6-a3ec-c1f59c1183cd",
+            "label": "ship_nest_pirate_ship_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shipnest",
+                "frame": "ship_nest_exit_trigger.png"
+            },
+            "x": 1067,
+            "y": 719,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 272,
+                "height": 106
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "026fe65d-8bd7-4a2b-97f4-9530fc5e4ea2",
+            "label": "ship_nest_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "ship_nest_walking_trigger"
+            },
+            "x": 801,
+            "y": 482,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

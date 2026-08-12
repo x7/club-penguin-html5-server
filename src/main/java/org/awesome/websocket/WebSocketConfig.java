@@ -71,13 +71,12 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
                 StompHeaderAccessor accessor =
                         MessageHeaderAccessor.getAccessor(message, StompHeaderAccessor.class);
 
-                if (StompCommand.CONNECT.equals(accessor.getCommand())) {
+                if(StompCommand.CONNECT.equals(accessor.getCommand())) {
                     String username = accessor.getFirstNativeHeader("username");
                     System.out.println("=== CONNECT - Setting Principal ===");
                     System.out.println("Username: " + username);
 
-                    if (username != null) {
-                        // Use a proper Principal implementation instead of lambda
+                    if(username != null) {
                         Principal principal = new Principal() {
                             @Override
                             public String getName() {

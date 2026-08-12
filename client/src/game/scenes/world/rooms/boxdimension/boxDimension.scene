@@ -1,0 +1,116 @@
+{
+    "id": "a3d4d089-d8df-43df-9333-bf7d152aeb30",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "BoxDimensionScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "87abba3a-02bc-44c0-837a-bf1c9d13326c",
+            "label": "box_dimension_purple_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_purple_background.png"
+            },
+            "x": 757,
+            "y": 484
+        },
+        {
+            "type": "Image",
+            "id": "797bcdd0-3ec5-4321-a79e-d5023055b6cc",
+            "label": "box_dimension_purple_clouds0007_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_purple_clouds0007.png"
+            },
+            "x": 281,
+            "y": 159
+        },
+        {
+            "type": "Image",
+            "id": "63586da1-37e9-4056-80da-1defdb9b4b6c",
+            "label": "box_dimension_under_lay_purple_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_under_lay_purple_background.png"
+            },
+            "x": 776,
+            "y": 453
+        },
+        {
+            "type": "Sprite",
+            "id": "14634901-1008-440c-b64c-83e6fbfe8837",
+            "label": "box_dimension_floating_boxes0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_floating_boxes0001.png"
+            },
+            "x": 507,
+            "y": 309
+        },
+        {
+            "type": "Image",
+            "id": "84b3d9a1-67ae-4eb7-bc6c-67fb2a2d0d0a",
+            "label": "box_dimension_top_box_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_top_box_part.png"
+            },
+            "x": 1214,
+            "y": 223
+        },
+        {
+            "type": "Image",
+            "id": "2baedec4-5144-492b-860d-23dabfc94d9f",
+            "label": "box_dimension_main_boxes_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_main_boxes.png"
+            },
+            "x": 793,
+            "y": 573
+        },
+        {
+            "type": "Image",
+            "id": "09d49b0d-8914-4ddb-bdf0-19d18627f1b3",
+            "label": "box_dimension_top_right_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_top_right_box.png"
+            },
+            "x": 1528,
+            "y": 386
+        },
+        {
+            "type": "Sprite",
+            "id": "19f5f8e8-e271-4c9d-b338-09cc9d7cb2aa",
+            "label": "box_dimension_bottom_boxes_floating0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "box_dimension_bottom_boxes_floating0001.png"
+            },
+            "x": 766,
+            "y": 822
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

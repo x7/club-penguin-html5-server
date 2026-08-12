@@ -1,0 +1,114 @@
+{
+    "id": "4514c7bf-888f-4f4d-955f-33685397e084",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ErrorScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c211ce00-d9b3-4761-8b93-3a51bae09d80",
+            "label": "error_gui",
+            "scope": "METHOD",
+            "texture": {
+                "key": "error",
+                "frame": "app/error"
+            },
+            "x": 125,
+            "y": 114,
+            "originX": -0.5,
+            "originY": -0.5,
+            "scaleX": 0.8477412343159033,
+            "scaleY": 1.1155659700223062
+        },
+        {
+            "type": "Image",
+            "id": "6bae4edf-28d8-4a3d-ac4e-2e8ad5351805",
+            "label": "error_okay_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "error",
+                "frame": "app/button"
+            },
+            "x": 661,
+            "y": 555,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.7953929265542756,
+            "scaleY": 0.7911391779848883
+        },
+        {
+            "type": "Image",
+            "id": "4ef929f4-16dc-41a2-aa6b-fdc48949ed42",
+            "label": "error_okay_button_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "error",
+                "frame": "app/buttonHover"
+            },
+            "x": 661,
+            "y": 555,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.7953929265542756,
+            "scaleY": 0.7911391779848883,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4bddf3d7-c9f5-4aa3-bd30-1fc7be6a660c",
+            "label": "error_okay_button_clicked",
+            "scope": "METHOD",
+            "texture": {
+                "key": "error",
+                "frame": "app/buttonDown"
+            },
+            "x": 586,
+            "y": 464,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.6615413590165267,
+            "scaleY": 0.6954831986522744,
+            "visible": false
+        },
+        {
+            "type": "BitmapText",
+            "id": "b4e795fe-55a2-4394-af32-d843291971ad",
+            "label": "error_okay_button_text",
+            "scope": "METHOD",
+            "x": 763,
+            "y": 577,
+            "font": "ArialNarrow",
+            "text": "Okay",
+            "scaleX": 1.427758075467004,
+            "scaleY": 1.3000653035379415,
+            "fontSize": 32
+        },
+        {
+            "type": "BitmapText",
+            "id": "5bd6d457-1c00-4e8a-847c-504d313a81ef",
+            "label": "buttonText",
+            "scope": "METHOD",
+            "x": 0,
+            "y": 0,
+            "font": "ArialNarrow",
+            "text": "this.errorMessage",
+            "originX": 0.5,
+            "originY": 0,
+            "fontSize": 40,
+            "lineSpacing": 5,
+            "setCenterAlign": true
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

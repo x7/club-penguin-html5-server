@@ -1,0 +1,403 @@
+{
+    "id": "58359568-b422-428e-9e20-c2f11f5fc613",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "IceRinkScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "8c67f7b1-60e5-4387-b0d5-f2804d4baa96",
+            "label": "ice_hockey_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_background.png"
+            },
+            "x": -123,
+            "y": -59,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9889126963868617,
+            "scaleY": 0.9632448998464546
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "dedf75fd-94eb-42ae-a728-5bcf3407d1de",
+            "label": "ice_hockey_top_ring_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_top_ring.png"
+            },
+            "x": 753,
+            "y": 462,
+            "scaleX": 0.9981907997029846,
+            "scaleY": 0.8925710281293826,
+            "body": {
+                "width": 1258,
+                "height": 380
+            }
+        },
+        {
+            "type": "Sprite",
+            "id": "652404df-b414-4110-a6a9-c992d37a97b4",
+            "label": "ice_hockey_bottom_snow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_bottom_snow.png"
+            },
+            "x": 698,
+            "y": 759,
+            "scaleX": 0.9972572436892888,
+            "scaleY": 1.0560363230470553
+        },
+        {
+            "type": "Image",
+            "id": "a960327a-6bf8-49fb-b17a-96180a32f473",
+            "label": "ice_hockey_fish_dogs_stand0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_fish_dogs_stand0001.png"
+            },
+            "x": 105,
+            "y": 147
+        },
+        {
+            "type": "Image",
+            "id": "7a749506-c8a2-49ac-8092-72fe5352c70b",
+            "label": "ice_hockey_left_seats_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_seats.png"
+            },
+            "x": 91,
+            "y": 379
+        },
+        {
+            "type": "Image",
+            "id": "3932dac8-b5a0-4ad3-819f-db14d69c52e0",
+            "label": "ice_hockey_left_seats_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_seats_stand.png"
+            },
+            "x": -52,
+            "y": 491
+        },
+        {
+            "type": "Image",
+            "id": "03c1b753-0005-443c-9481-03ba01b420e9",
+            "label": "ice_hockey_hockey_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_hockey.png"
+            },
+            "x": 746,
+            "y": 545
+        },
+        {
+            "type": "Image",
+            "id": "212d0dea-cfe6-4b9d-8a7e-b77bb2b848cb",
+            "label": "ice_hockey_ring_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_ring_door0001.png"
+            },
+            "x": 754,
+            "y": 325,
+            "scaleX": 1.11348697069287
+        },
+        {
+            "type": "Image",
+            "id": "21fa167e-f1d9-4f0d-8b7c-a266d8e0b7e0",
+            "label": "ice_hockey_ring_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_ring_door0002.png"
+            },
+            "x": 754,
+            "y": 325,
+            "scaleX": 1.11348697069287,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "fa7887a7-1807-4cec-937f-1e0b4422666b",
+            "label": "ice_hockey_left_seats_pizza_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_seats_pizza.png"
+            },
+            "x": 107,
+            "y": 365
+        },
+        {
+            "type": "Image",
+            "id": "6759c300-667d-45b5-ba64-d08313d2eb32",
+            "label": "ice_hockey_left_seats_idk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_seats_idk.png"
+            },
+            "x": 17,
+            "y": 313
+        },
+        {
+            "type": "Image",
+            "id": "b3b74013-d6e1-4e0b-a1af-e42fdd69adc8",
+            "label": "ice_hockey_left_seats_drink_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_seats_drink.png"
+            },
+            "x": 70,
+            "y": 468
+        },
+        {
+            "type": "Image",
+            "id": "fa5e04ad-188a-4a54-99ac-ef4296dfe12f",
+            "label": "ice_hockey_stadium_top_part0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_stadium_top_part0001.png"
+            },
+            "x": 521,
+            "y": 149
+        },
+        {
+            "type": "Image",
+            "id": "5ffd168e-7867-448b-9f95-40bc661e4122",
+            "label": "ice_hockey_school_arrow_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_school_arrow_sign.png"
+            },
+            "x": 1254,
+            "y": 209
+        },
+        {
+            "type": "Image",
+            "id": "3beac417-fe07-46b1-99f9-a889f033e7b2",
+            "label": "ice_hockey_snacks_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_snacks_door0001.png"
+            },
+            "x": 1205,
+            "y": 204
+        },
+        {
+            "type": "Image",
+            "id": "cec9ce90-a9b2-46bc-8e13-2345d1bec438",
+            "label": "ice_hockey_snacks_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_snacks_door0002.png"
+            },
+            "x": 1205,
+            "y": 204,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "dfc1aa88-b6f1-4625-96d7-fe275f60576c",
+            "label": "ice_hockey_snacks_building0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_snacks_building0001.png"
+            },
+            "x": 1062,
+            "y": 161
+        },
+        {
+            "type": "Image",
+            "id": "84d35a61-8f4d-4866-afc8-fa4dc267e7cc",
+            "label": "ice_hockey_right_seats_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_right_seats.png"
+            },
+            "x": 1416,
+            "y": 380,
+            "scaleX": 1.0277987681700236
+        },
+        {
+            "type": "Image",
+            "id": "b08c2e9b-716c-4fb5-b235-0ca560750ff5",
+            "label": "ice_hockey_right_seats_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_right_seats_railing.png"
+            },
+            "x": 1565,
+            "y": 475
+        },
+        {
+            "type": "Image",
+            "id": "0f73722b-ebbb-4522-8ad2-4bceb156528a",
+            "label": "ice_hockey_left_seats_drink_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_seats_drink.png"
+            },
+            "x": 1414,
+            "y": 301,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "ce64215e-e920-4f1f-92c4-34dba341218a",
+            "label": "ice_hockey_right_seats_newspaper_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_right_seats_newspaper.png"
+            },
+            "x": 1460,
+            "y": 444
+        },
+        {
+            "type": "Image",
+            "id": "88154f4e-2976-4f5e-aec9-ad4171eab4c8",
+            "label": "ice_hockey_right_net_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_right_net_bottom.png"
+            },
+            "x": 1244,
+            "y": 513
+        },
+        {
+            "type": "Image",
+            "id": "4e0e8cf6-a0d2-41c7-9521-a8de563aa9a6",
+            "label": "ice_hockey_right_net_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_right_net_top.png"
+            },
+            "x": 1242,
+            "y": 514
+        },
+        {
+            "type": "Image",
+            "id": "3fdb5bb2-61b8-4a59-9931-4daef6a4606c",
+            "label": "ice_hockey_left_net_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_net_bottom.png"
+            },
+            "x": 244,
+            "y": 508
+        },
+        {
+            "type": "Image",
+            "id": "1cc7a4bd-fa2e-4f26-84b5-ab8452efded1",
+            "label": "ice_hockey_left_net_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_left_net_top.png"
+            },
+            "x": 243,
+            "y": 514
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "616b99ff-3db3-428c-9cd6-018def8807e0",
+            "label": "ice_hockey_school_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_school_trigger.png"
+            },
+            "x": 1335,
+            "y": 236,
+            "scaleX": 0.41643727795312274,
+            "scaleY": 0.4829631893223174,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 233,
+                "height": 200
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4299430d-bbee-4d5a-9d58-e1ab7a650b4e",
+            "label": "ice_hockey_snow_forts_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "icehockey",
+                "frame": "ice_hockey_snow_forts_trigger.png"
+            },
+            "x": 762,
+            "y": 192,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 100,
+                "height": 100
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d57581b6-1fa5-4d48-bce9-d592ec1f11d5",
+            "label": "ice_hockey_walk_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "ice_hockey_walk_trigger"
+            },
+            "x": 750,
+            "y": 477,
+            "scaleX": 1.0213096271784012,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

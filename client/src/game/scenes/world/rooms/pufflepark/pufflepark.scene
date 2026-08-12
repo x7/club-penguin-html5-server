@@ -1,0 +1,793 @@
+{
+    "id": "3ddb2094-23b1-40be-9fda-299989042767",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PuffleParkScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "42d6d6e1-6464-49d4-bcb9-7de2ac6c8091",
+            "label": "puffle_park_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_sky.png"
+            },
+            "x": 779,
+            "y": 125,
+            "scaleY": 3.491414463448087
+        },
+        {
+            "type": "Image",
+            "id": "ef56e3f8-9fe7-4e22-aa80-04560c0f0f00",
+            "label": "puffle_park_clouds_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_clouds.png"
+            },
+            "x": 936,
+            "y": 142
+        },
+        {
+            "type": "Image",
+            "id": "6f2a7f59-0016-4844-84fa-2232b6b5d6d7",
+            "label": "puffle_park_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_background.png"
+            },
+            "x": -136,
+            "y": -4,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "421823b7-1827-4bf4-8d9a-794fb0797c66",
+            "label": "puffle_park_berries_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_berries.png"
+            },
+            "x": 423,
+            "y": 301
+        },
+        {
+            "type": "Image",
+            "id": "fbe21f38-cc8d-4143-b15c-bde486cf8757",
+            "label": "puffle_park_park_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_park_sign.png"
+            },
+            "x": 669,
+            "y": 182,
+            "scaleY": 1.1006750945214747
+        },
+        {
+            "type": "Image",
+            "id": "9525d287-c910-4e55-8f9c-676c2c3e0d96",
+            "label": "puffle_park_puffle_park_text0005_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_puffle_park_text0005.png"
+            },
+            "x": 670,
+            "y": 82
+        },
+        {
+            "type": "Image",
+            "id": "1cbcd7a1-31ca-4ea2-81fb-97e34b13ab22",
+            "label": "puffle_park_pet_shop_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_pet_shop.png"
+            },
+            "x": 110,
+            "y": 252
+        },
+        {
+            "type": "Image",
+            "id": "e7be50b8-00ff-4723-aa9f-3397094b3f62",
+            "label": "puffle_park_pet_shop_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_pet_shop_door0001.png"
+            },
+            "x": 147,
+            "y": 290
+        },
+        {
+            "type": "Image",
+            "id": "1e71ee73-0d7e-4074-bd9b-fee8cf69b4ac",
+            "label": "symbol_337_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "Symbol 337.png"
+            },
+            "x": -4,
+            "y": 380
+        },
+        {
+            "type": "Image",
+            "id": "5f9ca0c2-4008-4b3a-8b42-ce1020b45080",
+            "label": "puffle_park_purple_puffle_lg_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_purple_puffle_lg.png"
+            },
+            "x": 240,
+            "y": 620
+        },
+        {
+            "type": "Image",
+            "id": "87d23b87-12d2-409e-ae27-1e24b57d74db",
+            "label": "puffle_park_puffle_bottom_right_right_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_puffle_bottom_right_right_sign.png"
+            },
+            "x": 344,
+            "y": 787
+        },
+        {
+            "type": "Image",
+            "id": "122677f6-3a71-44f1-8470-e8fb6b8b7e45",
+            "label": "puffle_park_slide_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_slide.png"
+            },
+            "x": 239,
+            "y": 708
+        },
+        {
+            "type": "Image",
+            "id": "ea00c0d2-5367-4982-a6eb-0cb4d04b6eb2",
+            "label": "puffle_park_purple_puffle_bottom_left_log_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_purple_puffle_bottom_left_log.png"
+            },
+            "x": 190,
+            "y": 828
+        },
+        {
+            "type": "Image",
+            "id": "b96f935f-6f38-4d73-b546-bbd71b7b0673",
+            "label": "puffle_park_purple_puffle_left_logo_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_purple_puffle_left_logo.png"
+            },
+            "x": 53,
+            "y": 647
+        },
+        {
+            "type": "Image",
+            "id": "28a45930-07ad-4498-bb2b-9c80e146e7b4",
+            "label": "puffle_park_bottom_trees_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bottom_trees.png"
+            },
+            "x": 559,
+            "y": 895,
+            "scaleX": 1.0316787053426597
+        },
+        {
+            "type": "Image",
+            "id": "bf621d62-ae8a-492f-a437-a3116ca0954f",
+            "label": "puffle_park_middle_branch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_middle_branch.png"
+            },
+            "x": 472,
+            "y": 469
+        },
+        {
+            "type": "Image",
+            "id": "6793daab-344d-4693-9063-7afc2fde36ae",
+            "label": "puffle_park_bouncy_ball_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bouncy_ball.png"
+            },
+            "x": 1126,
+            "y": 845
+        },
+        {
+            "type": "Image",
+            "id": "f520d79d-3a7c-4b9e-867d-3fe14790081f",
+            "label": "puffle_park_middle_branch_right0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_middle_branch_right0001.png"
+            },
+            "x": 540,
+            "y": 435
+        },
+        {
+            "type": "Image",
+            "id": "f4a6af3c-8327-42a1-9739-16e575bf243b",
+            "label": "puffle_park_middle_branch_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_middle_branch_left.png"
+            },
+            "x": 469,
+            "y": 451
+        },
+        {
+            "type": "Image",
+            "id": "fea41573-7181-475d-869e-4d4c3d8acc1e",
+            "label": "puffle_park_middle_ropes_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_middle_ropes.png"
+            },
+            "x": 713,
+            "y": 571
+        },
+        {
+            "type": "Image",
+            "id": "4d585c73-2872-416d-b92a-e8c69f68ab55",
+            "label": "puffle_park_middle_branch_lef0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_middle_branch_lef0001.png"
+            },
+            "x": 460,
+            "y": 441
+        },
+        {
+            "type": "Image",
+            "id": "37fc4749-46f1-4bc9-8026-71cd9e2415be",
+            "label": "puffle_park_blue_rope_thing0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_blue_rope_thing0001.png"
+            },
+            "x": 593,
+            "y": 240
+        },
+        {
+            "type": "Image",
+            "id": "46b5e46b-34a4-4f72-8d5c-579eada2802b",
+            "label": "puffle_park_middle_bottom_branch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_middle_bottom_branch.png"
+            },
+            "x": 889,
+            "y": 758
+        },
+        {
+            "type": "Image",
+            "id": "2d6ff79e-c9bd-4386-bdad-890ec4474170",
+            "label": "puffle_park_tree_line_wheel_shadow_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_line_wheel_shadow.png"
+            },
+            "x": 1350,
+            "y": 710
+        },
+        {
+            "type": "Image",
+            "id": "f069b400-f11b-4aa4-8398-ea27ff40c8ef",
+            "label": "puffle_park_puffle_bottom_right_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_puffle_bottom_right_sign.png"
+            },
+            "x": 1410,
+            "y": 811
+        },
+        {
+            "type": "Image",
+            "id": "1a019d4e-2d35-4a0f-98d2-6ebeb4362ea2",
+            "label": "puffle_park_bottom_right_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bottom_right_tree.png"
+            },
+            "x": -42,
+            "y": 653
+        },
+        {
+            "type": "Image",
+            "id": "b7a10add-ff3b-4686-99b1-a853c9d1e2a2",
+            "label": "puffle_park_bottom_middle_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bottom_middle_bush.png"
+            },
+            "x": 36,
+            "y": 736
+        },
+        {
+            "type": "Image",
+            "id": "0499b8f2-db94-4a8b-99c4-f4fb0d649fee",
+            "label": "puffle_park_tree_behind_bridge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_behind_bridge.png"
+            },
+            "x": 881,
+            "y": 340
+        },
+        {
+            "type": "Image",
+            "id": "2148a923-61f1-4597-9576-0e5c338423c0",
+            "label": "puffle_park_bush_behind_bridge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bush_behind_bridge.png"
+            },
+            "x": 945,
+            "y": 426
+        },
+        {
+            "type": "Image",
+            "id": "8961a6e8-02be-4e42-b2d8-674f0811909a",
+            "label": "puffle_park_bridge_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bridge.png"
+            },
+            "x": 888,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "b07748dc-59f7-434a-85b8-96c4c9bab9fc",
+            "label": "puffle_park_bridge_rope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bridge_rope.png"
+            },
+            "x": 816,
+            "y": 503
+        },
+        {
+            "type": "Image",
+            "id": "c6d21ccd-d20e-4b93-84a3-f50d771b3405",
+            "label": "puffle_park_bridge_down_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bridge_down.png"
+            },
+            "x": 991,
+            "y": 546
+        },
+        {
+            "type": "Image",
+            "id": "ec676d0e-b4c7-4795-bcf7-5bc88e11b1d0",
+            "label": "puffle_park_bridge_right_log_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bridge_right_log.png"
+            },
+            "x": 924,
+            "y": 580
+        },
+        {
+            "type": "Image",
+            "id": "bb585ebc-9a36-45af-8ac6-85d6c2e53747",
+            "label": "puffle_park_tree_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_stand.png"
+            },
+            "x": 1172,
+            "y": 427
+        },
+        {
+            "type": "Image",
+            "id": "5a805582-3d01-4e99-8ba7-a28fbd9a692e",
+            "label": "puffle_park_tree_green_thing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_green_thing.png"
+            },
+            "x": 1078,
+            "y": 270
+        },
+        {
+            "type": "Image",
+            "id": "a66d6082-ba6a-4046-a699-e0cfe2460259",
+            "label": "puffle_park_zzz_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_zzz_tree.png"
+            },
+            "x": 1164,
+            "y": 444
+        },
+        {
+            "type": "Image",
+            "id": "4264be97-6879-43a5-9f11-0ac9945bc130",
+            "label": "puffle_park_bottom_middle_bush_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bottom_middle_bush.png"
+            },
+            "x": 1267,
+            "y": 610,
+            "scaleX": 1.261959840287543,
+            "scaleY": 1.2808270088668159
+        },
+        {
+            "type": "Image",
+            "id": "7a61bf53-7a56-4560-9e72-037d96e75299",
+            "label": "puffle_park_bridge_ending_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_bridge_ending.png"
+            },
+            "x": 1125,
+            "y": 676
+        },
+        {
+            "type": "Image",
+            "id": "9cd81718-46af-434e-a42e-69e79d904e7e",
+            "label": "puffle_park_pink_puffle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_pink_puffle.png"
+            },
+            "x": 1101,
+            "y": 677
+        },
+        {
+            "type": "Image",
+            "id": "fcf14269-772d-4e63-8a69-0f35591bb148",
+            "label": "puffle_park_pet_shop_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_pet_shop_door0002.png"
+            },
+            "x": 147,
+            "y": 290,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a7833dea-ae8a-49e5-8165-0c178f24cc41",
+            "label": "puffle_park_pet_shop_door_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_pet_shop_door0004.png"
+            },
+            "x": 146,
+            "y": 296,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "11264791-41a4-44a0-bd06-66dd826aa934",
+            "label": "puffle_park_tree_branch_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_branch.png"
+            },
+            "x": 1301,
+            "y": 235
+        },
+        {
+            "type": "Image",
+            "id": "cb573b96-8e84-4b61-906c-368143356594",
+            "label": "puffle_park_ball_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_ball_sign.png"
+            },
+            "x": 1268,
+            "y": 585
+        },
+        {
+            "type": "Image",
+            "id": "d203db11-518d-4bec-a5ce-306102a88584",
+            "label": "puffle_park_tree_line_wheel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_line_wheel.png"
+            },
+            "x": 1340,
+            "y": 462
+        },
+        {
+            "type": "Image",
+            "id": "f05657d3-aa72-4e64-9276-610dec5987b8",
+            "label": "puffle_park_fire_hydrant_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_fire_hydrant.png"
+            },
+            "x": 620,
+            "y": 381
+        },
+        {
+            "type": "Image",
+            "id": "003f8128-5b0a-430c-9fea-ffe0de93b94a",
+            "label": "puffle_park_fire_hydrant_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_fire_hydrant_hover_trigger0004.png"
+            },
+            "x": 701,
+            "y": 379,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "c65f09a9-d342-4cb8-aeb4-23e2cb9fe606",
+            "label": "puffle_park_park_sign_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_park_sign_trigger0004.png"
+            },
+            "x": 679,
+            "y": 186,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "a93305be-3b2d-4b7e-b685-63048b619f99",
+            "label": "puffle_park_green_thing_on_tree_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_green_thing_on_tree_trigger0004.png"
+            },
+            "x": 1156,
+            "y": 271,
+            "scaleY": 0.8204985946173781,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "4095b60e-a72b-4f04-9417-194fc9c0eed6",
+            "label": "puffle_park_puffle_sign_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_puffle_sign_hover_trigger0004.png"
+            },
+            "x": 1432,
+            "y": 772,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "c6b34810-8ca1-4e0a-83e5-373bdcf7dbbd",
+            "label": "puffle_park_rope_down_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_rope_down_hover_trigger0004.png"
+            },
+            "x": 1324,
+            "y": 592,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "ac52a833-3999-4ec1-bd1e-1a47a34a3195",
+            "label": "puffle_park_berries_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_berries_hover_trigger0004.png"
+            },
+            "x": 437,
+            "y": 245,
+            "scaleX": 1.3858339688038226,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "521a0c04-eae9-44cb-9a54-27413bde7a23",
+            "label": "puffle_park_slide_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_slide_hover_trigger0004.png"
+            },
+            "x": 155,
+            "y": 602,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "8ce8a051-e7e6-475a-a492-99c86a54c78d",
+            "label": "puffle_park_tree_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_tree_hover_trigger0004.png"
+            },
+            "x": 1117,
+            "y": 535,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "fbfe5d32-7427-4ca3-badc-9a0eec6ab767",
+            "label": "puffle_park_rope_down_hover_trigger0004_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_rope_down_hover_trigger0004.png"
+            },
+            "x": 503,
+            "y": 441,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "259a1e78-8ee2-411f-869e-0064063ff467",
+            "label": "puffle_park_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "puffle_park_walking_trigger"
+            },
+            "x": 753,
+            "y": 486,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "eaaf1d35-e0fd-48f5-8db2-c6b6ca2e3b2e",
+            "label": "puffle_park_plaza_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_plaza_trigger.png"
+            },
+            "x": 670,
+            "y": 260,
+            "scaleX": 0.7933904723942838,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 200,
+                "height": 80
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4fbbb8c4-c204-4898-8dbc-50220453e591",
+            "label": "puffle_park_pet_shop_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflepark",
+                "frame": "puffle_park_pet_shop_trigger.png"
+            },
+            "x": 146,
+            "y": 359,
+            "scaleX": 0.5919007277864188,
+            "scaleY": 0.5949649117470701,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 211,
+                "height": 133
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

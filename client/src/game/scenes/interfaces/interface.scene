@@ -1,0 +1,526 @@
+{
+    "id": "d99c8124-8c39-496c-9ea4-a876be144960",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "InterfaceScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "1f797437-b19c-4a8e-87fc-9be00463ec48",
+            "label": "interface_main_interface_bar_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_bar.png"
+            },
+            "x": 760,
+            "y": 917
+        },
+        {
+            "type": "Image",
+            "id": "6f6e6cdc-b9b8-4a2b-b14f-682a118c65f7",
+            "label": "interface_bottom_bar_emoji_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 318,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "2ff06d99-7e64-4ab0-82d6-f8453d6f95c6",
+            "label": "interface_bottom_bar_dance_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 385,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "6ab32ea0-593c-4b4d-a601-3e9b601dcebc",
+            "label": "interface_bottom_bar_snowball_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 452,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "1a51239e-6d0f-45a9-8ffc-a3357bf6f647",
+            "label": "interface_bottom_bar_chat_input",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_chat00010001.png"
+            },
+            "x": 760,
+            "y": 925,
+            "scaleX": 0.8824765692530303,
+            "scaleY": 1.0043159291610997
+        },
+        {
+            "type": "Image",
+            "id": "0b3e3b83-ca1b-4da3-9228-a71b1d3eebfc",
+            "label": "interface_bottom_bar_chat_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 519,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "4b6a1d08-a40b-42cc-a2de-876bbc793c4b",
+            "label": "interface_bottom_bar_settings_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 1275,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "ce56072c-5aa7-4e38-9e59-deb7f6f24630",
+            "label": "interface_bottom_bar_igloo_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 1208,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "a738f16c-78d6-485e-a9e3-1f97771bc6ce",
+            "label": "interface_bottom_bar_friends_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 1141,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "9c19f54f-0a25-4741-beb4-a3a19db7ab2a",
+            "label": "interface_bottom_bar_player_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 1074,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "42f5b4c9-d3c5-4d8a-91aa-2bb4cb5f60d0",
+            "label": "interface_bottom_bar_chat_send_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 1006,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "81345e60-e532-4a93-bcde-f144f5cef614",
+            "label": "interface_bottom_bar_puffle_button",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0001.png"
+            },
+            "x": 251,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "c49cf91e-7fd3-4514-8f6b-a765ccb6a832",
+            "label": "interface_bottom_bar_puffle_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 251,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "468d469c-3a41-4c1c-b1c1-090d64299f74",
+            "label": "interface_bottom_bar_emoji_icon_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 318,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ad99fd5b-9f4d-4f68-8087-7243bce2004f",
+            "label": "interface_bottom_bar_dance_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 385,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "963a47f8-77bf-4b72-a463-16dfbc30c8e6",
+            "label": "interface_bottom_bar_snowball_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 452,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0e6c5ad9-9e77-4f33-9808-40c08b7ecded",
+            "label": "interface_bottom_bar_chat_send_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 1006,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b2b683a7-a729-4f1d-be1c-efc4d9d19529",
+            "label": "interface_bottom_bar_chat_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 519,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e2021f23-6d9e-45a9-afbc-f34fab0e3638",
+            "label": "interface_bottom_bar_player_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 1074,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1411e270-4295-4688-be0a-bcc24c5e9019",
+            "label": "interface_bottom_bar_friends_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 1141,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "127f3841-5d69-4577-9442-390987d1097b",
+            "label": "interface_bottom_bar_igloo_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 1208,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a1d01723-e35c-44b7-a5a0-f4b9e85123e6",
+            "label": "interface_bottom_bar_settings_button_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_main_interface_button0002.png"
+            },
+            "x": 1275,
+            "y": 925,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cb4e85dd-2416-40da-82d5-035491c6f1b2",
+            "label": "interface_bottom_bar_chat_send_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_send_chat_icon0001.png"
+            },
+            "x": 1006,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "3366a985-c74a-49b4-979e-836f2ed4cbdf",
+            "label": "interface_bottom_bar_chat_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_chat_bubble_icon0001.png"
+            },
+            "x": 519,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "ee0ec3f5-2c93-4d75-a676-5bb5b137f293",
+            "label": "interface_bottom_bar_snowball_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "inteface_snowball_icon.png"
+            },
+            "x": 452,
+            "y": 924
+        },
+        {
+            "type": "Image",
+            "id": "8f97e0b7-aac6-46f9-bc17-8d7ae1bc0cf8",
+            "label": "interface_bottom_bar_dance_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_dance_icon.png"
+            },
+            "x": 383,
+            "y": 921
+        },
+        {
+            "type": "Image",
+            "id": "99ec5c20-6284-492f-a9ad-a29bc4c25a50",
+            "label": "interface_bottom_bar_puffle_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_blue_puffle_icon.png"
+            },
+            "x": 250,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "ad133beb-5bab-407a-b38f-2cc7cc67f419",
+            "label": "interface_bottom_bar_emoji_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emojis_icon.png"
+            },
+            "x": 318,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "2ee372e5-0b03-4a15-aea3-d2c59fd20d38",
+            "label": "interface_bottom_bar_igloo_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_igloo_icon.png"
+            },
+            "x": 1208,
+            "y": 925
+        },
+        {
+            "type": "Image",
+            "id": "c584cdde-0274-47e1-a865-b3c578ee7a94",
+            "label": "interface_bottom_bar_settings_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_settings_icono.png"
+            },
+            "x": 1275,
+            "y": 924
+        },
+        {
+            "type": "Image",
+            "id": "96fcc0dc-bd61-4f44-8eeb-d362db905510",
+            "label": "interface_bottom_bar_friends_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_friends_icon.png"
+            },
+            "x": 1141,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "da3f6a81-3c7a-4b78-a31c-a94362b7437a",
+            "label": "interface_bottom_bar_player_icon",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_player_icon.png"
+            },
+            "x": 1074,
+            "y": 923
+        },
+        {
+            "type": "Image",
+            "id": "490f6a41-1b3c-4098-883e-f34cd457d7e8",
+            "label": "interface_map_closed",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_map0001.png"
+            },
+            "x": 100,
+            "y": 886,
+            "scaleX": 0.976832062717823
+        },
+        {
+            "type": "Image",
+            "id": "143d618b-5f47-4eb4-9f02-3a4eea793828",
+            "label": "interface_newspaper_not_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_newspaper_icon0001.png"
+            },
+            "x": 91,
+            "y": 74,
+            "scaleX": 1.1076317855287052,
+            "scaleY": 1.1009334692128427
+        },
+        {
+            "type": "Image",
+            "id": "113f2cee-828b-4e78-836c-627a3456a541",
+            "label": "interface_mail_not_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_mail_icon0001.png"
+            },
+            "x": 203,
+            "y": 60,
+            "scaleX": 1.1076317855287052,
+            "scaleY": 1.1009334692128427
+        },
+        {
+            "type": "Image",
+            "id": "d7245f98-361b-4f84-924e-760bdfbbc418",
+            "label": "interface_moderator_not_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_moderator_icon.png"
+            },
+            "x": 1429,
+            "y": 74
+        },
+        {
+            "type": "Image",
+            "id": "e0a47ec5-5854-40c6-a715-1bb0162dc19b",
+            "label": "interface_map_opened",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_map0002.png"
+            },
+            "x": 100,
+            "y": 886,
+            "scaleX": 0.976832062717823,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "18723be6-dbed-4a9e-85f2-6c5c1c0647b2",
+            "label": "interface_newspaper_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_newspaper_icon0002.png"
+            },
+            "x": 91,
+            "y": 74,
+            "scaleX": 1.1076317855287052,
+            "scaleY": 1.1009334692128427,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "03197e66-dcbd-4220-a0e0-2384c70de2cf",
+            "label": "interface_mail_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_mail_icon0002.png"
+            },
+            "x": 203,
+            "y": 60,
+            "scaleX": 1.1076317855287052,
+            "scaleY": 1.1009334692128427,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bc7a1c32-767e-4877-ac8d-c46c4e926700",
+            "label": "interface_moderator_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_moderator_icon_hover.png"
+            },
+            "x": 1429,
+            "y": 74,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

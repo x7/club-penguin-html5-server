@@ -42,7 +42,6 @@ export class PlazaScene extends RoomScene {
     }
 
     createContent() {
-
 		// plaza_sky_png
 		const plaza_sky_png = this.add.image(716, 87, "plaza", "plaza_sky.png");
 		plaza_sky_png.scaleX = 0.9982228920870307;

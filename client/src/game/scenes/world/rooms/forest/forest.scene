@@ -1,0 +1,572 @@
+{
+    "id": "2a413a85-9443-46be-8fb7-357cd138c002",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ForestScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "8b994493-7518-4f67-aa94-3ba7c22a0749",
+            "label": "forest_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_sky.png"
+            },
+            "x": 757,
+            "y": 92
+        },
+        {
+            "type": "Image",
+            "id": "23aeb532-aad9-4dad-8015-bb8ed2c20ac4",
+            "label": "forest_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_background.png"
+            },
+            "x": -140,
+            "y": -50,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "0aa6fb57-45f6-4574-8fbb-dfa7a29bfeee",
+            "label": "forest_cove_stairs_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cove_stairs_bush.png"
+            },
+            "x": 1494,
+            "y": 693
+        },
+        {
+            "type": "Image",
+            "id": "6d9d2aad-96af-4735-bfaf-41af90627778",
+            "label": "forest_cove_stairsa_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cove_stairsa.png"
+            },
+            "x": 1401,
+            "y": 821
+        },
+        {
+            "type": "Image",
+            "id": "c46e05a8-9af5-4ab3-9bcb-e15444f77ca7",
+            "label": "forest_bigger_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_bigger_bush.png"
+            },
+            "x": 209,
+            "y": 585
+        },
+        {
+            "type": "Image",
+            "id": "184d8286-2da4-483c-9752-649954dd7a5d",
+            "label": "forest_smaller_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_smaller_bush.png"
+            },
+            "x": 226,
+            "y": 613
+        },
+        {
+            "type": "Sprite",
+            "id": "277084b6-c07e-47d5-8f1d-fe40a6dd2387",
+            "label": "forest_rock_move0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_rock_move0001.png"
+            },
+            "x": 87,
+            "y": 674
+        },
+        {
+            "type": "Image",
+            "id": "d1ccf8ae-fdbf-40cc-ad4a-b5f66c62ba53",
+            "label": "forest_middle_bottom_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_middle_bottom_rock.png"
+            },
+            "x": 636,
+            "y": 810
+        },
+        {
+            "type": "Image",
+            "id": "1cb17e51-7b86-47a2-a886-677e43cd2882",
+            "label": "forest_bottom_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_bottom_left.png"
+            },
+            "x": 620,
+            "y": 713
+        },
+        {
+            "type": "Image",
+            "id": "d0dd555f-3e77-4f4e-99a4-a94bbeb901e7",
+            "label": "forest_middle_part_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_middle_part_right.png"
+            },
+            "x": 891,
+            "y": 539
+        },
+        {
+            "type": "Image",
+            "id": "b2bccbf5-51a4-4d9c-89b4-e7a5e22e8129",
+            "label": "forest_middle_part_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_middle_part_tree.png"
+            },
+            "x": 748,
+            "y": 537
+        },
+        {
+            "type": "Image",
+            "id": "6d35fd76-bd15-4ca5-89c8-2cd40423bd49",
+            "label": "forest_cove_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cove_sign.png"
+            },
+            "x": 1428,
+            "y": 678
+        },
+        {
+            "type": "Image",
+            "id": "ea8040fa-19d9-4649-80b5-a25765f4ac08",
+            "label": "forest_right_middle_left_bush_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_right_middle_left_bush.png"
+            },
+            "x": 1508,
+            "y": 430
+        },
+        {
+            "type": "Sprite",
+            "id": "ba2f17ac-eb0c-41cc-975d-c5c11f4f5e79",
+            "label": "forest_water_bubbles0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_water_bubbles0001.png"
+            },
+            "x": 847,
+            "y": 306,
+            "scaleX": 0.35968175987461154,
+            "scaleY": 0.29985257104711643
+        },
+        {
+            "type": "Image",
+            "id": "76263c44-3920-4776-90db-efc44cca44f9",
+            "label": "forest_right_middle_left_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_right_middle_left_tree.png"
+            },
+            "x": 1414,
+            "y": 442
+        },
+        {
+            "type": "Image",
+            "id": "37db9c4e-0580-427a-8d65-2e1b400e448f",
+            "label": "forest_right_middle_middle_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_right_middle_middle_tree.png"
+            },
+            "x": 1511,
+            "y": 279
+        },
+        {
+            "type": "Image",
+            "id": "482527bf-5e8e-4c1b-b3a9-5534511bc142",
+            "label": "forest_right_middle_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_right_middle_rock.png"
+            },
+            "x": 1488,
+            "y": 513
+        },
+        {
+            "type": "Image",
+            "id": "deb848ee-cf50-4efe-be06-6b95ad981954",
+            "label": "forest_bush_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_bush_3.png"
+            },
+            "x": 438,
+            "y": 280
+        },
+        {
+            "type": "Image",
+            "id": "bce30146-e8ba-40dd-b3ba-c5057378312f",
+            "label": "forest_bush_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_bush_1.png"
+            },
+            "x": 330,
+            "y": 258
+        },
+        {
+            "type": "Image",
+            "id": "19df169e-e7ee-4fdf-a3aa-9fa4c3f86e44",
+            "label": "forest_half_tall_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_half_tall_tree.png"
+            },
+            "x": 376,
+            "y": 137
+        },
+        {
+            "type": "Image",
+            "id": "723c133a-e066-4e1b-8ccc-c2038161382a",
+            "label": "forest_tree_fallen_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_tree_fallen.png"
+            },
+            "x": 618,
+            "y": 185
+        },
+        {
+            "type": "Image",
+            "id": "1706ef87-250b-48e5-80c8-90fdb199aed0",
+            "label": "forest_right_middle_left_tree_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_right_middle_left_tree.png"
+            },
+            "x": 720,
+            "y": 261
+        },
+        {
+            "type": "Image",
+            "id": "335f6ad4-e724-4a0b-806a-f4527512febb",
+            "label": "forest_rock_next_to_water_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_rock_next_to_water.png"
+            },
+            "x": 758,
+            "y": 321
+        },
+        {
+            "type": "Image",
+            "id": "e3e6cb49-3e1c-452b-bad6-83c7d0a3a648",
+            "label": "forest_tree_log_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_tree_log.png"
+            },
+            "x": 721,
+            "y": 366
+        },
+        {
+            "type": "Image",
+            "id": "f4f7146f-e05f-4d86-8aee-dae8cdbac946",
+            "label": "forest_middle_part_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_middle_part_left.png"
+            },
+            "x": 609,
+            "y": 566
+        },
+        {
+            "type": "Image",
+            "id": "4fdddbb6-ba1c-4f47-b82e-b15d077592e1",
+            "label": "forest_bush_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_bush_2.png"
+            },
+            "x": 424,
+            "y": 319
+        },
+        {
+            "type": "Image",
+            "id": "aa94a95f-6b8c-4a7e-aa11-ab8f28cb2c6a",
+            "label": "forest_tree_stump_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_tree_stump.png"
+            },
+            "x": 489,
+            "y": 329
+        },
+        {
+            "type": "Image",
+            "id": "1bcae6c0-e3a3-4d88-9877-39d3f5d70fcd",
+            "label": "forest_cave_dark_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cave_dark_2.png"
+            },
+            "x": 1087,
+            "y": 271
+        },
+        {
+            "type": "Image",
+            "id": "7dc9250c-e289-4e8a-9dd4-bea8f960c84c",
+            "label": "forest_cave_dark_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cave_dark_3.png"
+            },
+            "x": 1100,
+            "y": 271
+        },
+        {
+            "type": "Image",
+            "id": "998a797d-6f30-475d-986a-5141d209f7a6",
+            "label": "forest_cave_dark_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cave_dark_1.png"
+            },
+            "x": 1091,
+            "y": 268
+        },
+        {
+            "type": "Image",
+            "id": "c8e2a6ca-ffc7-4fa5-9cff-05b71ce5a4db",
+            "label": "forest_bigger_cave_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_bigger_cave.png"
+            },
+            "x": 1087,
+            "y": 224
+        },
+        {
+            "type": "Image",
+            "id": "956cfba8-d106-4c17-b58b-4596bd4a10c8",
+            "label": "forest_tiny_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_tiny_rock.png"
+            },
+            "x": 1171,
+            "y": 346
+        },
+        {
+            "type": "Sprite",
+            "id": "25a4f72c-5210-4ef6-a305-1d49346c8a2d",
+            "label": "forest_water_line0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_water_line0001.png"
+            },
+            "x": 821,
+            "y": 166,
+            "scaleX": 1.0254245895384397,
+            "angle": 10
+        },
+        {
+            "type": "Sprite",
+            "id": "f462a5d5-c083-4b60-ab5e-b6274b3d6716",
+            "label": "forest_water_falling_down0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_water_falling_down0001.png"
+            },
+            "x": 837,
+            "y": 235,
+            "scaleX": 0.5331748939661696,
+            "scaleY": 0.5417969605300536
+        },
+        {
+            "type": "Sprite",
+            "id": "17f3bf79-144c-46ef-828e-b828178888c9",
+            "label": "forest_water_middle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_water_middle0001.png"
+            },
+            "x": 836,
+            "y": 233,
+            "scaleX": 0.38973561233955295,
+            "scaleY": 0.5675806682804683,
+            "angle": 154
+        },
+        {
+            "type": "Image",
+            "id": "342d5fe4-a39d-43df-9787-5e277b874e8b",
+            "label": "forest_moving_rock_hover_trigger0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_moving_rock_hover_trigger0004.png"
+            },
+            "x": 176,
+            "y": 692,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6b4ad25f-0c27-4b85-b197-d0d968f2cbb0",
+            "label": "forest_cove_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_cove_trigger.png"
+            },
+            "x": 1407,
+            "y": 866,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 452,
+                "height": 213
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a2d68cb6-bf34-49cf-bde8-bde744398249",
+            "label": "forest_mine_shack_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_mine_shack_trigger.png"
+            },
+            "x": 1346,
+            "y": 320,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 179,
+                "height": 82
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9fd0a725-bb41-45e4-a0b6-0fd1eb733e0f",
+            "label": "forest_plaza_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_plaza_trigger.png"
+            },
+            "x": 112,
+            "y": 290,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 165,
+                "height": 82
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "aba52132-3b2e-45cf-970e-63e5cd57720f",
+            "label": "forest_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "`${this.textureKey}_walking_trigger`"
+            },
+            "x": 757,
+            "y": 472,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8274911a-fb95-4f2f-a366-adf5b832d508",
+            "label": "forest_underground_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "forest",
+                "frame": "forest_underground_trigger.png"
+            },
+            "x": 176,
+            "y": 717,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 138,
+                "height": 98
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,904 @@
+{
+    "id": "f6129881-7f31-4ff5-83db-fa8abbc31b88",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "BerryMallScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "eda142ab-e838-4904-ac31-0c057c434529",
+            "label": "berry_mall_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_background.png"
+            },
+            "x": 763,
+            "y": 474
+        },
+        {
+            "type": "Image",
+            "id": "dc8cf2cf-aa22-4c79-91f3-baa3332b3ff7",
+            "label": "berry_mall_bottom_right_shop_coffee_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_right_shop_coffee_table.png"
+            },
+            "x": 1455,
+            "y": 568,
+            "scaleX": 1.2865112622265786
+        },
+        {
+            "type": "Image",
+            "id": "f53c4b5a-e661-4dbf-a808-b10c9b3dd66a",
+            "label": "berry_mall_looking_left_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_looking_left_chair.png"
+            },
+            "x": 927,
+            "y": 764
+        },
+        {
+            "type": "Image",
+            "id": "4ef7cf47-a231-4304-bb8c-5ca014c22546",
+            "label": "berry_mall_table_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_table_1.png"
+            },
+            "x": 1005,
+            "y": 783
+        },
+        {
+            "type": "Image",
+            "id": "bab7ac84-bacb-44d8-a452-cea86fb9f994",
+            "label": "berry_mall_top_left_looking_chair_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_bottom.png"
+            },
+            "x": 1061,
+            "y": 855
+        },
+        {
+            "type": "Image",
+            "id": "e86ca8ad-d4cd-416e-970f-425c63bcd6e8",
+            "label": "berry_mall_top_left_looking_chair_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_top.png"
+            },
+            "x": 1073,
+            "y": 858
+        },
+        {
+            "type": "Image",
+            "id": "34c1e870-3fa8-4baf-af14-9c905465d413",
+            "label": "berry_mall_looking_left_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_looking_left_chair.png"
+            },
+            "x": 1168,
+            "y": 772
+        },
+        {
+            "type": "Image",
+            "id": "3942b42e-db26-4caa-b98a-96b999a22038",
+            "label": "berry_mall_table_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_table_2.png"
+            },
+            "x": 1258,
+            "y": 802
+        },
+        {
+            "type": "Image",
+            "id": "0d057150-5396-4699-a398-ad7a691d808e",
+            "label": "berry_mall_top_left_looking_chair_bottom_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_bottom.png"
+            },
+            "x": 1217,
+            "y": 870,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "8946b381-48c2-48fa-8a14-11ec9751989d",
+            "label": "berry_mall_top_left_looking_chair_top_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_top.png"
+            },
+            "x": 1205,
+            "y": 870,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "34dbb3da-58ba-4f55-b9f2-b3c6f2df7b73",
+            "label": "berry_mall_top_left_looking_chair_bottom_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_bottom.png"
+            },
+            "x": 1331,
+            "y": 856
+        },
+        {
+            "type": "Image",
+            "id": "46c18e91-7922-4f99-9eea-a3cbc2d9b96b",
+            "label": "berry_mall_top_left_looking_chair_top_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_top.png"
+            },
+            "x": 1347,
+            "y": 853
+        },
+        {
+            "type": "Image",
+            "id": "5b72be0b-29bf-4af9-afbf-580319ee40d9",
+            "label": "berry_mall_top_left_looking_chair_top_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_top.png"
+            },
+            "x": 1435,
+            "y": 646
+        },
+        {
+            "type": "Image",
+            "id": "c7d8c874-7837-4416-81f0-2925a67cc963",
+            "label": "berry_mall_top_left_looking_chair_bottom_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_looking_chair_bottom.png"
+            },
+            "x": 1449,
+            "y": 681
+        },
+        {
+            "type": "Image",
+            "id": "3d9ce91a-2a82-434a-a90f-e80f513967c7",
+            "label": "berry_mall_far_right_chair_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_far_right_chair_bottom.png"
+            },
+            "x": 1418,
+            "y": 764
+        },
+        {
+            "type": "Image",
+            "id": "d7fbbeb3-6d33-4e67-a8dc-c62220a82b4b",
+            "label": "berry_mall_table_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_table_3.png"
+            },
+            "x": 1501,
+            "y": 725
+        },
+        {
+            "type": "Image",
+            "id": "0a412a0d-b68f-4f5e-8181-d521b0cf7733",
+            "label": "berry_mall_far_right_chair_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_far_right_chair_top.png"
+            },
+            "x": 1394,
+            "y": 757
+        },
+        {
+            "type": "Image",
+            "id": "0827e8bc-1933-4ec4-98bf-10e5424379a9",
+            "label": "berry_mall_bottom_right_shop_smalL_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_right_shop_smalL_desk.png"
+            },
+            "x": 1231,
+            "y": 624
+        },
+        {
+            "type": "Image",
+            "id": "39ace9af-aadc-4c6a-ac11-502cc1a183e0",
+            "label": "berry_mall_bottom_right_shop_bigger_food_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_right_shop_bigger_food_desk.png"
+            },
+            "x": 1338,
+            "y": 614
+        },
+        {
+            "type": "Image",
+            "id": "8ff870b9-aaff-4baa-9cf5-4fab4cfb3d95",
+            "label": "berry_mall_plaza_door_closed_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_plaza_door_closed.png"
+            },
+            "x": 236,
+            "y": 575
+        },
+        {
+            "type": "Image",
+            "id": "91a646f9-31c7-4fcb-8196-c26ea28bf901",
+            "label": "berry_mall_plaza_door_opened_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_plaza_door_opened.png"
+            },
+            "x": 227,
+            "y": 581,
+            "scaleY": 1.0649184306793793,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c7a69edc-4bd6-4e1d-b6b5-93faf94d8cc0",
+            "label": "berry_mall_plaza_door_right_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_plaza_door_right_stand.png"
+            },
+            "x": 397,
+            "y": 541
+        },
+        {
+            "type": "Image",
+            "id": "72654a40-2f4a-4f8f-bc95-cb83a21e78c2",
+            "label": "berry_mall_green_penguin_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_green_penguin_stand.png"
+            },
+            "x": 22,
+            "y": 276
+        },
+        {
+            "type": "Image",
+            "id": "0ab3a44b-1c50-4d2d-90c7-ede1538592df",
+            "label": "berry_mall_top_left_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_stand.png"
+            },
+            "x": -37,
+            "y": 221
+        },
+        {
+            "type": "Image",
+            "id": "544d2a97-568c-43f1-a730-d6db2d1c8693",
+            "label": "berry_mall_top_floor_clothes_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_floor_clothes_stand.png"
+            },
+            "x": 70,
+            "y": 410
+        },
+        {
+            "type": "Image",
+            "id": "af6ec6f4-de47-4ec3-ba21-394ec335a4a5",
+            "label": "berry_mall_plaza_door_left_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_plaza_door_left_stand.png"
+            },
+            "x": 128,
+            "y": 646
+        },
+        {
+            "type": "Image",
+            "id": "46bece85-ff55-435a-9666-42e686ac9f93",
+            "label": "berry_mall_fish_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_fish_stand.png"
+            },
+            "x": 775,
+            "y": 238
+        },
+        {
+            "type": "Image",
+            "id": "4542e311-eff8-4017-956d-5cb0b12f68b1",
+            "label": "berry_mall_top_wall_left_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_wall_left_bottom.png"
+            },
+            "x": 172,
+            "y": 520
+        },
+        {
+            "type": "Image",
+            "id": "9fc6f991-54c5-4ac6-a907-ea8ae4c6c9ea",
+            "label": "berry_mall_top_wall_left_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_wall_left_top.png"
+            },
+            "x": 483,
+            "y": 367
+        },
+        {
+            "type": "Image",
+            "id": "ea7f0178-fd91-4428-af0b-5a65bd0346d7",
+            "label": "berry_mall_left_escalator_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_left_side.png"
+            },
+            "x": 543,
+            "y": 509,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "00e6eabe-4943-4a83-8fa5-a03e1c883f29",
+            "label": "berry_mall_bottom_right_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_right_pole.png"
+            },
+            "x": 1143,
+            "y": 531
+        },
+        {
+            "type": "Sprite",
+            "id": "010e9053-c5dd-4f90-85e2-ac69a3568d77",
+            "label": "berry_mall_left_escalator_first_step0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_first_step0001.png"
+            },
+            "x": 600,
+            "y": 386,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "3927aaac-7bb6-408b-8b2a-af7f09a886c6",
+            "label": "berry_mall_top_wall_right_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_wall_right_bottom.png"
+            },
+            "x": 1370,
+            "y": 518
+        },
+        {
+            "type": "Image",
+            "id": "b77f2277-9d24-4fce-ab44-0436d42ce43c",
+            "label": "berry_mall_top_wall_right_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_wall_right_top.png"
+            },
+            "x": 1059,
+            "y": 365
+        },
+        {
+            "type": "Image",
+            "id": "02ff38b8-bae5-40b6-962f-9b4c474a473a",
+            "label": "berry_mall_right_escalator_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_right_side.png"
+            },
+            "x": 995,
+            "y": 507
+        },
+        {
+            "type": "Sprite",
+            "id": "f090cd3b-c9dd-4880-adcb-dc8f084161aa",
+            "label": "berry_mall_right_escalator_first_step0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_first_step0001.png"
+            },
+            "x": 936,
+            "y": 387
+        },
+        {
+            "type": "Sprite",
+            "id": "cdb8294e-6a35-461c-961a-30b98b9a1c22",
+            "label": "berry_mall_left_escalator_second_step0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_second_step0001.png"
+            },
+            "x": 601,
+            "y": 426,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "1fa588cb-6680-4550-a678-11334fcd9146",
+            "label": "berry_mall_left_escalator_third_step0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_third_step0001.png"
+            },
+            "x": 586,
+            "y": 494,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "c085d58b-943a-450e-be8e-d15f34a8fea2",
+            "label": "berry_mall_left_escalator_fourth_step0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_fourth_step0001.png"
+            },
+            "x": 571,
+            "y": 563,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "c1390251-cd50-4f64-9dc1-0c2f339d333b",
+            "label": "berry_mall_left_escalator_fifth_step0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_fifth_step0001.png"
+            },
+            "x": 557,
+            "y": 625,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "321c8957-6e91-4ce8-b57b-a4cf29d2cfdb",
+            "label": "berry_mall_left_escalator_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_left_escalator_right_side.png"
+            },
+            "x": 642,
+            "y": 507,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "50e840a8-3542-4dfb-a03c-d1e0dac90d39",
+            "label": "berry_mall_right_escalator_second_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_second_floor0001.png"
+            },
+            "x": 939,
+            "y": 427
+        },
+        {
+            "type": "Sprite",
+            "id": "3efc8677-9e58-469e-9ef9-042d4ee7d7a1",
+            "label": "berry_mall_right_escalator_third_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_third_floor0001.png"
+            },
+            "x": 953,
+            "y": 497
+        },
+        {
+            "type": "Sprite",
+            "id": "3d5d9d51-56f9-4aae-a317-0a0cfa5121f5",
+            "label": "berry_mall_right_escalator_fourth_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_fourth_floor0001.png"
+            },
+            "x": 984,
+            "y": 626
+        },
+        {
+            "type": "Sprite",
+            "id": "9a1cacf1-8c8b-4dfb-b29b-6f277c23d4c6",
+            "label": "berry_mall_right_escalator_first_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_first_floor0001.png"
+            },
+            "x": 968,
+            "y": 564
+        },
+        {
+            "type": "Image",
+            "id": "4f92d331-0fab-41c7-9121-6a5934f8a263",
+            "label": "berry_mall_right_escalator_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_right_escalator_left_side.png"
+            },
+            "x": 903,
+            "y": 507
+        },
+        {
+            "type": "Image",
+            "id": "4f2f4385-4f89-461f-83e2-414b09efac0f",
+            "label": "berry_mall_actual_water_fountain_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_actual_water_fountain.png"
+            },
+            "x": 773,
+            "y": 561,
+            "scaleX": 0.9682407632033543
+        },
+        {
+            "type": "Sprite",
+            "id": "1041f114-c0f3-46c8-82dd-a01c397a2f40",
+            "label": "berry_mall_water_fountain0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_water_fountain0001.png"
+            },
+            "x": 765,
+            "y": 552
+        },
+        {
+            "type": "Image",
+            "id": "d6a07cbd-121c-4ac0-97a6-17c56b922d8d",
+            "label": "berry_mall_top_left_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_left_pole.png"
+            },
+            "x": 467,
+            "y": 187
+        },
+        {
+            "type": "Image",
+            "id": "86714a1e-2033-4a4f-9b2e-da32e8b2bfa6",
+            "label": "berry_mall_red_cash_register_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_red_cash_register_pole.png"
+            },
+            "x": 311,
+            "y": 181
+        },
+        {
+            "type": "Image",
+            "id": "56fcd901-eda8-4452-b163-d0e45191950c",
+            "label": "berry_mall_red_cash_register_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_red_cash_register.png"
+            },
+            "x": 257,
+            "y": 293
+        },
+        {
+            "type": "Image",
+            "id": "59634949-2db5-4172-b92e-3e1a7a7443b6",
+            "label": "berry_mall_purple_clothes_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_purple_clothes_sign.png"
+            },
+            "x": 281,
+            "y": 87
+        },
+        {
+            "type": "Image",
+            "id": "1688111f-cbb5-4f17-bfd3-b70f55b210c0",
+            "label": "berry_mall_top_right_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_right_pole.png"
+            },
+            "x": 1078,
+            "y": 187
+        },
+        {
+            "type": "Image",
+            "id": "3f092d40-f18f-46ea-a5cd-e865fe651f51",
+            "label": "berry_mall_top_icons_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_icons.png"
+            },
+            "x": 771,
+            "y": 257
+        },
+        {
+            "type": "Image",
+            "id": "cc09aeab-72d0-4555-97b7-ba301600039c",
+            "label": "berry_mall_bottom_floor_circle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_floor_circle.png"
+            },
+            "x": 773,
+            "y": 364
+        },
+        {
+            "type": "Image",
+            "id": "71f78513-575b-481b-80ef-1da40fe9bbfc",
+            "label": "berry_mall_anvils_and_more_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_anvils_and_more_text0001.png"
+            },
+            "x": 531,
+            "y": 112
+        },
+        {
+            "type": "Image",
+            "id": "f9b60a9b-bf41-4546-adbb-f9bf539c6854",
+            "label": "berry_mall_fragile_things_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_fragile_things_text0001.png"
+            },
+            "x": 1039,
+            "y": 111
+        },
+        {
+            "type": "Image",
+            "id": "d2db9343-5d96-481a-9487-74bd852e2097",
+            "label": "berry_mall_pole_next_to_costumes_trunk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_pole_next_to_costumes_trunk.png"
+            },
+            "x": 1229,
+            "y": 179
+        },
+        {
+            "type": "Image",
+            "id": "c8cd0e09-6f51-4c19-a29a-20ba0d38c03e",
+            "label": "berry_mall_costumes_trunk0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_costumes_trunk0001.png"
+            },
+            "x": 1331,
+            "y": 302
+        },
+        {
+            "type": "Image",
+            "id": "be67f974-9bb9-447f-94b3-177b6f7cce46",
+            "label": "berry_mall_two_puffle_icons_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_two_puffle_icons.png"
+            },
+            "x": 1263,
+            "y": 77
+        },
+        {
+            "type": "Image",
+            "id": "2f7733d7-5f2f-4f11-9816-1a4c678dc058",
+            "label": "berry_mall_costumes_trunk0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_costumes_trunk0002.png"
+            },
+            "x": 1331,
+            "y": 302,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "105f3315-0f31-4ef5-a597-17ce313a4ca5",
+            "label": "berry_mall_top_right_back_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_top_right_back_pole.png"
+            },
+            "x": 1548,
+            "y": 204
+        },
+        {
+            "type": "Image",
+            "id": "0f78ad18-83d2-4375-9045-1c80872f95f6",
+            "label": "berry_mall_penguin_w_clothes_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_penguin_w_clothes.png"
+            },
+            "x": 1464,
+            "y": 334
+        },
+        {
+            "type": "Image",
+            "id": "953fa52c-cb5c-44e8-9745-94866d788d07",
+            "label": "berry_mall_bottom_left_clothes_rack_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_left_clothes_rack.png"
+            },
+            "x": 59,
+            "y": 907,
+            "scaleX": 0.6582088023360082,
+            "scaleY": 0.7008025279290343
+        },
+        {
+            "type": "Image",
+            "id": "4a19e1c1-0364-4683-b915-3879606225c0",
+            "label": "berry_mall_bottom_left_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_left_table.png"
+            },
+            "x": 20,
+            "y": 700
+        },
+        {
+            "type": "Image",
+            "id": "42493294-d6ec-4796-8f81-5394a12c64e9",
+            "label": "berry_mall_bottom_left_table_content_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_bottom_left_table_content.png"
+            },
+            "x": 29,
+            "y": 682
+        },
+        {
+            "type": "Image",
+            "id": "44383a27-7420-4d83-a9fd-c560b4490025",
+            "label": "berry_mall_plaza_door_hover_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_plaza_trigger.png"
+            },
+            "x": 231,
+            "y": 574,
+            "scaleX": 0.9529666019787154,
+            "scaleY": 0.7876131487730552,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f6b64167-b769-42e4-9b1e-f9e101630564",
+            "label": "berry_mall_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berry_mall_walking_trigger"
+            },
+            "x": 761,
+            "y": 481,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e5fde4cf-6f75-4582-a28e-8271ac5f70f8",
+            "label": "berry_mall_plaza_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "berrymall",
+                "frame": "berry_mall_plaza_trigger.png"
+            },
+            "x": 226,
+            "y": 602,
+            "scaleX": 0.6783849239360802,
+            "scaleY": 0.5574969267340029,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 200,
+                "height": 300
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "3b5075ec-5186-4bf7-b0a5-3e1b6f18eaeb",
+            "label": "berry_mall_costume_trunks_hover_trigger",
+            "scope": "METHOD",
+            "x": 1326,
+            "y": 310,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.8946400782617894,
+            "scaleY": 0.8471475189007722,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

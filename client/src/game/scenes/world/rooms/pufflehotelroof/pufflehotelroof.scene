@@ -1,0 +1,678 @@
+{
+    "id": "7dae70d5-f450-4382-a2b8-678a7e53a51a",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PuffleHotelRoofScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f95e98b9-3bf7-4998-a94b-a629a69aabd6",
+            "label": "puffle_hotel_roof_blue_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_blue_sky.png"
+            },
+            "x": 725,
+            "y": 153,
+            "scaleY": 1.2793311896823787
+        },
+        {
+            "type": "Image",
+            "id": "e11b6dec-f409-4ba0-aecc-1e4aa775d7e7",
+            "label": "puffle_hotel_roof_clouds_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_clouds.png"
+            },
+            "x": 794,
+            "y": 155,
+            "scaleY": 0.901146283863851
+        },
+        {
+            "type": "Image",
+            "id": "39153f79-7f97-4ecf-adc7-c15ffc72f4e8",
+            "label": "puffle_hotel_roof_water_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_water.png"
+            },
+            "x": 776,
+            "y": 308
+        },
+        {
+            "type": "Image",
+            "id": "6f77f2f0-a807-408e-a9a0-791ce17c2297",
+            "label": "puffle_hotel_roof_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_main_background.png"
+            },
+            "x": 798,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "61c94660-0950-44a7-9cbc-10043632a97e",
+            "label": "puffle_hotel_roof_diving_board_stands_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_diving_board_stands.png"
+            },
+            "x": 785,
+            "y": 433
+        },
+        {
+            "type": "Image",
+            "id": "b4330e90-eb0b-42d7-a08a-17b4e578612d",
+            "label": "puffle_hotel_roof_diving_board_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_diving_board.png"
+            },
+            "x": 786,
+            "y": 460
+        },
+        {
+            "type": "Image",
+            "id": "aa60119c-8496-4172-96f1-b58ac6856217",
+            "label": "puffle_hotel_roof_diving_board_stands_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_diving_board_stands.png"
+            },
+            "x": 724,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "3af56eb9-b9e0-4115-9d6c-45c938267589",
+            "label": "puffle_hotel_roof_top_ladder_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_ladder.png"
+            },
+            "x": 814,
+            "y": 549
+        },
+        {
+            "type": "Image",
+            "id": "be05853c-01dd-4bb9-a286-c4eaf560786f",
+            "label": "puffle_hotel_roof_bottom_ladder_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_bottom_ladder.png"
+            },
+            "x": 833,
+            "y": 555
+        },
+        {
+            "type": "Image",
+            "id": "4a09657a-5d17-42af-abc8-9bc65874a4d8",
+            "label": "puffle_hotel_roof_puffle_launch_circle_colors0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_puffle_launch_circle_colors0001.png"
+            },
+            "x": 1454,
+            "y": 531
+        },
+        {
+            "type": "Sprite",
+            "id": "532fe214-12b6-4703-9a74-94ca2ed4ef77",
+            "label": "puffle_hotel_roof_disco_top0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_disco_top0001.png"
+            },
+            "x": 1259,
+            "y": 634
+        },
+        {
+            "type": "Sprite",
+            "id": "297762e6-1296-4997-8e35-8ad636189253",
+            "label": "puffle_hotel_roof_disco0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_disco0001.png"
+            },
+            "x": 1291,
+            "y": 773
+        },
+        {
+            "type": "Image",
+            "id": "28f9e9d5-2949-42a3-8a17-ba788b3f5ca1",
+            "label": "puffle_hotel_roof_sleeping_table_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_table.png"
+            },
+            "x": 764,
+            "y": 317,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "4896c0a2-63ed-4e2e-ab08-361649bd35e6",
+            "label": "puffle_hotel_roof_white_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_white_railing.png"
+            },
+            "x": 707,
+            "y": 343
+        },
+        {
+            "type": "Sprite",
+            "id": "05e67e60-92ae-43e2-b054-0259b5975780",
+            "label": "puffle_hotel_roof_disco_bottom0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_disco_bottom0001.png"
+            },
+            "x": 1407,
+            "y": 777
+        },
+        {
+            "type": "Image",
+            "id": "9aa30809-53ff-4cee-bc97-a9b8e62a8f5f",
+            "label": "puffle_hotel_roof_sleeping_chair0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_chair0001.png"
+            },
+            "x": 1107,
+            "y": 274,
+            "scaleX": 0.9643634554433094,
+            "scaleY": 0.9409505258462277
+        },
+        {
+            "type": "Image",
+            "id": "6a06c9d1-f195-4b47-8fae-895902b8352f",
+            "label": "puffle_hotel_roof_sleeping_chair0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_chair0002.png"
+            },
+            "x": 1113,
+            "y": 272,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "094fa263-5126-41b5-bb16-3e41c28959ab",
+            "label": "puffle_hotel_roof_table_with_blankets_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_table_with_blankets.png"
+            },
+            "x": 1258,
+            "y": 389
+        },
+        {
+            "type": "Image",
+            "id": "6ffb52e2-2853-4665-85b5-9367797accab",
+            "label": "puffle_hotel_roof_blue_wall_w_towel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_blue_wall_w_towel.png"
+            },
+            "x": 645,
+            "y": 550
+        },
+        {
+            "type": "Image",
+            "id": "f2d6adc4-92f2-496f-89b1-23b6095b46bd",
+            "label": "puffle_hotel_roof_top_feeding_seats0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_feeding_seats0001.png"
+            },
+            "x": 283,
+            "y": 334
+        },
+        {
+            "type": "Image",
+            "id": "aa96ecd4-0c23-4834-8f5f-1fdc8161edcb",
+            "label": "puffle_hotel_roof_top_feeding_seats0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_feeding_seats0002.png"
+            },
+            "x": 285,
+            "y": 336,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "081101e6-b252-461f-90df-407396d469c5",
+            "label": "puffle_hotel_roof_top_feeding_seats0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_feeding_seats0001.png"
+            },
+            "x": 444,
+            "y": 336
+        },
+        {
+            "type": "Image",
+            "id": "4cf806fc-9604-4a22-b056-0aeccb414692",
+            "label": "puffle_hotel_roof_top_feeding_seats0002_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_feeding_seats0002.png"
+            },
+            "x": 441,
+            "y": 339,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7e22dbed-732c-4211-9727-b8cc9aff29ba",
+            "label": "puffle_hotel_roof_top_seats_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_seats_table.png"
+            },
+            "x": 391,
+            "y": 438
+        },
+        {
+            "type": "Image",
+            "id": "670fa872-4f15-41bf-b883-779de614a779",
+            "label": "puffle_hotel_roof_inside_elevator0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_inside_elevator0001.png"
+            },
+            "x": 98,
+            "y": 448
+        },
+        {
+            "type": "Sprite",
+            "id": "e79e9427-539a-4862-866f-4b0b4d04cb1e",
+            "label": "puffle_hotel_roof_elevator_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_elevator_door0001.png"
+            },
+            "x": 91,
+            "y": 451
+        },
+        {
+            "type": "Image",
+            "id": "5323fffe-cc29-47ba-996f-ba31bd302479",
+            "label": "puffle_hotel_roof_top_blue_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_top_blue.png"
+            },
+            "x": 380,
+            "y": 407
+        },
+        {
+            "type": "Image",
+            "id": "d9d9c4d8-27bc-45c6-81db-e3f6246ba7cc",
+            "label": "puffle_hotel_roof_elevator_outline_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_elevator_outline.png"
+            },
+            "x": 77,
+            "y": 460
+        },
+        {
+            "type": "Image",
+            "id": "515c9d68-76da-4b3c-b852-7f6eb34db7a1",
+            "label": "puffle_hotel_roof_elevator_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_elevator_top.png"
+            },
+            "x": 69,
+            "y": 234
+        },
+        {
+            "type": "Image",
+            "id": "e32f4bd5-d5ff-4041-880f-a5ca8796f387",
+            "label": "puffle_hotel_roooof_left_cash_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roooof_left_cash_table.png"
+            },
+            "x": 174,
+            "y": 651
+        },
+        {
+            "type": "Image",
+            "id": "8052deba-9a43-41f6-b34d-7b9b517c39bb",
+            "label": "puffle_hotel_roof_puffle_launch_hover_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_chair0004.png"
+            },
+            "x": 1458,
+            "y": 445,
+            "scaleY": 1.3210371626138384,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "54d06fb9-8a61-49c6-9b80-3cbf3c0a9db4",
+            "label": "puffle_hotel_roof_bottom_blue_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_bottom_blue.png"
+            },
+            "x": 1575,
+            "y": 635
+        },
+        {
+            "type": "Image",
+            "id": "b70b7559-4b00-45cf-b51d-56695ca690be",
+            "label": "puffle_hotel_roof_bottom_seats_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_bottom_seats.png"
+            },
+            "x": 786,
+            "y": 864
+        },
+        {
+            "type": "Image",
+            "id": "638270a1-e256-4fc2-966a-d3c857048408",
+            "label": "puffle_hotel_roof_bottom_statues_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_bottom_statues.png"
+            },
+            "x": 754,
+            "y": 867
+        },
+        {
+            "type": "Image",
+            "id": "7bad10ee-24a0-4a4c-97d9-61bc3f74ac50",
+            "label": "puffle_hotel_roof_bottom_seats_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_bottom_seats_table.png"
+            },
+            "x": 551,
+            "y": 776
+        },
+        {
+            "type": "Image",
+            "id": "008d2fff-ca64-4c3e-8c2d-d1cc2bd4bec4",
+            "label": "puffle_hotel_roof_bottom_seats_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_bottom_seats_table.png"
+            },
+            "x": 1016,
+            "y": 778
+        },
+        {
+            "type": "Image",
+            "id": "d654b707-dab4-402b-953d-4156395f6160",
+            "label": "puffle_hotel_roof_puffle_eat_trigger_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_puffle_eat_trigger_1.png"
+            },
+            "x": 273,
+            "y": 373,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "4e04d446-e4d5-4141-b6c6-eaf13f77e5de",
+            "label": "puffle_hotel_roof_puffle_eat_trigger_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_puffle_eat_trigger_2.png"
+            },
+            "x": 448,
+            "y": 372,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "976989cd-ef61-4983-9546-c4aa90c1fde1",
+            "label": "puffle_hotel_roof_sleeping_chair0002_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_chair0002.png"
+            },
+            "x": 1115,
+            "y": 274,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1d61f13a-f155-40db-bebf-99f8fd33cb62",
+            "label": "puffle_hotel_roof_sleeping_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_table.png"
+            },
+            "x": 1002,
+            "y": 315
+        },
+        {
+            "type": "Image",
+            "id": "a10bac9a-2a60-4dcc-ba05-fccbc0ebf032",
+            "label": "puffle_hotel_roof_lower_seats_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_lower_seats.png"
+            },
+            "x": 248,
+            "y": 266,
+            "scaleX": 1.0317003304706158
+        },
+        {
+            "type": "Image",
+            "id": "d5ec272b-c4ce-4b0e-9727-0a023383ba57",
+            "label": "puffle_hotel_roof_sleeping_chair_one0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_chair_one0001.png"
+            },
+            "x": 889,
+            "y": 274
+        },
+        {
+            "type": "Image",
+            "id": "a870fb7b-2b7e-480e-9218-51e0f0697ab5",
+            "label": "puffle_hotel_roof_sleeping_chair_one0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_sleeping_chair_one0002.png"
+            },
+            "x": 888,
+            "y": 274,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "a15766c4-38e1-412a-96fa-36bfabd15c1b",
+            "label": "puffle_hotel_roof_puffle_launch_cannon0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_puffle_launch_cannon0001.png"
+            },
+            "x": 1287,
+            "y": 292
+        },
+        {
+            "type": "Image",
+            "id": "eb127310-874e-4cfc-b48b-6cea1ba09cd7",
+            "label": "puffle_hotel_roof_puffle_launch_cannon0150_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pufflehotelroof",
+                "frame": "puffle_hotel_roof_puffle_launch_cannon0150.png"
+            },
+            "x": 1284,
+            "y": 301,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cd175765-0be8-4d5e-94c9-78b1276a36a9",
+            "label": "puffle_hotel_roof_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "puffle_hotel_roof_walking_trigger"
+            },
+            "x": 806,
+            "y": 463,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1600,
+                "height": 1040
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "5551a97b-4478-4eb4-a63b-7913328dae44",
+            "label": "puffle_hotel_roof_hungry_seats_hover_trigger_2",
+            "scope": "METHOD",
+            "x": 449,
+            "y": 372,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.4005322685929205,
+            "scaleY": 0.3996331778813248,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "6e6a5716-490e-41c0-878a-17d176012b4a",
+            "label": "puffle_hotel_roof_hungry_seats_hover_trigger_1",
+            "scope": "METHOD",
+            "x": 264,
+            "y": 371,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.4005322685929205,
+            "scaleY": 0.3996331778813248,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "9cebaded-454b-4060-9fb7-203e1c4d1f9c",
+            "label": "puffle_hotel_roof_diving_board_hover_trigger",
+            "scope": "METHOD",
+            "x": 791,
+            "y": 457,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.3900994994927207,
+            "scaleY": 0.6758613908358202,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "83de2648-e804-4e08-8302-6ebeedbe28a9",
+            "label": "puffle_hotel_roof_dance_studio_hover_trigger",
+            "scope": "METHOD",
+            "x": 1333,
+            "y": 676,
+            "width": 128,
+            "height": 128,
+            "scaleX": 2.0655982807061,
+            "scaleY": 1.8472627010956626,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "6ba29914-8145-4598-8d04-2db541c7f335",
+            "label": "puffle_hotel_roof_elevator_hover_trigger",
+            "scope": "METHOD",
+            "x": 96,
+            "y": 441,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.3557067634622382,
+            "scaleY": 2.38858088250871,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

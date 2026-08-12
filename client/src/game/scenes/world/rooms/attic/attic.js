@@ -205,14 +205,14 @@ export class AtticScene extends RoomScene {
 		attic_ski_lodge_trigger.body.setSize(258, 100, false);
 
 		// attic_walking_trigger
-		const attic_walking_trigger = this.physics.add.sprite(759, 482, "attic_walking_trigger");
+		const attic_walking_trigger = this.physics.add.sprite(759, 482, "attic_walking_trigger_png");
 		attic_walking_trigger.alpha = 0.001;
 		attic_walking_trigger.alphaTopLeft = 0.001;
 		attic_walking_trigger.alphaTopRight = 0.001;
 		attic_walking_trigger.alphaBottomLeft = 0.001;
 		attic_walking_trigger.alphaBottomRight = 0.001;
 		attic_walking_trigger.body.setSize(1520, 960, false);
-        this.collisionMap = this.createCollisionMap(this, 759, 482, "attic_walking_trigger");
+        this.collisionMap = this.createCollisionMap(this, 759, 482, "attic_walking_trigger_png");
 
         // Setting triggers starts here
         this.triggers.push([attic_walking_trigger, () => {

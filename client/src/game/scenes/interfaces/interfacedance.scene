@@ -1,0 +1,218 @@
+{
+    "id": "0b150a2c-23a1-4263-aaa8-389e3a71581d",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "InterfaceDanceScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b48d85a9-9340-4a9b-a683-7a87d0f5cd3c",
+            "label": "interface_dance_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_dance_box.png"
+            },
+            "x": 382,
+            "y": 655
+        },
+        {
+            "type": "Image",
+            "id": "b07437be-54e1-4067-ba82-72592616021a",
+            "label": "interface_emoji_button_sitting_down_bottom_left",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 351,
+            "y": 815
+        },
+        {
+            "type": "Image",
+            "id": "11729ee1-0c14-46a4-a0d5-619e63c6f01f",
+            "label": "interface_emoji_button_sitting_down_bottom_right",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 415,
+            "y": 815
+        },
+        {
+            "type": "Image",
+            "id": "415b6c2d-c18c-4dfd-a203-de1db862c006",
+            "label": "interface_emoji_button_sitting_down_top_left",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 351,
+            "y": 751
+        },
+        {
+            "type": "Image",
+            "id": "f64dc6a9-3275-4358-9ced-ff451105d20d",
+            "label": "interface_emoji_button_sitting_down_top_right",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0001.png"
+            },
+            "x": 415,
+            "y": 751
+        },
+        {
+            "type": "Image",
+            "id": "5990a93d-0fa5-49c7-9b06-cca2a56faf79",
+            "label": "interface_emoji_button_penguin_wave",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_big_white_buttons0001.png"
+            },
+            "x": 382,
+            "y": 656
+        },
+        {
+            "type": "Image",
+            "id": "987ca077-af81-4f62-9237-e19db17a5fc4",
+            "label": "interface_emoji_button_penguin_default_dance",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_big_white_buttons0001.png"
+            },
+            "x": 382,
+            "y": 529
+        },
+        {
+            "type": "Image",
+            "id": "ca2131c1-77f2-423c-bcff-cb199fb5017a",
+            "label": "interface_emoji_button_penguin_default_dance_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_big_white_buttons0002.png"
+            },
+            "x": 382,
+            "y": 529,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1d3a8040-de42-48ff-883f-efe6e8ca9979",
+            "label": "interface_emoji_button_penguin_wave_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_big_white_buttons0002.png"
+            },
+            "x": 382,
+            "y": 656,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a9482677-5aad-4d9f-89cb-fd6c3534c454",
+            "label": "interface_emoji_button_sitting_down_top_left_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 351,
+            "y": 751,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e02980aa-e6d5-4461-bc69-54870e3573f0",
+            "label": "interface_emoji_button_sitting_down_top_right_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 415,
+            "y": 751,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "83177281-77a3-4ccd-a4b8-1286419d50a9",
+            "label": "interface_emoji_button_sitting_down_bottom_left_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 351,
+            "y": 815,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d55f85d4-1586-4558-9940-585ed719725e",
+            "label": "interface_emoji_button_sitting_down_bottom_right_hover",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_emoji_button0002.png"
+            },
+            "x": 415,
+            "y": 815,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0b274afc-7d15-4187-8f9f-43e233d4e3b2",
+            "label": "interface_emoji_button_penguin_sat_down_image",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_dances_penguin_sitting.png"
+            },
+            "x": 383,
+            "y": 781
+        },
+        {
+            "type": "Image",
+            "id": "998a1dbe-24a6-4285-8417-608b1c9b0aac",
+            "label": "interface_emoji_button_penguin_wave_image",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_dances_penguin_waving.png"
+            },
+            "x": 383,
+            "y": 653
+        },
+        {
+            "type": "Image",
+            "id": "fc3d87c4-6f75-4e93-8176-a773d7e100fb",
+            "label": "interface_emoji_button_penguin_dance_image",
+            "scope": "METHOD",
+            "texture": {
+                "key": "interface",
+                "frame": "interface_dances_penguin_dancing.png"
+            },
+            "x": 383,
+            "y": 527
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -74,7 +74,7 @@ export class DocksScene extends RoomScene {
 		docks_pink_surfboard_png.scaleY = 0.9261652676946989;
 
 		// docks_surf_board_sale_png
-		this.add.image(806, 633, "docks", "docks_surf_board_sale.png");
+		const docks_surf_board_sale_png = this.add.image(806, 633, "docks", "docks_surf_board_sale.png");
 
 		// docks_buy_surf_board_png
 		const docks_buy_surf_board_png = this.add.sprite(777, 631, "docks", "docks_buy_surf_board.png");

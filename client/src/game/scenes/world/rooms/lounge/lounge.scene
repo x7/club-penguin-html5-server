@@ -1,0 +1,871 @@
+{
+    "id": "f1af466b-e60f-4519-8618-8edf28b197ed",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoungeScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "a4b1c256-e367-410b-b884-0fa7badab759",
+            "label": "lounge_dance_floor0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor0001.png"
+            },
+            "x": 819,
+            "y": 952,
+            "scaleX": 0.6028137299756102,
+            "scaleY": 0.5039178802983882
+        },
+        {
+            "type": "Sprite",
+            "id": "b681b8c6-2daf-40ec-98a2-8deeb2dc5760",
+            "label": "lounge_dance_floor_fourth_penguin0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor_fourth_penguin0001.png"
+            },
+            "x": 744,
+            "y": 766
+        },
+        {
+            "type": "Sprite",
+            "id": "9cc1b4af-43d8-441b-a6a1-fbb5d7b20112",
+            "label": "lounge_dance_floor_first_penguin0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor_first_penguin0001.png"
+            },
+            "x": 689,
+            "y": 781
+        },
+        {
+            "type": "Sprite",
+            "id": "330ed7df-2843-462c-94be-08ac5697e125",
+            "label": "lounge_dance_floor_second_penguin0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor_second_penguin0001.png"
+            },
+            "x": 708,
+            "y": 837
+        },
+        {
+            "type": "Sprite",
+            "id": "913c3b94-b403-4f58-b957-fc14403d654f",
+            "label": "lounge_dance_floor_fourth_penguin0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor_fourth_penguin0001.png"
+            },
+            "x": 789,
+            "y": 801
+        },
+        {
+            "type": "Sprite",
+            "id": "44a31819-4eb7-4a44-b876-1808c4de190d",
+            "label": "lounge_dance_floor_sixth_penguin0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor_sixth_penguin0001.png"
+            },
+            "x": 830,
+            "y": 836
+        },
+        {
+            "type": "Sprite",
+            "id": "3bbb271b-c9b9-4318-aa22-4efce063beeb",
+            "label": "lounge_dance_floor_fifth_top_penguin0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_dance_floor_fifth_top_penguin0001.png"
+            },
+            "x": 836,
+            "y": 779
+        },
+        {
+            "type": "Image",
+            "id": "71dac3f9-2737-4fdf-9b18-a72d830950e8",
+            "label": "lounge_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_main_background.png"
+            },
+            "x": -10,
+            "y": -10,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "b55043f3-497a-48b3-93a8-8a1266c827cb",
+            "label": "lounge_left_table_top_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_top_chair.png"
+            },
+            "x": 348,
+            "y": 703
+        },
+        {
+            "type": "Image",
+            "id": "e0f8f046-cf44-4023-a813-2953cc6a82de",
+            "label": "lounge_left_table_left_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_left_chair.png"
+            },
+            "x": 169,
+            "y": 767
+        },
+        {
+            "type": "Image",
+            "id": "4648f93a-cfb5-45b9-822c-a5a420dc1150",
+            "label": "lounge_left_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table.png"
+            },
+            "x": 284,
+            "y": 785
+        },
+        {
+            "type": "Sprite",
+            "id": "f287efae-ee63-4005-933c-f3e9670063e4",
+            "label": "lounge_bits_bolts_not_hovered0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolts_not_hovered0001.png"
+            },
+            "x": 250,
+            "y": 392
+        },
+        {
+            "type": "Image",
+            "id": "e6010536-4003-4e0d-82a0-76b4ebff31cd",
+            "label": "lounge_bits_bolt_hovered_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolt_hovered.png"
+            },
+            "x": 250,
+            "y": 392,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "89f4d878-29cf-4c50-98d2-a59fd3edc2c8",
+            "label": "lounge_red_machine_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_red_machine.png"
+            },
+            "x": 378,
+            "y": 302
+        },
+        {
+            "type": "Image",
+            "id": "33e2ae02-2a6a-4e70-bf30-fcad574a40e4",
+            "label": "lounge_bits_bolts_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolts.png"
+            },
+            "x": 246,
+            "y": 406
+        },
+        {
+            "type": "Image",
+            "id": "e18e3806-bc30-4c79-b6c9-df944100e47e",
+            "label": "lounge_drink_machine0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_drink_machine0001.png"
+            },
+            "x": 112,
+            "y": 538
+        },
+        {
+            "type": "Image",
+            "id": "edfba4e8-0eb2-4fae-b1a1-2e4d6c082ff2",
+            "label": "lounge_trash_can_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_trash_can.png"
+            },
+            "x": 57,
+            "y": 661
+        },
+        {
+            "type": "Image",
+            "id": "7fcd2955-dc34-44c5-805a-3394f717acce",
+            "label": "lounge_bits_bolts_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolts_seat.png"
+            },
+            "x": 322,
+            "y": 518
+        },
+        {
+            "type": "Image",
+            "id": "767872e5-0b29-4690-8614-d995bdabce93",
+            "label": "lounge_hit_the_target_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_railing.png"
+            },
+            "x": 781,
+            "y": 429
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "18a2a85b-dd5c-424b-9247-f3b6e4f573cb",
+            "label": "lounge_exit_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_exit_trigger.png"
+            },
+            "x": 1434,
+            "y": 745,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 225,
+                "height": 284
+            }
+        },
+        {
+            "type": "Image",
+            "id": "3d0666d6-d5ab-4669-b56a-2d3788ed1d64",
+            "label": "lounge_exit_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_exit_railing.png"
+            },
+            "x": 1414,
+            "y": 728
+        },
+        {
+            "type": "Image",
+            "id": "0e60752f-66d5-4046-bc3f-26f1e6851b4e",
+            "label": "lounge_hit_the_target_top_board_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_board_background.png"
+            },
+            "x": 781,
+            "y": 75
+        },
+        {
+            "type": "Sprite",
+            "id": "e4beeb81-340f-412c-a7f0-667b6aaa1029",
+            "label": "lounge_hit_the_target_top_left_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_left_left0001.png"
+            },
+            "x": 601,
+            "y": 123
+        },
+        {
+            "type": "Sprite",
+            "id": "a0cfa3d3-96fb-4f75-bd48-7747dec27a1f",
+            "label": "lounge_hit_the_target_top_right_left0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_right_left0001.png"
+            },
+            "x": 929,
+            "y": 123
+        },
+        {
+            "type": "Sprite",
+            "id": "97fe9f6c-fce0-4f51-b351-ace23a72c3f3",
+            "label": "lounge_hit_the_target_top_left_right0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_left_right0001.png"
+            },
+            "x": 624,
+            "y": 123
+        },
+        {
+            "type": "Image",
+            "id": "68702ac2-957a-4c72-a7ab-b194a68f5dda",
+            "label": "lounge_hit_the_target_top_board_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_board.png"
+            },
+            "x": 777,
+            "y": 75
+        },
+        {
+            "type": "Image",
+            "id": "d628f4de-b791-4ced-8c6d-9d71d1542e0c",
+            "label": "lounge_hit_the_target_top_board_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_board_text0001.png"
+            },
+            "x": 782,
+            "y": 76
+        },
+        {
+            "type": "Image",
+            "id": "d08bad30-e5a3-464f-8de6-58398dc4f61a",
+            "label": "lounge_roof_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_roof_lights.png"
+            },
+            "x": 478,
+            "y": 46
+        },
+        {
+            "type": "Image",
+            "id": "cee430c6-f23e-442c-b5a3-59cf04723089",
+            "label": "lounge_roof_lights_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_roof_lights.png"
+            },
+            "x": 1075,
+            "y": 46,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "24184513-2301-4f3d-9545-ba1d11ba3ca5",
+            "label": "lounge_top_right_speaker_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_top_right_speaker_box.png"
+            },
+            "x": 1255,
+            "y": 73
+        },
+        {
+            "type": "Sprite",
+            "id": "a4f0e5dc-f6bf-451b-9532-7ac259739ee9",
+            "label": "lounge_top_right_speaker_top_music_thing0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_top_right_speaker_top_music_thing0001.png"
+            },
+            "x": 1232,
+            "y": 66
+        },
+        {
+            "type": "Sprite",
+            "id": "0c7f5c87-4ac8-4200-8eb4-32b21426661e",
+            "label": "lounge_top_right_speaker_bottom_music_thing0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_top_right_speaker_bottom_music_thing0001.png"
+            },
+            "x": 1235,
+            "y": 111
+        },
+        {
+            "type": "Image",
+            "id": "8a0712f0-2163-46ab-ad5f-9876267c1a03",
+            "label": "lounge_top_left_speaker_box_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_top_right_speaker_box.png"
+            },
+            "x": 300,
+            "y": 73,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "379942e3-3ed1-46b1-b7b8-a2a035bf144a",
+            "label": "lounge_top_left_speaker_top_music_thing0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_top_right_speaker_top_music_thing0001.png"
+            },
+            "x": 323,
+            "y": 60,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "f4874656-2711-4369-af47-5ef0935052fe",
+            "label": "lounge_thin_ice_not_hovered0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_thin_ice_not_hovered0001.png"
+            },
+            "x": 1185,
+            "y": 274,
+            "scaleX": 0.9875712855344743,
+            "scaleY": 1.1389826113132286,
+            "angle": 20
+        },
+        {
+            "type": "Image",
+            "id": "cc4a4411-1275-40f9-8bef-fffd01e97e80",
+            "label": "lounge_thin_ice_hovered_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_thin_ice_hovered.png"
+            },
+            "x": 1185,
+            "y": 274,
+            "scaleX": 0.9875712855344743,
+            "scaleY": 1.1389826113132286,
+            "angle": 20,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "4beebf78-04f4-4a24-9cf2-287bbfd0e8b2",
+            "label": "lounge_top_left_speaker_bottom_music_thing0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_top_right_speaker_bottom_music_thing0001.png"
+            },
+            "x": 320,
+            "y": 106,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "5ba8a8f3-8bac-4b55-9468-0bc6f863e4ae",
+            "label": "lounge_thin_ice_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_thin_ice.png"
+            },
+            "x": 1186,
+            "y": 300
+        },
+        {
+            "type": "Image",
+            "id": "5719bbd4-2727-42d3-8dd0-e0f61d3ae678",
+            "label": "lounge_thin_ice_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_thin_ice_seat.png"
+            },
+            "x": 1110,
+            "y": 409
+        },
+        {
+            "type": "Sprite",
+            "id": "73afca2a-e06b-469f-83f3-5e283ce4520c",
+            "label": "lounge_astro_barrier_not_hovered0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_astro_barrier_not_hovered0001.png"
+            },
+            "x": 1259,
+            "y": 368,
+            "scaleX": 1.0232004594384525,
+            "scaleY": 0.7834881484926217
+        },
+        {
+            "type": "Image",
+            "id": "1b7e51a6-289e-4fba-87bb-e6502ba47d7f",
+            "label": "lounge_astro_barrier_hovered_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_astro_barrier_hovered.png"
+            },
+            "x": 1259,
+            "y": 368,
+            "scaleX": 1.0232004594384525,
+            "scaleY": 0.7834881484926217,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "58a5e972-b0f1-4625-bdfa-4a90f3ea5683",
+            "label": "lounge_astro_barrier_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_astro_barrier.png"
+            },
+            "x": 1266,
+            "y": 397
+        },
+        {
+            "type": "Image",
+            "id": "1816ae02-401f-4a23-a000-be808da5e6d2",
+            "label": "lounge_astro_barrier_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_astro_barrier_seat.png"
+            },
+            "x": 1194,
+            "y": 493
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4479bc27-f1b9-4d42-8ca8-3c87d090bae1",
+            "label": "lounge_thin_ice_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_thin_ice_trigger.png"
+            },
+            "x": 1130,
+            "y": 351,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 142,
+                "height": 133
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2b210dc5-ddc6-4281-86aa-7d26838d5639",
+            "label": "lounge_astro_barrier_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_astro_barrier_trigger.png"
+            },
+            "x": 1235,
+            "y": 430,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 152,
+                "height": 147
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "60c0f247-9176-41df-ad88-0f969caf541b",
+            "label": "lounge_bits_bolt_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolt_trigger.png"
+            },
+            "x": 286,
+            "y": 441,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 152,
+                "height": 154
+            }
+        },
+        {
+            "type": "Sprite",
+            "id": "8b12eb90-d04a-486e-aaf8-1256354b3768",
+            "label": "lounge_hit_the_target_top_left_middle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_left_middle0001.png"
+            },
+            "x": 614,
+            "y": 123
+        },
+        {
+            "type": "Sprite",
+            "id": "851c500f-f167-4375-a74e-08be8d319b20",
+            "label": "lounge_hit_the_target_top_right_right0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_right_right0001.png"
+            },
+            "x": 952,
+            "y": 123
+        },
+        {
+            "type": "Sprite",
+            "id": "d332d6a5-6f0c-476f-80e1-0940518087ab",
+            "label": "lounge_hit_the_target_top_right_middle0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_hit_the_target_top_right_middle0001.png"
+            },
+            "x": 940,
+            "y": 123
+        },
+        {
+            "type": "Image",
+            "id": "ef7701db-8830-4b18-8364-e44207244464",
+            "label": "lounge_bits_bolt_text_center_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolt_text_center.png"
+            },
+            "x": 287,
+            "y": 327
+        },
+        {
+            "type": "Image",
+            "id": "909af9ac-a970-43e9-87cd-2f3f781c09a6",
+            "label": "lounge_bits_bolt_text_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_bits_bolt_text_left_side.png"
+            },
+            "x": 189,
+            "y": 330
+        },
+        {
+            "type": "Image",
+            "id": "5d414b91-bec5-45fc-9737-be36b2b68306",
+            "label": "lounge_thin_ice_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_thin_ice_text0001.png"
+            },
+            "x": 1156,
+            "y": 216
+        },
+        {
+            "type": "Image",
+            "id": "67ea556d-83ca-4c49-9b30-a3096ef72874",
+            "label": "lounge_astro_barrier_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_astro_barrier_text.png"
+            },
+            "x": 1264,
+            "y": 312
+        },
+        {
+            "type": "Image",
+            "id": "d7c4a8cd-5784-4db5-80ea-bcb3e1e94a1b",
+            "label": "lounge_left_table_left_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_left_chair.png"
+            },
+            "x": 1365,
+            "y": 772,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "194c0154-bf5f-4274-bd4a-5944505943c4",
+            "label": "lounge_left_table_top_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_top_chair.png"
+            },
+            "x": 1197,
+            "y": 717,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "cba4399d-20dc-44cf-89f9-0f5af1970999",
+            "label": "lounge_right_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_right_table.png"
+            },
+            "x": 1261,
+            "y": 791
+        },
+        {
+            "type": "Image",
+            "id": "1e360b3d-7b37-40c0-8c6b-794a6ad9fdfa",
+            "label": "lounge_left_table_bottom_chair_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_bottom_chair_seat.png"
+            },
+            "x": 104,
+            "y": 509,
+            "scaleX": 1.0571382854883349,
+            "scaleY": 0.9160522133006443
+        },
+        {
+            "type": "Image",
+            "id": "a4471ae7-4e6f-491e-aae3-db8d2de55b6a",
+            "label": "lounge_left_table_bottom_chair_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_bottom_chair_stand.png"
+            },
+            "x": 159,
+            "y": 902
+        },
+        {
+            "type": "Image",
+            "id": "9bacc735-0c4f-4f93-b072-702aa55e8de3",
+            "label": "lounge_left_table_right_chair_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_right_chair_seat.png"
+            },
+            "x": 212,
+            "y": 452
+        },
+        {
+            "type": "Image",
+            "id": "d3cd8caa-bb21-4b9d-b02f-069d151f027b",
+            "label": "lounge_left_table_right_chair_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_left_table_right_chair_stand.png"
+            },
+            "x": 417,
+            "y": 850
+        },
+        {
+            "type": "Image",
+            "id": "ffc3552c-9ff4-4d42-b7a3-75b1f5f12585",
+            "label": "lounge_right_table_left_chair_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_right_table_left_chair_seat.png"
+            },
+            "x": 609,
+            "y": 462
+        },
+        {
+            "type": "Image",
+            "id": "f6188356-5165-4c62-8ce6-055ef53e619c",
+            "label": "lounge_right_table_left_chair_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_right_table_left_chair_stand.png"
+            },
+            "x": 1118,
+            "y": 863
+        },
+        {
+            "type": "Image",
+            "id": "d1834422-45b4-40af-b6ac-f92efbfa748f",
+            "label": "lounge_right_table_bottom_chair_seat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_right_table_bottom_chair_seat.png"
+            },
+            "x": 715,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "c82e244e-1b91-4da7-8949-33ee0a54aae0",
+            "label": "lounge_right_table_bottom_chair_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge",
+                "frame": "lounge_right_table_bottom_chair_stand.png"
+            },
+            "x": 1379,
+            "y": 900
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ac29649f-0d45-4a3e-aab3-100b9f51084e",
+            "label": "lounge_walking_trigger_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "lounge_walk_trigger"
+            },
+            "x": 762,
+            "y": 382,
+            "scaleX": 1.0214264858570925,
+            "scaleY": 1.4591998114303781,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1523,
+                "height": 806
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

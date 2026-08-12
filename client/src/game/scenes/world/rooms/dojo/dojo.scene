@@ -1,0 +1,605 @@
+{
+    "id": "fa881b38-4379-42be-94dd-bede1c82e3b8",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "DojoScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "21636200-e0a7-4104-8a30-d8f0611fb592",
+            "label": "dojo_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_main.png"
+            },
+            "x": -72,
+            "y": -9,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9258785913127788,
+            "scaleY": 0.9425697138418705
+        },
+        {
+            "type": "Image",
+            "id": "50ad3b63-687d-4d7b-8e13-cde9138f5f6c",
+            "label": "dojo_fire_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_fire_door0002.png"
+            },
+            "x": 237,
+            "y": 377,
+            "scaleX": 1.0226404605407655,
+            "scaleY": 0.9374154208385841,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ded2461b-7f3b-4a01-97c9-cbb2fd1cf8dd",
+            "label": "dojo_water_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_water_door0001.png"
+            },
+            "x": 760,
+            "y": 263,
+            "scaleX": 0.9198453183569738,
+            "scaleY": 0.9288782538511625
+        },
+        {
+            "type": "Image",
+            "id": "1fd6783a-e190-4647-af36-2d68a7baeba0",
+            "label": "dojo_water_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_water_door0002.png"
+            },
+            "x": 758,
+            "y": 265,
+            "scaleX": 0.9198453183569738,
+            "scaleY": 0.9288782538511625,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "b0919422-9abe-42c8-9374-e7d93979262e",
+            "label": "dojo_snow_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_snow_door0001.png"
+            },
+            "x": 1286,
+            "y": 378,
+            "scaleX": 0.8575421955237168,
+            "scaleY": 0.910258257442168
+        },
+        {
+            "type": "Image",
+            "id": "fdc0d556-0515-4db5-8036-37702c546eb2",
+            "label": "dojo_snow_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_snow_door0002.png"
+            },
+            "x": 1286,
+            "y": 378,
+            "scaleX": 0.8575421955237168,
+            "scaleY": 0.910258257442168,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "140eef00-8038-401c-a8b8-f8fc480b4979",
+            "label": "dojo_fire_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_fire_door0001.png"
+            },
+            "x": 237,
+            "y": 377,
+            "scaleX": 1.0226404605407655,
+            "scaleY": 0.9374154208385841
+        },
+        {
+            "type": "Image",
+            "id": "eda36c41-530b-48b9-8216-a3b55a603673",
+            "label": "dojo_stands_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_stands.png"
+            },
+            "x": 758,
+            "y": 355,
+            "scaleX": 0.9301064771279534,
+            "scaleY": 0.9653809093048874
+        },
+        {
+            "type": "Image",
+            "id": "692a1450-cf77-4870-9118-95cd6efc6c26",
+            "label": "dojo_red_stand_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_red_stand_left.png"
+            },
+            "x": 36,
+            "y": 488,
+            "scaleX": 0.941294622374361,
+            "scaleY": 0.94823644956801
+        },
+        {
+            "type": "Image",
+            "id": "d416c2ad-230e-48c2-a272-78a420699a0e",
+            "label": "dojo_red_stand_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_red_stand_right.png"
+            },
+            "x": 1482,
+            "y": 480,
+            "scaleX": 0.941294622374361,
+            "scaleY": 0.94823644956801
+        },
+        {
+            "type": "Image",
+            "id": "b378aa5d-cf9f-46f7-92d9-486c739daac7",
+            "label": "dojo_card_jistu_mat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat.png"
+            },
+            "x": 445,
+            "y": 744,
+            "scaleX": 0.991050819804079,
+            "scaleY": 1.1044313703151154
+        },
+        {
+            "type": "Image",
+            "id": "117b6f08-8d00-470a-aff5-db7257621843",
+            "label": "dojo_card_jistu_mat_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat.png"
+            },
+            "x": 473,
+            "y": 658,
+            "scaleX": 0.9107668487525054,
+            "scaleY": 1.0131833622557633
+        },
+        {
+            "type": "Image",
+            "id": "5d11b347-76c4-49b8-935c-a2ee6d7f2717",
+            "label": "dojo_sensi_sitting_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_sensi_sitting_stand.png"
+            },
+            "x": 768,
+            "y": 555,
+            "scaleX": 0.8890624716054368,
+            "scaleY": 0.8580638468666424
+        },
+        {
+            "type": "Image",
+            "id": "17e51cb9-c1ba-493f-918c-6e88774623af",
+            "label": "dojo_sensi_seaat_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_sensi_seaat.png"
+            },
+            "x": 767,
+            "y": 542,
+            "scaleX": 0.8396077268814246,
+            "scaleY": 1.0264297641900277
+        },
+        {
+            "type": "Image",
+            "id": "76085559-a0b0-4366-ad52-a82fc70d45d0",
+            "label": "dojo_plant_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_plant.png"
+            },
+            "x": 916,
+            "y": 538,
+            "scaleX": 0.8467790092439169,
+            "scaleY": 0.7252454103444896
+        },
+        {
+            "type": "Image",
+            "id": "8e56f939-c98d-4de4-b673-add5b1a8c469",
+            "label": "dojo_card_jistu_mat0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat0002.png"
+            },
+            "x": 445,
+            "y": 744,
+            "scaleX": 0.991050819804079,
+            "scaleY": 1.1044313703151154,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "1823fdf2-3d12-444b-a068-605dfc3aebd5",
+            "label": "dojo_card_jistu_mat0002_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat0002.png"
+            },
+            "x": 473,
+            "y": 658,
+            "scaleX": 0.9107668487525054,
+            "scaleY": 1.0131833622557633,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2be2e604-f1ae-4992-9537-248313e287a1",
+            "label": "dojo_fire2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_fire2.png"
+            },
+            "x": 693,
+            "y": 714,
+            "scaleX": 0.5047861035520259,
+            "scaleY": 0.5611500956455349,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "93f3d798-01b8-4508-bb9a-a83dddc8d9af",
+            "label": "dojo_snow0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_snow0002.png"
+            },
+            "x": 812,
+            "y": 727,
+            "scaleX": 0.9263457162438267,
+            "scaleY": 0.9108414942678578
+        },
+        {
+            "type": "Image",
+            "id": "a2c56e49-240c-4898-8033-063e84eabfc9",
+            "label": "dojo_water2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_water2.png"
+            },
+            "x": 778,
+            "y": 667,
+            "scaleX": 0.8909637320693016,
+            "scaleY": 0.9264272848697707,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6714cfa0-143a-4c08-bea6-11ec35f02efd",
+            "label": "dojo_stand_back_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_stand_back.png"
+            },
+            "x": 1036,
+            "y": 280,
+            "scaleX": 1.006207847952001,
+            "scaleY": 0.9229459026487495,
+            "angle": 7
+        },
+        {
+            "type": "Image",
+            "id": "234df686-f7a3-43ba-9a9b-da21499b104f",
+            "label": "dojo_other_note0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_other_note0001.png"
+            },
+            "x": 1032,
+            "y": 260,
+            "scaleX": 0.9347145999246236,
+            "scaleY": 0.9137787026619771,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "ebe393f4-99ca-420e-998e-3018e0ebdfbf",
+            "label": "dojo_other_note0003_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_other_note0003.png"
+            },
+            "x": 1032,
+            "y": 260,
+            "scaleX": 0.9347145999246236,
+            "scaleY": 0.9137787026619771,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a22f50f1-7398-4c03-9f14-fec7b094efc9",
+            "label": "dojo_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_stand.png"
+            },
+            "x": 621,
+            "y": 556,
+            "scaleX": 0.9535791815031943,
+            "scaleY": 1.0069968541979264
+        },
+        {
+            "type": "Sprite",
+            "id": "6b6ab177-2df4-42cc-8a9e-50c785376446",
+            "label": "dojo_boil_standing0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_boil_standing0001.png"
+            },
+            "x": 622,
+            "y": 494,
+            "scaleX": 0.8401448104072681
+        },
+        {
+            "type": "Image",
+            "id": "6c4fced8-72fe-464f-831f-367590fc6b70",
+            "label": "dojo_boil_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_boil_stand.png"
+            },
+            "x": 622,
+            "y": 561,
+            "scaleX": 0.9512193470689334,
+            "scaleY": 1.0272969606329816
+        },
+        {
+            "type": "Image",
+            "id": "3b047946-1122-41b2-ad8d-6bd64ed26270",
+            "label": "dojo_sensi_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_sensi_stand.png"
+            },
+            "x": 767,
+            "y": 493,
+            "scaleX": 0.9184984150112756,
+            "scaleY": 0.8849974970756134
+        },
+        {
+            "type": "Image",
+            "id": "9c09dcf2-a960-4375-b0d9-6dd22c0a19c2",
+            "label": "dojo_card_jistu_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_text.png"
+            },
+            "x": 766,
+            "y": 443,
+            "scaleX": 0.8003973811371831,
+            "scaleY": 0.6720901336576323
+        },
+        {
+            "type": "Image",
+            "id": "b3e31bfc-ae50-48e3-94a1-7cc05fa79da1",
+            "label": "dojo_sensi_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_sensi.png"
+            },
+            "x": 767,
+            "y": 520,
+            "scaleX": 0.9506583358150595,
+            "scaleY": 0.8779450806897138
+        },
+        {
+            "type": "Image",
+            "id": "21963c4d-5422-430f-ad4a-b395bad9c55f",
+            "label": "dojo_stand_back_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_stand_back.png"
+            },
+            "x": 462,
+            "y": 280,
+            "scaleX": 1.006207847952001,
+            "scaleY": 0.9229459026487495
+        },
+        {
+            "type": "Image",
+            "id": "22af66e9-f7b1-43e9-9dad-f2924fd26a63",
+            "label": "dojo_stand_belts_note0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_stand_belts_note0001.png"
+            },
+            "x": 483,
+            "y": 260,
+            "scaleX": 0.9347145999246236,
+            "scaleY": 0.9137787026619771
+        },
+        {
+            "type": "Image",
+            "id": "2d3dbff9-d5de-434b-bcbd-5f83b8508e3b",
+            "label": "dojo_stand_belts_note0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_stand_belts_note0002.png"
+            },
+            "x": 483,
+            "y": 260,
+            "scaleX": 0.9347145999246236,
+            "scaleY": 0.9137787026619771,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e8e5108d-8654-440b-b59a-220d5e6b5e0b",
+            "label": "dojo_card_jistu_mat_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat.png"
+            },
+            "x": 1043,
+            "y": 660,
+            "scaleX": 0.9107668487525054,
+            "scaleY": 1.0131833622557633,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "6b9e92db-64bd-4954-88f8-32447b64cb41",
+            "label": "dojo_card_jistu_mat_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat.png"
+            },
+            "x": 1072,
+            "y": 742,
+            "scaleX": 0.9538645223881346,
+            "scaleY": 1.0131833622557633,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "a0eac657-440f-451a-991c-c994921a63b9",
+            "label": "dojo_card_jistu_mat0002_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat0002.png"
+            },
+            "x": 1045,
+            "y": 660,
+            "scaleX": 0.9107668487525054,
+            "scaleY": 1.0131833622557633,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "316e7315-aa1a-4d22-9695-1e66bdea8df4",
+            "label": "dojo_card_jistu_mat0002_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojo_card_jistu_mat0002.png"
+            },
+            "x": 1073,
+            "y": 742,
+            "scaleX": 0.919090312594477,
+            "scaleY": 1.0131833622557633,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cdc505d1-d7cb-4e20-94ee-e996d8a03580",
+            "label": "dojo_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "dojo_walking_trigger"
+            },
+            "x": 772,
+            "y": 480,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1600,
+                "height": 1040
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "55d7de70-c847-45bc-a18b-1b9d487783ae",
+            "label": "dojo_snow_dojo_trigger",
+            "scope": "METHOD",
+            "x": 1288,
+            "y": 456,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.706525035978595,
+            "scaleY": 1.3548260611700154,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "4bfec635-98d6-4f67-af32-8efe9005e7a5",
+            "label": "dojo_water_dojo_trigger",
+            "scope": "METHOD",
+            "x": 765,
+            "y": 304,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.2440996405849758,
+            "scaleY": 0.5882977475764765,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "f0881e70-6235-4852-94b8-79549f2618e7",
+            "label": "dojo_dojo_courtyard_trigger",
+            "scope": "METHOD",
+            "x": 758,
+            "y": 879,
+            "width": 128,
+            "height": 128,
+            "scaleX": 4.388247161287299,
+            "scaleY": 0.8510641324561674,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

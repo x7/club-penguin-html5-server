@@ -1,7 +1,7 @@
 {
 	"textures": [
 		{
-			"image": "public/assets/start/start-0.png",
+			"image": "assets/start/start-0.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 1942,

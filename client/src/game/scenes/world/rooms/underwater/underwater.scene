@@ -1,0 +1,209 @@
+{
+    "id": "6d390148-7f8c-44e0-b5e5-ff88219279d2",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "UnderWaterScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "1ca39b2f-4a46-4fde-8310-2d1323282be6",
+            "label": "underwater_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_background.png"
+            },
+            "x": 774,
+            "y": 90,
+            "scaleX": 1.1846812866425471
+        },
+        {
+            "type": "Image",
+            "id": "149a17cf-e4fa-432a-bd25-2addfdd47122",
+            "label": "underwater_main_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_main.png"
+            },
+            "x": -15,
+            "y": -5,
+            "originX": 0,
+            "originY": 0,
+            "scaleY": 1.0842976459461426
+        },
+        {
+            "type": "Image",
+            "id": "6bcb5550-d5da-4f9d-ba6d-68e66a94431f",
+            "label": "underwater_part_one_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_part_one.png"
+            },
+            "x": 1301,
+            "y": 594,
+            "scaleX": 1.028760009714981,
+            "scaleY": 1.0122955304314076
+        },
+        {
+            "type": "Image",
+            "id": "e7361f62-58ed-4958-90b2-890e9b12fa9e",
+            "label": "underwater_part_two_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_part_two.png"
+            },
+            "x": 1435,
+            "y": 593,
+            "scaleX": 1.1985520363064837,
+            "scaleY": 1.1767734337114932
+        },
+        {
+            "type": "Image",
+            "id": "a6f97c43-1d3e-4e7a-a79b-3b753fac0469",
+            "label": "underwater_clam_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_clam.png"
+            },
+            "x": 635,
+            "y": 765,
+            "scaleX": 0.9515163713895719,
+            "scaleY": 0.9096901654685811
+        },
+        {
+            "type": "Image",
+            "id": "ff45a784-8e1c-49de-ad22-13fcddf0b5df",
+            "label": "underwater_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_bottom.png"
+            },
+            "x": 719,
+            "y": 453,
+            "scaleX": 1.0159250541673708,
+            "scaleY": 0.999086513007565
+        },
+        {
+            "type": "Image",
+            "id": "bd115d0b-f1b8-4135-9c91-2e1054b09a48",
+            "label": "underwater_bottom_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_bottom_left_side.png"
+            },
+            "x": 165,
+            "y": 551,
+            "scaleX": 1.243965655910139,
+            "scaleY": 1.222918477067548
+        },
+        {
+            "type": "Image",
+            "id": "dc163c56-9d4b-4fae-b694-c785c69069e6",
+            "label": "underwater_left_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_left_side.png"
+            },
+            "x": 401,
+            "y": 548,
+            "scaleX": 1.078849191444283,
+            "scaleY": 0.8803468490862291
+        },
+        {
+            "type": "Image",
+            "id": "8b23ccb9-e239-430e-94b3-bdf82abf9315",
+            "label": "underwater_wheel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_wheel.png"
+            },
+            "x": 307,
+            "y": 529,
+            "scaleX": 0.8534497015134862,
+            "scaleY": 0.8461806348486637,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "07ed7ac4-45c6-44cd-8a84-c537767626e2",
+            "label": "underwater_see_weed_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_see_weed.png"
+            },
+            "x": 93,
+            "y": 643,
+            "scaleX": 1.20588730120474,
+            "scaleY": 1.375422161351825
+        },
+        {
+            "type": "Image",
+            "id": "88a2fe78-650b-4f96-8000-816a55ca085a",
+            "label": "underwater_tower_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_tower.png"
+            },
+            "x": 1146,
+            "y": 383,
+            "scaleX": 0.9569899407974465,
+            "scaleY": 0.9458374915757124
+        },
+        {
+            "type": "Image",
+            "id": "120bc729-36a6-4ab9-9269-2e5be624bd4a",
+            "label": "underwater_sea_weed_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater",
+                "frame": "underwater_sea_weed.png"
+            },
+            "x": 1483,
+            "y": 399,
+            "scaleX": 1.1658561707958939,
+            "scaleY": 1.1781489240984027
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "aa4ed689-eae7-4e43-8eca-f74d529b01e2",
+            "label": "underwater_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "underwater_walking_trigger"
+            },
+            "x": 757,
+            "y": 177,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 463
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,323 @@
+{
+    "id": "1fe803e3-951d-4d69-bc58-6e58e984a14a",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "BeaconScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "afd82514-1e20-4918-8317-2dbc8a331a66",
+            "label": "beacon_sky_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_sky.png"
+            },
+            "x": 745,
+            "y": 203
+        },
+        {
+            "type": "Image",
+            "id": "af18ae31-4f5a-477f-afd6-8fbc507e4fb2",
+            "label": "beacon_water_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_water.png"
+            },
+            "x": 758,
+            "y": 663,
+            "scaleY": 1.0833942904947986
+        },
+        {
+            "type": "Image",
+            "id": "09af631b-1939-43ac-944f-8783d4488290",
+            "label": "beacon_floor_light_off_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_floor_light_off.png"
+            },
+            "x": 691,
+            "y": 605,
+            "scaleX": 0.9856919461627679,
+            "scaleY": 1.040736296472284
+        },
+        {
+            "type": "Image",
+            "id": "437d0de9-ef69-4442-ac6d-21e2b06d3b77",
+            "label": "beacon_floor_light_on0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_floor_light_on0001.png"
+            },
+            "x": 691,
+            "y": 605,
+            "scaleX": 0.9856919461627679,
+            "scaleY": 1.040736296472284
+        },
+        {
+            "type": "Image",
+            "id": "7a9cf0d1-b61d-4d96-a819-3ab52c4a54aa",
+            "label": "beacon_under_layer_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_under_layer.png"
+            },
+            "x": 775,
+            "y": 590,
+            "scaleX": 0.9932129452733911,
+            "scaleY": 1.0558648949523652
+        },
+        {
+            "type": "Image",
+            "id": "86403ad4-710c-4f35-a27b-51b804207874",
+            "label": "beacon_telescope_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_telescope.png"
+            },
+            "x": 306,
+            "y": 237,
+            "scaleX": 1.0395706853092044,
+            "scaleY": 0.9459036024329147
+        },
+        {
+            "type": "Image",
+            "id": "28bad748-920b-4b46-8b7c-024bd9bf24cd",
+            "label": "beacon_launch_pad_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_launch_pad.png"
+            },
+            "x": 1329,
+            "y": 552,
+            "scaleX": 0.9941624795762657,
+            "scaleY": 1.0581677323447876
+        },
+        {
+            "type": "Sprite",
+            "id": "c17ac73f-933c-40b5-86a5-485cc146001d",
+            "label": "beacon_launch_pad_open0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_launch_pad_open0001.png"
+            },
+            "x": 1329,
+            "y": 533,
+            "scaleX": 0.9941624795762657,
+            "scaleY": 1.0581677323447876,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bda888ee-6bda-4f61-a6e7-bdeef150537d",
+            "label": "beacon_light_off_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_light_off.png"
+            },
+            "x": 708,
+            "y": 336,
+            "scaleX": 1.0007923866312578,
+            "scaleY": 1.0572257872061104,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cd7efaf8-afc0-4352-85a2-eb5c6e6a5295",
+            "label": "beacon_light_ono_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_light_ono.png"
+            },
+            "x": 708,
+            "y": 336,
+            "scaleX": 1.0007923866312578,
+            "scaleY": 1.0572257872061104
+        },
+        {
+            "type": "Sprite",
+            "id": "9d245bc7-c02e-45b4-9156-144d579adbbb",
+            "label": "beacon_toggle_switch0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_toggle_switch0001.png"
+            },
+            "x": 489,
+            "y": 446,
+            "scaleX": 1.051047609621347,
+            "scaleY": 0.9936474224138665
+        },
+        {
+            "type": "Image",
+            "id": "c1054a51-293a-42bd-b0e6-dc63ae9a1eec",
+            "label": "beacon_inside_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_inside.png"
+            },
+            "x": 708,
+            "y": 401,
+            "scaleX": 0.9677033492024847,
+            "scaleY": 1.02546627617923
+        },
+        {
+            "type": "Image",
+            "id": "1cf8d740-bc1d-4489-930a-20f83d8c04e7",
+            "label": "beacon_roof_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_roof.png"
+            },
+            "x": 717,
+            "y": 78,
+            "scaleX": 0.9134839825968978,
+            "scaleY": 0.9147310901174381
+        },
+        {
+            "type": "Image",
+            "id": "a62ba4f4-f7dc-4f08-b1e7-c1044a432694",
+            "label": "beacon_bottom_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_bottom_railing.png"
+            },
+            "x": 687,
+            "y": 733,
+            "scaleX": 0.9951899562158322,
+            "scaleY": 1.060750289210318
+        },
+        {
+            "type": "Image",
+            "id": "ce67c0e6-f118-4302-878a-830eca03fa28",
+            "label": "beacon_downstairs_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_downstairs.png"
+            },
+            "x": 170,
+            "y": 561,
+            "scaleX": 0.8539222176362102,
+            "scaleY": 0.7111298146392973,
+            "angle": -6
+        },
+        {
+            "type": "Image",
+            "id": "ba2e2e00-6500-4b50-a05c-6dfd87afd730",
+            "label": "beacon_poole_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_poole.png"
+            },
+            "x": 845,
+            "y": 906,
+            "scaleX": 1.4434381140865555,
+            "scaleY": 0.7876176405593813
+        },
+        {
+            "type": "Image",
+            "id": "3e30ffd7-3c4d-462f-b30c-cc0abceb113a",
+            "label": "beacon_downstairs_hovered0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_downstairs_hovered0001.png"
+            },
+            "x": 170,
+            "y": 561,
+            "scaleX": 0.8539222176362102,
+            "scaleY": 0.7111298146392973,
+            "angle": -6,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "39303179-46ad-4e87-b409-df1823c8aea7",
+            "label": "beacon_downstairs_rail_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_downstairs_rail.png"
+            },
+            "x": 206,
+            "y": 531,
+            "scaleX": 1.1133084717904316,
+            "scaleY": 0.8128586148991293,
+            "angle": -5
+        },
+        {
+            "type": "Image",
+            "id": "fd8973e0-0c95-471d-8170-f5165975deee",
+            "label": "beacon_poole_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon",
+                "frame": "beacon_poole.png"
+            },
+            "x": 520,
+            "y": 906,
+            "scaleX": 1.4434381140865555,
+            "scaleY": 0.7876176405593813
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "016bc5be-aa10-4dc8-a111-bd69c73e623c",
+            "label": "beacon_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "beacon_walking_trigger"
+            },
+            "x": 774,
+            "y": 449,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "6c05b234-51cf-4891-8e74-996f240bcb14",
+            "label": "beacon_light_house_trigger",
+            "scope": "METHOD",
+            "x": 169,
+            "y": 567,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.861041044414108,
+            "scaleY": 0.7708025147089017,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

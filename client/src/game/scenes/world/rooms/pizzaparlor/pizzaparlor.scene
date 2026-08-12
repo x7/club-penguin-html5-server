@@ -1,0 +1,708 @@
+{
+    "id": "d4c73399-14ec-4def-b3e0-59fe5eb6ef3b",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PizzaParlorScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7ab98168-1502-42cd-b46b-fb47b3c8624c",
+            "label": "pizza_parlor_roof_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_roof.png"
+            },
+            "x": 895,
+            "y": 477,
+            "scaleX": 1.0508649455013048
+        },
+        {
+            "type": "Image",
+            "id": "1c154171-3101-4b1c-9a12-78be3a2a8905",
+            "label": "pizza_parlor_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_background.png"
+            },
+            "x": -80,
+            "y": -8,
+            "originX": 0,
+            "originY": 0,
+            "scaleY": 1.003426945131218
+        },
+        {
+            "type": "Image",
+            "id": "f5878eb7-5d98-48ec-908d-01f3bca6eee6",
+            "label": "pizza_parlor_pet_puffle_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pet_puffle_background.png"
+            },
+            "x": 1270,
+            "y": 201
+        },
+        {
+            "type": "Image",
+            "id": "02234590-40b1-4122-a2ab-fbba947ba773",
+            "label": "pizza_parlor_plaza_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_plaza_door0001.png"
+            },
+            "x": 858,
+            "y": 186
+        },
+        {
+            "type": "Image",
+            "id": "8b16b8b5-7bd8-42ad-a793-64bfbc8d2063",
+            "label": "pizza_parlor_plaza_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_plaza_door0002.png"
+            },
+            "x": 858,
+            "y": 186,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e0a566e8-cbf2-4d40-9b46-30aeafa35277",
+            "label": "pizza_parlor_window_outside_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_window_outside.png"
+            },
+            "x": 862,
+            "y": 190,
+            "scaleX": 1.006352701741129
+        },
+        {
+            "type": "Image",
+            "id": "7a52b8e5-e827-47e1-b409-ab0ffb74dc18",
+            "label": "pizza_parlor_floor_shadows_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_floor_shadows.png"
+            },
+            "x": 966,
+            "y": 386
+        },
+        {
+            "type": "Image",
+            "id": "ad36156f-f8bc-4358-9972-62de2c8521ad",
+            "label": "pizza_parlor_fire0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_fire0001.png"
+            },
+            "x": 1236,
+            "y": 310
+        },
+        {
+            "type": "Image",
+            "id": "b74a94e3-d3e4-436e-b2b1-6ff7bc4b2985",
+            "label": "pizza_parlor_pet_puffle_oven_dots_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pet_puffle_oven_dots.png"
+            },
+            "x": 1251,
+            "y": 303
+        },
+        {
+            "type": "Sprite",
+            "id": "05c9ff10-eb45-45a1-8eb3-cb0e4faf8145",
+            "label": "pizza_parlor_pizzas0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pizzas0001.png"
+            },
+            "x": 988,
+            "y": -89,
+            "scaleX": 0.9136532129694348,
+            "scaleY": 0.7390490567634971
+        },
+        {
+            "type": "Image",
+            "id": "52e64ffc-8b89-40f1-af83-e61868ac5ff8",
+            "label": "pizza_parlor_puffle_pizza_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_puffle_pizza_1.png"
+            },
+            "x": 1218,
+            "y": 229,
+            "scaleX": 1.0469568926721091
+        },
+        {
+            "type": "Image",
+            "id": "99d67564-6802-4454-9a60-ddf3459c5616",
+            "label": "pizza_parlor_pizza_top_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pizza_top_left.png"
+            },
+            "x": 286,
+            "y": 307
+        },
+        {
+            "type": "Image",
+            "id": "15b4562e-05a4-423d-b205-6a6d0e52eb12",
+            "label": "pizza_parlor_puffle_pizza_tube_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_puffle_pizza_tube.png"
+            },
+            "x": 1354,
+            "y": 365
+        },
+        {
+            "type": "Image",
+            "id": "492a249e-c536-4a35-b683-2594d9a8d4c6",
+            "label": "pizza_parlor_piano_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_piano_floor.png"
+            },
+            "x": 1154,
+            "y": 507,
+            "scaleY": 1.0309757102702333
+        },
+        {
+            "type": "Image",
+            "id": "1c615270-52cd-40e6-ad68-2fad47d34949",
+            "label": "pizza_parlor_microphone_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_microphone.png"
+            },
+            "x": 1410,
+            "y": 552
+        },
+        {
+            "type": "Image",
+            "id": "9b4ab993-7ab1-4e41-bcca-84964a585a2c",
+            "label": "pizza_parlor_puffle_pizza_tube_head0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_puffle_pizza_tube_head0001.png"
+            },
+            "x": 1290,
+            "y": 382,
+            "scaleX": 0.8797201965442583,
+            "scaleY": 0.882190557035069
+        },
+        {
+            "type": "Image",
+            "id": "4a1df074-f2ce-441b-8a94-0eb0fe905012",
+            "label": "pizza_parlor_piano_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_piano.png"
+            },
+            "x": 1455,
+            "y": 252,
+            "scaleX": 1.041418799604859
+        },
+        {
+            "type": "Image",
+            "id": "ba47d382-04f6-43a4-a80b-7798297c7a91",
+            "label": "pizza_parlor_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_stand.png"
+            },
+            "x": 1378,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "0cf5019f-ff2a-41ff-9d0d-e9ca7879103f",
+            "label": "pizza_parlor_kitchen_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_kitchen_text0001.png"
+            },
+            "x": 414,
+            "y": 92
+        },
+        {
+            "type": "Image",
+            "id": "7015fa03-2e36-40fa-8e88-d40c302a2825",
+            "label": "pizza_parlor_windows_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_windows.png"
+            },
+            "x": 660,
+            "y": 340,
+            "scaleX": 1.0074089295169348
+        },
+        {
+            "type": "Image",
+            "id": "242e8a4d-8717-4a44-9e61-607da15d9954",
+            "label": "pizza_parlor_left_stand_trophy_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_left_stand_trophy.png"
+            },
+            "x": 384,
+            "y": 169
+        },
+        {
+            "type": "Image",
+            "id": "aec539c9-f0ee-4e9e-a216-be276c4e3d87",
+            "label": "pizza_parlor_door_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_door_stand.png"
+            },
+            "x": 861,
+            "y": 177
+        },
+        {
+            "type": "Image",
+            "id": "5f42eb94-b1a0-4429-a5f0-38044612abd5",
+            "label": "pizza_parlor_railing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_railing.png"
+            },
+            "x": 1012,
+            "y": 309
+        },
+        {
+            "type": "Image",
+            "id": "202cfab0-d7d4-4559-8661-933d0c5b0f19",
+            "label": "pizza_parlor_top_counter_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_top_counter_top.png"
+            },
+            "x": 458,
+            "y": 473
+        },
+        {
+            "type": "Image",
+            "id": "77ab9a9f-ead6-4454-a26b-cdda6180299e",
+            "label": "pizza_parlor_counter_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_counter_stand.png"
+            },
+            "x": 410,
+            "y": 550
+        },
+        {
+            "type": "Image",
+            "id": "e5bf7dbf-6cb4-4a3d-aa99-5ccf0ded21e7",
+            "label": "pizza_parlor_orange_seats_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_orange_seats.png"
+            },
+            "x": 538,
+            "y": 610
+        },
+        {
+            "type": "Image",
+            "id": "f163938f-2644-4889-bcd7-4c57f5657848",
+            "label": "pizza_parlor_orange_seats_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_orange_seats.png"
+            },
+            "x": 593,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "432ea9dd-8019-40fe-acc2-12e75d79802b",
+            "label": "pizza_parlor_orange_seats_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_orange_seats.png"
+            },
+            "x": 596,
+            "y": 534
+        },
+        {
+            "type": "Image",
+            "id": "3aa8eb58-0628-49f0-a3a5-59011f93f00e",
+            "label": "pizza_parlor_kitchen_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_kitchen_door0001.png"
+            },
+            "x": 425,
+            "y": 218
+        },
+        {
+            "type": "Image",
+            "id": "97c3b61d-a1fd-40d5-aa92-d44ea597edee",
+            "label": "pizza_parlor_door_register_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_door_register.png"
+            },
+            "x": 636,
+            "y": 307
+        },
+        {
+            "type": "Image",
+            "id": "12c36233-a79e-4c5f-862a-37add6b6fbe0",
+            "label": "pizza_parlor_door_register_light_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_door_register_light.png"
+            },
+            "x": 621,
+            "y": 237
+        },
+        {
+            "type": "Image",
+            "id": "c436d2f6-8ae7-41ab-b9ec-5bead40b9367",
+            "label": "pizza_parlor_right_table_top_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_right_table_top_chair.png"
+            },
+            "x": 1126,
+            "y": 483
+        },
+        {
+            "type": "Image",
+            "id": "be4e9cc0-69b9-4f12-af9b-c3161693001b",
+            "label": "pizza_parlor_right_green_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_right_green_table.png"
+            },
+            "x": 1134,
+            "y": 586
+        },
+        {
+            "type": "Image",
+            "id": "cc369571-0184-40e4-9d10-c1cdba213d75",
+            "label": "pizza_parlor_left_table_top_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_left_table_top_chair.png"
+            },
+            "x": 761,
+            "y": 464
+        },
+        {
+            "type": "Image",
+            "id": "9726759d-9d48-426f-bdac-f95540fff582",
+            "label": "pizza_parlor_left_table_top_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_left_table_top_chair.png"
+            },
+            "x": 917,
+            "y": 435,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "87dded61-3155-415a-a083-26601b22dbdf",
+            "label": "pizza_parlor_right_green_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_right_green_table.png"
+            },
+            "x": 858,
+            "y": 525
+        },
+        {
+            "type": "Image",
+            "id": "1d6fc4d8-0aef-4c79-8ee1-077e0d03b50c",
+            "label": "pizza_parlor_right_table_bottom_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_right_table_bottom_chair.png"
+            },
+            "x": 1000,
+            "y": 599
+        },
+        {
+            "type": "Image",
+            "id": "9f9042bd-59d5-417b-b9d7-d07e01cf8674",
+            "label": "pizza_parlor_curtain_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_curtain.png"
+            },
+            "x": 1405,
+            "y": 357,
+            "scaleX": 0.6954156568485844
+        },
+        {
+            "type": "Image",
+            "id": "5bc699cc-e13c-40ce-826d-2ea1cbe6037a",
+            "label": "pizza_parlor_kitchen_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_kitchen_door0002.png"
+            },
+            "x": 425,
+            "y": 218,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a1e2ef4f-5d26-4a72-83ee-6d9db3473998",
+            "label": "pizza_parlor_bottom_seats_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_bottom_seats.png"
+            },
+            "x": 748,
+            "y": 662,
+            "scaleX": 0.9384249455864653
+        },
+        {
+            "type": "Image",
+            "id": "06e31af9-3059-4633-8c5f-237ca08319b2",
+            "label": "pizza_parlor_lights_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_lights.png"
+            },
+            "x": 854,
+            "y": 493,
+            "scaleX": 0.959845847448969
+        },
+        {
+            "type": "Image",
+            "id": "39933803-d9e5-4528-b614-e89f8e564d12",
+            "label": "pizza_parlor_random_thing_left_bottom_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_random_thing_left_bottom.png"
+            },
+            "x": 92,
+            "y": 683,
+            "scaleX": 0.3316261226480809,
+            "scaleY": 0.314564948834163
+        },
+        {
+            "type": "Image",
+            "id": "9723a6e4-5cdd-4e78-b22c-ffeda6951701",
+            "label": "pizza_parlor_random_thing_left_bottom_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_random_thing_left_bottom.png"
+            },
+            "x": 71,
+            "y": 713,
+            "scaleX": 0.3532331129618066,
+            "scaleY": 0.3464299734132277
+        },
+        {
+            "type": "Image",
+            "id": "9366a00b-25ba-4fae-bccc-3c707554ab1e",
+            "label": "pizza_parlor_bread_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_bread.png"
+            },
+            "x": 52,
+            "y": 506,
+            "scaleX": 0.3382113047371918,
+            "scaleY": 0.408019685268197
+        },
+        {
+            "type": "Image",
+            "id": "68ef4541-eb28-45f8-9191-f4a29fbacd6e",
+            "label": "pizza_parlor_milkshake_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_milkshake.png"
+            },
+            "x": 502,
+            "y": 473,
+            "scaleX": 0.39982237352739747,
+            "scaleY": 0.39279210413209253
+        },
+        {
+            "type": "Sprite",
+            "id": "34c71087-368d-400f-aebd-6f77a5fe423b",
+            "label": "pizza_parlor_cash_register0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_cash_register0001.png"
+            },
+            "x": 438,
+            "y": 359,
+            "scaleX": 0.40718716749251826,
+            "scaleY": 0.3873096324765397
+        },
+        {
+            "type": "Image",
+            "id": "055239b4-c98f-49c2-b657-99fc8242352f",
+            "label": "pizza_parlor_pizza_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pizza.png"
+            },
+            "x": 805,
+            "y": 496,
+            "scaleX": 0.4032090108736823,
+            "scaleY": 0.4650115332044268
+        },
+        {
+            "type": "Image",
+            "id": "819a21a2-2a78-42f5-b527-a31c063b52e7",
+            "label": "pizza_parlor_milkshake_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_milkshake.png"
+            },
+            "x": 878,
+            "y": 470,
+            "scaleX": 0.39982237352739747,
+            "scaleY": 0.39279210413209253
+        },
+        {
+            "type": "Image",
+            "id": "ba0319dd-ecf6-46d3-9d8e-f676620ac0fc",
+            "label": "pizza_parlor_puffle_pizza_carpet_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_puffle_pizza_carpet.png"
+            },
+            "x": 1097,
+            "y": 365
+        },
+        {
+            "type": "Image",
+            "id": "19cd18a0-7cf6-4cde-84fb-0e64962c2efd",
+            "label": "pizza_parlor_pizza_puffle_sign_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pizza_puffle_sign.png"
+            },
+            "x": 1101,
+            "y": 125
+        },
+        {
+            "type": "Image",
+            "id": "ffba2eb5-ee44-44d2-a7e8-af3a3cb8aaa5",
+            "label": "pizza_parlor_white_puffle_picture_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_white_puffle_picture.png"
+            },
+            "x": 1245,
+            "y": 124
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6a6d1458-9c40-4b0b-a075-b0097a9f49f3",
+            "label": "pizza_parlor_walking_trigger0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizza_parlor_walking_trigger0001"
+            },
+            "x": 750,
+            "y": 481,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "fb60b1ba-6728-41f8-acd2-efafad24f363",
+            "label": "pizza_parlor_plaza_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "pizzaparlor",
+                "frame": "pizza_parlor_pizza_game_trigger.png"
+            },
+            "x": 865,
+            "y": 279,
+            "scaleX": 1.5846601345502993,
+            "scaleY": 1.025547496754475,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 170,
+                "height": 40
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

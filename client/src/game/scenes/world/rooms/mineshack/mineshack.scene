@@ -1,0 +1,434 @@
+{
+    "id": "940cf73d-d820-4ee9-b88f-3b31c735dd75",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MineShackScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "74264b54-7781-4a89-b5f5-dc80226c7777",
+            "label": "mine_shack_dojo_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_dojo.png"
+            },
+            "x": 777,
+            "y": 132,
+            "scaleX": 0.9595555280826681
+        },
+        {
+            "type": "Image",
+            "id": "8ab58aa5-fac3-43fb-8c54-fc3704a551b3",
+            "label": "mine_shack_floor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_floor.png"
+            },
+            "x": -76,
+            "y": -55,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.9300895797835096
+        },
+        {
+            "type": "Image",
+            "id": "ba054291-3ec8-400b-9796-40c608d7d89c",
+            "label": "mine_shack_stand_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_stand.png"
+            },
+            "x": 227,
+            "y": 352
+        },
+        {
+            "type": "Image",
+            "id": "0d1c3e0b-6e91-48f8-a881-daddf6f5c686",
+            "label": "mine_shack_tree_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_tree.png"
+            },
+            "x": 132,
+            "y": 291,
+            "scaleX": 0.9091465909449435,
+            "scaleY": 0.9203846851855811
+        },
+        {
+            "type": "Image",
+            "id": "fbd03ea7-0f4e-4b37-81af-d5e5eb109bc4",
+            "label": "mine_shack_pole_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_pole.png"
+            },
+            "x": 395,
+            "y": 256,
+            "scaleX": 1.0218350570694466,
+            "scaleY": 0.9481438699400263
+        },
+        {
+            "type": "Image",
+            "id": "44e18c0e-e4e6-47ac-84fd-4c5eea5de0c4",
+            "label": "mine_shack_fish_wall_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_fish_wall.png"
+            },
+            "x": 53,
+            "y": 594
+        },
+        {
+            "type": "Image",
+            "id": "f8129943-2d38-4527-892f-e6199ec3bccb",
+            "label": "mine_shack_fish_wall_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_fish_wall_2.png"
+            },
+            "x": 491,
+            "y": 744
+        },
+        {
+            "type": "Image",
+            "id": "3549bea4-267f-4184-bbae-3a12c9d580e6",
+            "label": "mine_shack_school_indoor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_school_indoor.png"
+            },
+            "x": 527,
+            "y": 358,
+            "scaleX": 0.9626992711746606,
+            "scaleY": 0.9988849339706622
+        },
+        {
+            "type": "Image",
+            "id": "6ee240c6-b0dc-4327-8cb7-8dd99d943529",
+            "label": "mine_shack_cave_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_cave_door0002.png"
+            },
+            "x": 1008,
+            "y": 384,
+            "scaleX": 0.9101320866967804,
+            "scaleY": 1.0252016692534525
+        },
+        {
+            "type": "Image",
+            "id": "aadf747a-a4ac-4726-992b-02f9998edae7",
+            "label": "mine_shack_latern_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_latern.png"
+            },
+            "x": 1073,
+            "y": 457
+        },
+        {
+            "type": "Image",
+            "id": "0661e998-9301-4e8b-8010-5affe4ef1601",
+            "label": "mine_shack_blue_book_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_blue_book.png"
+            },
+            "x": 747,
+            "y": 807,
+            "scaleX": 0.892293509161904,
+            "scaleY": 0.8118032196494619
+        },
+        {
+            "type": "Image",
+            "id": "2b1eda3c-4565-41a3-8f31-59ac25c3fc8e",
+            "label": "mine_shack_coffee_mug_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_coffee_mug.png"
+            },
+            "x": 849,
+            "y": 856
+        },
+        {
+            "type": "Image",
+            "id": "f955d3ce-3338-4c45-b2c3-ca1b60a48fd8",
+            "label": "mine_shack_guitar_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_guitar.png"
+            },
+            "x": 915,
+            "y": 822
+        },
+        {
+            "type": "Image",
+            "id": "8ee0f1a0-8f5c-4130-96cf-28dcc6995600",
+            "label": "mine_shack_cpu_text_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_cpu_text.png"
+            },
+            "x": 210,
+            "y": 529,
+            "scaleX": 0.04488898859851208,
+            "scaleY": 0.041551883042804424
+        },
+        {
+            "type": "Sprite",
+            "id": "7d03a9d8-ea6d-4ef8-a38c-f2b94c427984",
+            "label": "mine_shack_red_flag0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_red_flag0001.png"
+            },
+            "x": 341,
+            "y": 154
+        },
+        {
+            "type": "Image",
+            "id": "22cf16ed-ab6f-4155-82fe-fb17b869b0b1",
+            "label": "mine_shack_ball_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_ball.png"
+            },
+            "x": 1114,
+            "y": 817
+        },
+        {
+            "type": "Image",
+            "id": "b413c6c1-1b64-4df4-a923-1e344c024337",
+            "label": "mine_shack_blue_pole_left_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_blue_pole_left.png"
+            },
+            "x": 1109,
+            "y": 704
+        },
+        {
+            "type": "Image",
+            "id": "1da0f80e-a75e-4007-9c41-3773f267e8f3",
+            "label": "mine_shack_bucket_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_bucket.png"
+            },
+            "x": 1340,
+            "y": 756
+        },
+        {
+            "type": "Image",
+            "id": "34190c62-d805-4aee-82d3-f03bd8cfea74",
+            "label": "mine_shack_net_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_net.png"
+            },
+            "x": 1196,
+            "y": 702,
+            "scaleX": 0.6613257782718515,
+            "scaleY": 1.0588134715160715
+        },
+        {
+            "type": "Image",
+            "id": "a60e3b54-9b84-41f1-b256-6f8863bae360",
+            "label": "mine_shack_blue_pole_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_blue_pole_right.png"
+            },
+            "x": 1279,
+            "y": 770
+        },
+        {
+            "type": "Image",
+            "id": "be92ad39-66d7-4c71-b151-c6a1551f9315",
+            "label": "mine_shack_tree_right_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_tree_right_side.png"
+            },
+            "x": 1477,
+            "y": 590,
+            "scaleY": 1.137587457029348
+        },
+        {
+            "type": "Image",
+            "id": "649f6d6b-79d9-42f3-8e3a-c83ec5193057",
+            "label": "mine_shack_rock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_rock.png"
+            },
+            "x": 1457,
+            "y": 697
+        },
+        {
+            "type": "Image",
+            "id": "ff5d60da-5ebb-4e61-acb9-f7d7f323f25a",
+            "label": "mine_shack_school_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_school_door0001.png"
+            },
+            "x": 538,
+            "y": 363,
+            "scaleX": 0.9356493445634586
+        },
+        {
+            "type": "Image",
+            "id": "3f68d2b2-b07c-4e25-a1db-b03d79661625",
+            "label": "mine_shack_school_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_school_door0002.png"
+            },
+            "x": 538,
+            "y": 363,
+            "scaleX": 0.9356493445634586,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c1d0ddf9-7b08-4cb2-8e0f-75f177e06d9d",
+            "label": "mine_shack_cave_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack",
+                "frame": "mine_shack_cave_door0001.png"
+            },
+            "x": 1007,
+            "y": 384,
+            "scaleX": 0.8962693406297523,
+            "scaleY": 1.034189335423005
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "95398466-b8fd-4b22-851a-40f4dc648652",
+            "label": "mine_shack_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "mine_shack_walking_trigger"
+            },
+            "x": 760,
+            "y": 482,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "5505c7d8-a446-4d76-8406-85bbb20e775a",
+            "label": "mine_shack_school_trigger",
+            "scope": "METHOD",
+            "x": 529,
+            "y": 376,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.829960439316069,
+            "scaleY": 0.4932207044490308,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "a94f8fec-8a5e-4ab0-8671-d5a676fcbe5d",
+            "label": "mine_shack_dojo_courtyard_trigger",
+            "scope": "METHOD",
+            "x": 780,
+            "y": 319,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0260727677057497,
+            "scaleY": 0.4932207044490308,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "8f45be6c-71b1-4d51-af4e-2bcc0a431a61",
+            "label": "mine_shack_mine_trigger",
+            "scope": "METHOD",
+            "x": 1019,
+            "y": 390,
+            "width": 128,
+            "height": 128,
+            "scaleX": 0.6476194669143516,
+            "scaleY": 0.4912898748547185,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "5f5635f7-86b0-4b67-9026-54fa636f2782",
+            "label": "mine_shack_forest_trigger",
+            "scope": "METHOD",
+            "x": 199,
+            "y": 810,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0521910068903717,
+            "scaleY": 1.4088731710193558,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "f22f9765-b5c3-423c-8a5e-c6f5c856ab94",
+            "label": "mine_shack_skate_park_trigger",
+            "scope": "METHOD",
+            "x": 1413,
+            "y": 361,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.0521910068903717,
+            "scaleY": 1.4088731710193558,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

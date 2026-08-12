@@ -1,0 +1,334 @@
+{
+    "id": "c9d839ad-7851-4dc7-87a0-eb2b1a2d3de4",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SnowFortsScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "00b9fea8-5f8e-4169-93b3-ec4ba20f7419",
+            "label": "snowforts_mountains_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_mountains_background.png"
+            },
+            "x": 752,
+            "y": 95,
+            "scaleX": 1.0094598019066363,
+            "scaleY": 1.0906664490934204
+        },
+        {
+            "type": "Image",
+            "id": "426a3759-11ce-47bb-8917-3c7fa774ffba",
+            "label": "snowforts_base_layout_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_base_layout.png"
+            },
+            "x": -120,
+            "y": 100,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0028122138238849,
+            "scaleY": 1.027371769818459
+        },
+        {
+            "type": "Image",
+            "id": "372b9d69-48ac-495e-bfba-db161ad5329e",
+            "label": "snowforts_clock_tower_left_wheel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_clock_tower_left_wheel.png"
+            },
+            "x": 1028,
+            "y": 186
+        },
+        {
+            "type": "Image",
+            "id": "65b3cded-55c5-485d-90e7-08d282e9746b",
+            "label": "snowforts_clock_tower_behind_wheel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_clock_tower_behind_wheel.png"
+            },
+            "x": 1334,
+            "y": 145,
+            "scaleX": 0.41932795057113115,
+            "scaleY": 0.3872200778767116
+        },
+        {
+            "type": "Image",
+            "id": "02f39664-07f1-42d1-ad20-66363de5dd4d",
+            "label": "snowforts_clock_tower_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_clock_tower.png"
+            },
+            "x": 1217,
+            "y": 216,
+            "scaleX": 0.9949623883620735,
+            "scaleY": 1.0279521799189706
+        },
+        {
+            "type": "Image",
+            "id": "076cc134-f28b-47b7-b8ee-8cdb42a792e3",
+            "label": "snowforts_club_penguin_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_club_penguin_text0001.png"
+            },
+            "x": 1129,
+            "y": 92,
+            "scaleX": 0.4048007663482456,
+            "scaleY": 0.37686756871930693
+        },
+        {
+            "type": "Image",
+            "id": "6544f19a-cebb-419e-a826-fb873258aea0",
+            "label": "snowforts_orange_flag_castle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_orange_flag_castle.png"
+            },
+            "x": 510,
+            "y": 681,
+            "scaleX": 1.097938452421572,
+            "scaleY": 0.9310045719584917
+        },
+        {
+            "type": "Image",
+            "id": "7db2dfa5-e9ad-4379-adf1-19034bc1e4ea",
+            "label": "snowforts_orange_flag_castle_extra_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_orange_flag_castle_extra_top.png"
+            },
+            "x": 891,
+            "y": 717,
+            "scaleX": 0.9118505893643049,
+            "scaleY": 1.0415713100344148
+        },
+        {
+            "type": "Image",
+            "id": "5f73e049-8976-4c39-bf27-65bf6cf3d57d",
+            "label": "snowforts_orange_flag_castle_extra_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_orange_flag_castle_extra.png"
+            },
+            "x": 794,
+            "y": 738,
+            "scaleX": 0.9475041077547985,
+            "scaleY": 0.9638740639188381
+        },
+        {
+            "type": "Sprite",
+            "id": "1773af28-4398-4269-9cbd-095e1d1f93b1",
+            "label": "snowforts_orange_flag_castle_flag0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_orange_flag_castle_flag0001.png"
+            },
+            "x": 457,
+            "y": 519,
+            "scaleX": 1.2059349820333343,
+            "scaleY": 0.9335717620908558
+        },
+        {
+            "type": "Image",
+            "id": "cd30c611-9dd7-4e49-97db-5fe7d041a8ba",
+            "label": "snowforts_black_flag_castle_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_black_flag_castle.png"
+            },
+            "x": 872,
+            "y": 453,
+            "scaleX": 1.0334672908427156,
+            "scaleY": 1.065319230187652
+        },
+        {
+            "type": "Image",
+            "id": "60abdd59-8475-4974-88d3-28d1b32c049e",
+            "label": "snowforts_top_castle_part_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_top_castle_part_2.png"
+            },
+            "x": 1197,
+            "y": 569,
+            "scaleX": 1.1615046490896928,
+            "scaleY": 0.9754063481405927
+        },
+        {
+            "type": "Image",
+            "id": "6e07190d-461b-420c-bde6-6316cc708725",
+            "label": "snowforts_top_castle_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_top_castle_part.png"
+            },
+            "x": 1095,
+            "y": 461,
+            "scaleX": 0.9043287423201432,
+            "scaleY": 0.7784732782316812
+        },
+        {
+            "type": "Image",
+            "id": "f75cc909-cee6-4d95-ade1-718ef673ef82",
+            "label": "snowforts_top_castle_part_3_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_top_castle_part_3.png"
+            },
+            "x": 1088,
+            "y": 540,
+            "scaleX": 0.8318858598048896,
+            "scaleY": 1.0457212529053335
+        },
+        {
+            "type": "Sprite",
+            "id": "ad2a8b9e-dcbd-42c9-984d-0e6389392927",
+            "label": "snowforts_black_flag_castle_yay0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_black_flag_castle_yay0001.png"
+            },
+            "x": 812,
+            "y": 352,
+            "scaleX": 1.0111115542210765,
+            "scaleY": 1.1842937128555389
+        },
+        {
+            "type": "Image",
+            "id": "9663f8e9-93f5-411c-bcff-5feeba66710c",
+            "label": "snowforts_penguin_snowman_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_penguin_snowman.png"
+            },
+            "x": 1420,
+            "y": 705,
+            "scaleX": 1.0315319965949403,
+            "scaleY": 1.1115703223916658
+        },
+        {
+            "type": "Image",
+            "id": "86fb1630-b3dc-4571-b01a-e168b6267a58",
+            "label": "snowforts_target0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_target0001.png"
+            },
+            "x": 1325,
+            "y": 205,
+            "scaleX": 0.4140732771733937,
+            "scaleY": 0.366244669626941
+        },
+        {
+            "type": "Image",
+            "id": "9823239e-5b6b-4d62-95f7-70ec7fa612cd",
+            "label": "snowforts_clock_tower_right_wheel_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snowforts",
+                "frame": "snowforts_clock_tower_right_wheel.png"
+            },
+            "x": 1272,
+            "y": 166,
+            "scaleX": 1.0055328425580643,
+            "scaleY": 0.8598798810582612
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0bb57bd6-4724-4cc9-9238-e7bddf15ff0b",
+            "label": "snow_forts_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "snow_forts_walking_trigger"
+            },
+            "x": 752,
+            "y": 480,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "Rectangle",
+            "id": "fdc77ef5-83a2-4d5a-81bf-2da1982850a1",
+            "label": "snow_forts_stadium_trigger",
+            "scope": "METHOD",
+            "x": 550,
+            "y": 366,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.3915072266485704,
+            "scaleY": 0.44837313355325203,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "f7f95b1b-797c-4844-939a-010c300a9778",
+            "label": "snow_forts_town_trigger",
+            "scope": "METHOD",
+            "x": 167,
+            "y": 471,
+            "width": 128,
+            "height": 128,
+            "scaleX": 2.3324957018156485,
+            "scaleY": 0.44837313355325203,
+            "isFilled": true,
+            "alpha": 0.001
+        },
+        {
+            "type": "Rectangle",
+            "id": "54ff8553-0305-49ca-83cb-3fca7ad877f0",
+            "label": "snow_forts_plaza_trigger",
+            "scope": "METHOD",
+            "x": 1454,
+            "y": 440,
+            "width": 128,
+            "height": 128,
+            "scaleX": 1.3915072266485704,
+            "scaleY": 0.44837313355325203,
+            "isFilled": true,
+            "alpha": 0.001
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

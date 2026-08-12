@@ -1,0 +1,573 @@
+{
+    "id": "d94229c5-65bd-4a33-83ea-e29cdc119b84",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "TownScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "5367af63-1df5-4d50-b370-3c3f2be63c24",
+            "label": "town_blue_sky",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/sky"
+            },
+            "x": -208,
+            "y": -105,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.1663614304932752,
+            "scaleY": 1.6523457020661834
+        },
+        {
+            "type": "Image",
+            "id": "8edc599e-07af-47d6-9afd-085b23116093",
+            "label": "town_background_clouds",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/clouds"
+            },
+            "x": -30,
+            "y": 35,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8865837041094774,
+            "scaleY": 1.0981802887048449
+        },
+        {
+            "type": "Image",
+            "id": "66b29608-f49b-4955-920c-c5b1dcfef9c1",
+            "label": "town_dance_club_inside",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/danceinside"
+            },
+            "x": 800,
+            "y": 317,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "94ba102d-5c59-405c-b2e1-d80e50b13449",
+            "label": "town_background_mountains",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/mountains"
+            },
+            "x": 94,
+            "y": 86,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8712988552743866,
+            "scaleY": 1.0554544012439304
+        },
+        {
+            "type": "Image",
+            "id": "ee61cc8c-ccda-4749-9aca-1280c37c6c09",
+            "label": "town_dance_club_door_closed_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/dancedoor"
+            },
+            "x": 843,
+            "y": 362,
+            "scaleX": 0.8466407023336427,
+            "scaleY": 0.7913953000876901,
+            "visible": false,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Image",
+            "id": "367fc582-d161-40ea-a948-46e97c07be38",
+            "label": "town_dance_club_door_closed",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/dancedoor"
+            },
+            "x": 843,
+            "y": 369,
+            "scaleX": 0.8466407023336427,
+            "scaleY": 0.7913953000876901
+        },
+        {
+            "type": "Image",
+            "id": "65723c64-4484-4a4e-a24f-804dcd9c4e8f",
+            "label": "town_entire_base",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/base"
+            },
+            "x": -108,
+            "y": 76,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8920321715163609,
+            "scaleY": 0.8282801272178445
+        },
+        {
+            "type": "Image",
+            "id": "c4aa47b9-3970-4b79-839e-59711ab56bb3",
+            "label": "town_left_side_news_board",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/newsboard"
+            },
+            "x": 204,
+            "y": 672,
+            "originX": 0.49369784172661874,
+            "originY": 0.3285276073619632,
+            "scaleX": 0.918709254932349,
+            "scaleY": 0.8857947128672018
+        },
+        {
+            "type": "Image",
+            "id": "5f672694-865b-4c40-a9a3-46f399056e48",
+            "label": "town_right_side_trees",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/sidetrees"
+            },
+            "x": 1526,
+            "y": 648,
+            "originX": 0.49164983164983167,
+            "originY": 0.4962162162162162,
+            "scaleX": 1.0937943785205566,
+            "scaleY": 1.0080955815056598
+        },
+        {
+            "type": "Image",
+            "id": "c9ce35e0-b55d-446c-80c5-197a552adc4f",
+            "label": "town_coffee_table_left_chair",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/leftchair"
+            },
+            "x": 535,
+            "y": 458,
+            "originX": 0.47593406593406595,
+            "originY": 0.3510185185185185,
+            "scaleX": 0.8961085919363679,
+            "scaleY": 0.8318301259769875
+        },
+        {
+            "type": "Image",
+            "id": "9054c307-8b5b-46cd-a6e5-123d6d0cc994",
+            "label": "town_coffee_table_right_chair",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/rightchair"
+            },
+            "x": 687,
+            "y": 441,
+            "originX": 0.46987341772151897,
+            "originY": 0.3714150943396226,
+            "scaleX": 0.8961085919363679,
+            "scaleY": 0.8318301259769875
+        },
+        {
+            "type": "Image",
+            "id": "80ee0e23-8def-445f-acff-44c182af12bd",
+            "label": "town_coffee_table",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/table"
+            },
+            "x": 608,
+            "y": 496,
+            "originX": 0.48025210084033615,
+            "originY": 0.6818181818181818,
+            "scaleX": 0.8115266451207024,
+            "scaleY": 0.8452175619587307
+        },
+        {
+            "type": "Image",
+            "id": "9dbd156c-ccc6-436a-a7d8-e970e5ea26c9",
+            "label": "town_gift_shop_door_closed",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/shopdoor0001"
+            },
+            "x": 1071,
+            "y": 317,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.846821038051513,
+            "scaleY": 0.7817539437887558
+        },
+        {
+            "type": "Image",
+            "id": "8fda5c93-2ca4-4fc7-8dea-a01b7962e8a4",
+            "label": "town_bottom_trees",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/bottom"
+            },
+            "x": -75,
+            "y": 726,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8633857000221166,
+            "scaleY": 0.9162039093478951
+        },
+        {
+            "type": "Image",
+            "id": "faa28ce0-7a27-4e53-8106-6077d53473d3",
+            "label": "town_dance_club_spotlight_left",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/spotlightleft"
+            },
+            "x": 633,
+            "y": 101,
+            "originX": 0.5,
+            "originY": 1,
+            "scaleX": 0.6654835096779513,
+            "scaleY": 0.7154203518108428,
+            "angle": -30,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "48f2bc76-31ec-4515-a8ca-bc8cf066d096",
+            "label": "town_gift_shop_clothes",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/clothes"
+            },
+            "x": 1202,
+            "y": 473,
+            "originX": 0.4978527648740103,
+            "originY": 0.4808168705077219,
+            "scaleX": 0.883060669309306,
+            "scaleY": 0.7755418707348252
+        },
+        {
+            "type": "Image",
+            "id": "95ab1a02-e88d-4364-a91c-4d948eabe3bd",
+            "label": "town_dance_club_speaks",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/speakers1"
+            },
+            "x": 669,
+            "y": 308,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8904218590309124,
+            "scaleY": 0.7508133885265247
+        },
+        {
+            "type": "Image",
+            "id": "81de0dae-1306-4b68-8db4-05e2ce40401d",
+            "label": "town_coffee_shop_door_closed",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/coffeedoor0001"
+            },
+            "x": 374,
+            "y": 371,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8923341483247982,
+            "scaleY": 0.7456925076596306
+        },
+        {
+            "type": "Image",
+            "id": "553aa1b0-b7e0-4319-a320-fa1ed99fa4c2",
+            "label": "town_gift_shop_door_open",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/shopdoor0002"
+            },
+            "x": 1071,
+            "y": 317,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.846821038051513,
+            "scaleY": 0.7817539437887558,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cbacb7b5-66b6-4ade-9529-97809da37637",
+            "label": "town_coffee_shop_door_open",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/coffeedoor0002"
+            },
+            "x": 374,
+            "y": 371,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8923341483247982,
+            "scaleY": 0.7456925076596306,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "58253861-b8ab-450c-acdc-c3243ba97b3e",
+            "label": "town_shop_top_parts",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/shopfronts"
+            },
+            "x": 332,
+            "y": 227,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8823778537371181,
+            "scaleY": 0.7949015500381112
+        },
+        {
+            "type": "Image",
+            "id": "e3c09902-783e-4b80-bfd8-ee1322b8a0c7",
+            "label": "town_dance_club_spotlight_right",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/spotlightleft"
+            },
+            "x": 776,
+            "y": 101,
+            "originX": 0.5,
+            "originY": 1,
+            "scaleX": 0.6654835096779512,
+            "scaleY": 0.7154203518108428,
+            "angle": 30,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f02654f4-0042-4529-b6e6-efaca679b4e9",
+            "label": "town_shop_big_names",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/storenames0001"
+            },
+            "x": 194,
+            "y": 179,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.8891409242005964,
+            "scaleY": 0.8189998537831891
+        },
+        {
+            "type": "Image",
+            "id": "be114a77-3980-4dfa-87a3-60922b9da6af",
+            "label": "town_dance_club_cover_entrance",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/dancecover"
+            },
+            "x": 844,
+            "y": 453,
+            "originX": 0.48725714,
+            "originY": 0.9,
+            "scaleX": 0.8767880718635968,
+            "scaleY": 0.8590605033643586
+        },
+        {
+            "type": "Image",
+            "id": "08381ba0-6d36-4a8d-8cd1-ae1911735fb5",
+            "label": "town_night_club_stars",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/dancestars"
+            },
+            "x": 790,
+            "y": 311,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 0.7957712144929346,
+            "scaleY": 0.8893665303648797
+        },
+        {
+            "type": "Image",
+            "id": "993fa9b7-6617-42d2-b900-6973e818790d",
+            "label": "town_dance_club_handle_rope",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town",
+                "frame": "town/cord"
+            },
+            "x": 946,
+            "y": 451,
+            "originX": 0.4715384615384616,
+            "originY": 0.5485714285714286,
+            "scaleX": 1.0068002854596354,
+            "scaleY": 0.9481854244711483
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0b4e27de-0f16-4e52-af18-d9147aaeebf1",
+            "label": "town_snow_forts_room_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town-triggers",
+                "frame": "town_snow_forts_room_trigger.png"
+            },
+            "x": 1441,
+            "y": 592,
+            "scaleX": 0.7040527403599454,
+            "scaleY": 0.8531550442324147,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 280,
+                "height": 214
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "48a138ba-34c7-402b-a6f6-1ff91b95495f",
+            "label": "town_dance_club_room_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town-triggers",
+                "frame": "town_dance_club_room_trigger.png"
+            },
+            "x": 843,
+            "y": 398,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 180,
+                "height": 90
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d1bb0714-b01b-4243-9623-458decb20822",
+            "label": "town_coffee_shop_room_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town-triggers",
+                "frame": "town_coffee_shop_room_trigger.png"
+            },
+            "x": 424,
+            "y": 445,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 176,
+                "height": 98
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8e3a9104-7812-4e2f-b4b2-6f215bdab575",
+            "label": "town_clothes_shop_room_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town-triggers",
+                "frame": "town_clothes_shop_room_trigger.png"
+            },
+            "x": 1120,
+            "y": 414,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 176,
+                "height": 99
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b10e0362-adf5-4ed4-92bc-c9dbb0308dd4",
+            "label": "town_docks_room_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town-triggers",
+                "frame": "town_docks_room_trigger.png"
+            },
+            "x": 96,
+            "y": 517,
+            "scaleX": 0.5877954964206972,
+            "scaleY": 0.44792742416998366,
+            "angle": 60,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 274,
+                "height": 222
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f10c748a-1404-4f2a-ba6e-8655b6452b1e",
+            "label": "town_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "town-triggers",
+                "frame": "town_walking_trigger.png"
+            },
+            "x": 774,
+            "y": 453,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -31,10 +31,10 @@ export class CoveScene extends RoomScene {
 
     createContent() {
         // cove_mountains_background_png
-		this.add.image(728, 120, "cove", "cove_mountains_background.png");
+		const cove_mountains_background_png = this.add.image(728, 120, "cove", "cove_mountains_background.png");
 
 		// cove_a_png
-		this.add.image(742, 447, "cove", "cove_a.png");
+		const cove_a_png = this.add.image(742, 447, "cove", "cove_a.png");
 
 		// cove_tree_log_png
 		const cove_tree_log_png = this.add.image(210, 483, "cove", "cove_tree_log.png");
@@ -63,10 +63,10 @@ export class CoveScene extends RoomScene {
 		cove_surf_shack_png.scaleY = 1.0625963041179816;
 
 		// cove_table_chair_png
-		this.add.image(1113, 458, "cove", "cove_table_chair.png");
+		const cove_table_chair_png = this.add.image(1113, 458, "cove", "cove_table_chair.png");
 
 		// cove_table_png
-		this.add.image(1212, 467, "cove", "cove_table.png");
+		const cove_table_png = this.add.image(1212, 467, "cove", "cove_table.png");
 
 		// cove_bottom_tree_png
 		const cove_bottom_tree_png = this.add.image(724, 876, "cove", "cove_bottom_tree.png");
@@ -92,7 +92,7 @@ export class CoveScene extends RoomScene {
 		cove_iron_stand_png.scaleY = 1.105949905131534;
 
 		// cove_bottom_right_rock_png
-		this.add.image(1483, 572, "cove", "cove_bottom_right_rock.png");
+		const cove_bottom_right_rock_png = this.add.image(1483, 572, "cove", "cove_bottom_right_rock.png");
 
 		// cove_surf0001_png
 		const cove_surf0001_png = this.add.image(1193, 673, "cove", "cove_surf0001.png");
@@ -114,10 +114,10 @@ export class CoveScene extends RoomScene {
 		cove_fire0001_png.scaleY = 0.35577936184690745;
 
 		// cove_rope_png
-		this.add.image(1090, 531, "cove", "cove_rope.png");
+		const cove_rope_png = this.add.image(1090, 531, "cove", "cove_rope.png");
 
 		// cove_rope_stand_png
-		this.add.image(1027, 494, "cove", "cove_rope_stand.png");
+		const cove_rope_stand_png = this.add.image(1027, 494, "cove", "cove_rope_stand.png");
 
 		// cove_glasses0002_png
 		const cove_glasses0002_png = this.add.image(433, 234, "cove", "cove_glasses0002.png");

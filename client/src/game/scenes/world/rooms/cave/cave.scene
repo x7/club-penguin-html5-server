@@ -1,0 +1,347 @@
+{
+    "id": "aaaabff7-be20-4b47-86d5-a8b796a09abe",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "CaveScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "926275a1-b8d5-424c-8cde-6d61fc5af01c",
+            "label": "cave_bubbles0001_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_bubbles0001.png"
+            },
+            "x": 602.7097727811744,
+            "y": 410.9862002840968
+        },
+        {
+            "type": "Sprite",
+            "id": "183748c3-58eb-4ce3-a201-098e577d3bcd",
+            "label": "cave_bubbles0001_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_bubbles0001.png"
+            },
+            "x": 825,
+            "y": 396
+        },
+        {
+            "type": "Sprite",
+            "id": "2b8d6f79-114a-4dd2-8c60-5febe35f3d79",
+            "label": "cave_bubbles0001_png_3",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_bubbles0001.png"
+            },
+            "x": 1062,
+            "y": 388
+        },
+        {
+            "type": "Sprite",
+            "id": "614e73c8-a660-4ce8-8b46-fdb08a99bd55",
+            "label": "cave_mr_krab0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_mr_krab0001.png"
+            },
+            "x": 882,
+            "y": 510
+        },
+        {
+            "type": "Sprite",
+            "id": "2d7d20f0-bac2-42de-9557-c6bae4781f6b",
+            "label": "cave_fish0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_fish0001.png"
+            },
+            "x": 1291,
+            "y": 417
+        },
+        {
+            "type": "Image",
+            "id": "434c0d5d-82ca-44b2-8e36-50f106752fd4",
+            "label": "cave_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_main_background.png"
+            },
+            "x": -10,
+            "y": -12,
+            "originX": 0,
+            "originY": 0,
+            "scaleX": 1.0230110432463828
+        },
+        {
+            "type": "Image",
+            "id": "3c527a13-efee-49d3-bab2-19a964634839",
+            "label": "cave_top_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_top_part.png"
+            },
+            "x": 769,
+            "y": 397
+        },
+        {
+            "type": "Image",
+            "id": "1eed67e1-e004-46dd-bec4-b73e0a4042bd",
+            "label": "cave_bottom_left_part_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_bottom_left_part.png"
+            },
+            "x": 243,
+            "y": 559
+        },
+        {
+            "type": "Image",
+            "id": "2db1f05e-b349-4df7-8fe5-53bff645dcce",
+            "label": "cave_boilerroom_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_boilerroom_door0001.png"
+            },
+            "x": 170,
+            "y": 468
+        },
+        {
+            "type": "Image",
+            "id": "9b27763d-5044-4792-b000-bba447464a86",
+            "label": "cave_red_hoop_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_red_hoop.png"
+            },
+            "x": 424,
+            "y": 346
+        },
+        {
+            "type": "Image",
+            "id": "5044c55f-a397-40ff-a141-72b7909b3cc3",
+            "label": "cave_white_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_white_chair.png"
+            },
+            "x": 450,
+            "y": 500
+        },
+        {
+            "type": "Image",
+            "id": "2ea27fda-d40c-465d-a380-cfdf1bf96845",
+            "label": "cave_white_chair_arm_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_white_chair_arm.png"
+            },
+            "x": 399,
+            "y": 488
+        },
+        {
+            "type": "Image",
+            "id": "7a86ae4b-59de-4b74-8c89-a516b60f7791",
+            "label": "cave_line_of_idk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_line_of_idk.png"
+            },
+            "x": 820,
+            "y": 719,
+            "scaleX": 1.057410409133954,
+            "scaleY": 1.2376878055619827
+        },
+        {
+            "type": "Image",
+            "id": "38cabee0-e784-489f-8a5a-816aecae15b1",
+            "label": "cave_bottom_right_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_bottom_right.png"
+            },
+            "x": 1445,
+            "y": 853
+        },
+        {
+            "type": "Image",
+            "id": "afcb4286-5a9b-4b82-ae63-eed7aa344462",
+            "label": "cave_left_side_board_1_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_left_side_board_1.png"
+            },
+            "x": 712,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "528dd564-041f-4226-a8db-3683bcd83387",
+            "label": "cave_left_side_board_2_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_left_side_board_2.png"
+            },
+            "x": 730,
+            "y": 504
+        },
+        {
+            "type": "Image",
+            "id": "94dacbae-b01b-4bab-ae58-593359870ebc",
+            "label": "cave_right_side_board_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_right_side_board.png"
+            },
+            "x": 960,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "36e319f9-9da0-4ceb-9d50-bc6ff6a90cf2",
+            "label": "cave_boilerroom_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_boilerroom_door0002.png"
+            },
+            "x": 172,
+            "y": 487,
+            "originX": 0.5104194107685572,
+            "originY": 0.5559817474530273,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7190e062-5714-4c99-8156-833a61237ff2",
+            "label": "cave_cavemine_hover_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_cavemine_trigger.png"
+            },
+            "x": 180,
+            "y": 470,
+            "scaleY": 1.445470565855288,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f79fd70b-6baa-433b-9c1a-2f70cb508f4c",
+            "label": "cave_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave_walking_trigger"
+            },
+            "x": 755,
+            "y": 485,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "64fb66e1-e724-46a3-9dd2-604cc953b7c7",
+            "label": "cave_boilerroom_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_boilerroom_trigger.png"
+            },
+            "x": 106,
+            "y": 554,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 226,
+                "height": 129
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f4b61661-4e10-4994-bde9-2384f048e586",
+            "label": "cave_cavemine_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_cavemine_trigger.png"
+            },
+            "x": 1506,
+            "y": 628,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 151,
+                "height": 223
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3003051c-4eaf-441d-872d-246fb0f57f65",
+            "label": "cave_plaza_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "cave",
+                "frame": "cave_plaza_trigger.png"
+            },
+            "x": 1303,
+            "y": 522,
+            "scaleX": 0.4624061075359891,
+            "scaleY": 0.8209719436704068,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 208,
+                "height": 101
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

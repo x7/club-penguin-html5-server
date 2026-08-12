@@ -1,0 +1,197 @@
+{
+    "id": "fe14bc8f-0aef-46d3-bf91-23e5a18f61f3",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ShipHoldScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "11b7ab27-b4ff-48bc-af37-ca0b4c1a2a94",
+            "label": "ship_hold_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_background.png"
+            },
+            "x": -11,
+            "y": -29,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "e553cb08-c165-45fa-9016-23990fa63c55",
+            "label": "ship_hold_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_table.png"
+            },
+            "x": 322,
+            "y": 581
+        },
+        {
+            "type": "Image",
+            "id": "82cc59a6-4911-4d76-8046-dec6d57716e1",
+            "label": "ship_hold_captain_quarters_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_captain_quarters_door0001.png"
+            },
+            "x": 1331,
+            "y": 419
+        },
+        {
+            "type": "Image",
+            "id": "615a8f13-3bfc-4634-80d5-9365e0f06b1e",
+            "label": "ship_hold_captain_quarters_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_captain_quarters_door0002.png"
+            },
+            "x": 1331,
+            "y": 419,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "2f1ae2d5-31e0-4c29-bb7d-0bc802362a74",
+            "label": "ship_hold_captain_quarters_door0004_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_captain_quarters_door0004.png"
+            },
+            "x": 1336,
+            "y": 422,
+            "scaleX": 0.7702133974982479,
+            "scaleY": 0.9464469591316824,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "Image",
+            "id": "ebd25399-3f42-4579-866d-27ef992ced5e",
+            "label": "ship_hold_stairs_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_stairs.png"
+            },
+            "x": 1375,
+            "y": 562
+        },
+        {
+            "type": "Image",
+            "id": "8d93e571-6fca-4aae-a200-b4ea6f231267",
+            "label": "ship_hold_bottom_boxes_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_bottom_boxes.png"
+            },
+            "x": 523,
+            "y": 716,
+            "scaleX": 1.2058432441216635
+        },
+        {
+            "type": "Image",
+            "id": "be1ea783-48da-4b9d-ba72-8a6e05cc806f",
+            "label": "ship_hold_small_box_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_small_box.png"
+            },
+            "x": 831,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "b5781e24-a7ab-4a93-adc7-d851b500c6cb",
+            "label": "ship_hold_captain_treasures_text0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_captain_treasures_text0001.png"
+            },
+            "x": 1376,
+            "y": 198
+        },
+        {
+            "type": "Image",
+            "id": "6b6fa6d0-9a15-428e-a7d3-e6bafabeb7ad",
+            "label": "ship_hold_captain_quarters_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_captain_quarters_trigger.png"
+            },
+            "x": 1316,
+            "y": 514,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0f3c5ebb-0450-4bed-bd1a-fbb41094036b",
+            "label": "ship_hold_walking_trigger_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "ship_hold_walking_trigger"
+            },
+            "x": 760,
+            "y": 413,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 837
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c999f781-5937-4f1e-bb9c-088f3ecee94f",
+            "label": "ship_hold_pirate_ship_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "shiphold",
+                "frame": "ship_hold_upstairs_trigger.png"
+            },
+            "x": 1386,
+            "y": 799,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 246,
+                "height": 289
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

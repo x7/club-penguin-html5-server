@@ -1,0 +1,737 @@
+{
+    "id": "40d584b0-9234-4a89-ac1d-aef34e851a33",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "SkiLodgeScene",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "aec67af5-b520-4feb-9d2c-70cf07486bad",
+            "label": "ski_lodge_main_background_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_main_background.png"
+            },
+            "x": 724,
+            "y": 312,
+            "scaleX": 0.9544967509482533,
+            "scaleY": 1.0074732075370678
+        },
+        {
+            "type": "Image",
+            "id": "14eb6dba-008a-4e66-9fb8-9841ffe5a321",
+            "label": "ski_lodge_fire_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_fire_wood.png"
+            },
+            "x": 1279,
+            "y": 541
+        },
+        {
+            "type": "Image",
+            "id": "95d10b44-cbaa-4e29-804b-7b151f2bd0b0",
+            "label": "ski_lodge_fireplace_inside_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_fireplace_inside.png"
+            },
+            "x": 1380,
+            "y": 530
+        },
+        {
+            "type": "Sprite",
+            "id": "1b04888f-57d4-44f2-8c6d-cf45e3321426",
+            "label": "ski_lodge_fire0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_fire0001.png"
+            },
+            "x": 1438,
+            "y": 592
+        },
+        {
+            "type": "Image",
+            "id": "6e5c8064-85a0-4c5f-9b97-bdad3ccc2d91",
+            "label": "skI_lodge_fireplace_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "skI_lodge_fireplace.png"
+            },
+            "x": 1405,
+            "y": 351,
+            "scaleX": 0.7529036899647735,
+            "scaleY": 1.0225332274804464
+        },
+        {
+            "type": "Image",
+            "id": "dc81d267-94ba-4068-8bc7-dae86e0e74ea",
+            "label": "ski_lodge_fireplace_thing_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_fireplace_thing.png"
+            },
+            "x": 1372,
+            "y": 119
+        },
+        {
+            "type": "Image",
+            "id": "1c477034-7f8f-433f-9168-7aaacd0ca3f9",
+            "label": "ski_lodge_ski_village_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_ski_village_door0001.png"
+            },
+            "x": 109,
+            "y": 435
+        },
+        {
+            "type": "Image",
+            "id": "544d2598-4aae-455a-ba59-00adac401636",
+            "label": "ski_lodge_ski_village_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_ski_village_door0002.png"
+            },
+            "x": 109,
+            "y": 435,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6041dacc-5800-4b39-b497-b05df39d9d3c",
+            "label": "ski_lodge_middle_floor_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_middle_floor_wood.png"
+            },
+            "x": 847,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "61ea2a59-9540-4b2e-9424-7846d0bee6e3",
+            "label": "ski_lodge_left_floor_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_left_floor_wood.png"
+            },
+            "x": 596,
+            "y": 556
+        },
+        {
+            "type": "Image",
+            "id": "fa4deb86-ab8d-4ac3-b5a2-34c27940cf30",
+            "label": "ski_lodge_purple_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_purple_chair.png"
+            },
+            "x": 676,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "1d1381d5-1d23-4e09-bb23-50cd9bd67909",
+            "label": "ski_lodge_red_small_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_red_small_chair.png"
+            },
+            "x": 1065,
+            "y": 535
+        },
+        {
+            "type": "Image",
+            "id": "25d3d42d-449d-4ff0-8b3b-d1171dee14ad",
+            "label": "ski_lodge_find_four_table_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_find_four_table.png"
+            },
+            "x": 1004,
+            "y": 555
+        },
+        {
+            "type": "Image",
+            "id": "37f5e7e8-47c6-4967-aa85-d8d9011cccd1",
+            "label": "ski_lodge_red_small_chair_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_red_small_chair.png"
+            },
+            "x": 878,
+            "y": 607
+        },
+        {
+            "type": "Image",
+            "id": "ceacaa72-a011-450f-9b55-99b6f6e2f1ce",
+            "label": "ski_lodge_find_four_table_png_1",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_find_four_table.png"
+            },
+            "x": 815,
+            "y": 632
+        },
+        {
+            "type": "Image",
+            "id": "fc9281b3-561c-45d2-b6d5-d0cb999642ef",
+            "label": "ski_lodge_find_four_table_png_2",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_find_four_table.png"
+            },
+            "x": 1039,
+            "y": 724
+        },
+        {
+            "type": "Image",
+            "id": "bfe6c4a6-1b0d-4ebe-8085-233a94560ad4",
+            "label": "ski_village_find_four_bottom_right",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_village_find_four0001.png"
+            },
+            "x": 1034,
+            "y": 679
+        },
+        {
+            "type": "Image",
+            "id": "3215914f-8011-4371-a1d2-c55763abc913",
+            "label": "ski_village_find_four_top_left",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_village_find_four0001.png"
+            },
+            "x": 820,
+            "y": 589,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "98bd205e-c395-462c-82df-4477a42ce146",
+            "label": "ski_village_find_four_top_right",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_village_find_four0001.png"
+            },
+            "x": 1013,
+            "y": 513,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "9405e82c-1f11-4208-a2f9-934289a88258",
+            "label": "ski_village_find_four_bottom_right_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_village_find_four0002.png"
+            },
+            "x": 1034,
+            "y": 679,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d20d56ff-d26b-42d6-b46a-2e76f59b1917",
+            "label": "ski_village_find_four_top_left_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_village_find_four0002.png"
+            },
+            "x": 820,
+            "y": 589,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "88a1e848-2ab8-4348-8cfe-d92d3b459e2c",
+            "label": "ski_village_find_four_top_right_hovered",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_village_find_four0002.png"
+            },
+            "x": 1013,
+            "y": 513,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f562825b-c140-4b65-bc18-9025b2581cf0",
+            "label": "ski_lodge_purple_chair_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_purple_chair_side.png"
+            },
+            "x": 641,
+            "y": 580
+        },
+        {
+            "type": "Image",
+            "id": "3705869e-ff0a-4063-9723-e4a555e0c76c",
+            "label": "ski_lodge_corner_desk_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk.png"
+            },
+            "x": 165,
+            "y": 757,
+            "scaleX": 1.03704827341635
+        },
+        {
+            "type": "Image",
+            "id": "c72faff2-b4ac-4d0e-bbca-728dae8c54b4",
+            "label": "ski_lodge_corner_desk_draw_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_draw.png"
+            },
+            "x": 66,
+            "y": 671
+        },
+        {
+            "type": "Image",
+            "id": "d161f121-c1f8-4a9a-8efa-157b2dcd4681",
+            "label": "ski_lodge_bottom_left_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_bottom_left_wood.png"
+            },
+            "x": 366,
+            "y": 751
+        },
+        {
+            "type": "Image",
+            "id": "3fc6c2dd-4e24-40ab-9cda-b890c13ba73b",
+            "label": "skI_lodge_bottom_small_trees_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "skI_lodge_bottom_small_trees.png"
+            },
+            "x": 439,
+            "y": 827
+        },
+        {
+            "type": "Image",
+            "id": "aa150b7c-7abd-4bdd-8fb9-c7dd95170edc",
+            "label": "ski_lodge_bottom_right_red_chair_side_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_bottom_right_red_chair_side.png"
+            },
+            "x": 1268,
+            "y": 841
+        },
+        {
+            "type": "Image",
+            "id": "92e763ee-638b-46b1-bb33-b4ac66b5d38b",
+            "label": "ski_lodge_bottom_right_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_bottom_right_wood.png"
+            },
+            "x": 1168,
+            "y": 743,
+            "scaleX": 1.0239230825145487,
+            "scaleY": 1.0613961374489609
+        },
+        {
+            "type": "Image",
+            "id": "a7667664-3fad-4d39-986c-3bf626414c71",
+            "label": "ski_lodge_top_left_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_top_left_wood.png"
+            },
+            "x": 94,
+            "y": 22
+        },
+        {
+            "type": "Image",
+            "id": "72520acc-2407-4012-8d3c-81b2938da38c",
+            "label": "ski_lodge_top_right_wood_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_top_right_wood.png"
+            },
+            "x": 1387,
+            "y": 41
+        },
+        {
+            "type": "Image",
+            "id": "535a57e1-6e80-4fdf-ac8c-4672619d9c58",
+            "label": "ski_lodge_corner_desk_keyboard_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_keyboard.png"
+            },
+            "x": 203,
+            "y": 671
+        },
+        {
+            "type": "Image",
+            "id": "16e7edc9-d1ef-40ee-85d6-2bd5fba804ed",
+            "label": "ski_lodge_corner_desk_mouse_pad_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_mouse_pad.png"
+            },
+            "x": 285,
+            "y": 715
+        },
+        {
+            "type": "Image",
+            "id": "076a5ff4-35f4-42d6-97ea-fb675f385043",
+            "label": "ski_lodge_corner_desk_chair_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_chair.png"
+            },
+            "x": 105,
+            "y": 733
+        },
+        {
+            "type": "Image",
+            "id": "255dd1e5-0f0b-492c-abe1-9299662bf3d3",
+            "label": "ski_lodge_corner_desk_chair_top_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_chair_top.png"
+            },
+            "x": 90,
+            "y": 681
+        },
+        {
+            "type": "Image",
+            "id": "0e54e4da-6259-4d6c-a04f-ba750eec1836",
+            "label": "ski_lodge_corner_desk_books_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_books.png"
+            },
+            "x": 41,
+            "y": 546
+        },
+        {
+            "type": "Image",
+            "id": "fc0c5a95-a64b-4183-961e-e81dff3e44cd",
+            "label": "ski_lodge_corner_desk_paper_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_paper.png"
+            },
+            "x": 135,
+            "y": 614
+        },
+        {
+            "type": "Image",
+            "id": "842aa26c-3d8c-4456-976f-c6584e7b002d",
+            "label": "ski_lodge_corner_desk_telephone_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_corner_desk_telephone.png"
+            },
+            "x": 233,
+            "y": 766
+        },
+        {
+            "type": "Image",
+            "id": "f5126bb5-c170-40cc-94a7-c6bf96f8ec96",
+            "label": "skI_lodge_corner_desk_monitor_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "skI_lodge_corner_desk_monitor.png"
+            },
+            "x": 225,
+            "y": 605
+        },
+        {
+            "type": "Image",
+            "id": "720f3706-3fd7-4fa4-9733-b1305b338681",
+            "label": "ski_lodge_ice_fishing_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_ice_fishing_door0001.png"
+            },
+            "x": 958,
+            "y": 197,
+            "scaleX": 0.9429719890817784
+        },
+        {
+            "type": "Image",
+            "id": "20b30569-2c0d-457c-ad4e-b91aab145c95",
+            "label": "ski_lodge_ice_fishing_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_ice_fishing_door0002.png"
+            },
+            "x": 958,
+            "y": 197,
+            "scaleX": 0.9429719890817784,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "48d069c7-f434-449e-a0d8-6c419299e583",
+            "label": "ski_lodge_fishing_bbox_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_fishing_bbox.png"
+            },
+            "x": 835,
+            "y": 328
+        },
+        {
+            "type": "Image",
+            "id": "c686b2bb-cec9-4772-b756-77c76a8aef05",
+            "label": "ski_lodge_puffle_wild_door0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_puffle_wild_door0001.png"
+            },
+            "x": 447,
+            "y": 224
+        },
+        {
+            "type": "Image",
+            "id": "52604a88-af7b-4dc4-accc-86860787dc78",
+            "label": "ski_lodge_puffle_wild_door0002_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_puffle_wild_door0002.png"
+            },
+            "x": 447,
+            "y": 224,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a64425ee-816e-4ce6-9fe3-255fb789f817",
+            "label": "ski_lodge_middle_acorn_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_middle_acorn.png"
+            },
+            "x": 1358,
+            "y": 526,
+            "scaleX": 0.7520466978500754,
+            "scaleY": 0.7703720608927987
+        },
+        {
+            "type": "Image",
+            "id": "fa94ca27-a47c-469e-afcb-22dddee98218",
+            "label": "ski_lodge_top_acorn_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_top_acorn.png"
+            },
+            "x": 1380,
+            "y": 553,
+            "scaleX": 0.75433373378549,
+            "scaleY": 0.7640753018972681
+        },
+        {
+            "type": "Image",
+            "id": "e67cdb0c-11ae-430d-8e6d-bae6827a58b0",
+            "label": "ski_lodge_bottom_acorn_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_bottom_acorn.png"
+            },
+            "x": 1331,
+            "y": 483,
+            "scaleX": 0.8092538428311327,
+            "scaleY": 0.8132610436151196
+        },
+        {
+            "type": "Image",
+            "id": "126c6a4f-863b-42da-a654-3222f98d8822",
+            "label": "ski_lodge_clock_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_clock.png"
+            },
+            "x": 1397,
+            "y": 383
+        },
+        {
+            "type": "Sprite",
+            "id": "6e7e7373-578d-4ce7-bb6d-a5bdbe996339",
+            "label": "ski_lodge_bird_coming_out_of_clock0001_png",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_bird_coming_out_of_clock0001.png"
+            },
+            "x": 1263,
+            "y": 363,
+            "flipX": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "fe2b0005-094d-4cfc-9fad-304d40d99dc9",
+            "label": "ski_lodge_walking_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "ski_lodge_walking_trigger"
+            },
+            "x": 764,
+            "y": 474,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 1520,
+                "height": 960
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "51d1cea5-8a22-477f-8ec7-bfb874147214",
+            "label": "ski_lodge_ice_fishing_game_trigge",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_ice_fishing_game_trigger.png"
+            },
+            "x": 983,
+            "y": 278,
+            "scaleX": 0.6754926524153833,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 189,
+                "height": 74
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "caa1e21e-1273-4c44-bbe8-e1b8e146c47c",
+            "label": "ski_lodge_puffle_wild_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_puffle_wild_trigger.png"
+            },
+            "x": 440,
+            "y": 280,
+            "scaleX": 0.6117869784785134,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 189,
+                "height": 74
+            }
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ad752e37-c40e-41c0-b087-617c94c0dae8",
+            "label": "ski_lodge_ski_village_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "ski_lodge_ski_village_trigger.png"
+            },
+            "x": 60,
+            "y": 506,
+            "scaleY": 0.6364569419401336,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a3b39f5c-0c6b-4595-b0a0-77d17ec07911",
+            "label": "skI_lodge_attic_trigger",
+            "scope": "METHOD",
+            "texture": {
+                "key": "skilodge",
+                "frame": "skI_lodge_attic_trigger.png"
+            },
+            "x": 1272,
+            "y": 255,
+            "alpha": 0.001,
+            "alphaTopLeft": 0.001,
+            "alphaTopRight": 0.001,
+            "alphaBottomLeft": 0.001,
+            "alphaBottomRight": 0.001,
+            "body": {
+                "width": 176,
+                "height": 183
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
